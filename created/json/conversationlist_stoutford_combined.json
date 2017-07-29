@@ -1,0 +1,1074 @@
+[
+    {
+        "id":"cadoren_0",
+        "message":"Welcome to Stoutford kid. ",
+        "replies":[
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"cadoren_1"
+            }
+        ]
+    },
+    {
+        "id":"cadoren_1",
+        "message":"My name is Cadoren. I'm the best cook in town.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"cadoren_2"
+            }
+        ]
+    },
+    {
+        "id":"cadoren_2",
+        "message":"Unlike most, lesser, cooks in local towns, I'm a specialist.",
+        "replies":[
+            {
+                "text":"A specialist? In what?",
+                "nextPhraseID":"cadoren_3"
+            },
+            {
+                "text":"Enough of the bragging. Show me what you have to trade.",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"cadoren_3",
+        "message":"Food that lasts a long time. *cough*. Or in some cases food that has already lasted a long time.",
+        "replies":[
+            {
+                "text":"That sounds disgusting. No thanks.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"That sounds interesting. Show me what you have.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Why do you need food that lasts a long time?",
+                "nextPhraseID":"cadoren_4"
+            }
+        ]
+    },
+    {
+        "id":"cadoren_4",
+        "message":"The path to Blackwater mountain has been cut off. There are also regular attacks by the Sakul. These things have driven down trade, making supplies hard to get.",
+        "replies":[
+            {
+                "text":"So all the food you sell is old?",
+                "nextPhraseID":"cadoren_5"
+            },
+            {
+                "text":"Where is Blackwater mountain?",
+                "nextPhraseID":"cadoran_4b"
+            },
+            {
+                "text":"Who are the Sakul?",
+                "nextPhraseID":"cadoren_4a"
+            }
+        ]
+    },
+    {
+        "id":"cornith_0",
+        "message":"Hello, welcome to my shop",
+        "replies":[
+            {
+                "text":"Please show me what you have to trade",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"What can you tell me about the town and local area?",
+                "nextPhraseID":"cornith_1"
+            },
+            {
+                "text":"I'm looking for my brother, Andor. He looks a bit like me.",
+                "nextPhraseID":"cornith_2"
+            }
+        ]
+    },
+    {
+        "id":"cornith_1",
+        "message":"Stoutford is not a big town, but it used to be important.",
+        "replies":[
+            {
+                "text":"Important in what way?",
+                "nextPhraseID":"cornith_1_1"
+            }
+        ]
+    },
+    {
+        "id":"cornith_2",
+        "message":"Sorry, I don't recall seeing anyone like that recently. Most visitors go to the inn though, so you might have more luck asking there.",
+        "replies":[
+            {
+                "text":"OK. Thanks.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_1",
+        "message":"Oh. No one asked before you. I didn't even think about it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_2"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_2",
+        "message":"Are you willing to hear my story ?",
+        "replies":[
+            {
+                "text":"Oh no. Not again.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"If it can be of any comfort... go ahead.",
+                "nextPhraseID":"stoutford_widow_3"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_3",
+        "message":"Thank you. My name is Aryfora.\nI met my husband here in Stoutford, during the fair.\nHe offered me a beautiful flower, one that I had never seen before.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_4"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_4",
+        "message":"He was smart and handsome and we quickly fell in love.\nHe was from a town called Remgard.\nHis name was Noraed.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_5"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_5",
+        "message":"He told me that it is very far from here, beyond the river and the mountains.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_6"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_6",
+        "message":"I've never been there, as he always said how dangerous that road was, but every year, for our anniversary, he went back to bring me a Damerilia, the same flower he offered me on the day we met.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_7"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_7",
+        "message":"During one of the recent attacks on Stoutford, my husband sacrificed his life to save mine.\nNow, I can't do anything but mourn next to his grave.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_8"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_8",
+        "message":"I'd really love to flower his grave with Damerilias, in memory of the symbol of our love.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_9"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_9",
+        "message":"But it would be reckless of me to ask such a young kid as you to go this far to the north-east.",
+        "replies":[
+            {
+                "text":"I've had enough.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Don't worry about me. I can handle myself.",
+                "nextPhraseID":"stoutford_widow_10"
+            },
+            {
+                "text":"I'm an adventurer. I'm afraid of nothing.",
+                "nextPhraseID":"stoutford_widow_10"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_10",
+        "message":"Really ? If you manage to do it, I'll make sure to reward you with something only I can do, and that I haven't done in a long time.",
+        "replies":[
+            {
+                "text":"And what would that be ?",
+                "nextPhraseID":"stoutford_widow_11"
+            },
+            {
+                "text":"Great !",
+                "nextPhraseID":"stoutford_widow_12"
+            },
+            {
+                "text":"I guess I have work to do now.",
+                "nextPhraseID":"stoutford_widow_12"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"roots_love",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_11",
+        "message":"That's a secret. You'll know when you'll see it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_12"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_12",
+        "message":"Thank you for listening to me anyway. I hope you'll be fine.",
+        "replies":[
+            {
+                "text":"Good bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_select_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":45
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots30_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots10_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_0"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots10_0",
+        "message":"You're back ! Have you found some Damerilias yet ?",
+        "replies":[
+            {
+                "text":"Yes. Here they are.",
+                "nextPhraseID":"stoutford_widow_roots10_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"damerilias",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"stoutford_widow_roots10_1"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots10_1",
+        "message":"Oh. Come back to me if you find some, ok ?"
+    },
+    {
+        "id":"caeda_root10_0",
+        "message":"What a strange request !",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"caeda_root10_1"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root10_1",
+        "message":"Yes I happen to have some. Why are you asking ?",
+        "replies":[
+            {
+                "text":"There is this woman in Stoutford, she wants some for the grave of her husband, Noraed.",
+                "nextPhraseID":"caeda_root10_2"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root10_2",
+        "message":"Noraed is dead ? Oh no.... poor little brother. What happened ?",
+        "replies":[
+            {
+                "text":"He was killed saving the life of his wife, during a monster attack on stoutford.",
+                "nextPhraseID":"caeda_root10_3"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root10_3",
+        "message":"He loved her so much. I never had the chance to meet her.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"caeda_root10_4"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root10_4",
+        "message":"Here, take these to her, and send her my condolances.",
+        "replies":[
+            {
+                "text":"Thanks. I'll make sure she gets them.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"All this trouble for a bunch of smelly flowers...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"damerilias",
+                "value":3
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"roots_love",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"remgard_farmer2_roots10_0",
+        "message":"Damerilias. I haven't seen one in a long time. Try with Caeda.",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Caeda ?",
+                "nextPhraseID":"remgard_farmer2_roots10_1"
+            }
+        ]
+    },
+    {
+        "id":"remgard_farmer2_roots10_1",
+        "message":"I have work to do now. Excuse me."
+    },
+    {
+        "id":"remgard_farmer1_root10_0",
+        "message":"No. Excuse me, I have work to do."
+    },
+    {
+        "id":"stoutford_widow_roots4045_0",
+        "message":"Thank you very much for the flowers. Is there anything I can do for you ?",
+        "replies":[
+            {
+                "text":"Your potion was great ! Can I have some more ?",
+                "nextPhraseID":"stoutford_widow_roots4045_1",
+                "requires":[
+                    {
+                        "requireType":"usedItem",
+                        "requireID":"potion_deftness",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"See you later.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_1",
+        "message":"No sorry.",
+        "replies":[
+            {
+                "text":"Too bad.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Oh. Why is that so?",
+                "nextPhraseID":"stoutford_widow_roots4045_2"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots10_2",
+        "message":"Oh. They're beautiful !\nThank you !",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots30_0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"roots_love",
+                "value":30
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"potion_deftness",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots30_0",
+        "message":"How did you find these flowers ?",
+        "replies":[
+            {
+                "text":"Noraed's sister, Caeda, gave them to me. She sends you her condolances.",
+                "nextPhraseID":"stoutford_widow_roots30_3"
+            },
+            {
+                "text":"I found them in the wild around Remgard.",
+                "nextPhraseID":"stoutford_widow_roots30_1"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots30_1",
+        "message":"Is that so ?\nRemgard must be a beautiful place to have such nice flowers growing in the wild.",
+        "replies":[
+            {
+                "text":"Beautiful, but deadly !",
+                "nextPhraseID":"stoutford_widow_roots30_2"
+            },
+            {
+                "text":"Yeah, maybe...",
+                "nextPhraseID":"stoutford_widow_roots30_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"roots_love",
+                "value":45
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots30_2",
+        "message":"Anyway. Thank you very much.",
+        "replies":[
+            {
+                "text":"You're welcome.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"That wasn't worth the trouble...",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots30_3",
+        "message":"Noraed had a sister ? He never talked about his family.\nHe said he had a happy childhood, but that's it.\nI think he didn't want me to ask to go there with him.\nI'd love to meet her someday.",
+        "replies":[
+            {
+                "text":"I'm sure she feels the same.",
+                "nextPhraseID":"stoutford_widow_roots30_2"
+            },
+            {
+                "text":"Who knows...",
+                "nextPhraseID":"stoutford_widow_roots30_2"
+            },
+            {
+                "text":"That seems unlikely.",
+                "nextPhraseID":"stoutford_widow_roots30_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"roots_love",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"blornvale_select_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"blornvale_0"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_0",
+        "message":"Welcome to my shop kid.\nMy potions are not for the faint of heart.\nDo you want to take a look ?",
+        "replies":[
+            {
+                "text":"Sure.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"No thanks.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Not interested.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_2",
+        "message":"I gave you my last one, and I can't brew potions anymore.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_3"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_3",
+        "message":"This is something I gave up long ago.",
+        "replies":[
+            {
+                "text":"Why did you stop?",
+                "nextPhraseID":"stoutford_widow_roots4045_4"
+            },
+            {
+                "text":"I understand.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_4",
+        "message":"It's a long story.",
+        "replies":[
+            {
+                "text":"Nevermind.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Go on. Please.",
+                "nextPhraseID":"stoutford_widow_roots4045_5"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_5",
+        "message":"My father was the alchemist of this town.\nHe was very talented, and inspired. He experimented with all sorts of ingredients from all over Dhayavar he could get with the travellers that stopped by Stoutford.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_6"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_6",
+        "message":"He created unique potions, and no other alchemist I heard of managed to reproduce his recipes.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_7"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_7",
+        "message":"When he deemed me old and responsible enough, he started teaching me his art.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_8"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_8",
+        "message":"He passed away a few years later. They said he poisoned himself during a new experiment, but I never believed it.",
+        "replies":[
+            {
+                "text":"Sorry.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Who are \"they\"?",
+                "nextPhraseID":"stoutford_widow_roots4045_9"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_9",
+        "message":"Our priest, Talahendor, was convinced by my uncle, Blornvale, my father's own brother.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_10"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_10",
+        "message":"My uncle also convinced the whole village that I was too young to be their alchemist, and that they needed him to take over the shop.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_11"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_11",
+        "message":"They all agreed, even though my uncle is a lousy alchemist.\nI was sent to work in a farm, while my uncle took my father's house.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_12"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_12",
+        "message":"Everyone suffered from the nasty side-effects of my uncle's... I can't say potions... poisonous imitations of my father's recipes.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_13"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_13",
+        "message":"People complained at first, but nobody ever looked for a real solution.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_14"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_14",
+        "message":"Seeing how things turned out, I came to suspect that my uncle is responsible for my father's death.",
+        "replies":[
+            {
+                "text":"Do you have any evidence?",
+                "nextPhraseID":"stoutford_widow_roots4045_15"
+            },
+            {
+                "text":"And, would you brew more potions if you had your father's shop back ?",
+                "nextPhraseID":"stoutford_widow_roots4045_16"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_15",
+        "message":"No. Every time I talk to him, he denies everything, and call me crazy. I can tell he's lying though.",
+        "replies":[
+            {
+                "text":"And, would you brew more potions if you had your father's shop back ?",
+                "nextPhraseID":"stoutford_widow_roots4045_16"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_16",
+        "message":"Maybe. If the villagers asked me to, and if they recognize the guilt of my uncle.",
+        "replies":[
+            {
+                "text":"Maybe I can help you do this.",
+                "nextPhraseID":"stoutford_widow_roots4045_17"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_17",
+        "message":"Now that you mention it, I think I have a plan.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_18"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_18",
+        "message":"My uncle is very cautious with me, but with an unknown kid, there's a chance we can make him confess.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_19"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_19",
+        "message":"He's a dangerous man though. Are you sure you wish to confront him?",
+        "replies":[
+            {
+                "text":"I can do it!",
+                "nextPhraseID":"stoutford_widow_roots4045_20"
+            },
+            {
+                "text":"I'd better leave. It's none of my business.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_20",
+        "message":"Then it's settled.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_21"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_21",
+        "message":"To begin, you'll have to buy some potions from him: "
+    },
+    {
+        "id":"tahalendor_rumblings10x_1",
+        "message":"Talk to Yolgen. He handles such things for me.",
+        "replies":[
+            {
+                "text":"OK. Thanks.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":23
+            }
+        ]
+    },
+    {
+        "id":"cornith_1_1",
+        "message":"We are on the road to Blackwater mountain, so many traders used to pass through Stoutford and stay at the inn.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"cornith_1_2"
+            }
+        ]
+    },
+    {
+        "id":"cornith_1_2",
+        "message":"That's all changed though. The path to Blackwater mountain has been blocked by a rockfall. There is also the prison that's just east of here. ",
+        "replies":[
+            {
+                "text":"Prison?",
+                "nextPhraseID":"cornith_1_3"
+            }
+        ]
+    },
+    {
+        "id":"cornith_1_3",
+        "message":"Flagstone prison. We never liked it being so close. Who would? But recently something happened, and it was overrun by monsters.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"cornith_1_4"
+            }
+        ]
+    },
+    {
+        "id":"cornith_1_4",
+        "message":" There's a guard that protects the path, but without a good reason to come this way most people choose not to risk it. And then of course, there are the Sakul.",
+        "replies":[
+            {
+                "text":"Who are the Sakul?",
+                "nextPhraseID":"cornith_1_5"
+            },
+            {
+                "text":"I'm tired of hearing about your problems.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"cornith_1_5",
+        "message":"We don't know much about them, but they keep attacking our town. ",
+        "replies":[
+            {
+                "text":"I'm sorry to hear about all the trouble, but there's something else I wanted to talk about.",
+                "nextPhraseID":"cornith_0"
+            }
+        ]
+    },
+    {
+        "id":"cadoren_4a",
+        "message":"We don't know where they came from, but they recently started attacking the town. We can fight them off, but they deter travelers from coming here.",
+        "replies":[
+            {
+                "text":"OK. Could you repeat what you said about that mountain.",
+                "nextPhraseID":"cadoren_4"
+            }
+        ]
+    },
+    {
+        "id":"cadoran_4b",
+        "message":"Follow the path to the west. There are two settlements there, Prim and Blackwater Mountain Settlement. There has been a rockfall though, making it very difficult to get to them.",
+        "replies":[
+            {
+                "text":"Thanks for the information. What was it you said about the Sakul?",
+                "nextPhraseID":"cadoren_4"
+            }
+        ]
+    },
+    {
+        "id":"cadoren_5",
+        "message":"Of course not. We have some fields where we grow crops. And we have a number of goats.",
+        "replies":[
+            {
+                "text":"Goats?",
+                "nextPhraseID":"cadoren_6"
+            }
+        ]
+    },
+    {
+        "id":"cadoren_6",
+        "message":"Goats are very versatile. They eat almost anything, provide both milk and meat, and thier hides make excellent clothing. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"cadoren_7"
+            }
+        ]
+    },
+    {
+        "id":"cadoren_7",
+        "message":"With supplies from other towns being so limited, getting the goats was an excellent idea. My idea, of course.",
+        "replies":[
+            {
+                "text":"*Sigh*. The whole town would obviously starve if it were not for you. Thanks for the information though.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"How about you quit with the bragging, and show me what you have to trade.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Whatever. Why don't we go back to what you said about the Sakul and that mountain.",
+                "nextPhraseID":"cadoren_4"
+            }
+        ]
+    },
+    {
+        "id":"odirath_0",
+        "message":"Welcome to my shop. Are you looking for anything in particular?",
+        "replies":[
+            {
+                "text":"Please show me everything you have available.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"I am looking for my brother, Andor. Have you seen anyone recently that looks a bit like me?",
+                "nextPhraseID":"odirath_1"
+            },
+            {
+                "text":"Can you tell me anything about Stoutford?",
+                "nextPhraseID":"odirath_1_1"
+            }
+        ]
+    },
+    {
+        "id":"odirath_1",
+        "message":"I did see someone that might have been your brother. He was with a rather dubious looking person. They didn't stay around here very long though. Sorry, but that's all I can tell you. You should ask around town. Other townsfolk may know more.",
+        "replies":[
+            {
+                "text":"Thanks. I'll go and do that now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Please show me what you have to trade.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"OK. Can you tell me anything about Stoutford?",
+                "nextPhraseID":"odirath_1_1"
+            }
+        ]
+    },
+    {
+        "id":"odirath_1_1",
+        "message":"Stoutford is a small town, and life used to be easy here. A lot of traders stayed in Stoutford on their way to and from Blackwater mountain, and spent money that boosted the economy of the whole town. Those days are gone though. ",
+        "replies":[
+            {
+                "text":"What happened?",
+                "nextPhraseID":"odirath_1_2"
+            }
+        ]
+    },
+    {
+        "id":"odirath_1_2",
+        "message":"The path to Blackwater mountain was cut off by a rock fall. That stopped most of the traders from coming here. The attacks by the Sakul stopped the rest.",
+        "replies":[
+            {
+                "text":"How do I get to Blackwater mountain?",
+                "nextPhraseID":"odirath_1_3"
+            },
+            {
+                "text":"Who are the Sakul?",
+                "nextPhraseID":"odirath_1_4"
+            }
+        ]
+    },
+    {
+        "id":"odirath_1_3",
+        "message":"Just follow the path west, but you will have to find a way past the rockfall.",
+        "replies":[
+            {
+                "text":"Thanks for the directions. I'm headed there right now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thanks. Who are the Sakul?",
+                "nextPhraseID":"odirath_1_4"
+            }
+        ]
+    },
+    {
+        "id":"odirath_1_4",
+        "message":"They started attacking the town recently. Nobody is sure why. Their attacks have been unsuccessful, so we are all hoping that they will give up soon and go back to wherever they came from.",
+        "replies":[
+            {
+                "text":"Thanks for the information, but I have to leave. ",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thanks for the information. Do you have anything to trade?",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Thanks. I'm looking for my brother, Andor. Has anyone new been through here recently?",
+                "nextPhraseID":"odirath_1"
+            }
+        ]
+    },
+    {
+        "id":"honey_bee",
+        "message":"Buzzzzz"
+    },
+    {
+        "id":"sign_lakecave1",
+        "message":"Here lies Zorin, the first to tend this glade. Its beauty would be diminished without him."
+    },
+    {
+        "id":"sign_lakecave0_1",
+        "message":"You see large shapes moving in the shadows to the East. It looks dangerous that way!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sign_lakecave0_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":24
+            }
+        ]
+    },
+    {
+        "id":"sign_lakecave0_2",
+        "message":"They don't seem to want to come in your direction though. Maybe it has something to do with the statue?"
+    },
+    {
+        "id":"goat_0",
+        "message":"Baaaaaa!"
+    },
+    {
+        "id":"sign_lakecave0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sign_lakecave0_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":24,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]

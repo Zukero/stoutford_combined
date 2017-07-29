@@ -1,0 +1,35 @@
+[
+    {
+        "id":"vilegard_smith_xul_17",
+        "message":"You continue to amaze me. Now, are you really sure that you want to do this? The lives of the people that it has slain will haunt you.",
+        "replies":[
+            {
+                "text":"I'm sure. Here is the sword and three of those crystals. Restore it to how it once was.",
+                "nextPhraseID":"vilegard_smith_xul_19",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth",
+                        "value":3
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"xulviir0",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Never mind. Here is the sword. We had better destroy it.",
+                "nextPhraseID":"vilegard_smith_xul_8",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"xulviir0",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    }
+]

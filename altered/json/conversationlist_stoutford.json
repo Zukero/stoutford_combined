@@ -1,0 +1,45 @@
+[
+    {
+        "id":"tahalendor_rumblings10x_0",
+        "message":"Go with the shadow child.",
+        "replies":[
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Whatever.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"tahalendor_rumblings10x_1"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_initial_0",
+        "message":"Go with the shadow.",
+        "replies":[
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Whatever.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Tahalendor told me that you may have items to trade.",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":23
+                    }
+                ]
+            }
+        ]
+    }
+]

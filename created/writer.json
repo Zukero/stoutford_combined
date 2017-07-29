@@ -1,0 +1,331 @@
+[
+    {
+        "id":"Damerilias_quest_tree",
+        "dialogues":[
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":0,
+                "text":"Damerilias. Get wilted or fetch fresh?",
+                "special":false,
+                "begin":true,
+                "replies":[
+                    {
+                        "text":"Get wilted",
+                        "special":false,
+                        "next_dialogue_id":"Damerilias_quest_tree1"
+                    },
+                    {
+                        "text":"Fetch fresh.",
+                        "special":false,
+                        "next_dialogue_id":"Damerilias_quest_tree4"
+                    },
+                    {
+                        "text":"Get wilted.",
+                        "special":false,
+                        "next_dialogue_id":"Damerilias_quest_tree19"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":1,
+                "text":"Return to widow",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"Tell the truth",
+                        "special":false,
+                        "next_dialogue_id":"Damerilias_quest_tree2"
+                    },
+                    {
+                        "text":"Lie and say they're fresh",
+                        "special":false,
+                        "next_dialogue_id":"Damerilias_quest_tree3"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":2,
+                "text":"End quest.",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"N",
+                        "special":true,
+                        "next_dialogue_id":"Damerilias_quest_tree18"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":18,
+                "text":"Widow asks for more Damerilias.",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"Doomed.",
+                        "special":false
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":3,
+                "text":"End quest",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"N",
+                        "special":true,
+                        "next_dialogue_id":"Damerilias_quest_tree18"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":4,
+                "text":"Kill monsters and get glade's key.",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"N",
+                        "special":true,
+                        "next_dialogue_id":"Damerilias_quest_tree5"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":5,
+                "text":"Fetch fresh damerilias",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"N",
+                        "special":true,
+                        "next_dialogue_id":"Damerilias_quest_tree6"
+                    },
+                    {
+                        "text":"N",
+                        "special":true,
+                        "next_dialogue_id":"Damerilias_quest_tree11"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":6,
+                "text":"Return the key.",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"Wipe out more monsters",
+                        "special":false,
+                        "next_dialogue_id":"Damerilias_quest_tree7"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":7,
+                "text":"Caeda leaves Remgard to tend to the galde.",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"N",
+                        "special":true,
+                        "next_dialogue_id":"Damerilias_quest_tree8"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":8,
+                "text":"Ends quest.",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"N",
+                        "special":true,
+                        "next_dialogue_id":"Damerilias_quest_tree9"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":9,
+                "text":"Widow asks for more damerilias",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"N",
+                        "special":true,
+                        "next_dialogue_id":"Damerilias_quest_tree10"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":10,
+                "text":"Caeda returns to remgard. Gives you key to the glade.",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"Fetch Damerilias",
+                        "special":false,
+                        "next_dialogue_id":"Damerilias_quest_tree17"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":17,
+                "text":"Eternal access to the glade!",
+                "special":false,
+                "begin":false
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":11,
+                "text":"Go to widow.",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"N",
+                        "special":true,
+                        "next_dialogue_id":"Damerilias_quest_tree12"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":12,
+                "text":"End quest.",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"Keep the key.",
+                        "special":false,
+                        "next_dialogue_id":"Damerilias_quest_tree13"
+                    },
+                    {
+                        "text":"Return the key.",
+                        "special":false,
+                        "next_dialogue_id":"Damerilias_quest_tree14"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":13,
+                "text":"Access to the glade is granted.",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"Keep going.",
+                        "special":false
+                    },
+                    {
+                        "text":"Return the key.",
+                        "special":false,
+                        "next_dialogue_id":"Damerilias_quest_tree14"
+                    },
+                    {
+                        "text":"N",
+                        "special":true,
+                        "next_dialogue_id":"Damerilias_quest_tree16"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":14,
+                "text":"Access to the glade is lost forever.",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"N",
+                        "special":true,
+                        "next_dialogue_id":"Damerilias_quest_tree15"
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":15,
+                "text":"Widow asks for more damerilias.",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"Doomed.",
+                        "special":false
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":16,
+                "text":"Widow asks for more Damerilias.",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"Easy peasy.",
+                        "special":false
+                    }
+                ]
+            },
+            {
+                "id":null,
+                "id_prefix":"Damerilias_quest_tree",
+                "index":19,
+                "text":"Don't return to widow yet.",
+                "special":false,
+                "begin":false,
+                "replies":[
+                    {
+                        "text":"N",
+                        "special":true,
+                        "next_dialogue_id":"Damerilias_quest_tree4"
+                    }
+                ]
+            }
+        ]
+    }
+]

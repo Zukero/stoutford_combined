@@ -1,0 +1,31 @@
+[
+    {
+        "id":"tahalendor_present",
+        "items":[
+            {
+                "itemID":"apple_green",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":3
+                }
+            },
+            {
+                "itemID":"bread",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":4
+                }
+            },
+            {
+                "itemID":"health_major2",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":3
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,89 @@
+[
+    {
+        "id":"stoutford_widow_0",
+        "message":"Please. Leave me alone. I'm mourning.",
+        "replies":[
+            {
+                "text":"Sorry for your loss.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Whatever.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Is there anything I can do to ease your pain ?",
+                "nextPhraseID":"stoutford_widow_1"
+            }
+        ]
+    },
+    {
+        "id":"caeda",
+        "message":"So much work to do. I sure hope we will have some rain soon.",
+        "replies":[
+            {
+                "text":"Do you know where I can find some Damerilias ?",
+                "nextPhraseID":"caeda_root10_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"remgard_farmer2",
+        "message":"I hope the lands will be good to us this season.",
+        "replies":[
+            {
+                "text":"Do you know where I can find some Damerilias ?",
+                "nextPhraseID":"remgard_farmer2_roots10_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"remgard_farmer1",
+        "message":"Oh, hello. I can't talk right now, must finish planting these crops.",
+        "replies":[
+            {
+                "text":"Do you know where I can find some Damerilias ?",
+                "nextPhraseID":"remgard_farmer1_root10_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]

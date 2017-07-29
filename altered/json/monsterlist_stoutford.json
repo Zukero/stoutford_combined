@@ -1,0 +1,17 @@
+[
+    {
+        "id":"yolgen",
+        "name":"Yolgen",
+        "iconID":"monsters_men:4",
+        "monsterClass":"humanoid",
+        "spawnGroup":"yolgen",
+        "phraseID":"yolgen_0",
+        "droplistID":"yolgen"
+    },
+    {
+        "id":"goat_1",
+        "name":"Goat",
+        "iconID":"monsters_ld2:0",
+        "phraseID":"goat_0"
+    }
+]

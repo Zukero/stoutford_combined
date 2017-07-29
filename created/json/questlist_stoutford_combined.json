@@ -1,0 +1,32 @@
+[
+    {
+        "id":"roots_love",
+        "name":"The roots of love",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Aryfora, a woman grieving in Stoutford's graveyard asked me to bring her some Damerilias from Remgard for Noraed's grave, her husband."
+            },
+            {
+                "progress":20,
+                "logText":"Noraed's sister, Caeda, gave me some Damerilias. I should bring them back to Stoutford."
+            },
+            {
+                "progress":30,
+                "logText":"I have brought the Damerilias back to Aryfora. She thanked me with a potion of her making.",
+                "rewardExperience":3500
+            },
+            {
+                "progress":40,
+                "logText":"I told her the flowers were from Noraed's sister, Caeda.",
+                "finishesQuest":1
+            },
+            {
+                "progress":45,
+                "logText":"I told her I found the flowers around Remgard, in the wild.",
+                "finishesQuest":1
+            }
+        ]
+    }
+]

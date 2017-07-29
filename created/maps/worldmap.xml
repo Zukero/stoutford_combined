@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<worldmap>
+  <segment id="lakecave" x="349" y="407">
+    <map id="lakecave0" x="349" y="438"/>
+    <map id="lakecave1" x="349" y="407"/>
+    <map id="lakecave2" x="380" y="413"/>
+  </segment>
+</worldmap>
