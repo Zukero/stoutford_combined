@@ -51,6 +51,10 @@
             {
                 "progress":25,
                 "logText":"Opened glade door in lakecave0"
+            },
+            {
+                "progress":26,
+                "logText":"Closed glade door in lakecave0"
             }
         ]
     }

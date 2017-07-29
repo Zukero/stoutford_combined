@@ -1094,6 +1094,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":25
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":26
             }
         ]
     },
@@ -1126,6 +1131,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"nondisplay",
                 "value":25
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nondisplay",
+                "value":26
             }
         ]
     }
