@@ -1070,5 +1070,63 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"script_close_glade_door_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"script_close_glade_door_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":25
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"script_close_glade_door_1",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nondisplay",
+                "value":25
+            }
+        ]
+    },
+    {
+        "id":"script_open_glade_door_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"script_open_glade_door_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":25,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"glade_key",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"script_open_glade_door_1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":25
+            }
+        ]
     }
 ]

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="2017.05.26" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="20">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="24">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -195,9 +195,19 @@
    eJzFllEOwyAIho0PTXaBJV5r2e2WnaY3mEfYRbYmMyGUv4JQx5NV5EOwYEr/lfU6Zy/Vrd/xa5Cr3dt4VFfj7yPvedzOkUh62jhVojcaH8S9ZNkPTy40XGQ/msm51nut0a9AZ4Qr3U8kSMfKjco14qL4ROUacdsY8SO45VcXpHoyWkO5v/wb2W3zzyyvIw49QyF7OafH1TJ7eefr6DwStxh0R8VStz13nHO0tpB/vf9gi53H59uS0n3Zz/fu44y+L8msN84mVagPM7iWXrCyekDH1hhbuJE939PrLfI+qI3a+uuV6Deatk9Gx1UbrzPyqTnzGfm0nuUDQ2dcxA==
   </data>
  </layer>
+ <layer name="Objects_doorOpened" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzbENACAMxMDvsr8EmQAyJz9FQuGTXFv6zwppu4ze7/Hvumr+AgAAAMCEB+QkA9k=
+  </data>
+ </layer>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztksERwDAIwzJF918hG3YBKLJJeDV3+bWRMN7PWvu/Y7c65F+Fo/5X+ZLvHF+aD8mNculsdA/Ew8lE4UYzdZgK96sLyp473GgPxKlycbgkB9IbwiX+p7kZm/Sp4kZvkrc73GxnKjc7Va8rX8JUO636Rwx1fjdLkh/hUreuN8mEZKV40Jyc3Ke5NJuJeTtcekgHI49Tb9N5aZZuHi5X7anrf4t746rcF68P6pE=
+  </data>
+ </layer>
+ <layer name="Walkable_doorOpened" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh8YKMYAtPbXmR6FIyCUTAKRsEoGAWjYBSMglEwCoYzAACvdwPk
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -220,93 +230,117 @@
    </properties>
   </object>
   <object id="4" name="sign_lakecave0" type="sign" x="256" y="288" width="32" height="32"/>
+  <object id="5" name="script_close_glade_door_0" type="script" x="160" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="6" name="script_open_glade_door_0" type="script" x="192" y="96" width="128" height="32">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
-  <object id="5" name="lakecave0_1" type="spawn" x="512" y="640" width="320" height="224">
+ <objectgroup name="Spawn">
+  <object id="7" name="lakecave0_1" type="spawn" x="512" y="640" width="320" height="224">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="scorpion_1"/>
    </properties>
   </object>
-  <object id="6" name="lakecave0_2" type="spawn" x="32" y="96" width="192" height="128">
+  <object id="8" name="lakecave0_2" type="spawn" x="32" y="96" width="192" height="128">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="scorpion_3"/>
    </properties>
   </object>
-  <object id="7" name="lakecave0_2" type="spawn" x="32" y="224" width="192" height="288">
+  <object id="9" name="lakecave0_2" type="spawn" x="32" y="224" width="192" height="288">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="scorpion_3"/>
    </properties>
   </object>
-  <object id="8" name="lakecave0_3" type="spawn" x="224" y="320" width="32" height="256">
+  <object id="10" name="lakecave0_3" type="spawn" x="224" y="320" width="32" height="256">
    <properties>
     <property name="spawngroup" value="scorpion_2"/>
    </properties>
   </object>
-  <object id="9" name="lakecave0_4" type="spawn" x="160" y="544" width="320" height="128">
+  <object id="11" name="lakecave0_4" type="spawn" x="160" y="544" width="320" height="128">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="scorpion_2"/>
    </properties>
   </object>
-  <object id="10" name="lakecave0_5" type="spawn" x="32" y="672" width="480" height="192">
+  <object id="12" name="lakecave0_5" type="spawn" x="32" y="672" width="480" height="192">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="scorpion_1"/>
    </properties>
   </object>
-  <object id="11" name="lakecave0_6" type="spawn" x="864" y="864" width="64" height="32">
+  <object id="13" name="lakecave0_6" type="spawn" x="864" y="864" width="64" height="32">
    <properties>
     <property name="spawngroup" value="cave_troll_6"/>
    </properties>
   </object>
-  <object id="12" name="lakecave0_7" type="spawn" x="896" y="768" width="32" height="32">
+  <object id="14" name="lakecave0_7" type="spawn" x="896" y="768" width="32" height="32">
    <properties>
     <property name="spawngroup" value="cave_troll_3"/>
    </properties>
   </object>
-  <object id="13" name="lakecave0_8" type="spawn" x="896" y="704" width="32" height="32">
+  <object id="15" name="lakecave0_8" type="spawn" x="896" y="704" width="32" height="32">
    <properties>
     <property name="spawngroup" value="cave_troll_2"/>
    </properties>
   </object>
-  <object id="14" name="lakecave0_9" type="spawn" x="288" y="320" width="224" height="128">
+  <object id="16" name="lakecave0_9" type="spawn" x="288" y="352" width="224" height="96">
    <properties>
-    <property name="quantity" value="2"/>
     <property name="spawngroup" value="cave_troll_1"/>
    </properties>
   </object>
-  <object id="15" name="lakecave0_10" type="spawn" x="512" y="288" width="224" height="32">
+  <object id="17" name="lakecave0_10" type="spawn" x="544" y="288" width="160" height="32">
    <properties>
     <property name="spawngroup" value="cave_troll_4"/>
    </properties>
   </object>
-  <object id="16" name="lakecave0_11" type="spawn" x="325" y="96" width="411" height="160">
+  <object id="18" name="lakecave0_11" type="spawn" x="325" y="96" width="411" height="160">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="cave_troll_1"/>
    </properties>
   </object>
-  <object id="17" name="lakecave0_12" type="spawn" x="736" y="160" width="192" height="448">
+  <object id="19" name="lakecave0_12" type="spawn" x="736" y="160" width="192" height="448">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="cave_troll_4"/>
    </properties>
   </object>
-  <object id="18" name="lakecave0_13" type="spawn" x="608" y="480" width="128" height="32">
+  <object id="20" name="lakecave0_13" type="spawn" x="608" y="480" width="128" height="32">
    <properties>
     <property name="spawngroup" value="cave_troll_4"/>
    </properties>
   </object>
-  <object id="19" name="lakecave0_14" type="spawn" x="736" y="160" width="192" height="544">
+  <object id="21" name="lakecave0_14" type="spawn" x="736" y="160" width="192" height="544">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="cave_troll_2"/>
+   </properties>
+  </object>
+  <object id="22" name="lakecave0_9_1" type="spawn" x="352" y="288" width="192" height="160">
+   <properties>
+    <property name="spawngroup" value="cave_troll_1"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Keys"/>
- <objectgroup name="Replace"/>
+ <objectgroup name="Replace">
+  <object id="23" name="DoorOpened" type="replace" x="224" y="32" width="96" height="64">
+   <properties>
+    <property name="Objects" value="Objects_doorOpened"/>
+    <property name="Walkable" value="Walkable_doorOpened"/>
+    <property name="requireId" value="roots_love"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

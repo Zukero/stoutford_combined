@@ -1074,5 +1074,12 @@
         "hasManualPrice":1,
         "baseMarketCost":3,
         "category":"animal"
+    },
+    {
+        "id":"glade_key",
+        "iconID":"items_japozero:386",
+        "name":"Key to the glade",
+        "displaytype":"quest",
+        "category":"other"
     }
 ]

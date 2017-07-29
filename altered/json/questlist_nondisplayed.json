@@ -47,6 +47,10 @@
             {
                 "progress":24,
                 "logText":"Have been warned in lakecave0"
+            },
+            {
+                "progress":25,
+                "logText":"Opened glade door in lakecave0"
             }
         ]
     }
