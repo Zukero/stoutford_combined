@@ -36,12 +36,12 @@
                 "begin":false,
                 "replies":[
                     {
-                        "text":"Tell the truth",
+                        "text":"Tell the truth\n3500XP",
                         "special":false,
                         "next_dialogue_id":"Damerilias_quest_tree2"
                     },
                     {
-                        "text":"Lie and say they're fresh",
+                        "text":"Lie and say they're fresh\n2500XP",
                         "special":false,
                         "next_dialogue_id":"Damerilias_quest_tree3"
                     }
@@ -130,7 +130,7 @@
                 "id":null,
                 "id_prefix":"Damerilias_quest_tree",
                 "index":6,
-                "text":"Return the key.",
+                "text":"Return the key.\n2000XP",
                 "special":false,
                 "begin":false,
                 "replies":[
@@ -145,7 +145,7 @@
                 "id":null,
                 "id_prefix":"Damerilias_quest_tree",
                 "index":7,
-                "text":"Caeda leaves Remgard to tend to the galde.",
+                "text":"Caeda leaves Remgard to tend to the glade.\nReturn to widow.",
                 "special":false,
                 "begin":false,
                 "replies":[
@@ -160,7 +160,7 @@
                 "id":null,
                 "id_prefix":"Damerilias_quest_tree",
                 "index":8,
-                "text":"Ends quest.",
+                "text":"Ends quest.\n4500XP",
                 "special":false,
                 "begin":false,
                 "replies":[
@@ -228,7 +228,7 @@
                 "id":null,
                 "id_prefix":"Damerilias_quest_tree",
                 "index":12,
-                "text":"End quest.",
+                "text":"End quest.\n4500XP",
                 "special":false,
                 "begin":false,
                 "replies":[
@@ -238,7 +238,7 @@
                         "next_dialogue_id":"Damerilias_quest_tree13"
                     },
                     {
-                        "text":"Return the key.",
+                        "text":"Return the key.\n2000XP",
                         "special":false,
                         "next_dialogue_id":"Damerilias_quest_tree14"
                     }

@@ -206,7 +206,7 @@
    eJztzbERACAMw0B3mR8yAWRRPEVCob9TLek/K6TtMnq/x7/rqvkLAAAAABMe9d0Dxw==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztksERwDAIwzJF918hG3YBKLJJeDV3+bWRMN7PWvu/Y7c65F+Fo/5X+ZLvHF+aD8mNculsdA/Ew8lE4UYzdZgK96sLyp473GgPxKlycbgkB9IbwiX+p7kZm/Sp4kZvkrc73GxnKjc7Va8rX8JUO636Rwx1fjdLkh/hUreuN8mEZKV40Jyc3Ke5NJuJeTtcekgHI49Tb9N5aZZuHi5X7anrf4t746rcF68P6pE=
   </data>
@@ -247,6 +247,11 @@
    </properties>
   </object>
   <object name="script_open_glade_door_0" type="script" x="192" y="96" width="128" height="32">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+  <object name="script_grow_lakecave1_damerilias_0" type="script" x="224" y="96" width="96" height="32">
    <properties>
     <property name="when" value="step"/>
    </properties>
