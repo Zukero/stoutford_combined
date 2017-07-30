@@ -257,7 +257,7 @@
                         "special":false
                     },
                     {
-                        "text":"Return the key.",
+                        "text":"Return the key.\n2000XP",
                         "special":false,
                         "next_dialogue_id":"Damerilias_quest_tree14"
                     },
