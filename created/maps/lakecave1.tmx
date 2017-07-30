@@ -317,5 +317,74 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="Damerilia3">
+  <object name="Damerilia#3Fetched" type="replace" x="256" y="128" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasFetched"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="34"/>
+   </properties>
+  </object>
+  <object name="Damerilia#3GrewBack" type="replace" x="256" y="128" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasGrewBack"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="35"/>
+   </properties>
+  </object>
+  <object name="script_lakecave1_damerilia3_0" type="script" x="256" y="128" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Damerilia4">
+  <object name="Damerilia#4Fetched" type="replace" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasFetched"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="36"/>
+   </properties>
+  </object>
+  <object name="Damerilia#4GrewBack" type="replace" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasGrewBack"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="37"/>
+   </properties>
+  </object>
+  <object name="script_lakecave1_damerilia4_0" type="script" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Damerilia5">
+  <object name="Damerilia#5Fetched" type="replace" x="224" y="160" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasFetched"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="38"/>
+   </properties>
+  </object>
+  <object name="Damerilia#5GrewBack" type="replace" x="224" y="160" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_DameriliasGrewBack"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="39"/>
+   </properties>
+  </object>
+  <object name="script_lakecave1_damerilia5_0" type="script" x="224" y="160" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Replace"/>
 </map>
