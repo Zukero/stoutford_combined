@@ -6,7 +6,7 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"Aryfora, a woman grieving in Stoutford's graveyard asked me to bring her some Damerilias from Remgard for Noraed's grave, her husband."
+                "logText":"Aryfora, a woman grieving in Stoutford's graveyard asked me to bring her some Damerilias from Remgard for the grave of Noraed, her husband."
             },
             {
                 "progress":20,
@@ -25,6 +25,91 @@
             {
                 "progress":45,
                 "logText":"I told her I found the flowers around Remgard, in the wild.",
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"secret_garden",
+        "name":"A secret garden",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Caeda in Remgard told me I could find fresh Damerilias in her family's glade, but the key was taken by monsters.\nIf I can find the key in the cave north of Remgard, I could access that glade, but have to return the key to Caeda."
+            },
+            {
+                "progress":20,
+                "logText":"That was not worth the trouble. The wilted Damerilias Caeda gave me were just fine.",
+                "finishesQuest":1
+            },
+            {
+                "progress":30,
+                "logText":"I killed the monsters and found the key to the glade."
+            },
+            {
+                "progress":40,
+                "logText":"I returned the key right away to Caeda.",
+                "rewardExperience":2000
+            },
+            {
+                "progress":45,
+                "logText":"I kept the key for a while, but finally returned it to Caeda.",
+                "rewardExperience":2000,
+                "finishesQuest":1
+            },
+            {
+                "progress":50,
+                "logText":"Caeda asked for my help to clear out the monsters in the glade so that she could go back there and attend to the flowers."
+            },
+            {
+                "progress":60,
+                "logText":"I killed the monsters and told Caeda. She left Remgard and went to attend to the glade.",
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"thorns_vengeance",
+        "name":"The thorns of vengeance",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Aryfora in Stoutford needs my help to prove her uncle, Blornvale, Stoutford's alchemist, killed her father."
+            },
+            {
+                "progress":20,
+                "logText":"She needs me to purchase three potions of the brave from Blornvale and return to her."
+            },
+            {
+                "progress":30,
+                "logText":"I have returned with the three potions, and gave them to her."
+            },
+            {
+                "progress":40,
+                "logText":"She gave me a potion of truth."
+            },
+            {
+                "progress":50,
+                "logText":"She wants me to give that potion to Blornvale, and make him confess his crimes."
+            },
+            {
+                "progress":60,
+                "logText":"I agreed to make Blornvale drink that potion."
+            },
+            {
+                "progress":70,
+                "logText":"Blornvale drank the potion.",
+                "rewardExperience":1500
+            },
+            {
+                "progress":80,
+                "logText":"Blornvale confessed killing Aryfora's father in front of Tahalendor."
+            },
+            {
+                "progress":90,
+                "logText":"Aryfora retrieved her father's shop.",
+                "rewardExperience":4000,
                 "finishesQuest":1
             }
         ]
