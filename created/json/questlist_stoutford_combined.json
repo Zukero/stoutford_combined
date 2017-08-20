@@ -36,16 +36,16 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"Caeda in Remgard told me I could find fresh Damerilias in her family's glade, but the key was taken by monsters.\nIf I can find the key in the cave north of Remgard, I could access that glade, but have to return the key to Caeda."
+                "logText":"Caeda in Remgard told me I can find fresh Damerilias in her family's glade, but the key was taken by monsters. \nIf I can find the key in the cave north of Remgard, I can access that glade, but I have to return the key to Caeda."
             },
             {
                 "progress":20,
-                "logText":"That was not worth the trouble. The wilted Damerilias Caeda gave me were just fine.",
+                "logText":"That was not worth the trouble. The wilted Damerilias Caeda gave me are just fine.",
                 "finishesQuest":1
             },
             {
                 "progress":30,
-                "logText":"I killed the monsters and found the key to the glade."
+                "logText":"I killed some monsters and found the key to the glade."
             },
             {
                 "progress":40,
