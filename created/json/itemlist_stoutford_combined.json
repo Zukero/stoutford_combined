@@ -882,7 +882,7 @@
     },
     {
         "id":"damerilias",
-        "iconID":"items_japozero:556",
+        "iconID":"items_rijackson_1:12",
         "name":"Damerilias",
         "displaytype":"quest",
         "category":"other",
@@ -1081,5 +1081,104 @@
         "name":"Key to the glade",
         "displaytype":"quest",
         "category":"other"
+    },
+    {
+        "id":"stoutford_reinforcement_0",
+        "iconID":"items_books:7",
+        "name":"Sealed letter to Gyraen",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"This is a letter to Gyraen, leader of the Shadow priests."
+    },
+    {
+        "id":"stoutford_reinforcement_1",
+        "iconID":"items_books:7",
+        "name":"Sealed letter to Melandrach",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"This is a letter to Melandrach, Yolgen's former teacher."
+    },
+    {
+        "id":"stoutford_reinforcement_2",
+        "iconID":"items_books:7",
+        "name":"Sealed letter to Master Eudes",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"This is a letter to Master Eudes, commander of the Royal Guard of Feygard."
+    },
+    {
+        "id":"stoutford_plate_mail1",
+        "iconID":"items_japozero:169",
+        "name":"Stoutford's plate mail",
+        "displaytype":"rare",
+        "category":"plmail",
+        "equipEffect":{
+            "increaseMaxHP":7,
+            "increaseBlockChance":28,
+            "increaseDamageResistance":0
+        }
+    },
+    {
+        "id":"stoutford_plate_mail2",
+        "iconID":"items_japozero:175",
+        "name":"Stoutford's rigid plate mail",
+        "displaytype":"rare",
+        "category":"plmail",
+        "equipEffect":{
+            "increaseBlockChance":25,
+            "increaseDamageResistance":2
+        }
+    },
+    {
+        "id":"stoutford_steel_helmet",
+        "iconID":"items_armours:25",
+        "name":"Stoutford's steel helmet",
+        "displaytype":"ordinary",
+        "category":"hd_mtl_hv",
+        "equipEffect":{
+            "increaseMaxHP":10,
+            "increaseAttackChance":-5,
+            "increaseBlockChance":7
+        }
+    },
+    {
+        "id":"stoutford_engraved_steel_helmet",
+        "iconID":"items_armours:25",
+        "name":"Stoutford's engraved steel helmet",
+        "displaytype":"rare",
+        "category":"hd_mtl_hv",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":0,
+                "max":0
+            },
+            "increaseMaxHP":15,
+            "increaseAttackChance":-4,
+            "increaseBlockChance":7
+        }
+    },
+    {
+        "id":"boots_combat3",
+        "iconID":"items_tometik3:3",
+        "name":"Superior combat boots",
+        "displaytype":"ordinary",
+        "category":"feet_mtl_hv",
+        "equipEffect":{
+            "increaseAttackChance":5,
+            "increaseBlockChance":12,
+            "increaseDamageResistance":1
+        }
+    },
+    {
+        "id":"boots_6",
+        "iconID":"items_armours:32",
+        "name":"Boots of Swiftness",
+        "displaytype":"ordinary",
+        "category":"feet_mtl_li",
+        "equipEffect":{
+            "increaseMaxHP":5,
+            "increaseAttackChance":7,
+            "increaseBlockChance":10
+        }
     }
 ]

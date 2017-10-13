@@ -1,0 +1,54 @@
+[
+    {
+        "id":"flagstone",
+        "name":"Ancient secrets",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I met a few guards from Stoutford on sentry outside a fortress called Flagstone. Their leader told me that Flagstone was built a few hundred of years ago and served as a prison for house Gorland of Stoutford. When Lord Emeric of Stoutford was slain during the Noble Wars, it was fogotten soon after. Recently, undeads started  pouring out of  Flagstone. I should investigate the source of the undead monsters. The guard tells me to return to him if I need help.",
+                "finishesQuest":0
+            },
+            {
+                "progress":20,
+                "logText":"I found a dug out tunnel beneath Flagstone, that seems to lead to a larger cave. The cave is guarded by a demon that I am not even able to approach. Maybe the guard outside Flagstone knows more?",
+                "finishesQuest":0
+            },
+            {
+                "progress":30,
+                "logText":"The guard tells me to look around for more the former warden. He is worried about the demon and the undead prisoners.",
+                "finishesQuest":0
+            },
+            {
+                "progress":31,
+                "logText":"I found the former warden of Flagstone on the upper level. Among his remains I found a necklace with some enscriptions. I should return to the guard now.",
+                "finishesQuest":0
+            },
+            {
+                "progress":40,
+                "logText":"I have learned the words required to approach the demon beneath Flagstone. 'Daylight Shadow'. It seems like the warden has something to do with the monster invasion.",
+                "rewardExperience":1600,
+                "finishesQuest":0
+            },
+            {
+                "progress":50,
+                "logText":"Deep beneath Flagstone, I found a powerful winged demon. It seems like the warden kept on running the prison and experimented with necromancy.",
+                "finishesQuest":0
+            },
+            {
+                "progress":60,
+                "logText":"I found one prisoner, Narael, alive deep beneath Flagstone. Narael was once a citizen of Nor City. He is too weak to walk by himself, but if I can find his wife in Nor City, I would be handsomely rewarded."
+            },
+            {
+                "progress":70,
+                "logText":"I approached the sentry again and he was happy to hear the source of the undead is banished. I should talk to Yolgen, the priest of Stoutford, for a reward."
+            },
+            {
+                "progress":100,
+                "logText":"Yolgen rewarded me handsomely for my efforts and is happy that there is one thing less the citizens of Stoutford have to worry about.",
+                "rewardExperience":3000,
+                "finishesQuest":1
+            }
+        ]
+    }
+]

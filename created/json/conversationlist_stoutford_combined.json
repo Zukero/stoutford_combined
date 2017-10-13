@@ -1613,5 +1613,616 @@
                 "value":38
             }
         ]
+    },
+    {
+        "id":"yolgen_1",
+        "message":"Oh this is a long story my friend. This town has existed for ages and it used to be a prosperous and well visited outpost on the border of the Aewhata Kingdom. We used to trade with Fallhaven and Prim. This used to be the seat of Lord Erwyn of house Gorland. But during the Noble Wars 17 years ago, everything changed. ",
+        "replies":[
+            {
+                "text":"The Noble Wars?",
+                "nextPhraseID":"yolgen_2"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_2",
+        "message":"Oh the Noble Wars. It was one of the darkest parts of our history. They lasted only 3 years and brought great misery over our country. When out great King Luthor died and left the throne with no heir, the three mighty lords of the land soon enough began fighting over the title as successor. This was Lord Erwyn of Stoutford, Lord Geomyr of Feygard who used to be the advisor of King Luthor and Lord Emeric of Nor City. The former capital of Fallhaven first remained neutral. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"yolgen_3"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_3",
+        "message":"While Erwyn and Emeric fought over the capture of the centre area, Lord Geomyr waited for the right moment and crushed his enemies with his great army. He rules the Kingdom ever since with an iron hand. ",
+        "replies":[
+            {
+                "text":"Why do you say iron hand?",
+                "nextPhraseID":"yolgen_4"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_4",
+        "message":"Well, he has installed garrisons in pretty much every village, introduced a tax system and now he even wants to prohibit the worship of the mighty Shadow! This is outrageous!",
+        "replies":[
+            {
+                "text":"Thanks. ",
+                "nextPhraseID":"yolgen_initial_0"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_surroundings_0",
+        "message":"Oh well to the east where you came from, there's Flagstone Prison. To the south, there's Mt. Galmore. Definitely not a place where you want to go... To the west, we've got our so called railway terminal and beyond this point, you come to our border post at Blackwater River. Nothing but bogs and marshes westwards of this point. And finally, to the north, we had a tunnel to Prim and the Elm mine leading in the heart of Blackwater Mountain.",
+        "replies":[
+            {
+                "text":"Can you tell me more about Flagstone?",
+                "nextPhraseID":"yolgen_surroundings_1"
+            },
+            {
+                "text":"Can you tell me more about Mt. Galmore?",
+                "nextPhraseID":"yolgen_surroundings_2"
+            },
+            {
+                "text":"Can you tell me more about the west?",
+                "nextPhraseID":"yolgen_surroundings_3"
+            },
+            {
+                "text":"Can you tell me more about Blackwater Mountain?",
+                "nextPhraseID":"yolgen_surroundings_4"
+            },
+            {
+                "text":"There is something else I wanted to know.",
+                "nextPhraseID":"yolgen_initial_0"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_surroundings_1",
+        "message":"Flagstone Prison was built a four hundred years ago by house Gorland of Stoutford and used right until the Noble Wars when the house was extinguished. They mostly detained people worshipping the old gods there. This dreadful place has been left abandoned ever since. Recently, however, undead started pouring out of the prison and we had to send guards to keep them away from the road. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"yolgen_surroundings_flagstone_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"There was something else I wanted to know.",
+                "nextPhraseID":"yolgen_surroundings_0"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_surroundings_2",
+        "message":"Mt. Galmore? It has been our scourge for a long time. Garthan I, the founder of Aewhata Kingdom, ordered the excavation of the mountain for gold and gems 430 years ago. As far as I recall, fortifications against the monster attacks were built and an enormous network of mine tunnels was dug under the mountain. They found plentiful ore veins and the mine flourished. But their success didn't last long. It is said, unspeakable horrors overwhelmed the knights and miners of the King after a few years and the mine has been left abandoned ever since. However more and more of the most foul monsters are coming down the mountain since then and we have to fend them off. Otherwise, the Kingdom would be overwhelmed by their numbers. With the rise of undead knights in the castle and Lord Erwyn's demise, we struggle more and more.",
+        "replies":[
+            {
+                "text":"That sounds dreadful. Is there anything I could do to help?",
+                "nextPhraseID":"yolgen_task_0"
+            },
+            {
+                "text":"There was something else I wanted to know.",
+                "nextPhraseID":"yolgen_surroundings_0"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_task_0",
+        "message":"Well, you look a bit young. But I guess we could still make use of you in these dark times. I have got three tasks I can offer you.",
+        "replies":[
+            {
+                "text":"What about asking for help?",
+                "nextPhraseID":"yolgen_reinforcements_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_reinforcements",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"What about the undead in the castle?",
+                "nextPhraseID":"yolgen_castle_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"What about the collapsed tunnel?",
+                "nextPhraseID":"yolgen_tunnel_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"prim_tunnel",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"yolgen_reinforcements_0",
+        "message":"We have already sent a message to Nor City and Feygard. However none of them have replied and I'm getting worried that our messenger got killed. I ask you to go to my fellow priests in Nor City and ask our great leader Gyraen for help. You can also seek out my former teacher, Melandrach. And in Feygard, I would ask you to seek out Master Eudes. I hope at least one of them will sent out reinforcements even while they are rivaling against each other. Will you help?",
+        "replies":[
+            {
+                "text":"Of course!",
+                "nextPhraseID":"yolgen_reinforcements_1"
+            },
+            {
+                "text":"No, sorry. I'm not interested in errand running.",
+                "nextPhraseID":"yolgen_reinforcements_2"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_reinforcements_1",
+        "message":"I knew I could count on you. Here, take these letters and Shadow be with you.",
+        "replies":[
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"stoutford_reinforcement_0",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"stoutford_reinforcement_1",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"stoutford_reinforcement_2",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stoutford_reinforcements",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"flagstone_guard",
+        "message":"I hate this place. It rains all the time and I can't stand the eerie screams of the undead!"
+    },
+    {
+        "id":"flagstone_sentry_45",
+        "message":"This is both good and bad news. I am truly grateful that you rid us of the warden and his thralls. Talk to Yolgen for a reward. We will make sure that we recover this prisoner. ",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thank you. Shadow be with you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"narael",
+                "mapName":"flagstone4"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"flagstone",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"yolgen_flagstone_0",
+        "message":"Oh this is good news! I am very pleased that the citizens of Stoutford have one thing less to worry about. It is only sad that we didn't send guards earlier on to investigate the prison. Then, all of this wouldn't have happened. Here take this gold.",
+        "replies":[
+            {
+                "text":"Thank you kindly. I am happy to help.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thank you kindly. Shadow be with you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"flagstone",
+                "value":100
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"gold400"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_surroundings_flagstone_4",
+        "message":"Thanks to you my friend, we don't need to worry about the undead anymore.",
+        "replies":[
+            {
+                "text":"There was something else I wanted to know.",
+                "nextPhraseID":"yolgen_surroundings_0"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_reinforcements_2",
+        "message":"Bah, why did you ask then anyway?",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_castle_0",
+        "message":"We do have another problem. Our soldiers usually guard the castle gate to Mt. Galmore to keep the monsters away from the Kingdom. However, five days ago, the undead knights of Lord Erwyn started to rise from their grave. I've got no idea why this happened. We haven't been able to recapture the castle yet. I would ask you to rid us from this plague.",
+        "replies":[
+            {
+                "text":"Sure, that sounds easy enough. I just wonder where they came from.",
+                "nextPhraseID":"yolgen_castle_1"
+            },
+            {
+                "text":"No thank you. I think that's way over the top of my head.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_surroundings_3",
+        "message":"As I said, we've got our railway terminal with all kinds of goods to the west. We used to trade food and tools with Prim and the miners from Elm mine and get loads of iron ingots instead. We shipped them further to Nor City and Feygard and prospered due to it. Further to the west, there's the border outpost right next to Blackwater River. Anyway, there's nothing but bogs, marshes and grasslands west of the river and some native tribes from what I heard.",
+        "replies":[
+            {
+                "text":"There was something else I wanted to know.",
+                "nextPhraseID":"yolgen_surroundings_0"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle_0",
+        "message":"Ah another mortal! You shall be another servant in Lord Erwyn's army! Ha Ha!",
+        "switchToNPC":"knight_erwyn",
+        "replies":[
+            {
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle_1",
+        "message":"What do I seee? A mortal? Your bonesss shall be clattering on the ground soon enoughhh!",
+        "replies":[
+            {
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle_2",
+        "message":"I shall crush you little mortal!",
+        "replies":[
+            {
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle_3",
+        "message":"*You see a heavily armed and cloaked skeleton moving towards you. This must be Lord Erwyn himself.*",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_castle_4"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle_4",
+        "message":"You shall die now mortal!",
+        "replies":[
+            {
+                "text":"No, you are going to die once and for all!",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"For the Shadow!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle_5",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_castle_6",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"knight_erwyn",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle_6",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stoutford_castle",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle_7",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_castle_8",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_commander",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle_8",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stoutford_castle",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle_9",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_castle_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle_10",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stoutford_castle",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"yolgen_castle_2",
+        "message":"Have you rid us from the undead soldiers yet?",
+        "replies":[
+            {
+                "text":"Yes indeed. It was a tough fight. I managed to slay Lord Erwyn himself and found this ring among his remains.",
+                "nextPhraseID":"yolgen_castle_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":40
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"yolgen_castle_3",
+        "message":"I am very pleased to hear this. A ring you say? Let me take a look",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"yolgen_castle_4"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_castle_4",
+        "message":"Hmm. This looks most interesting. It is certainly some magical item and seems to have the powers to reanimate the dead. I am indeed very grateful that you brought this ring to me. We should destroy it once and for all to avoid further damage.",
+        "replies":[
+            {
+                "text":"Sounds fine by me. Anything for the safety of the people of Stoutford.",
+                "nextPhraseID":"yolgen_castle_5"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_castle_5",
+        "message":"*Yolgen puts the ring on his altar and chants a spell. Suddenly the altar seems to be getting darker and darker and then the ring cracks.*",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"yolgen_castle_6"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_castle_6",
+        "message":"This is it. The ring is destroyed. I just wonder where it came from. Maybe from the depths of Mt. Galmore or some mischievous traveller put it on Lord Erwyn's remains? Anyway, my friend, I and the people of Stoutford are most grateful. Here is your reward. ",
+        "replies":[
+            {
+                "text":"Thank you. ",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thank you. Shadow be with you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stoutford_castle",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"yolgen_surroundings_4",
+        "message":"Oh Blackwater Mountain. This is a long story as well. We used to trade food and tools with Prim and the miners from Elm mine and get loads of iron ingots instead. We shipped them further to Nor City and Feygard and prospered due to it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"yolgen_surroundings_5"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_surroundings_5",
+        "message":"A few months ago, everything changed. Suddenly, a violent earthquake shook the mountain and our railway tunnel to Prim collapsed. Pretty much at the same time, those Gornaud beasts attacked us and with all the trouble we're having, we haven't been able to restore the tunnel yet and our trade declines. There hasn't been any contact with Prim after this. Therefore, also less travellers are coming from Fallhaven and Nor City. It's a shame.",
+        "replies":[
+            {
+                "text":"Is there anything I can help with?",
+                "nextPhraseID":"yolgen_task_0"
+            },
+            {
+                "text":"There was something else I wanted to know.",
+                "nextPhraseID":"yolgen_surroundings_0"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_tunnel_0",
+        "message":"Hmm. I'm only tellling you this because you were able to help us with Flagstone. Maybe you could help killing the monsters around the entrance of the tunnel? Beware though, those monsters are tough bastards. You could also try finding an alternative way through the mountain. I recall there used to be another mine under the main tunnel. Maybe this will lead you to Prim? ",
+        "replies":[
+            {
+                "text":"Ok, I can try that. ",
+                "nextPhraseID":"yolgen_tunnel_1"
+            },
+            {
+                "text":"Oh, I think that's a bit over the top of my head.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_tunnel_1",
+        "message":"Be careful though. This task I'm putting on your shoulders shouldn't be taken lightly. Shadow be with you.",
+        "replies":[
+            {
+                "text":"I won't. Shadow be with you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I won't. Goodbye.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"prim_tunnel",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"yolgen_tunnel_2",
+        "message":"Hello again. Did you make any progress?",
+        "replies":[
+            {
+                "text":"Yes I did. I was able to kill all of the monsters at the entrance and on top of that, I found a way through the pitch-black mine and spoke to Prim's leader. They are in great trouble and are constantly attacked by Gornauds. I will have to help them out as well.",
+                "nextPhraseID":"yolgen_tunnel_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"prim_tunnel",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"Yes I did. I was able to kill all of the monsters at the entrance.",
+                "nextPhraseID":"yolgen_tunnel_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"prim_tunnel",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"No not yet. They are tough beasts.",
+                "nextPhraseID":"yolgen_tunnel_4"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_tunnel_3",
+        "message":"This is great news indeed! "
+    },
+    {
+        "id":"yolgen_tunnel_4",
+        "message":"Be careful my friend and shadow be with you.",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_tunnel_5"
+    },
+    {
+        "id":"stoutford_guard2",
+        "message":"Oh, then does the shift end?? I want to have a some cold mead right now."
+    },
+    {
+        "id":"stoutford_guard3",
+        "message":"Stoutford shall prevail in these hard times, traveler."
+    },
+    {
+        "id":"stoutford_armorer"
+    },
+    {
+        "id":"stoutford_smith"
     }
 ]

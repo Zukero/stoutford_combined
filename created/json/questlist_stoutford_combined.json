@@ -36,16 +36,16 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"Caeda in Remgard told me I could find fresh Damerilias in her family's glade, but the key was taken by monsters.\nIf I can find the key in the cave north of Remgard, I could access that glade, but have to return the key to Caeda."
+                "logText":"Caeda in Remgard told me I can find fresh Damerilias in her family's glade, but the key was taken by monsters. \nIf I can find the key in the cave north of Remgard, I can access that glade, but I have to return the key to Caeda."
             },
             {
                 "progress":20,
-                "logText":"That was not worth the trouble. The wilted Damerilias Caeda gave me were just fine.",
+                "logText":"That was not worth the trouble. The wilted Damerilias Caeda gave me are just fine.",
                 "finishesQuest":1
             },
             {
                 "progress":30,
-                "logText":"I killed the monsters and found the key to the glade."
+                "logText":"I killed some monsters and found the key to the glade."
             },
             {
                 "progress":40,
@@ -111,6 +111,96 @@
                 "logText":"Aryfora retrieved her father's shop.",
                 "rewardExperience":4000,
                 "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle",
+        "name":"Stoutford's old castle",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I talked to Yolgen, the Shadow priest of Stoutford, and he told me an interesting story. Apparently, the mighty Lord Erwyn of house Gorland used to reside here decades ago. When King Luthor died, he left the Aewhata Kingdom with no heir. As a result of that, 17 years ago, the three lords Geomyr of Feygard, Erwyn of Stoutford  and Emeric of Nor City began fighting over the throne with Geomyr winning it in a three year long war. Lord Erwyn and his army was crushed before Stoutford, the castle was sacked and the house extinguished. Recently the guards were attacked by undead knights and therefore cannot guard the castle gate to Mt. Galmore anymore. Yolgen asked me to rid Stoutford of this undead grasp once and for all."
+            },
+            {
+                "progress":20,
+                "logText":"I slew one of the undead knights. They do wear Lord Erwyn's tattered banner.",
+                "rewardExperience":200
+            },
+            {
+                "progress":30,
+                "logText":"I slew Lord Erwyn's commander.",
+                "rewardExperience":400
+            },
+            {
+                "progress":40,
+                "logText":"I slew Lord Erwyn himself. Among his remains I found a strange ring. I should bring it back to the guard at the gate."
+            },
+            {
+                "progress":50,
+                "logText":"I brought the ring back to Yolgen. He suspects it has somehow come from Mt. Galmore and reanimated the long dead soldiers. I should be wary of the evil grasp of Mt. Galmore and whatever lurks there...",
+                "rewardExperience":2050
+            },
+            {
+                "progress":60,
+                "logText":"I kept the ring for myself, to the upset of Yolgen. I should keep looking for its previous owner.",
+                "rewardExperience":500
+            },
+            {
+                "progress":70,
+                "logText":"I kept the ring for myself and didn't tell Yolgen about it. He was suspicious but couldn't do anything about it. I should keep looking for its previous owner.",
+                "rewardExperience":500
+            }
+        ]
+    },
+    {
+        "id":"stoutford_reinforcements",
+        "name":"A town and a border in peril",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I talked to Yolgen of the Shadow church in Stoutford. Since Stoutford lies on the border of the Kingdom and is constantly attacked by monsters from Mt. Galmore, Yolgen wants me to ask for reinforcements. I should ask Gyraen, the leader of the Shadow priests, or his former teacher Melandrach for help or I could ask Master Eudes of Feygard instead. He gave me a letter for each of them."
+            }
+        ]
+    },
+    {
+        "id":"prim_tunnel",
+        "name":"Restoring the tunnel to Prim!",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I talked to Prim's leader about the collapse of the mine tunnel to Stoutford and how trade has declined due to this. I could help restoring the tunnel by killing the Gornaud beasts at both entrances once and for all. Furthermore, I should make Stoutford collaborate on this task, so miners could dig from both sides."
+            },
+            {
+                "progress":20,
+                "logText":"I killed the beasts on the northern side of the tunnel. I should return to Prim's leader.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":30,
+                "logText":"Prim has now sent miners to the tunnel and they start digging out the collapsed tunnel."
+            },
+            {
+                "progress":40,
+                "logText":"I killed the beasts on the southern side of the tunnel.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":50,
+                "logText":"I talked to Yolgen about the news from Prim that the monster attacks have largely stopped and that the perpretators were the demons of Kazaul. He has never heard of them before though. He offered help as well and sent some miners to the tunnel. "
+            },
+            {
+                "progress":60,
+                "logText":"The tunnel is now dug out and can be used again. Yolgen thanked me for my efforts. I should also report back to Prim's leader.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":100,
+                "logText":"I reported back to Prim's leader that the tunnel can be used again. He was very grateful and is sure that trade between the two villages will flourish again and that the Elm mine can ship iron ingots to Stoutford again. More travelers will find their way to Prim now as well.",
+                "rewardExperience":6000
             }
         ]
     }
