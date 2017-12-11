@@ -57,6 +57,7 @@
         "hasManualPrice":1,
         "baseMarketCost":10,
         "category":"food",
+        "description":"The label on the jar looks old and faded. When was this made?",
         "useEffect":{
             "conditionsSource":[
                 {
@@ -326,6 +327,7 @@
         "hasManualPrice":1,
         "baseMarketCost":45,
         "category":"food",
+        "description":"It looks like moldy cheese.",
         "useEffect":{
             "conditionsSource":[
                 {
@@ -974,6 +976,7 @@
         "hasManualPrice":1,
         "baseMarketCost":70,
         "category":"food",
+        "description":"It looks similar to boot leather.",
         "useEffect":{
             "conditionsSource":[
                 {

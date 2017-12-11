@@ -206,7 +206,7 @@
    eJztzbERACAMw0B3mR8yAWRRPEVCob9TLek/K6TtMnq/x7/rqvkLAAAAABMe9d0Dxw==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30">
+ <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztksERwDAIwzJF918hG3YBKLJJeDV3+bWRMN7PWvu/Y7c65F+Fo/5X+ZLvHF+aD8mNculsdA/Ew8lE4UYzdZgK96sLyp473GgPxKlycbgkB9IbwiX+p7kZm/Sp4kZvkrc73GxnKjc7Va8rX8JUO636Rwx1fjdLkh/hUreuN8mEZKV40Jyc3Ke5NJuJeTtcekgHI49Tb9N5aZZuHi5X7anrf4t746rcF68P6pE=
   </data>
@@ -216,7 +216,7 @@
    eJxjYBh8YKMYAtPbXmR6FIyCUTAKRsEoGAWjYBSMglEwCoYzAACvdwPk
   </data>
  </layer>
- <layer name="Walkable_doorClosed" width="30" height="30">
+ <layer name="Walkable_doorClosed" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzTENAAAIwDBU4N8CDjmRAAltsnsR91ROH74AAAAbGsr3BKs=
   </data>
