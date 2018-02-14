@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="30" tilewidth="32" tileheight="32" nextobjectid="10">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="15" height="30" tilewidth="32" tileheight="32" nextobjectid="10">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -195,15 +195,15 @@
  </layer>
  <layer name="Above" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYICA2UwMDHOZGOBgHhIbG5jNhJ8PAsjmEaOeEoBuHsxufPaA1OCTZxImzi5iASeV/UxLQO34oQYYjG4azoAa6VVJjHIzkAEt8hA1/YmrzKAEoJfN+AAuv1ymIB4Oi5HmBnS96KATzZxuHOai6wX5AZf/0MsGdL3Y3IGsDwDH6hWR
+   eJxjYICA2UwMDHOZGOBgHhIbG5jNhJ8PAsjmEaOeEoBuHsxufPaA1OCTZxImzi5iASeV/UxLQO34oQYYjG4azoAa6VVJjHIzkAEt8hA1/YmrzCAFXEYLM/SyGR84jCO80c0kRS9InJAbLuHRiw460czpxmEuul6QH3DFFXrZgK4Xl99g+gCZEBkJ
   </data>
  </layer>
- <layer name="Walkable" width="15" height="30" visible="0">
+ <layer name="Walkable" width="15" height="30">
   <data encoding="base64" compression="zlib">
    eJzdk9EJADEIQzvF7b9CN7zfIkZf7vCnglCkMTG2+1lrX5JnxLqDjeHgTj7ag/BXPSawxLsKN4XtZlW+dxF5VW2SN9b+zJv5ps4Olv43pVX5TIJoJvcotupHNdJdZnrcv1rt66tm19Os3s1V+UWwzptV+QITccrk
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="96" y="928" width="32" height="32">
    <properties>
     <property name="map" value="blackwater_mountain14"/>
@@ -229,7 +229,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="5" name="gornaud_2" type="spawn" x="96" y="864" width="32" height="32">
    <properties>
     <property name="spawngroup" value="gornaud_2"/>
