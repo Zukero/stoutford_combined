@@ -9,9 +9,113 @@
         "droplistID":"yolgen"
     },
     {
+        "id":"stoutford_widow",
+        "name":"Aryfora",
+        "iconID":"monsters_karvis2:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"stoutford_widow",
+        "phraseID":"stoutford_widow_select_0",
+        "droplistID":"stoutford_widow"
+    },
+    {
+        "id":"stoutford_alchemist",
+        "name":"Blornvale",
+        "iconID":"monsters_rltiles1:70",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"stoutford_alchemist",
+        "phraseID":"blornvale_select_0",
+        "droplistID":"stoutford_alchemist"
+    },
+    {
         "id":"goat_1",
         "name":"Goat",
         "iconID":"monsters_ld2:0",
         "phraseID":"goat_0"
+    },
+    {
+        "id":"stoutford_cook",
+        "name":"Cadoren",
+        "iconID":"monsters_rltiles2:81",
+        "monsterClass":"humanoid",
+        "spawnGroup":"stoutford_cook",
+        "phraseID":"cadoren_0",
+        "droplistID":"shop_cadoren"
+    },
+    {
+        "id":"stoutford_thief",
+        "name":"Quiet Thief",
+        "iconID":"monsters_rogue1:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"stoutford_thief",
+        "phraseID":"stoutford_thief_0",
+        "droplistID":"stoutfordthief"
+    },
+    {
+        "id":"stoutford_drinker_1",
+        "name":"Customer",
+        "iconID":"monsters_ld1:35",
+        "spawnGroup":"stoutford_drinkers",
+        "phraseID":"stoutford_commoner_0"
+    },
+    {
+        "id":"stoutford_drinker_2",
+        "name":"Customer",
+        "iconID":"monsters_ld1:18",
+        "spawnGroup":"stoutford_drinkers",
+        "phraseID":"stoutford_commoner_0"
+    },
+    {
+        "id":"stoutford_smith",
+        "name":"Cornith",
+        "iconID":"monsters_ld1:29",
+        "monsterClass":"humanoid",
+        "spawnGroup":"stoutford_smith",
+        "phraseID":"cornith_0",
+        "droplistID":"shop_cornith"
+    },
+    {
+        "id":"stoutford_lich",
+        "name":"Eliszylae",
+        "iconID":"monsters_liches:0",
+        "maxHP":135,
+        "maxAP":10,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"undead",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":1,
+            "max":6
+        },
+        "spawnGroup":"stoutford_lich",
+        "droplistID":"eliszylae_droplist",
+        "attackCost":2,
+        "attackChance":80,
+        "criticalSkill":40,
+        "criticalMultiplier":2.0,
+        "blockChance":90,
+        "damageResistance":2,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":4
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"feebleness_minor",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"15"
+                }
+            ]
+        }
+    },
+    {
+        "id":"stoutford_cottager",
+        "name":"Cottager",
+        "iconID":"monsters_tometik2:55",
+        "unique":1,
+        "phraseID":"stoutford_commoner_0"
     }
 ]

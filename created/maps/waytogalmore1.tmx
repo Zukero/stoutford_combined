@@ -195,9 +195,9 @@
    eJzNVrtKQ0EQXS8kJlX0GoSU4i/YaGkhKNFCxCqmsPaBEmsLH2CwkShRBD9AsNY+X2CsfBXaCVroFzjDzZDJMvu6sfDA4ZK9u/fsnJ2ZjVK9eBhVIt4G5XGOd2HOpXuZ9TvffejW8mG6US5M9ydlvOMjyXM0SthinqPPOOarS7G3DOdGOC4kuo8lpZ5KiUabrRnImdcSuD9S7DaQrgQpXhzbFPyJPPZpgpQnHOgP6u0KujZ/zwLOC0Hx0tOmS2eUpo7IK9177nfMdNtCjKF1xPf/0dF8HTLPvynI46Z4bbWh7//Loovw6Wl/gUnYxxTbi0+tSXgeDps/C5pzmgd7WaX2s93fPnnVFDzntfTp8BnRAM3TQF2Efh+5+pwLaerIpdvMKHWe8de19Ytm1JvjUk0SpotKTQBnivJ77PlSvCZ9091PqEGMO8BF0FsCLht0ESHnu5r3o89eXbpjnbs3NI+q2d5199p633hx/ZYjzm2h3+I61z1jA+XREbAu0ATdd8S1YZzjNlbqLu7+vug8y9A35oELwHIf8UiQcoV0K6C3AqwCK1H3vPh8Kd9M+aejrj2vgAfANdBbB24AD4W5SP1csQeY3rmAedLQxk7CPpEK/0GX/k/rupKH0hjdc/ROuvd0Xd6rUfcl7q9OXXD57BurCb9BZnsl
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30">
+ <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztk1EKwCAMQz3F7n8Fb7gvQSRtTc2UgQUZSuNrTVefUqqz+vDyLE3TMXcgfYbNclt+/2W51p6tewc3y1zhojjR7+XaZ0iT4XqeR+FxUY4107OcL3rIcqP/ZQeXmS20j/xTcNl+V7hjL5lguIhjvbOKG+lHbsRWcWc0yB/WX8Xy6lXeF+VZfjFzPuudgpsJlV8nuDvm8ES9l/tv7gsZr9l3
+   eJzt010KgCAQBGBP0f2v4A17EkRmf2bd1MAFicLpc9PqU0pVRl/aPCnTcsw7UD5is26b319ZV7pn173CjZozLqod/V5XfoYyEVfbc6s0F82RzrTX+aKHqGv9Lytc5myhe2v/Mly23xl37CVSjIsc6TtnuVZ+dC07y/Vk0P6w+5sxTnOj6/HmtPPAemyhfKTPGffUsWu91/23+wLMgdyT
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -249,7 +249,7 @@
     <property name="place" value="east1"/>
    </properties>
   </object>
-  <object id="10" name="west2" type="mapchange" x="0" y="672" width="32" height="64">
+  <object id="10" name="west2" type="mapchange" x="0" y="704" width="32" height="64">
    <properties>
     <property name="map" value="wild22"/>
     <property name="place" value="east2"/>
@@ -285,15 +285,25 @@
     <property name="place" value="entrance8"/>
    </properties>
   </object>
+  <object id="32" name="stn_gyra_m14_9" type="script" x="224" y="544" width="32" height="64"/>
+  <object id="33" name="stn_gyra_m14_8" type="script" x="128" y="352" width="96" height="32"/>
+  <object id="34" name="stn_gyra_m14_7" type="script" x="64" y="704" width="32" height="32"/>
+  <object id="31" name="stn_gyra_m14_6" type="script" x="224" y="32" width="128" height="32"/>
+  <object id="29" name="stn_gyra_m14_5" type="script" x="480" y="704" width="96" height="32"/>
+  <object id="27" name="stn_gyra_m14_4" type="script" x="832" y="32" width="64" height="32"/>
+  <object id="25" name="stn_gyra_m14_3" type="script" x="704" y="32" width="96" height="32"/>
+  <object id="20" name="stn_gyra_m14_2" type="script" x="32" y="352" width="96" height="64"/>
+  <object id="21" name="stn_gyra_m14_1" type="script" x="448" y="288" width="96" height="32"/>
+  <object name="stn_gyra_40" type="script" x="256" y="576" width="96" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object id="14" name="erwyn_soldier" type="spawn" x="448" y="704" width="416" height="64"/>
-  <object id="15" name="erwyn_soldier" type="spawn" x="832" y="32" width="64" height="640">
+  <object id="15" name="erwyn_soldier2" type="spawn" x="832" y="32" width="64" height="640">
    <properties>
     <property name="quantity" type="int" value="2"/>
    </properties>
   </object>
-  <object id="16" name="erwyn_soldier" type="spawn" x="32" y="32" width="768" height="576">
+  <object id="16" name="erwyn_soldier3" type="spawn" x="32" y="32" width="768" height="576">
    <properties>
     <property name="quantity" type="int" value="4"/>
    </properties>
@@ -301,6 +311,56 @@
   <object id="17" name="erwyn_knight" type="spawn" x="352" y="288" width="320" height="288">
    <properties>
     <property name="quantity" type="int" value="2"/>
+   </properties>
+  </object>
+  <object name="stn_gyraA" type="spawn" x="256" y="544" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="35" name="stn_gyra9" type="spawn" x="160" y="544" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="36" name="stn_gyra8" type="spawn" x="128" y="352" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="37" name="stn_gyra7" type="spawn" x="32" y="704" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="30" name="stn_gyra6" type="spawn" x="256" y="32" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="28" name="stn_gyra5" type="spawn" x="480" y="704" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="26" name="stn_gyra4" type="spawn" x="832" y="32" width="64" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="24" name="stn_gyra3" type="spawn" x="704" y="32" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="22" name="stn_gyra2" type="spawn" x="32" y="352" width="64" height="64">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="23" name="stn_gyra1" type="spawn" x="448" y="288" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
    </properties>
   </object>
  </objectgroup>

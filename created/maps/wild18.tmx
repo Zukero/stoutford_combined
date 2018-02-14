@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" nextobjectid="20">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" nextobjectid="22">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -187,17 +187,17 @@
  </layer>
  <layer name="Objects" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJyVVUFKXEEQLRpUflDG/jGjA/EE5haSE4TsXAVdxsXgJgsVgmSb1eAy4AWyCwRXcSDRzBDJxigqSVwo4+AiBwikiu7Hr1/TPcEHRU337379qrq6ZtgiOmcbsvXZztRY/C2b4NAHr7/d14PrJnINMmsGytt5vV5D9PV8ek03+gv1XeZkbM9+XkZtUeNamdYD7n5iXseKNThf6+2P2WNzITiK+3/4+vjOj+6BPj3+xHZg8nbNez8rXfbeoB/ciMWOgbNWnivFbWOHlseOaHWuvmZcLaRiR15+sn/NXBtsb+ZGdSAvqbtouSqeR/H3CvulRaIni8Hn9Giuj02i3yVl0XSBv832oghzuXfwvaxqALhS3DNR39/J4C1mXH389KH6XYTz4duF2jdFVLjR81I4jfpe8vplV8W4UeT3ALJuna3jQt4E3yLfJs89i3zz7HeK+j7Ls9Ug2mbbMt8E4E5htaj8q9lgexNE0wtEbxvBLE7MuzxUd4S4bfzC964RTPCLdV4qrR9Y435CZ4pP3vID5nvfCKYBTnmvX5uBF9ZrVvep+U58mkND9yzBF1/nkVq7ULWC3OA/QDidq36jn6yZ+srlL4VeGbikBu3/BIBaAV+untGzO3G97l26N6MO4W99fT8g8bfVWale0XF1vm7i/kXv0I/O216BfJ4m1o4D7vrA9FQN1If0NdF4/Z8zwHnsq9x1VE3Je7Rvcjd+13nUd4X8a56BuUvoHPfeNboq1p1MXfxR8+CVHO/GvoVe/w9BIRLv
+   eJyVVc1KHEEQLhpimBDZ9GhWF+ITxLcIeYKQmyfRozksXjxEIYjXnBaPgbxAbkLIKS6ocZeEXPwhhmgOyrp48AECVtH9MTW13Zvkg6K6e7q//rq6umbYIvrBNmTrs52qvvhrNsGBD15/+18PrqvINcjMGShvx/V8DdHX8+k53ejP1HcZk77d+2UZtUWNy2VaD7j7iXF9VszB/lpvf8waGwvBl7j+2Nf7N350TSpun9l2Tdwuee2e0mXvDfrBhbPYPnDaynP9S25AyxNHtDQd2rkcGTeu4/KL/RvmWmXbmh7dH3FJ6Wm56jyPY3uB/dM5ovm54HN6NNfHJtFFSVk0XeBvsy0WYSz3Dr6XVQ4AvxX3ZNT3ZyJ4i0lX7z+fUu0i7A/fLtS6+0SFG90vhZOob4XnP3PVGVeL/BpA5r1i67gQN8HXyPeax15Evhn2m0V9neVZbxBtsK2bbwJwp7BUVH7tUbD394gezhK9bQSzODLv8kDdEc5tzy987xrBBOes86fSusMaPyV0pvjkLT9gvg+NYBrglPd62Ay8sF6zuk/Nd+TTHBq6Zgn2fZ1Hcu1M5Qpig3+AcDpXtVFPlk1+5eKXQq8MXJKD9j8BIFfAl8tn1OxOnK/roq7NyEP4a19fD8j522qvVK3ouDpfN3H/onfoR8dtrUA8TxJzxwF3vWtqqgbyQ+qaaLz8yx7g/Oar2HVUTsl7tG9yO37XcdR3hfhrnoG5S+gc9941uuqsm5m8uFXj4JUYb8e6hVp/B/zSFNc=
   </data>
  </layer>
  <layer name="Above" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJytlr0NwjAQhS06KpooUvaABSgYACEGYAZ6NqBDdIyABLSpYINQwTTYEidezIt9F3iSZdlxPj//3CXOffSsXFKPzPN/6ULmYX05vzIm+JaxddXuZ6qV/Zr5U2Lzo6+Tr8+KM4nXgmtEz9ieFs6NfZkVej+sLZp7zsKXZZHe25it0b1stzX7kmLfIh7zuxvovDFerMDaG3mrYXdBTXz7Wn7XFn+oVcULqnnzcv7uxvhgPi3nkOJtRv3Zcv8Cb0s48f3U+gr1gfAa4HXlIsYL7x0JD9UVF2s4N8t9yfkLXAtPkxMsPGTid6DvepGJvF/8odh+WnJHLi+K5M5aYjR1NlqPKYY1T4rYvwGTsK3ximL7lfL8AkkzYPM=
+   eJytlr0NwjAQhS06KpooUvaABSgYACEGYAZ6NqBDdIyABLSpYIOkghVYAlvixIs5n+8CT7IsO/Hn55+7xLmPHpUTdc88/5cuzDxcX84vvRN807t11e3nVCv7NfNLiud/Vl1fJ1+fFWcSrwXXiJ6xPS2cG/syK9J+aAz1x/5Qc89Z+LIs5L2N2Rq1Zbet2ReJfYt4nN/dQOeN48UKrL2RtxqmC2ri29fyu7b4Q60qvqCaNy/nrzXGB+fTcg4SbzPqz6b7F3hbhhPfT62vUB8YXgO8VC7ieGHckeGhUnGxhnOz3Jecv8C18DQ5wcJDJn4H+q4Xmcj7xR+K209L7sjlRRLdWUuMSmej9SgxrHmSxP0bcCK2NV5R3H5Jnl+OAmL7
   </data>
  </layer>
- <layer name="Walkable" width="20" height="30">
+ <layer name="Walkable" width="20" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzN08sNwCAMA1CmYP8V2JBrVCXEtY1apIgLeXxC1hxjNRFHt/Yry+FlpuLGfNVFhsNy1JS1HG9+w/pzIHVU/02sq8tj8m54Wc5zVs7SvZ9yN8arTKS+bq8yFS8zVa8y2f7IvFPfqT2XrXV7rInsiZhv7uD2TrEBvT4bBA==
+   eJzN09ENwCAIBFCncP8V3NBf0nBy5c60JqQ/8gSpa46xioir2vuV5fAyU3Fjvuoyy2E5Ztq1HHd+w/pzMHNU/5s4V5fXybvhZTnPr1JLdX9Kbx0Pmcx83R4yFS8z1fqQybyP0/nsu1PfHOqpWx/a26mROZMx3/Tg9k6xARynHVk=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -237,10 +237,14 @@
     <property name="place" value="exit"/>
    </properties>
   </object>
+  <object id="20" name="stn_gyra_m18_4" type="script" x="192" y="448" width="96" height="32"/>
+  <object id="25" name="stn_gyra_m18_3" type="script" x="576" y="832" width="32" height="96"/>
+  <object id="20" name="stn_gyra_m18_2" type="script" x="32" y="512" width="32" height="128"/>
+  <object id="21" name="stn_gyra_m18_1" type="script" x="64" y="896" width="160" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object id="1" name="stoutford_guard1" type="spawn" x="288" y="480" width="64" height="32"/>
-  <object id="2" name="stoutford_guard1" type="spawn" x="160" y="448" width="128" height="64"/>
+  <object id="2" name="stoutford_guard1" type="spawn" x="192" y="444" width="80" height="40"/>
   <object id="3" name="stoutford_guard1" type="spawn" x="32" y="512" width="192" height="224"/>
   <object id="4" name="stoutford_guard1" type="spawn" x="384" y="384" width="64" height="32"/>
   <object id="5" name="forestboar2" type="spawn" x="160" y="32" width="384" height="192">
@@ -254,6 +258,26 @@
    </properties>
   </object>
   <object id="18" name="erwyn_soldier" type="spawn" x="288" y="608" width="288" height="320"/>
+  <object id="21" name="stn_gyra4" type="spawn" x="192" y="448" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="24" name="stn_gyra3" type="spawn" x="576" y="864" width="32" height="64">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="22" name="stn_gyra2" type="spawn" x="32" y="512" width="32" height="96">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="23" name="stn_gyra1" type="spawn" x="96" y="896" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>

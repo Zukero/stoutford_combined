@@ -206,7 +206,7 @@
  <objectgroup name="Mapevents">
   <object id="1" name="north" type="mapchange" x="416" y="0" width="64" height="32">
    <properties>
-    <property name="map" value="wild17"/>
+    <property name="map" value="wild21"/>
     <property name="place" value="south"/>
    </properties>
   </object>

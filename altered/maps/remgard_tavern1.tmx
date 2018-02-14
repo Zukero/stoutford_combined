@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="9" height="8" tilewidth="32" tileheight="32" nextobjectid="6">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" nextobjectid="14">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,42 +180,95 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="9" height="8">
+ <layer name="Ground" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJz7zcnA8JsIHCyNG8PUJEnjxjA1X/FgYtWA7EQX5+ZCsIOhduIzByT/lBMTf0XjAwC7ojzV
+   eJzbLMbAsBkPFuKiHOMzH2bHJinyMbF2HJIiHxNrxwZu8jE5dsD4xNo9agfudDpc7KAWBtlBSh4kJx+D7CAlD5KTj0nNg5TkY/Twwxb3hOwgFCfI4YwcR6TagS9OkMMZOY5gZnKLEWcHvjjBpRfdH5vwxCE+OXzyyOKbCKQTQmkIlzyyOIj9kJP2GAA+lzmi
   </data>
  </layer>
- <layer name="Objects" width="9" height="8">
+ <layer name="Objects" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYCAOXOUDEvwMDPlMDAySQPycDyIuyoRQwwPEvED8gZWBYTcrQnwzElsGiGVBDDYGhtNA8YtiEPHDSGqQgSlUDSuQZkNSY8HCwGDOgqpWFCgvhqSmjQWiDgSqcZhPCAAAMpMK9w==
+   eJxjYBgc4CofA4OoAIT+KwOhYeIwvjw/dnliARMSm1cWVQ7G1+dH8DexMjDcAuLbrMTbIUS8UoaHQHMPAfErIH5Ngh1KOMQ9WRgYCsUYGIrFIGxKgAcO/SBzJwLNn4xkx2IktYtJsHcb0M83cPgbZDalfgCBY0DzXwDxRTHCaoVwsKkJQHFXzYpgEwtA4QqKE1AeoTeYzcbAMAeI57IRVssPzaN/ZBBif2QI59PVQLPXAPFaIuwAAVC64ZFFpB8eWfzqSQXqDJB0g0xTG5jjoIkB/0ko9/ABBX7ccsjlJSicf+LIq+o4aJgZBvwIM9DzO3I+A4UzJ474xxdWMDNAeeQFlvyOK5+FsEIwDID0Y8P4zHBGKgONgfgVOwPDGyA+AY2fFFYIphcAAOjLPwE=
   </data>
  </layer>
- <layer name="Above" width="9" height="8">
+ <layer name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYCAOHBYbeDVi/KSZc4kINYQAADkOBUs=
+   eJxjYBgc4LDY4LLjIivt7SAX4LNjBz8Dw0l+6tsB41PTf6TYwYSDTa4d1ASk2EGu/Zfo4A90QI4dpOqhhx3oYUcLO8gBlNiBK69QIy2im00o7ZFjxyUC5Qk18xS6/A4+7OL40gmhNIRLnpy0RwkAAKf6KrY=
   </data>
  </layer>
- <layer name="Walkable" width="9" height="8">
+ <layer name="Walkable" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEAMQxgE4OJo8ujq8FmBjbzCanFZhcABFcqwg==
+   eJzbKMbAsHEUUxUTC6hhB4yNTONzAzl+IGQHOpscv6DT1A47bO4nFK6UhhUx7iHHD+Tqp8S+oW4HsYBQmJOiHxsflxpi0w6pdhDrT0rsoNQfuMwj1g5i9BPrd1LTEa3TLqkYANlsKck=
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object id="5" name="exit" type="mapchange" x="160" y="224" width="32" height="32">
+  <object id="1" name="down" type="mapchange" x="736" y="480" width="32" height="32">
    <properties>
-    <property name="map" value="waytogalmore1"/>
-    <property name="place" value="entrance5"/>
+    <property name="map" value="remgard_tavern0"/>
+    <property name="place" value="up"/>
    </properties>
   </object>
-  <object id="6" name="stn_gyra_m25_1" type="script" x="160" y="160" width="32" height="32"/>
- </objectgroup>
- <objectgroup name="Spawn">
-  <object id="7" name="stn_gyra1" type="spawn" x="160" y="192" width="64" height="32">
+  <object id="2" name="jhaeld_bed" type="sign" x="704" y="256" width="32" height="32"/>
+  <object id="3" name="rest1" type="rest" x="256" y="544" width="32" height="32"/>
+  <object id="12" name="base_beamto_stoutford" type="mapchange" x="96" y="416" width="32" height="32">
    <properties>
-    <property name="active" value="false"/>
+    <property name="map" value="stoutford_castle_barrack2"/>
+    <property name="place" value="up"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys"/>
- <objectgroup name="Replace"/>
+ <objectgroup name="Spawn" visible="0">
+  <object id="4" name="jhaeld" type="spawn" x="480" y="128" width="256" height="96">
+   <properties>
+    <property name="spawngroup" value="jhaeld"/>
+   </properties>
+  </object>
+  <object id="5" name="remgard_guard" type="spawn" x="608" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="remgard_guard"/>
+   </properties>
+  </object>
+  <object id="6" name="maelf" type="spawn" x="64" y="448" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="maelf"/>
+   </properties>
+  </object>
+  <object id="7" name="remgard_guard2" type="spawn" x="64" y="544" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="remgard_guard2"/>
+   </properties>
+  </object>
+  <object id="8" name="morgisia" type="spawn" x="544" y="512" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="morgisia"/>
+   </properties>
+  </object>
+  <object id="9" name="remgard_guard2_1" type="spawn" x="128" y="544" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="remgard_guard2"/>
+   </properties>
+  </object>
+  <object id="10" name="kaverin" type="spawn" x="320" y="96" width="64" height="96">
+   <properties>
+    <property name="spawngroup" value="kaverin"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object id="11" name="nondisplay:21" type="key" x="448" y="480" width="32" height="32">
+   <properties>
+    <property name="phrase" value="remgard_tavern_room"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="21"/>
+   </properties>
+  </object>
+  <object id="13" name="base_nondisplay:1" type="key" x="96" y="416" width="32" height="32">
+   <properties>
+    <property name="phrase" value="base_beamto_10"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

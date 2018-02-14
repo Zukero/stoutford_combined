@@ -207,11 +207,19 @@
     <property name="place" value="up"/>
    </properties>
   </object>
+  <object id="12" name="stn_gyra_m13_1" type="script" x="96" y="96" width="32" height="96"/>
+  <object id="6" name="stn_gyra_hlm1a" type="script" x="192" y="128" width="96" height="64"/>
+  <object id="7" name="stn_gyra_hlm1b" type="script" x="448" y="384" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object id="2" name="erwyn_servant" type="spawn" x="32" y="96" width="448" height="352">
    <properties>
     <property name="quantity" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="3" name="stn_gyra1" type="spawn" x="32" y="96" width="64" height="32">
+   <properties>
+    <property name="active" value="false"/>
    </properties>
   </object>
  </objectgroup>

@@ -284,6 +284,12 @@
     <property name="quantity" type="int" value="3"/>
    </properties>
   </object>
+  <object name="stn_lizard" type="spawn" x="96" y="96" width="768" height="256">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" type="int" value="5"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
 </map>

@@ -213,8 +213,17 @@
     <property name="place" value="entrance7"/>
    </properties>
   </object>
+  <object id="4" name="stn_gyra_m17_1" type="script" x="64" y="160" width="96" height="32"/>
+  <object id="7" name="stn_gyra_hlm3a" type="script" x="32" y="128" width="128" height="32"/>
+  <object id="8" name="stn_gyra_hlm3b" type="script" x="128" y="96" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object id="6" name="stn_gyra1" type="spawn" x="64" y="160" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

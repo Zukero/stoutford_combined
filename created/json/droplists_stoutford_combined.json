@@ -758,10 +758,30 @@
         ]
     },
     {
-        "id":"shop_stoutford_alchemist"
+        "id":"shop_stoutford_alchemist",
+        "items":[
+            {
+                "itemID":"bread",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     },
     {
-        "id":"shop_stoutford_smith"
+        "id":"shop_stoutford_smith",
+        "items":[
+            {
+                "itemID":"bread",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     },
     {
         "id":"shop_kayla",
@@ -812,58 +832,148 @@
         "id":"shop_stoutford_armorer",
         "items":[
             {
-                "itemID":"hboot_irn"
+                "itemID":"hboot_irn",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"gloves_grip"
+                "itemID":"gloves_grip",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"ltbdy_chmail"
+                "itemID":"ltbdy_chmail",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"shield_wooden"
+                "itemID":"shield_wooden",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"shield5"
+                "itemID":"shield5",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"armour_crude_leather"
+                "itemID":"armour_crude_leather",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"shield4"
+                "itemID":"shield4",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"armour_cvest1"
+                "itemID":"armour_cvest1",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"boots2"
+                "itemID":"boots2",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"boots_defender"
+                "itemID":"boots_defender",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"hglv_plat1"
+                "itemID":"hglv_plat1",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"gloves_attack1"
+                "itemID":"gloves_attack1",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"shield7"
+                "itemID":"shield7",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"boots_combat1"
+                "itemID":"boots_combat1",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"gloves2"
+                "itemID":"gloves2",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"gloves_barbrawler"
+                "itemID":"gloves_barbrawler",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"hglv_stl"
+                "itemID":"hglv_stl",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             },
             {
-                "itemID":"hboot_wirn"
+                "itemID":"hboot_wirn",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
             }
         ]
     }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="7" height="7" tilewidth="32" tileheight="32" nextobjectid="3">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="7" height="7" tilewidth="32" tileheight="32" nextobjectid="5">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -207,6 +207,8 @@
     <property name="place" value="entrance"/>
    </properties>
   </object>
+  <object id="4" name="stn_gyra_m26_2" type="script" x="64" y="160" width="96" height="32"/>
+  <object id="3" name="stn_gyra_m26_1" type="script" x="32" y="96" width="64" height="32"/>
   <object id="2" name="up" type="mapchange" x="32" y="64" width="32" height="32">
    <properties>
     <property name="map" value="stoutford_tower4"/>
@@ -214,7 +216,18 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object id="5" name="stn_gyra2" type="spawn" x="64" y="160" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="6" name="stn_gyra1" type="spawn" x="32" y="96" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

@@ -185,12 +185,12 @@
  </tileset>
  <layer name="Ground" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt1DEOgCAMQFHi5v3vgTEeQNxc1StwENukQ22wCmnC0uENpPhlIKQhhAROstJa2kAEE9uLDrGW3uaRYDczcn/+mPPzYusC8/jEv5czOef9UquF9m+nW0jvczjn6u3EslVi2apt/mlZ9mrfQ63T8rZatrRm77tr4QajIr7V
+   eJzt1DEOgCAMQFHi5v3vgTEeQNxcwStwEEvSoTbQCGnC0uENpvbLYAiLcwEkdOIzdwEPNvJuEdleasw5j0o3E5Ht5ca8dt7SesC+ftF9PuNz2q+1RkjfNrIDzT6HMabfjTRbNZqt3uaflmav9z6UOiN3q2ZLas7+dzW8Shu+rw==
   </data>
  </layer>
  <layer name="Objects" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJyNVbFuE0EQXVlCCERQ7iQusaBBUAX+IjUVdT4BIQFNaNLkTyjpUQoah+IMvgqETeKTUkSxsN2kQhBiiRndPO278dpipNHezr59MzszuxdCCOedsCQvzHaP1g7zNia7Gb93HUfh5s9kfotsF/T9sdv4e0h8z2WeJ+KC7Mla19ZrF1fVbcbPRQjvBXMi81OzjbK4Psia9ZS87LTjvBTsWPbNRKc2Vub3q439rFmbd6MN/AedyDUhHPapKP+Y7EOzM3aUsEGwd0D8c8fJ2JnZSuJU2yXtB+7Mzj91OcCZ9Xsi+f5pOi3a/mrCDen7Q9HoCeGHZjsS/WGxHa3BsbIgVypa81+y/tv0j8OiBrwHMsniGUq3PqT5wtYrl2uWdzeWbb4+lfOB3Ptaag7Hhp1lbS7Gafx9V1OuLew1YQYr8OCs1vgraS/3CvDsE/Nyjb8z8rUh9+qu6Dnx9kSPab6/2eB19HfW+03lozZ/e3m7xsB9Qw6oDojTc721WPqupj6ega3jLODh2NF7XxI9+lr8bObN6PPHI2q3MA7EpzKyPuH+8/fd1wj3paIz47wa59VWCH+3Yq56WcyF5rV2OeO+4lrofuV6uh3CjugTUuVf1Tup96/MIpfKd6vzIxt31nB6/oXjeuz+RXgTrwXzKl/u/1T/3dleri945voGag6L9j8A+fd10nyDbzePXODR9/WU3kMfy7HjV9tt4XtAMZbGpcJcvndS75jatA+U875TvNNcv08r+nrVO/Umb/qt5/6b/8OR6nf0LXLic+bHf69ge5M=
+   eJyNVbFOG0EQXVlCiAgi7qQctpImgorwF9SpqPkEhAQ0pKHhTyjpIwoaQ3EOvgoUG+yTXFhY2G6oooRgiRndjPbdeG0x0mh3Z9++mZ2Z23POuX7FTcme2D7B3mlcxkSLfr5tOBKz/k7rJbA9wvyyVvj7KnwxzXcCMaHs0n5NMLmJK6sV46/EuXPCPNC6I7Z25PebUbEfkv1KOc5nwnbp3Ih0KGMmfm9lbETF3rjmbcp/UvFcA8DpORbm74K9JXbEtgM2FT3bBP6x4UTsSGwpcLLtGc4rrif3H5oc6J15PqB8P4kOk7K/HHAtmP9MCn0AfEtsF6T3EtvFHBwqiuaKhWv+h/b/iv4zWK0BnlEZRP4OqdlvwXoi+5nJNcrZwrTN1iczPjT3tpacw65gR1GZC3Ecf8PUFGur9hwwzRl45czm+EvhLPaK4tGnrtM5/nrga4W+q4+kfeCtk17B+ni1wPNov1nrN5SPXPztxuUaK+5OcwB10Dgt1w+JpWFqauNpyr7eRXkwdu29m0CPHpKf1bgYbf5w1NpNhEPjY2lLn2D/2e/d1ki/lwzurPflOF/WnPu/5nNVj3wuOK+5yRn2FdaCzzPXVtW5TdJvoMw/q3dC718aeS6W31LndRk353Ba/onh2jD/In0TXwlzEE/3f6j/lqvT9VWeMb+BnMOk/A/Q/Ns6cb6Vbzv2XMrD72sH3kMby5XhZ9sH4vsCMabCxYJctndC7xjbuA+Y87NRfaexftcz+nrWO3UUF/1WN//N93CE+l37VnNic2bHN7AAe5M=
   </data>
  </layer>
  <layer name="Above" width="20" height="30">
@@ -250,7 +250,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="4" name="forestboar2" type="spawn" x="384" y="224" width="192" height="128">
    <properties>
     <property name="quantity" value="1"/>

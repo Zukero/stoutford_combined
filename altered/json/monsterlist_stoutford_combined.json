@@ -1,32 +1,5 @@
 [
     {
-        "id":"stoutford_cook",
-        "name":"Cadoren",
-        "iconID":"monsters_rltiles2:81",
-        "monsterClass":"humanoid",
-        "spawnGroup":"stoutford_cook",
-        "phraseID":"cadoren_0",
-        "droplistID":"shop_cadoren"
-    },
-    {
-        "id":"stoutford_thief",
-        "name":"Quiet Thief",
-        "iconID":"monsters_rogue1:0",
-        "monsterClass":"humanoid",
-        "spawnGroup":"stoutford_thief",
-        "phraseID":"stoutford_thief_0",
-        "droplistID":"stoutfordthief"
-    },
-    {
-        "id":"stoutford_smith",
-        "name":"Cornith",
-        "iconID":"monsters_ld1:29",
-        "monsterClass":"humanoid",
-        "spawnGroup":"stoutford_smith",
-        "phraseID":"cornith_0",
-        "droplistID":"shop_cornith"
-    },
-    {
         "id":"jelly4",
         "name":"Ochre Jelly",
         "iconID":"monsters_tometik2:0",
@@ -53,24 +26,5 @@
                 }
             ]
         }
-    },
-    {
-        "id":"stoutford_widow",
-        "name":"Aryfora",
-        "iconID":"monsters_karvis2:0",
-        "monsterClass":"humanoid",
-        "spawnGroup":"stoutford_widow",
-        "phraseID":"stoutford_widow_select_0",
-        "droplistID":"stoutford_widow"
-    },
-    {
-        "id":"stoutford_alchemist",
-        "name":"Blornvale",
-        "iconID":"monsters_rltiles1:70",
-        "unique":1,
-        "monsterClass":"humanoid",
-        "spawnGroup":"stoutford_alchemist",
-        "phraseID":"blornvale_select_0",
-        "droplistID":"stoutford_alchemist"
     }
 ]

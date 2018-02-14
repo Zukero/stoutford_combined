@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="11">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="20">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,17 +190,17 @@
  </layer>
  <layer name="Objects" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJyVlM1Kw0AQx4dCaw/aZoNNiejVq/gAii+g9OpBEDx59030DdQnKGjBXvygHxp6rG0pQg+WJgXpG+iMO2sm6VccGDa7yf52/v/drO8CBJi/YQMMMBsKwOdx01bd2eO+mO+L1ox5Ys5QPHuxuc+i/8ljr/j9GtaTs2Fp7GUB9hfkUVbz5foUj9g+mVrF+y6u3eR6x5g9V9d4mQG4wixltV/kiQnSZ7hmvIdtTXxD4aQAdtYBXGyvkXXDPFrrzlmeD5h1pTnxOLMAXpTmUQ1x/cEMrfcOjxXQb2R+YD0r2FY3NS9gHnmVtnVSn95RkBYTu5bmNfHbVWQUMb8yulYPeXn2jOb3VZSXF/tstB2nASrI67D2LuaE/ZS+Gv8M7xT7F1aogzRRPefpUK/RH+TwGXOE2c5pb4j3rvT/QDxas+aEOkjTFj7fMu8wwfnzhN4D7DdxXltoIl+oJR6t31NRf91UVO9Y8E4WrGt45KVhxM8Ova8L3rwsCR55WS5ofx0+N4ZL7z2xH4MEvKEK/XX53BQFr7Ggvo6K8mj/zf9g2VrbRNw/9N13Qr2VOf/hG5+jFvMokvo3UuEdMVTR89jl/6PsTuujbKtpXpL7b3vjf/v7Vw/ffy2+O6pC7w/gqrza
+   eJyVlM1Kw0AQx4dCaw+adoNNWdGrV/EBFF9A6dWDIHjyefQN1CcoaMFe/KAfGjzWthShB0uTgvQNdMadNZN+xoFhk83ub+f/380GGiDE/A0XoI/ZUAAB99u2qmf3B2J+IFrb54s5A/HsT8x9Eu+f3PeC49ewHseFpbGXBdhfkEdZw5frUzxg+2hrFd87uHaT6x1hdrWp8SIDcIlZyhq/yBMbpM9ybX8X25oYQ+GlAHbWATS2V8i6Zh6tdestz3vMujKcyTjLAzwrw6MapH6KcIbWO4/7Cug3Mj+wnhVsq5uGFzKPvEq7JumdvlGQFhu7ecNr4thVZBQxvzKmVh95OfaM5vdUnJcT+yy1VZDXZu0dzDH7KX21/lneKeu1OkgT1XOejvRa/aGDz5hDzJZjvCHeuzL/A/FozZoX6SBNW/h8w7zDBOfPF3oP8L2J81pCE/lCLfFo/a6K+6tTcb0jwTtZsK7lHacjxuTZoe91wZuXJcEjL8sF46/H58Zy6bsv9qOfgDdQkb+az01R8BoL6murOM/uP53RvGu0jcX9Q+O+E+qtzPkPX724fxRJ/Ruq6I4YqPh57PD/UdbT+ihbapqX5P7b3vjf/v7Vw/ffG98dVR3p/QGMHboP
   </data>
  </layer>
  <layer name="Above" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguCnJwHALiGEAmY+LvVkSUx+1wU0kO/ZA7dkIpDdB2XuwuAHdjc1sDAwtbLjt2EOB+2+SoPchO3bxRzjEYebfwuFXRg7sepiQxDeS4L6dONQeFsOtB5ufQP65iEfPJSQ59PDD5idk/+BKb6TEIcg/+NxHKoD5xwFHfMBAAAF5bABXmgEBfOkGF8CVZkAAFM6U5AV0gC/dkAJgcX4Ji3kZAuSZuY9K/qR1+UcqQHcPsj/JSX/EAAA/ODgS
+   eJxjYGBguCnJwHALiGEAmY+LvVkSUx+1wU0kO/ZA7dkIpDdB2XuwuAHdjc1sDAwtbLjt2EOB+2+SoPchO3bxRzjEYebfwuFXRg7sepiQxDeiue8lHvfuxCF3WAy3Hmx+AvnnIh49l5Dk0MMPm58iWVHVY0tvuOKwRABTDOQffO4jFcD844AjPmAggIA8NoArzYAAvnSDC+BKMyAASjeU5AV0gC/dkAJgcX4Ji3kZWOKXGLCPSv6Eue0cDctAYgEo/aHnD2R/kpP+iAEAkUU7Gw==
   </data>
  </layer>
- <layer name="Walkable" width="20" height="20">
+ <layer name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNklsKACAIBDtF97+CN6zPkB7jWpDgR6Dj6ma1FOvpw6qWY69nKVwaN7SqDK8jozESZK/ITMVTMn/3pjx6iwhP9Tfzd0YO2Sfrnapvp+sVz3Nnc2a9hLe6E9V3qrnB+80Pkg2fgbkD
+   eJzNkskNACAIBK3C/lugQ30agjqwMZGEBx4DC1hvzaZ7s17z9a9nqdyTKUyltqgOpcaMkRnQc8ojWvz9KSa5M71Y46re23wjDdWdu+nJ8LL7UOn3S57nRnmiv4S36xOtj7xTeb/Ng/gAsRC2rg==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -248,7 +248,7 @@
   </object>
   <object id="10" name="north" type="mapchange" x="64" y="0" width="128" height="32">
    <properties>
-    <property name="map" value="wild18"/>
+    <property name="map" value="wild19"/>
     <property name="place" value="south"/>
    </properties>
   </object>
@@ -256,6 +256,42 @@
  <objectgroup name="Spawn">
   <object id="8" name="stoutford_farmer_jen" type="spawn" x="64" y="416" width="160" height="160"/>
   <object id="9" name="stoutford_commoner2" type="spawn" x="64" y="64" width="256" height="128"/>
+  <object id="19" name="stn_boralla" type="spawn" x="224" y="256" width="160" height="320"/>
+  <object id="13" name="stn_boralla1" type="spawn" x="256" y="64" width="64" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="12" name="stn_boralla2" type="spawn" x="256" y="256" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="11" name="stn_boralla3" type="spawn" x="544" y="512" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="14" name="stn_boralla4" type="spawn" x="128" y="96" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="15" name="stn_boralla5" type="spawn" x="320" y="192" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="16" name="stn_boralla6" type="spawn" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="18" name="stn_boralla7" type="spawn" x="96" y="288" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
 </map>
