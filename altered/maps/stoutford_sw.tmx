@@ -195,7 +195,7 @@
  </layer>
  <layer name="Above" width="24" height="18">
   <data encoding="base64" compression="zlib">
-   eJzFlDEOwjAMRd0slAtUisQN4QZwDcQ5gLXqwspEJ9jgJDSkX/q1nLRCRXypirGdZydyEBG5VPIR1rsXeXRf44e/rVjQmWzORQ7zEcd67L4T7WcGs+rMHvAPzuZYqo2zNd6urdm6TkroUzN5ZX1TY4qY1VZD+7mI9pJyXr0PMS3Euf9WzRDsohTxxA62K6NdlDbfGX7m4jzBF2Yv9F6vom/thrmsDe3L8XEe1Ak9X3v+trNvCf6uz7fi2pfqcS6l+Hqum8T7sN7lGL/NnMn6X9Dzz7Lm/1d3hlpzvjmt3N3MoX/Nk9Z+wh1arNSbGmO/AVynXEg=
+   eJy1lEEOgjAQRYduxAuQNPGGegO9hvEc6pawcetKVrrTk0gtP/lMpoAiPyEdZqZvOqVFRORSyEcY717k0TyV775bsaAz2ZyLHOYjjvHYPCeazwxmlT1zwD84m2OpNHqrvF1bs3WdlLBOzeSR9UuNMWJWXXTt5yLaS8p5tT7EtBDn9dfqDMHOchFP7GC7PNpZbvOd4Wcu+gm+cPbC2stV9K1dN5e1oXl9fPSDOmHN15a/bexbgr9r86249qFenWBNVWoP9LmuEvfDupdD/L5erP+CPv8s6/ynepoq1PrnndOa6ztDc+3Nt/z9iD20WKk7NcR+A1H+XTE=
   </data>
  </layer>
  <layer name="Walkable" width="24" height="18">
@@ -203,7 +203,7 @@
    eJy1k8ENwCAMA5mi+6/AhlV/PBL7nLaW+CBysQPsa60N1yN6drL+5J+a1FF22kPVOL3NQfrSu1KsL/nnvmK4+VQsyuxm6fgqd6UqNxV9p4TTeVEzd56dp9R/+jdJLX1nLmvSS/V2OZTHZD4dc5KLnlVcxb8BBqfHyA==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="736" y="320" width="32" height="32">
    <properties>
     <property name="map" value="stoutford_se"/>
@@ -229,7 +229,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="5" name="venomfang_1" type="spawn" x="0" y="320" width="320" height="224">
    <properties>
     <property name="quantity" value="3"/>

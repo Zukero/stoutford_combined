@@ -198,12 +198,12 @@
    eJy9VdsRwCAIcw33H6G/LmKn6fHhHZfylNN8VkkggG2thre3NnuR5CIo15XzeyDvDCfmoPkY4eSxdH8IvKNY7+x/nYyP/G51Zk7P3C6/5Af3HXuQnUd+n8D9zM6zVCPyZHp7A6f2VtORdtTTx55o3mh76cUtDJgBTd+qh3NIu23lnTl7NriqqL53hMh7t755epFaUU/SQWi9inprzfPO245AX7x/gOWBFWfF4Lm1Y5n8PHxQ0Wqs
   </data>
  </layer>
- <layer name="Walkable" width="20" height="30" visible="0">
+ <layer name="Walkable" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1lNERwCAMQp2i+6/ghv33kvDANnd+NSEg2P2stYvTVdXbzSksgjnNOJg35dwH4aZ2pdzPfscrwoNgJHxTzeedp1gqv903hdlxdcrhRbU7GXH0q9nE2y/fccVbaXN3Kq86zyY8lfFq18Qh5Ueykf4zXH5TtmmPqr/yR94W2edi0exTb7+c67RR3QTrJn+EQ3Ve3OvSqg==
+   eJy1lMENwDAIAzNF918hG/YfgX0mLVJehcMEp/tZaxeniyq3q3MswlQ1CfMmkvsg2lyvqfYzP9kV0UEYE73Tmc87n7Kcf7tvjtlpTUL1Jvt22sh+6fwTjpv7y3dc6XazpT2dh7qdKZ7zeNVLaZjqU1ocz/0zUn3K2zTHxV/+c1zaL2VR79PdflnXzUbnJqwb/xEN1XkB6vzQVQ==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="north" type="mapchange" x="192" y="0" width="192" height="32">
    <properties>
     <property name="map" value="blackwater_mountain1"/>
@@ -265,7 +265,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="4" name="forestboar4" type="spawn" x="352" y="384" width="224" height="192">
    <properties>
     <property name="quantity" value="2"/>

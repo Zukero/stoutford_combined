@@ -187,20 +187,20 @@
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJylV7FuE0EQvSKR0nHn4iT/CXR0QOsOKpSIEppIiJqChv+hIgVEwjY5KQpFDNjCVMFnSxQUkenYsfex78azewd50mh967t582Z35vam/SxbOZveYFw6q9W8oPb/Vf3wG+NNOcFh+b4qmvyCoZ9Lxa91WLqm5HPsfTLAc1lm2RuyVPzvnL1X8+JH6xLMDf9fymYMK4pL+4jpYQ5gUTQ1MX7Q3Kde8z+JcUnP3j0IsegcAk+cjyunY9HB6jLkXueU8/H4YDcPyDljqPLHGLu4Pnp9o9LWUZM/ve56bZBL0bpy9mLf5qu8Me+yaNbU5n7vb0F5hn8rdyuK52GeZY9yH5fjGvXCuOHzuQaqImhnIM+y7sjlZ2PPxADOivYRuGUvj6meN3H4sVEvkTW8KLexvHXjiWHf1HNy74jmaqVD102KN8Ypdu5srub09Umkbwx9ni+NHF8k9jIwo3tEL1+39fn/1Sv2XT0L3rZei1qJ8XbVO3JaT/vba90PrP6e6guCmF6so17j85b1FYz92lrvFgHXleb/SfHymmI/o2efFXYvbtPbBeCdUB1xbgXcQ6rEnhLI+k4S9au1f3Xj73JXn/AMet16xqv93bm/73VjXcAJ6Pe43lvX7t6p70vi76nje+bsubNBHkxD91Tk9+yWXTs8/vK9FdwC8AoO82DHebOujvJmXOB9nQe9sfrlUbjXxA/fR4bmgZ/nuIT35V6W3dsLnLedrju9dN9Cz9T8x+QbOPS8+I08Cyf0yV667zgf9P7tvMq5nxRh76zVPOawp3R/6np+tXK/Vr6vjTmgTY/0Unk/SnzzIn4fNAAfyu1ZYlG075mUz5lRW8nzOvKZ+BZo+7aJfeucGs9LfBXV7DCi1/I5UzGi/3Q9zwN8TtdcM/KJZ/8Apno8Lg==
+   eJylVz1vE0EQvSKR0nF3xUn+J9DRAa07qFAiSmgiIWoKGn4OEhUpIBK2yUlRKGLAFqYK/pBSUESmY8fZx74bz+4d5EmjPa/v5s2b3Znbm/SybOVscoNx6Wyh5gUL/1/dC9cYb8oJDsv3RdHkFwz8XCp+rcPSNSGfI++TAZ7zKsvekqXif+/sg5oXP1qXYGb4/1o1Y1hRXNpHTA9zAPOiqYnxk+Y+l83/JMYlPXt3L8Sicwg8cT4unI55B1tUIfc6p5yPx3vbeUDOGQOVP8bIxfXJ6xtWto4F+dPrrtcGuRStK2cvdm2+2hvzLotmTW3u9/7mlGf4t3K3onge5ln2KPdxOa5hGcYNn881UBdBOwN5lnVHLr8YeyYGcNa0j8Ate3lE9byJw4+Neoms4Vl1Hcs7Nx4Z9l09J/cOaW6hdOi6SfHGOMVOnc3UnP59FOkbA5/ncyPHZ4m9DEzpHtHLv9v6/P/qFftBz77pBd62XotaifF21Tt0Wo89r+4HVn9P9QVBTC/WUa/xacv6CkZ+ba13i4DrSvNfUry8ptjP6Nknhd2L2/R2AXjHVEecWwH3kDqxpwSyvuNE/Wrt39z4u9rWJzz9slvPeLW7Pff3vW6sCzgB/R7Xe+vK3TvxfUn8PXV8z5w9d9bPg2nonor8ntyya4fHX763glsAXsF+Huwwb9bVQd6MC7yv86A3Vr88Cvea+OH7wNDc9/Mcl/C+3MmyezuB87bTdadM9y30TM1/SL6Bfc+La+RZOKFP9tJ9x/mg/LfzKud+XIS9s1bzmMOe0v2p6/nVyv1a+b4y5oA2PdJL5f0o8c2K+H3QAHysrs8S86J9z6R8To3aSp7Xkc/Et0Dbt03sW+fYeF7iq6lmBxG9ls+pihH9p+t5HuBzuuaakk88+wez2zz6
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzVljsOwjAMhr10Lx2QegkWWOAGMLLDHaEDD3EEFsaycBVSCYvExCaldkV/KaoSRflsy64NoKNLGe7v3r4uw72WNN9s7N+5tTewk1NjP8amLsPzocn3I9V+mjOSTgXAufhkamqeAyxynhdTGx84LR1z9eIeHPNYvL+cLGoqxnyM+Pvou1V9S+q7XmiNWkuKqZW/ffpXebmD0qilIcs6j2O9BsXFfpoBzLJuTI7zb/+MjfNz69ZtrMdIqSnkWiq1N0+YnsPFpE39Smzu/eZ8nceZyLsmxJjzX+LSWCCv7Zzj2/CLvuVQReIhsbk7dH5LyVs640v3tGcEzsYqkaHZ6zhbuvrbZcahcYjVaezNJw5kaN0=
+   eJzVlj0OwjAMhb10Lx2QegkWWOAGMLLDHaEDP+IILIxl4SqkEhGt8QsptSv6pKhKFOWzLbs2kY4ueXN/r+3LvLnXkuablf07t/YGdiJV9vvYlHnzfGiq+xFrP8+ZkE4Z0Tn7ZGpqnhItUsyT1MYHpKVjrl7cg2Mes/cXyaKmJOZjhO97363qO6S+64XXqLVCMbXyt0//JKZGLQ1Z1nks9RovFPtpQjRLujER59/+GRvn59at21iPEVNTnmup2N48AT0HxaRN/YbY6P3qfJ3KTM+7RsQY+R/i8lh4Xts5p27DL/qWQwWLR4iN7vD5LSZv+Ywfuqc9IyAbi0iGZq9DtnT1t8uMw+Mg1an05hMBA2gR
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdlFEOwCAIQz3F7n8Fb7ivJYaAtljcMhI/NMZXsNCv1vrP1hN2P56pGGjs6B/PWXZ1Xp6maK9geezozcgLDBv1UDZWb0d6VvmibPZvZtwd/yB1tBzkb9TB9GoFrzpfdj4ouAxTMYetbmU/Z/S8yUTmTAXPmxnquZr11Ek/z+4rmavezfTcrH/QfNB5av2CMlF2VBO2xqwGJHa5WbaCG9VSzVB47wT36/netopbiQ==
+   eJzVlFEOgDAIQ3cK73+F3dD4tyx0FFamkvjhNLzCCv1qrf/0eQKdj9/GULIjkcmN6q3iZuqyNKF3Bctio5zICxE266FseLmRHq9elu3dDdJncXf8w/Rx5jB3o47IrFbwquuN7gcFN8JU7OFZt3KeM3reZDJ7poJn7Qz1Xs166qSfV/8rmd7sZmZuNT9sPew+nf3CMlk26km0x1ENTOxys2wFF/VSzVB47wT36/XeE7BbiQ==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="4" name="east1" type="mapchange" x="928" y="32" width="32" height="96">
    <properties>
     <property name="map" value="wild17"/>
@@ -226,7 +226,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="1" name="stoutford_guard1" type="spawn" x="192" y="384" width="64" height="64"/>
   <object id="2" name="stoutford_guard1" type="spawn" x="352" y="224" width="64" height="64"/>
   <object id="3" name="stoutford_guard1" type="spawn" x="736" y="608" width="64" height="64"/>

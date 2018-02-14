@@ -192,15 +192,15 @@
  </layer>
  <layer name="Above" width="22" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYKA9OCwGoRWFGRjEmBDiyOxsKFtNmHjzYDQyEAeaY84PYYPoaiZMNcSYC2MrIbkHxnYHmpssAMGkmHtJDNPNJizEuw+XuchsmBtBtDIRYUnI3EtYwhgGLmORg+kVwxLu2OKLkP3IYptZiVePDWDzC0wvLKwcWDHlkAFIHXIYYwPcHPjdRKx7SdVLS3OrgOm0GohrkNKrBT8qjc0cfOkHJreYH7caZLXkpmdqAADUiyUm
+   eJxjYKA9OCwGoRWFGRjEmBDiyOxsKFtNmHjzYDQyEAeaY84PYYPoaiZMNcSYC2MrIbkHxnYHmpssAMGkmHtJDNPNJizEuw+XuchsmBtBtDIRYUnI3EtYwhgGLmORg+kVwxLu2OKLkP3IYptZiVcPAhvFUOMPm19gemFh5cCKKYcMiAlTbg78fiU2HEjVS0tzq4DptBqIa5DSqwU/Ko3NHHzpBya3mB+3GmS15KZnagAASUIluA==
   </data>
  </layer>
  <layer name="Walkable" width="22" height="15">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJECjAtQYiYhc6llBy47CbGpYS4hQCtziTEbl98JxRE5cTrUzCUXUMNcQn4l1xxiwpBccynJJ+g0ueai20GOPgBDQo17
+   eJzbKMbAsJECjAtQYiYhc6llBy47CbGpYS4hQE33kmo2LrMIxRE5cToUzSUHEJO2iTEDn9nkmkNMGJJrLiX5BJ0m11x0O8jRBwD0no/Q
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="exit" type="mapchange" x="256" y="448" width="32" height="32">
    <properties>
     <property name="map" value="waytogalmore1"/>
@@ -230,7 +230,7 @@
   <object id="12" name="stn_gyra_m12_2" type="script" x="384" y="384" width="96" height="32"/>
   <object id="8" name="stn_gyra_m12_1" type="script" x="480" y="288" width="96" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="5" name="erwyn_knight" type="spawn" x="32" y="96" width="448" height="352">
    <properties>
     <property name="quantity" type="int" value="3"/>

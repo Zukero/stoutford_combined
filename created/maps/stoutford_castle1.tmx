@@ -195,12 +195,12 @@
    eJxjYBg4cFgMwWZnwq0OlxyyfnLtRQdKwtjFc5DcANOvjEMtOfbiAjVY7IUBdST7kd19EU0dueGES/83VgaGS0D8FYi/A/FPVuL0YQOX8aiB6d8INP8Dmh2KaGEfhSRPjL341KDH7x+g2X+h5ouxMTCIs5FuJgxcIsJedACKT3U8aQ2kz4KfsN3IapDZ6PYGs0JwCBCbsaKKI7sD5Bdc+QUXQNePDLCZBUvL6Gma3gAAHnIkfg==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="11">
+ <layer name="Walkable" width="30" height="11" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEU0xXDAC42Mh+dhrHRzSPGPnIAOfqx2UtKuJBiBrIbqW0vofAjxhxq+BebPDXjlxQzyElf2NI5qWl4oDEA2NSpdw==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="up1" type="mapchange" x="448" y="192" width="32" height="32">
    <properties>
     <property name="map" value="stoutford_castle0"/>
@@ -217,7 +217,7 @@
   <object id="13" name="stn_gyra_m11_3" type="script" x="416" y="160" width="96" height="32"/>
   <object id="12" name="stn_gyra_m11_2" type="script" x="576" y="96" width="32" height="96"/>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="3" name="erwyn_knight" type="spawn" x="32" y="128" width="448" height="160"/>
   <object id="5" name="erwyn_servant" type="spawn" x="544" y="128" width="352" height="160">
    <properties>

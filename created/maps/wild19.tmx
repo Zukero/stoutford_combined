@@ -187,12 +187,12 @@
  </layer>
  <layer name="Objects" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJytU7FOxDAMjaoydADRICpVOj6EGd2AxMYIA0ICMXD3B/AD/AMbvwCIFenaQucDiU4M6HrlHw7nYiuOmxPLWbLi2M/PjpN0uVrKNFXqC+w57iewb8HucF/nNt7lDmcwRlrmpxjPLRBnhHPwdVkDcBfax4XqN6nFtqKfNsD5IXASw89csBk0ab9f4y+Zn/JaVp98PLfGPMk1w3Pwfo38YI1F6uayqm/vjgK4CdagvqvUzkT2TRyv7BxFYAYkDbvTktkLwd2xWOj++VkIuwlvYEv3uctAP3Ile5Y5bbP+3dQr7le+KX4Wknnm8xuVchTZdTdyvjzy90aGO/7+U8yL8KciT0oG8Wec2ZRxHA5sjORb+zlSholS50k4xvMI999K+DHoi/Z5nrTtOYn8eiNR+yByPBrtW8ypIP9N27daaOszc95jHDdoU+4xi/1q986J627b7vdjpc5iu5q5XW0odQn6AHoNvhHoOLb/W86WfBVy09u9j/vzJMzJwMeavh6z9eo65R36+wOaFNDc
+   eJytU7FOxDAMjaoydADRICpVOj6EGd2AxMYIA0ICMXD3B/AD/AMbvwCIFenaQucDiU4M6HrlHw7nYiuOmxPLWbKS2M/PjuN0uVrKNFXqC/ZzPE/g3MK+w3OdW3+XO5zBGGmZnXw8tkCcEc7B12UOwF1oHxfK36QW24p62gDnh8BJDL9zwXrQpP16jb1kdoprWX6y8dga4yTXDO/B6zXygzkWqevLqrq9NwrgJpiD6q5S2xNZN3G8snsUgR6QNOxNS7ZfCO6O+ULvz+9C2E2YgS3d5y4D9ciV9rPMaZv136Ze8b5ypvhdSOaZz29UylFk193I2fLIPxsZ7vjnT9Evwp+KOCkZ+J+xZ1PGcTiwPpJv7cdIGSZKnSdhH48j3H8r4cegL9rnedK25iTy841E7oPI8Wjc32JMBfFv2s5qoa3N9HmPcdzgnmKPme9Xuzknrrtte96PlTqL7Wr6drWh1CXoA+g12Eag49j+70b7va1xXirkptm9j/v9JMzJwMeauh6z9eo65R3q+wOAodHK
   </data>
  </layer>
  <layer name="Above" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguCXJwHATiHEBQvLYwB5JhF4YIGQHLnXo9t8i0i3EqkO3F+Z2XO4lJizQ3UuMWaS6FwQ2YwlncgE2M3DFBSn2wdSTkoZw2UGsGcS4j1izHrHjl39IQB4dMHHgl2ckII8MTDkZGJyh/tgpxMCwSwhVfqcQQt0hMcJ0EtCsZCLCBaSOGIwMImQw3eglQ7xf0QG6WR5EmrUHi/+wieECF8Uwxe4IYYoNRoAvX2HL2+jiyPIgNgCH3kb5
+   eJxjYGBguCXJwHATiHEBQvLYwB5JhF4YIGQHLnXo9t8i0i3EqkO3F+Z2XO4lJizQ3UuMWaS6FwQ2YwlncgE2M3DFBSn2wdSTkoZw2UGsGcS4j1izHrHjl39IQB4dMHHgl2ckII8MTDkZGJyh/tgpxMCwSwhVfqcQQt0hMcJ0EtCsZCLCBaSOGIwMImQw3eglQ7xf0QG6WR5EmrUHi/+wieECF8WIVzvYAL58hS1vo4sjy4PYAKFRRgs=
   </data>
  </layer>
  <layer name="Walkable" width="20" height="20">
@@ -200,7 +200,7 @@
    eJzbKMbAsBENwwC6ODnq0AGl6pDVU8N9lPoZmx5Kwg8XINf9+AAl7iPWbFLsJKSXWHfjs5ccs6gRlqSYRY678JlLrJ3k+GOwYErcjs3vyGL45NHV4BMbbgDkRwCQP7LL
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="4" name="east1" type="mapchange" x="608" y="384" width="32" height="32">
    <properties>
     <property name="map" value="wild18"/>
@@ -273,7 +273,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
+ <objectgroup name="Keys" visible="0">
   <object id="25" name="base_nondisplay:2" type="key" x="256" y="544" width="32" height="96">
    <properties>
     <property name="phrase" value="gyra_54"/>

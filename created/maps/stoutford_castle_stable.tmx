@@ -187,20 +187,20 @@
  </layer>
  <layer name="Objects" width="16" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAekGRC5RdB+exQWlkYIaeOxA4Cyn9nh7BBtCgaHx8NAxwcDAxr+CE0jI9OlwhA6JdCCHEQ2AZkS3CQTiMDDQ7yaGIByG8gwASlk1gx1TwE+oubH8G/IQjBUwUgfGYmTD0gsBhoVilQTZkAQgzGXwLES4G4C82+ZCz2g8AHQQjGBdDlAPVdH08=
+   eJxjYKAekGRC5RdB+exQWlkYIaeOxA4Cyn9nh7BBtCgaHx8NAxwcDAxr+CE0jI9OlwhA6JdCCHEQ2AZkS3AgaFzi6PLIQIODPJpYAPIbCDBB6SRWTDUPgf7i5kfwbwhC8FQBCJ+ZCVMPCCwGmlUKVFMmgBCD8ZcA8VIg7kKzLxmL/SDwQRCCcQF0OQCazx2T
   </data>
  </layer>
  <layer name="Above" width="16" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAcHBYbHPpJpamt/xIR9Cc+BB9dP7kApD9FgIEhTQAhlorGRwfBrNSznxIAABc4GZI=
+   eJxjYKAcHBYbHPpJpfHpl+DArx8kj67/EhH0Jz4EH10/uQCkP0WAgSFNACGWisZHB8Gs1LOfEgAAbSgZ0g==
   </data>
  </layer>
  <layer name="Walkable" width="16" height="10">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEUU4RBgBwaWT+xgBz9uNTg8gshOVzyhPRjczsAujNdSQ==
+   eJzbKMbAsHGYYRiglzyMTSqNbh4xgBz9uNSQ6ndCeokNO2Q+AIusVxE=
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="2" name="exit1" type="mapchange" x="128" y="288" width="64" height="32">
    <properties>
     <property name="map" value="waytogalmore1"/>
@@ -216,7 +216,7 @@
   <object id="5" name="stn_gyra_m23_1" type="script" x="96" y="224" width="128" height="32"/>
   <object id="6" name="stn_gyra_m23_2" type="script" x="320" y="224" width="160" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="7" name="stn_gyra2" type="spawn" x="352" y="256" width="96" height="32">
    <properties>
     <property name="active" value="false"/>
