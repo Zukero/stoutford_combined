@@ -736,6 +736,8 @@
         <item>@xml/stoutford_smith_basement</item>
         <item>@xml/stoutford_tavern</item>
         <!--Added by ATCS v0.6.10 for project stoutford_combined-->
+        <item>@xml/blackwater_mountain3.png</item>
+        <item>@xml/blackwater_mountain4a</item>
         <item>@xml/elm_mine0</item>
         <item>@xml/elm_mine1</item>
         <item>@xml/lakecave0</item>

@@ -992,6 +992,35 @@
             {
                 "text":"Can you tell me anything about Stoutford?",
                 "nextPhraseID":"odirath_1_1"
+            },
+            {
+                "text":"You look a bit worried.",
+                "nextPhraseID":"odirath_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":10,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":60,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"You look happy again.",
+                "nextPhraseID":"odirath_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":60
+                    }
+                ]
             }
         ]
     },
@@ -1070,6 +1099,86 @@
         ]
     },
     {
+        "id":"odirath_2",
+        "message":"Yes, indeed. My daughter has not come home for some days. I do not know what's wrong with her.",
+        "replies":[
+            {
+                "text":"And you have no idea where she might be?",
+                "nextPhraseID":"odirath_2_1"
+            }
+        ]
+    },
+    {
+        "id":"odirath_2_1",
+        "message":"I've been looking for her all over Stoutford. She does not leave the city. So she can only be in the castle, or kidnapped, or worse.",
+        "replies":[
+            {
+                "text":"Did you already look for her in the castle?",
+                "nextPhraseID":"odirath_2_2"
+            }
+        ]
+    },
+    {
+        "id":"odirath_2_2",
+        "message":"You can not go to the castle anymore, do not you know that? At least not if you want to continue living.",
+        "replies":[
+            {
+                "text":"I see. She will certainly reappear soon. In the meantime you could show me everything you have for sale.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"I am also looking for someone: my brother, Andor. Have you seen anyone recently that looks a bit like me?",
+                "nextPhraseID":"odirath_1"
+            },
+            {
+                "text":"Ok. Can you tell me anything about Stoutford?",
+                "nextPhraseID":"odirath_1_1"
+            },
+            {
+                "text":"I'm not afraid. I could have a look in the castle.",
+                "nextPhraseID":"odirath_2_3"
+            }
+        ]
+    },
+    {
+        "id":"odirath_2_3",
+        "message":"You would do that for me? I can hardly accept your offer.",
+        "replies":[
+            {
+                "text":"No problem.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"But first I have something else.",
+                "nextPhraseID":"odirath_0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_quest_gyra",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"odirath_3",
+        "message":"Gyra is back and has told me everything. Many thanks again for your help.",
+        "replies":[
+            {
+                "text":"It was a pleasure.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_quest_gyra",
+                "value":70
+            }
+        ]
+    },
+	{
         "id":"honey_bee",
         "message":"Buzzzzz"
     },
@@ -2646,8 +2755,12 @@
     },
     {
         "id":"stn_gyra",
-        "message":"Please go ahead. I will follow you, if I'm not too scared.",
+        "message":"Please go ahead. I will follow you, probably.",
         "replies":[
+            {
+                "text":"Probably?",
+                "nextPhraseID":"stn_gyra_20"
+            },
             {
                 "text":"Ok, just stay close to me.",
                 "nextPhraseID":"X"
@@ -2660,10 +2773,8 @@
     },
     {
         "id":"stn_gyra_10",
-        "message":"Oh yes, thank you. I am really tired.",
         "replies":[
             {
-                "text":"Come then.",
                 "nextPhraseID":"R"
             }
         ],
@@ -2677,6 +2788,26 @@
                 "rewardType":"actorCondition",
                 "rewardID":"fatigue_minor",
                 "value":99
+            }
+        ]
+    },
+    {
+        "id":"stn_gyra_20",
+        "message":"I will follow you, wherever you go. Only if I'm too scared, then I stay where I am. For example I will never go to flagstone.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stn_gyra_22"
+            }
+        ]
+    },
+    {
+        "id":"stn_gyra_22",
+        "message":"You may carry me from time to time. I'll jump off your arm again when I'm rested.",
+        "replies":[
+            {
+                "text":"Ok, let's go then.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -2697,7 +2828,7 @@
     },
     {
         "id":"stn_gyra_42",
-        "message":"No! Please not through the gate! I won't go there!",
+        "message":"NO! Please not through the gate! I won't go there!",
         "rewards":[
             {
                 "rewardType":"spawnAll",

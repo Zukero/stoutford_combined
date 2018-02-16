@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="17" height="23" tilewidth="32" tileheight="32" nextobjectid="9">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="17" height="23" tilewidth="32" tileheight="32" nextobjectid="9">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -127,17 +127,17 @@
  </layer>
  <layer name="Objects" width="17" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYKAuaGPFTpMCprFip4kBabxAzMTAUCAA4XtDaRg/VQAi/5qHgSGZCbc5HNy4zQDpxQZeYREH6SngxTQDBKSh9ssC6TJe7GaC7MLlDmz2SaP5KRyolhPol0YgXSQAMaMQiJsEIGajq8cHZKHhCjIDROPSi81dyADZDHIBITN0iIhjfGYg+wFX3BAyAzl+8QFSwgNX2NIjTEFAhwK/oOcbcv1SwIswD1caJDY88KV/QumjjR+/2YTMCBcg7AZCZhALyDEDABH9NN0=
+   eJxjYKAuaGPFTpMCprFip4kBabxAzMTAUCAA4XtDaRg/VQAi/5qHgSGZCbc5WQIQPV5A7AOlYXxknCuA0POKB8Hm4EbYW8CL6Q4QkIbaLwuky3ixuwPkTlx+QbYP3UwYCAeq5QS6pRFIFwlAzCgE4iYBiNno6vEBWWi4xkLDApdebO5CBiC9W3hQw4JUANJ7BI8ZOkTEMUhvlAB2M5D9gCtuYGZ44zADOX7xAXxm4HMXuhmxRJqBzx2E4kWHCL/gMuM1mtvx+QVf3BbwIszDlQZBet9zEw4PfOkfphdX+mjjx282ITPCBQi7gZAZxAJyzAAAOu44eQ==
   </data>
  </layer>
  <layer name="Above" width="17" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYKAOCBdApUHAlhu3OmLNQAadjMSbkYZHDbo8zFxi3EgsGAgz0rGol2WirZ3kmIHNnej6CMUfLjtIcf9gNwMd4Ao3QmYQG66EzJjDiFueVHfQ2gxvXgYGHyBO4CXfjGig3hgKzQDphbkFHRCbN0FmwNxCLsAXHrgAAPGRF10=
+   eJxjYKAOCBdApUHAlhu3OmLNQAadjMSbkYZHDbo8zFxi3EgsGAgz0rGol2Wivp1beCgzA+TOI1jMQNZHKP5w2UFKmA12M9ABtvhFNgNXvBAbruE44gUmN4cRuxwpZhADiMnfhIA3LwODDxAn8JJvRjRQbwyFZoD0wtyCDojNmyAzYG4hF+ALD1wAAK16G00=
   </data>
  </layer>
  <layer name="Walkable" width="17" height="23">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcB1kGASw0aSaAQOkmkkJIMUMfO4l1wxS/YMr7IkNV3zxN1TNIDasCJmBTR25fhkOZhAbpvjsIFY/pWmHHmYQk0YHEgMAGvFa+w==
+   eJxzFWBgcB1kGASw0aSaAQOkmkkJwGc/LrXY1BPrDmzhRop/cIU9seGKL/5obQYx8UiOO4gNK0JmYFNHbngMBzNICVNc8YcsR8idlKQ/ephBTBodSAwAQRpb+g==
   </data>
  </layer>
  <objectgroup name="Mapevents">

@@ -213,7 +213,7 @@
     "id": "stn_quest_gyra",
     "name": "Lost girl looking for lost things",
     "showInLog": 1,
-    "stages": [	{ "progress":10, "logText":"The little daughter of Odirath the armorer was missed since several days now. He asked you to help search for her." },
+    "stages": [	{ "progress":10, "logText":"The little daughter of Odirath the armorer was missed since several days now. You offered to help search for her." },
 				{ "progress":20, "logText":"Odirath's daughter Gyra was hidden in the storeroom of the main house of the castle. She was surprised by the raid on the castle and no longer dared to leave the hiding place.\nShe was looking for Lord Bourbon's helmet, which he had forgotten somewhere in the castle." },
 				{ "progress":30, "logText":"You offered Gyra to lead her back home safely." },
 				{ "progress":40, "logText":"Gyra has the feeling that the helmet is very close." },
@@ -221,7 +221,7 @@
 				{ "progress":60, "logText":"Back in Stoutford Gyra knew the way and ran to her father Odirath." },
 				{ "progress":70, "logText":"Odirath thanks you many thousand times.",
                   "rewardExperience":2000 },
-				{ "progress":90, "logText":"Lord Bourbon shook his head violently, but slowly took his helmet. Nevertheless, he remained sitting at the table. He probably needs a few more hours without drinks before he can get back to work.",
+				{ "progress":90, "logText":"Lord Bourbon shook his head violently, but slowly took his helmet. Nevertheless, he remained sitting at the table. He probably needs a few more hours without drinks before he can get back to work. If ever.",
                   "rewardExperience":1000,
                   "finishesQuest":1 }]
   },
