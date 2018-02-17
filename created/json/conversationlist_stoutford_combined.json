@@ -1874,7 +1874,56 @@
     },
     {
         "id":"yolgen_task_0",
-        "message":"Well, you look a bit young. But I guess we could still make use of you in these dark times. I have got three tasks I can offer you.",
+        "replies":[
+            {
+                "nextPhraseID":"yolgen_task_0_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_reinforcements",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"yolgen_task_0_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"yolgen_task_0_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"prim_tunnel",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"yolgen_task_0_1"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_task_0_1",
+        "message":"Well, you already were of great help. Thank you again!"
+    },
+    {
+        "id":"yolgen_task_0_2",
+        "message":"Well, you look a bit young. But I guess we could still make use of you in these dark times. I have got some tasks I can offer you.",
         "replies":[
             {
                 "text":"What about asking for help?",
@@ -1935,7 +1984,7 @@
     },
     {
         "id":"yolgen_reinforcements_1",
-        "message":"I knew I could count on you. Here, take these letters and Shadow be with you.",
+        "message":"I knew I could count on you. Here, take these letters and Shadow be with you. Although I doubt that you can already get through to these cities.",
         "replies":[
             {
                 "text":"Shadow be with you.",
@@ -2044,8 +2093,12 @@
         "message":"We do have another problem. Our soldiers usually guard the castle gate to Mt. Galmore to keep the monsters away from the Kingdom. However, five days ago, the undead knights of Lord Erwyn started to rise from their grave. I've got no idea why this happened. We haven't been able to recapture the castle yet. I would ask you to rid us from this plague.",
         "replies":[
             {
-                "text":"Sure, that sounds easy enough. I just wonder where they came from.",
-                "nextPhraseID":"yolgen_castle_1"
+                "text":"It sounds more like a task for the guard. I'll go and talk to the captain of the guard.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Hm, I wonder where they came from.",
+                "nextPhraseID":"yolgen_1"
             },
             {
                 "text":"No thank you. I think that's way over the top of my head.",
@@ -2066,9 +2119,10 @@
     {
         "id":"stoutford_castle_0",
         "message":"Ah another mortal! You shall be another servant in Lord Erwyn's army! Ha Ha!",
-        "switchToNPC":"knight_erwyn",
+        "switchToNPC":"erwyn_knight",
         "replies":[
             {
+                "text":"No, thank you. Maybe another time.",
                 "nextPhraseID":"F"
             }
         ]
@@ -2078,6 +2132,7 @@
         "message":"What do I seee? A mortal? Your bonesss shall be clattering on the ground soon enoughhh!",
         "replies":[
             {
+                "text":"No. How would that look like?",
                 "nextPhraseID":"F"
             }
         ]
@@ -2087,6 +2142,7 @@
         "message":"I shall crush you little mortal!",
         "replies":[
             {
+                "text":"For that you have to get me first, lazybones!",
                 "nextPhraseID":"F"
             }
         ]
@@ -2407,15 +2463,17 @@
         "message":"Great! Count to ten, then I am hidden.",
         "replies":[
             {
-                "text":"Ok. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\nComing!",
+                "text":"Ok, I'll close my eyes now.\n1, 2, 3 ...",
                 "nextPhraseID":"stn_boralla_12"
             }
         ]
     },
     {
         "id":"stn_boralla_12",
+        "message":"I am ready!",
         "replies":[
             {
+                "text":"... 10\nOk - coming!",
                 "nextPhraseID":"R"
             }
         ],
@@ -2434,10 +2492,10 @@
     },
     {
         "id":"stn_boralla1",
-        "message":"You found me too quickly! Once more, please. Count to ten, then I am hidden.",
+        "message":"You found me too quickly! Once more, please. Count to ten again!",
         "replies":[
             {
-                "text":"Ok. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\nComing!",
+                "text":"Ok. 1, 2, 3 ...",
                 "nextPhraseID":"stn_boralla1_12"
             }
         ]
@@ -2464,10 +2522,10 @@
     },
     {
         "id":"stn_boralla2",
-        "message":"Hey, you found me again!",
+        "message":"Hey, you found me again! Once more?",
         "replies":[
             {
-                "text":"Ok. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\nComing!",
+                "text":"Why not. 1, 2 ...",
                 "nextPhraseID":"stn_boralla2_12"
             }
         ]
@@ -2494,10 +2552,10 @@
     },
     {
         "id":"stn_boralla3",
-        "message":"Hey, you found me!",
+        "message":"You didn't count to 10! Don't cheat. Another time!",
         "replies":[
             {
-                "text":"Ok. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\nComing!",
+                "text":"Ok. 1, 2, 3, 4 ...",
                 "nextPhraseID":"stn_boralla3_12"
             }
         ]
@@ -2524,10 +2582,10 @@
     },
     {
         "id":"stn_boralla4",
-        "message":"Are you sure you didn't cheat?",
+        "message":"Are you sure you didn't cheat this time?",
         "replies":[
             {
-                "text":"Ok. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\nComing!",
+                "text":"Of course not. Then hide yourself again, quick! 1, 2, 3 ...",
                 "nextPhraseID":"stn_boralla4_12"
             }
         ]
@@ -2554,10 +2612,10 @@
     },
     {
         "id":"stn_boralla5",
-        "message":"Found me again!",
+        "message":"Found me again! Once ...",
         "replies":[
             {
-                "text":"Ok. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\nComing!",
+                "text":"... more, I know.  1, 2, 3, 4 ...",
                 "nextPhraseID":"stn_boralla5_12"
             }
         ]
@@ -2584,18 +2642,20 @@
     },
     {
         "id":"stn_boralla6",
-        "message":"Hey, you found me!",
+        "message":"How did you know I'm here?",
         "replies":[
             {
-                "text":"Ok. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\nComing!",
+                "text":"I won't reveal my secrets so easy. Now disappear, I'm counting already.  1, 2, 3 ...",
                 "nextPhraseID":"stn_boralla6_12"
             }
         ]
     },
     {
         "id":"stn_boralla6_12",
+        "message":"No! Wait!",
         "replies":[
             {
+                "text":"... 9, 10\nComing!",
                 "nextPhraseID":"R"
             }
         ],
@@ -2617,7 +2677,7 @@
         "message":"This took you a bit longer now to find me!",
         "replies":[
             {
-                "text":"Ok. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\nComing!",
+                "text":"Indeed.  Once more?  1, 2 ...",
                 "nextPhraseID":"stn_boralla7_12"
             }
         ]
@@ -2793,7 +2853,7 @@
     },
     {
         "id":"stn_gyra_20",
-        "message":"I will follow you, wherever you go. Only if I'm too scared, then I stay where I am. For example I will never go to flagstone.",
+        "message":"I will follow you, wherever you go. Only if I'm too scared, then I stay where I am. For example I will never go to Flagstone.",
         "replies":[
             {
                 "text":"N",

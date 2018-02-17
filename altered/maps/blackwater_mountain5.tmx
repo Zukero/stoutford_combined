@@ -153,7 +153,7 @@
     <property name="place" value="north2"/>
    </properties>
   </object>
-  <object id="2" name="north" type="mapchange" x="832" y="576" width="32" height="32">
+  <object id="2" name="north" type="mapchange" x="864" y="576" width="32" height="32">
    <properties>
     <property name="map" value="blackwater_mountain6"/>
     <property name="place" value="south"/>
@@ -195,8 +195,8 @@
   <object id="20" name="gornaud_1" type="spawn" x="416" y="512" width="96" height="288"/>
   <object id="21" name="gornaud_1" type="spawn" x="672" y="480" width="96" height="192"/>
  </objectgroup>
- <objectgroup name="Keys" visible="0">
-  <object id="4" name="bwm_agent:10" type="key" x="800" y="576" width="96" height="32">
+ <objectgroup name="Keys">
+  <object id="4" name="bwm_agent:10" type="key" x="864" y="576" width="32" height="32">
    <properties>
     <property name="phrase" value="keyarea_bwm_agent_1"/>
     <property name="requireId" value="bwm_agent"/>

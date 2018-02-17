@@ -39,6 +39,10 @@
                         "value":23
                     }
                 ]
+            },
+            {
+                "text":"What do you know about the surroundings here?",
+                "nextPhraseID":"yolgen_surroundings_0"
             }
         ]
     }
