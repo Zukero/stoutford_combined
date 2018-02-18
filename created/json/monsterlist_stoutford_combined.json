@@ -618,16 +618,23 @@
     {
         "id":"stoutford_commander",
         "name":"Borlag",
-        "iconID":"monsters_tometik2:42",
+        "iconID":"monsters_ld1:41",
         "spawnGroup":"stoutford_commander",
-        "phraseID":"stoutford_gateguard_0"
+        "phraseID":"stoutford_commander"
     },
     {
-        "id":"bertgar",
-        "name":"Bertgar",
-        "iconID":"monsters_ld1:41",
-        "spawnGroup":"bertgar",
-        "phraseID":"bertgar"
+        "id":"stoutford_commoner5",
+        "name":"Old man",
+        "iconID":"monsters_ld1:14",
+        "spawnGroup":"stoutford_commoner5",
+        "phraseID":"stoutford_commoner5"
+    },
+    {
+        "id":"berbane",
+        "name":"Lord Berbane",
+        "iconID":"monsters_tometik2:42",
+        "spawnGroup":"berbane",
+        "phraseID":"berbane"
     },
 	{ "id":"stn_burhczyd1",
 	  "name":"Burhczyd",

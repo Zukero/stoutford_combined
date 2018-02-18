@@ -1086,30 +1086,6 @@
         "category":"other"
     },
     {
-        "id":"stoutford_reinforcement_0",
-        "iconID":"items_books:7",
-        "name":"Sealed letter to Gyraen",
-        "displaytype":"quest",
-        "category":"other",
-        "description":"This is a letter to Gyraen, leader of the Shadow priests."
-    },
-    {
-        "id":"stoutford_reinforcement_1",
-        "iconID":"items_books:7",
-        "name":"Sealed letter to Melandrach",
-        "displaytype":"quest",
-        "category":"other",
-        "description":"This is a letter to Melandrach, Yolgen's former teacher."
-    },
-    {
-        "id":"stoutford_reinforcement_2",
-        "iconID":"items_books:7",
-        "name":"Sealed letter to Master Eudes",
-        "displaytype":"quest",
-        "category":"other",
-        "description":"This is a letter to Master Eudes, commander of the Royal Guard of Feygard."
-    },
-    {
         "id":"stoutford_plate_mail1",
         "iconID":"items_japozero:169",
         "name":"Stoutford's plate mail",

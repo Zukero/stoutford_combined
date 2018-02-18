@@ -1,5 +1,19 @@
 [
     {
+        "id":"stoutford_commoner4",
+        "message":"These are hard days. It is nice to see kids like you still strolling around."
+    },
+    {
+        "id":"stoutford_commoner5",
+        "message":"It is a lovely day for a drink. Come and join me.",
+        "replies":[
+            {
+                "text":"Thank you, maybe some other time.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
         "id":"stoutford_farmer2",
         "message":"Hello there. Please do not bother me, I have a lot of work to do."
     },
@@ -8,42 +22,234 @@
         "message":"Hello. Could you please move out of the way? I am trying to work here."
     },
     {
-        "id":"stoutford_commoner4",
-        "message":"These are hard days. It is nice to see kids like you still strolling around."
-    },
-    {
         "id":"stoutford_guard4",
         "message":"Hey, kid, get ouf of here immediatly!"
     },
     {
-        "id":"stoutford_gateguard_0",
-        "message":"Ah, when you see children playing, you know what you're working here for."
-    },
-    {
-        "id":"bertgar",
+        "id":"stoutford_commander",
         "message":"Hey, kid, what are you doing here?",
         "replies":[
             {
                 "text":"Mind your own business.",
-                "nextPhraseID":"bertgar_10"
+                "nextPhraseID":"stoutford_commander_10"
             },
             {
                 "text":"Who are you?",
-                "nextPhraseID":"bertgar_20"
+                "nextPhraseID":"stoutford_commander_20"
             }
         ]
     },
     {
-        "id":"bertgar_10",
+        "id":"stoutford_commander_10",
         "message":"Get out! But immediately, naughty child!"
     },
     {
-        "id":"bertgar_20",
-        "message":"My name is Bertgar. I am chief of the local guards here.",
+        "id":"stoutford_commander_20",
+        "message":"My name is Borlag. I am chief of the local guards here.",
         "replies":[
             {
                 "text":"Aha. And why are you sitting here in your tower instead of driving the undead out of the castle?",
-                "nextPhraseID":"bertgar_10"
+                "nextPhraseID":"stoutford_commander_10"
+            },
+            {
+                "text":"What are you doing here at the moment?",
+                "nextPhraseID":"stoutford_commander_30"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_commander_30",
+        "message":"Oh, I'm working on a strategy to win back the castle. I have already made 17 plans. Now I have to compare and rate them.",
+        "replies":[
+            {
+                "text":"How about just starting?",
+                "nextPhraseID":"stoutford_commander_10"
+            }
+        ]
+    },
+    {
+        "id":"berbane",
+        "replies":[
+            {
+                "nextPhraseID":"berbane_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":44
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"berbane_10"
+            }
+        ]
+    },
+    {
+        "id":"berbane_10",
+        "message":"* The richly dressed man does not react *",
+        "replies":[
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"berbane_10"
+            },
+            {
+                "text":"Yolgen asked me to help clearing the castle of undeads. Shall we do it together?",
+                "nextPhraseID":"berbane_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":10
+                    }
+                ]
+			},
+            {
+                "text":"Gyra had found your helmet and asked me to give it to you. So that you could start to clear the castle.",
+                "nextPhraseID":"berbane_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gyra",
+                        "value":70
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"stoutford_helmet",
+                        "value":1
+                    }
+                ]
+			},
+            {
+                "text":"The castle is clean from undead now.",
+                "nextPhraseID":"berbane_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":40
+                    }
+                ]
+			}
+		]
+    },
+    {
+        "id":"berbane_20",
+        "message":"(Berbane took the helmet)\nGyra? My dearest and most eager listener?",
+        "replies":[
+            {
+                "text":"Seems so.",
+                "nextPhraseID":"berbane_30"
+            }
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_quest_gyra",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"berbane_30",
+        "message":"Many of my songs are about this magical helmet. But it's all just songs.",
+        "replies":[
+            {
+                "text":"Will you make the songs a reality now?",
+                "nextPhraseID":"berbane"
+            }
+		]
+    },
+    {
+        "id":"berbane_100",
+        "message":"(loud voice) Hear and listen everybody! The castle is free! The trembling is over!",
+        "replies":[
+            {
+                "text":"...?",
+                "nextPhraseID":"berbane_110"
+            }
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":44
+            }
+        ]
+    },
+    {
+        "id":"berbane_110",
+        "message":"(loud voice) My trainee and me, we were in the castle. I demonstrated how to fight properly. Especially Lord Erwyn himself was a good demonstration object.",
+        "replies":[
+            {
+                "text":"But ...",
+                "nextPhraseID":"berbane_120"
+            }
+		]
+    },
+    {
+        "id":"berbane_120",
+        "message":"(loud voice) But we will come to the details later - after the local round",
+        "replies":[
+            {
+                "text":"No, I have ...",
+                "nextPhraseID":"berbane_130"
+            }
+		]
+    },
+    {
+        "id":"berbane_130",
+        "replies":[
+            {
+                "nextPhraseID":"berbane_132",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"stoutford_helmet",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"berbane_134"
+            }
+		]
+    },
+    {
+        "id":"berbane_132",
+        "message":"(loud voice) Of course - you have carried my magical helmet for me. I take it back now.",
+        "replies":[
+            {
+                "text":"I give up.",
+                "nextPhraseID":"berbane_140"
+            }
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_quest_gyra",
+                "value":92
+            }
+        ]
+    },
+    {
+        "id":"berbane_134",
+        "message":"(loud voice) Of course - you have learned much from me. But no need to thank me now.",
+        "replies":[
+            {
+                "text":"I give up.",
+                "nextPhraseID":"berbane_140"
+            }
+		]
+    },
+    {
+        "id":"berbane_140",
+        "message":"(low voice) Well-behaved. \n(loud voice) And now mead for everyone! Let's be merry! Forget all sorrows!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"mead",
+                "value":1
             }
         ]
     },
@@ -1167,7 +1373,7 @@
         "replies":[
             {
                 "text":"It was a pleasure.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"odirath_3_1"
             }
         ],
         "rewards":[
@@ -1175,6 +1381,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"stn_quest_gyra",
                 "value":70
+            }
+        ]
+    },
+    {
+        "id":"odirath_3_1",
+        "message":"Please give the helmet to his owner Lord Bourbon - eh, Lord Berbane I mean. He will be in the tavern.",
+        "replies":[
+            {
+                "text":"Ok.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -1926,18 +2142,6 @@
         "message":"Well, you look a bit young. But I guess we could still make use of you in these dark times. I have got some tasks I can offer you.",
         "replies":[
             {
-                "text":"What about asking for help?",
-                "nextPhraseID":"yolgen_reinforcements_0",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"stoutford_reinforcements",
-                        "value":10,
-                        "negate":true
-                    }
-                ]
-            },
-            {
                 "text":"What about the undead in the castle?",
                 "nextPhraseID":"yolgen_castle_0",
                 "requires":[
@@ -1948,69 +2152,6 @@
                         "negate":true
                     }
                 ]
-            },
-            {
-                "text":"What about the collapsed tunnel?",
-                "nextPhraseID":"yolgen_tunnel_0",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"prim_tunnel",
-                        "value":10,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"flagstone",
-                        "value":100
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"yolgen_reinforcements_0",
-        "message":"We have already sent a message to Nor City and Feygard. However none of them have replied and I'm getting worried that our messenger got killed. I ask you to go to my fellow priests in Nor City and ask our great leader Gyraen for help. You can also seek out my former teacher, Melandrach. And in Feygard, I would ask you to seek out Master Eudes. I hope at least one of them will sent out reinforcements even while they are rivaling against each other. Will you help?",
-        "replies":[
-            {
-                "text":"Of course!",
-                "nextPhraseID":"yolgen_reinforcements_1"
-            },
-            {
-                "text":"No, sorry. I'm not interested in errand running.",
-                "nextPhraseID":"yolgen_reinforcements_2"
-            }
-        ]
-    },
-    {
-        "id":"yolgen_reinforcements_1",
-        "message":"I knew I could count on you. Here, take these letters and Shadow be with you. Although I doubt that you can already get through to these cities.",
-        "replies":[
-            {
-                "text":"Shadow be with you.",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"giveItem",
-                "rewardID":"stoutford_reinforcement_0",
-                "value":1
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"stoutford_reinforcement_1",
-                "value":1
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"stoutford_reinforcement_2",
-                "value":1
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"stoutford_reinforcements",
-                "value":10
             }
         ]
     },
@@ -2097,12 +2238,31 @@
                 "nextPhraseID":"X"
             },
             {
+                "text":"No problem. They are already as good as dead.",
+                "nextPhraseID":"yolgen_castle_0_1"
+            },
+            {
                 "text":"Hm, I wonder where they came from.",
                 "nextPhraseID":"yolgen_1"
             },
             {
                 "text":"No thank you. I think that's way over the top of my head.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_castle_0_1",
+        "replies":[
+            {
+                "nextPhraseID":"yolgen_castle_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stoutford_castle",
+                "value":10
             }
         ]
     },
@@ -2172,23 +2332,63 @@
         ]
     },
     {
-        "id":"stoutford_castle_5",
+        "id":"yolgen_castle_1",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"stoutford_castle_6",
+                "nextPhraseID":"yolgen_castle_1_1a",
                 "requires":[
                     {
                         "requireType":"killedMonster",
-                        "requireID":"knight_erwyn",
-                        "value":1
+                        "requireID":"erwyn_knight",
+                        "value":7
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_soldier",
+                        "value":12
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_soldier2",
+                        "value":7
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_soldier3",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"yolgen_castle_1_1b",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_soldier",
+                        "value":2
                     }
                 ]
             }
         ]
     },
     {
-        "id":"stoutford_castle_6",
+        "id":"yolgen_castle_1_1b",
+		"message":"Let me see... You killed already some of Erwyn's undead knights and soldiers - if killed is the correct word for undead. But there are some still uproad.",
+		"replies":[
+            {
+                "text":"Ok, I will go and look for the rest."
+            }
+        ]
+    },
+    {
+        "id":"yolgen_castle_1_1a",
+		"message":"Let me see... Ok, you killed all of the undead knights and soldiers who had worn Lord Erwyn's tattered banner.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"yolgen_castle_1_2"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2198,11 +2398,10 @@
         ]
     },
     {
-        "id":"stoutford_castle_7",
+        "id":"yolgen_castle_1_2",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"stoutford_castle_8",
+                "nextPhraseID":"yolgen_castle_1_2a",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -2210,11 +2409,21 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"yolgen_castle_1_2b"
             }
         ]
     },
     {
-        "id":"stoutford_castle_8",
+        "id":"yolgen_castle_1_2a",
+		"message":"And you slew Lord Erwyn's commander.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"yolgen_castle_1_3"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2224,11 +2433,19 @@
         ]
     },
     {
-        "id":"stoutford_castle_9",
+        "id":"yolgen_castle_1_2b",
+		"message":"But their commander is still uproad.",
+		"replies":[
+            {
+                "text":"Ok, I will go and look for him."
+            }
+        ]
+    },
+    {
+        "id":"yolgen_castle_1_3",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"stoutford_castle_10",
+                "nextPhraseID":"yolgen_castle_1_3a",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -2236,11 +2453,21 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"yolgen_castle_1_3b"
             }
         ]
     },
     {
-        "id":"stoutford_castle_10",
+        "id":"yolgen_castle_1_3a",
+		"message":"And you slew Lord Erwyn himself.",
+        "replies":[
+            {
+                "text":"An unfriendly guy, yes.",
+                "nextPhraseID":"yolgen_castle_2"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2250,19 +2477,21 @@
         ]
     },
     {
+        "id":"yolgen_castle_1_3b",
+		"message":"But Lord Erwyn is still uproad.",
+		"replies":[
+            {
+                "text":"Ok, I will go and look for him."
+            }
+        ]
+    },
+    {
         "id":"yolgen_castle_2",
-        "message":"Have you rid us from the undead soldiers yet?",
+        "message":"That is unbelievable!",
         "replies":[
             {
-                "text":"Yes indeed. It was a tough fight. I managed to slay Lord Erwyn himself and found this ring among his remains.",
-                "nextPhraseID":"yolgen_castle_3",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"stoutford_castle",
-                        "value":40
-                    }
-                ]
+                "text":"Oh well, it was a tough fight. I managed to slay Lord Erwyn himself and found this ring among his remains.",
+                "nextPhraseID":"yolgen_castle_3"
             }
         ]
     },
@@ -2342,89 +2571,6 @@
         ]
     },
     {
-        "id":"yolgen_tunnel_0",
-        "message":"Hmm. I'm only tellling you this because you were able to help us with Flagstone. Maybe you could help killing the monsters around the entrance of the tunnel? Beware though, those monsters are tough bastards. You could also try finding an alternative way through the mountain. I recall there used to be another mine under the main tunnel. Maybe this will lead you to Prim? ",
-        "replies":[
-            {
-                "text":"Ok, I can try that. ",
-                "nextPhraseID":"yolgen_tunnel_1"
-            },
-            {
-                "text":"Oh, I think that's a bit over the top of my head.",
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
-        "id":"yolgen_tunnel_1",
-        "message":"Be careful though. This task I'm putting on your shoulders shouldn't be taken lightly. Shadow be with you.",
-        "replies":[
-            {
-                "text":"I won't. Shadow be with you.",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"I won't. Goodbye.",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"prim_tunnel",
-                "value":10
-            }
-        ]
-    },
-    {
-        "id":"yolgen_tunnel_2",
-        "message":"Hello again. Did you make any progress?",
-        "replies":[
-            {
-                "text":"Yes I did. I was able to kill all of the monsters at the entrance and on top of that, I found a way through the pitch-black mine and spoke to Prim's leader. They are in great trouble and are constantly attacked by Gornauds. I will have to help them out as well.",
-                "nextPhraseID":"yolgen_tunnel_5",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"prim_tunnel",
-                        "value":30
-                    }
-                ]
-            },
-            {
-                "text":"Yes I did. I was able to kill all of the monsters at the entrance.",
-                "nextPhraseID":"yolgen_tunnel_3",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"prim_tunnel",
-                        "value":20
-                    }
-                ]
-            },
-            {
-                "text":"No not yet. They are tough beasts.",
-                "nextPhraseID":"yolgen_tunnel_4"
-            }
-        ]
-    },
-    {
-        "id":"yolgen_tunnel_3",
-        "message":"This is great news indeed! "
-    },
-    {
-        "id":"yolgen_tunnel_4",
-        "message":"Be careful my friend and shadow be with you.",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
-        "id":"yolgen_tunnel_5"
-    },
-    {
         "id":"stoutford_guard",
         "name":"Stoutford Guard",
         "iconID":"monsters_tometik2:44",
@@ -2439,10 +2585,12 @@
         "message":"Stoutford shall prevail in these hard times, traveler."
     },
     {
-        "id":"stoutford_armorer"
+        "id":"stoutford_armorer",
+        "message":"Hi, kid."
     },
     {
-        "id":"stoutford_smith"
+        "id":"stoutford_smith",
+        "message":"Hi, kid."
     },
     {
         "id":"stn_boralla",

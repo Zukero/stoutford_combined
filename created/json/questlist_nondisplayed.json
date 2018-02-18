@@ -1,0 +1,17 @@
+[
+	{
+		"id": "base_nondisplay",
+		"name": "base_nondisplay",
+		"showInLog": 1,
+		"stages": [	
+			{
+				"progress": 1, 
+				"logText":"1=Developers Debug Version active" 
+			},
+			{
+				"progress": 2,
+				"logText":"2=This stage is never set" 
+			}
+		]
+	}
+]

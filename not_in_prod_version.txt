@@ -1,0 +1,268 @@
+Removed parts from productive sources
+
+questlist_stoutford_combined.json
+=================================
+    {
+        "id":"stoutford_reinforcements",
+        "name":"A town and a border in peril",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I talked to Yolgen of the Shadow church in Stoutford. Since Stoutford lies on the border of the Kingdom and is constantly attacked by monsters from Mt. Galmore, Yolgen wants me to ask for reinforcements. I should ask Gyraen, the leader of the Shadow priests, or his former teacher Melandrach for help or I could ask Master Eudes of Feygard instead. He gave me a letter for each of them."
+            }
+        ]
+    },
+    {
+        "id":"prim_tunnel",
+        "name":"Restoring the tunnel to Prim!",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I talked to Prim's leader about the collapse of the mine tunnel to Stoutford and how trade has declined due to this. I could help restoring the tunnel by killing the Gornaud beasts at both entrances once and for all. Furthermore, I should make Stoutford collaborate on this task, so miners could dig from both sides."
+            },
+            {
+                "progress":20,
+                "logText":"I killed the beasts on the northern side of the tunnel. I should return to Prim's leader.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":30,
+                "logText":"Prim has now sent miners to the tunnel and they start digging out the collapsed tunnel."
+            },
+            {
+                "progress":40,
+                "logText":"I killed the beasts on the southern side of the tunnel.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":50,
+                "logText":"I talked to Yolgen about the news from Prim that the monster attacks have largely stopped and that the perpretators were the demons of Kazaul. He has never heard of them before though. He offered help as well and sent some miners to the tunnel. "
+            },
+            {
+                "progress":60,
+                "logText":"The tunnel is now dug out and can be used again. Yolgen thanked me for my efforts. I should also report back to Prim's leader.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":100,
+                "logText":"I reported back to Prim's leader that the tunnel can be used again. He was very grateful and is sure that trade between the two villages will flourish again and that the Elm mine can ship iron ingots to Stoutford again. More travelers will find their way to Prim now as well.",
+                "rewardExperience":6000
+            }
+        ]
+    }
+
+
+
+itemlist_stoutford_combined.json
+================================
+    {
+        "id":"stoutford_reinforcement_0",
+        "iconID":"items_books:7",
+        "name":"Sealed letter to Gyraen",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"This is a letter to Gyraen, leader of the Shadow priests."
+    },
+    {
+        "id":"stoutford_reinforcement_1",
+        "iconID":"items_books:7",
+        "name":"Sealed letter to Melandrach",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"This is a letter to Melandrach, Yolgen's former teacher."
+    },
+    {
+        "id":"stoutford_reinforcement_2",
+        "iconID":"items_books:7",
+        "name":"Sealed letter to Master Eudes",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"This is a letter to Master Eudes, commander of the Royal Guard of Feygard."
+    }
+
+
+
+conversationlist_stoutford_combined.json
+========================================
+    {
+        "id":"yolgen_task_0_2",
+        "message":"Well, you look a bit young. But I guess we could still make use of you in these dark times. I have got some tasks I can offer you.",
+        "replies":[
+            {
+                "text":"What about asking for help?",
+                "nextPhraseID":"yolgen_reinforcements_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_reinforcements",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"What about the undead in the castle?",
+                "nextPhraseID":"yolgen_castle_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"What about the collapsed tunnel?",
+                "nextPhraseID":"yolgen_tunnel_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"prim_tunnel",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"yolgen_reinforcements_0",
+        "message":"We have already sent a message to Nor City and Feygard. However none of them have replied and I'm getting worried that our messenger got killed. I ask you to go to my fellow priests in Nor City and ask our great leader Gyraen for help. You can also seek out my former teacher, Melandrach. And in Feygard, I would ask you to seek out Master Eudes. I hope at least one of them will sent out reinforcements even while they are rivaling against each other. Will you help?",
+        "replies":[
+            {
+                "text":"Of course!",
+                "nextPhraseID":"yolgen_reinforcements_1"
+            },
+            {
+                "text":"No, sorry. I'm not interested in errand running.",
+                "nextPhraseID":"yolgen_reinforcements_2"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_reinforcements_1",
+        "message":"I knew I could count on you. Here, take these letters and Shadow be with you. Although I doubt that you can already get through to these cities.",
+        "replies":[
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"stoutford_reinforcement_0",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"stoutford_reinforcement_1",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"stoutford_reinforcement_2",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stoutford_reinforcements",
+                "value":10
+            }
+        ]
+    },
+
+
+    {
+        "id":"yolgen_tunnel_0",
+        "message":"Hmm. I'm only tellling you this because you were able to help us with Flagstone. Maybe you could help killing the monsters around the entrance of the tunnel? Beware though, those monsters are tough bastards. You could also try finding an alternative way through the mountain. I recall there used to be another mine under the main tunnel. Maybe this will lead you to Prim? ",
+        "replies":[
+            {
+                "text":"Ok, I can try that. ",
+                "nextPhraseID":"yolgen_tunnel_1"
+            },
+            {
+                "text":"Oh, I think that's a bit over the top of my head.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_tunnel_1",
+        "message":"Be careful though. This task I'm putting on your shoulders shouldn't be taken lightly. Shadow be with you.",
+        "replies":[
+            {
+                "text":"I won't. Shadow be with you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I won't. Goodbye.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"prim_tunnel",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"yolgen_tunnel_2",
+        "message":"Hello again. Did you make any progress?",
+        "replies":[
+            {
+                "text":"Yes I did. I was able to kill all of the monsters at the entrance and on top of that, I found a way through the pitch-black mine and spoke to Prim's leader. They are in great trouble and are constantly attacked by Gornauds. I will have to help them out as well.",
+                "nextPhraseID":"yolgen_tunnel_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"prim_tunnel",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"Yes I did. I was able to kill all of the monsters at the entrance.",
+                "nextPhraseID":"yolgen_tunnel_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"prim_tunnel",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"No not yet. They are tough beasts.",
+                "nextPhraseID":"yolgen_tunnel_4"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_tunnel_3",
+        "message":"This is great news indeed! "
+    },
+    {
+        "id":"yolgen_tunnel_4",
+        "message":"Be careful my friend and shadow be with you.",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_tunnel_5"
+    },
+
+

@@ -115,13 +115,6 @@
         ]
     },
   {
-    "id": "base_nondisplay",
-    "name": "base_nondisplay",
-    "showInLog": 1,
-    "stages": [	{ "progress": 1, "logText":"1=Developers Debug Version" },
-				{ "progress": 2, "logText":"2=never set" }]
-  },
-  {
     "id": "stn_nondisplay",
     "name": "stn_nondisplay",
     "showInLog": 1,
@@ -150,6 +143,7 @@
 				{ "progress": 41, "logText":"41=First place is it" },
 				{ "progress": 42, "logText":"42=Second place is it" },
 				{ "progress": 43, "logText":"43=Third place is it" },
+				{ "progress": 44, "logText":"44=Bourbon is informed about clearing" },
 				{ "progress": 50, "logText":"50=Tea taken" },
 				{ "progress": 51, "logText":"51=Duell in progress - no leave" },
 				{ "progress": 60, "logText":"60=listened to merchant completely" },
@@ -189,9 +183,9 @@
 				{ "progress":113, "logText":"You lost the fight." },
 				{ "progress":121, "logText":"The second opponent was a skeleton warrior." },
 				{ "progress":122, "logText":"He was no match for you." },
-				{ "progress":123, "logText":"You lost against some bones!?." },
+				{ "progress":123, "logText":"You lost against a pile of bones?!" },
 				{ "progress":131, "logText":"Mikhail came and asked you to come home." },
-				{ "progress":132, "logText":"But no, it wasn't Mikhail - it was a poser. But not a strong enough one." },
+				{ "progress":132, "logText":"But no, it wasn't Mikhail - it was a poser. Not a strong enough one though." },
 				{ "progress":133, "logText":"Your own father attacked you!? You lost this fight." },
 				{ "progress":141, "logText":"Then a little dragon came forth." },
 				{ "progress":142, "logText":"You won." },
@@ -221,9 +215,13 @@
 				{ "progress":60, "logText":"Back in Stoutford Gyra knew the way and ran to her father Odirath." },
 				{ "progress":70, "logText":"Odirath thanks you many thousand times.",
                   "rewardExperience":2000 },
-				{ "progress":90, "logText":"Lord Bourbon shook his head violently, but slowly took his helmet. Nevertheless, he remained sitting at the table. He probably needs a few more hours without drinks before he can get back to work. If ever.",
-                  "rewardExperience":1000,
-                  "finishesQuest":1 }]
+				{ "progress":90, "logText":"Lord Bourbon slowly took his helmet. Nevertheless, he remained sitting at the table. He probably needs a few more hours without drinks before he can get back to work. If ever.",
+                  "rewardExperience":200,
+                  "finishesQuest":1 },
+				{ "progress":92, "logText":"Lord Bourbon took his helmet. But somehow that does not really satisfy you.",
+                  "rewardExperience":200,
+                  "finishesQuest":1 }
+	]
   },
   {
     "id": "stn_quest_merchant",
@@ -279,82 +277,35 @@
             },
             {
                 "progress":20,
-                "logText":"I slew one of the undead knights. They do wear Lord Erwyn's tattered banner.",
-                "rewardExperience":200
+                "logText":"I slew all the undead knights. They do wear Lord Erwyn's tattered banner.",
+                "rewardExperience":1000
             },
             {
                 "progress":30,
                 "logText":"I slew Lord Erwyn's commander.",
-                "rewardExperience":400
+                "rewardExperience":500
             },
             {
                 "progress":40,
-                "logText":"I slew Lord Erwyn himself. Among his remains I found a strange ring. I should bring it back to the guard at the gate."
+                "logText":"I slew Lord Erwyn himself. Among his remains I found a strange ring. I should show it to Yolgen."
             },
             {
                 "progress":50,
-                "logText":"I brought the ring back to Yolgen. He suspects it has somehow come from Mt. Galmore and reanimated the long dead soldiers. I should be wary of the evil grasp of Mt. Galmore and whatever lurks there...",
-                "rewardExperience":2050
+                "logText":"Yolgen examined the ring thoroughly. He suspects it has somehow come from Mt. Galmore and reanimated the long dead soldiers. I should be wary of the evil grasp of Mt. Galmore and whatever lurks there...",
+                "rewardExperience":2050,
+                "finishesQuest":1
             },
             {
                 "progress":60,
                 "logText":"I kept the ring for myself, to the upset of Yolgen. I should keep looking for its previous owner.",
-                "rewardExperience":500
+                "rewardExperience":500,
+                "finishesQuest":1
             },
             {
                 "progress":70,
                 "logText":"I kept the ring for myself and didn't tell Yolgen about it. He was suspicious but couldn't do anything about it. I should keep looking for its previous owner.",
-                "rewardExperience":500
-            }
-        ]
-    },
-    {
-        "id":"stoutford_reinforcements",
-        "name":"A town and a border in peril",
-        "showInLog":1,
-        "stages":[
-            {
-                "progress":10,
-                "logText":"I talked to Yolgen of the Shadow church in Stoutford. Since Stoutford lies on the border of the Kingdom and is constantly attacked by monsters from Mt. Galmore, Yolgen wants me to ask for reinforcements. I should ask Gyraen, the leader of the Shadow priests, or his former teacher Melandrach for help or I could ask Master Eudes of Feygard instead. He gave me a letter for each of them."
-            }
-        ]
-    },
-    {
-        "id":"prim_tunnel",
-        "name":"Restoring the tunnel to Prim!",
-        "showInLog":1,
-        "stages":[
-            {
-                "progress":10,
-                "logText":"I talked to Prim's leader about the collapse of the mine tunnel to Stoutford and how trade has declined due to this. I could help restoring the tunnel by killing the Gornaud beasts at both entrances once and for all. Furthermore, I should make Stoutford collaborate on this task, so miners could dig from both sides."
-            },
-            {
-                "progress":20,
-                "logText":"I killed the beasts on the northern side of the tunnel. I should return to Prim's leader.",
-                "rewardExperience":1000
-            },
-            {
-                "progress":30,
-                "logText":"Prim has now sent miners to the tunnel and they start digging out the collapsed tunnel."
-            },
-            {
-                "progress":40,
-                "logText":"I killed the beasts on the southern side of the tunnel.",
-                "rewardExperience":1000
-            },
-            {
-                "progress":50,
-                "logText":"I talked to Yolgen about the news from Prim that the monster attacks have largely stopped and that the perpretators were the demons of Kazaul. He has never heard of them before though. He offered help as well and sent some miners to the tunnel. "
-            },
-            {
-                "progress":60,
-                "logText":"The tunnel is now dug out and can be used again. Yolgen thanked me for my efforts. I should also report back to Prim's leader.",
-                "rewardExperience":1000
-            },
-            {
-                "progress":100,
-                "logText":"I reported back to Prim's leader that the tunnel can be used again. He was very grateful and is sure that trade between the two villages will flourish again and that the Elm mine can ship iron ingots to Stoutford again. More travelers will find their way to Prim now as well.",
-                "rewardExperience":6000
+                "rewardExperience":500,
+                "finishesQuest":1
             }
         ]
     }

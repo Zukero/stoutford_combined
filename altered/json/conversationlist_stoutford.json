@@ -43,6 +43,24 @@
             {
                 "text":"What do you know about the surroundings here?",
                 "nextPhraseID":"yolgen_surroundings_0"
+            },
+            {
+                "text":"I have dealt with Erwyn's army.",
+                "nextPhraseID":"yolgen_castle_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":50,
+						"negate":true
+                    }
+
+                ]
             }
         ]
     }
