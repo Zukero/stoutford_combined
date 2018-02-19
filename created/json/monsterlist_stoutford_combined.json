@@ -636,6 +636,13 @@
         "spawnGroup":"berbane",
         "phraseID":"berbane"
     },
+    {
+        "id":"stoutford_old_woman",
+        "name":"Croaklear",
+        "iconID":"monsters_men:2",
+        "spawnGroup":"stoutford_old_woman",
+        "phraseID":"stoutford_old_woman"
+    },
 	{ "id":"stn_burhczyd1",
 	  "name":"Burhczyd",
 	  "iconID":"monsters_ld2:8",

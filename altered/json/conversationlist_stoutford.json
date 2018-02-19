@@ -63,5 +63,23 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"glasforn_rumblings103_0",
+        "message":"Boohoohoo.... the whole town hates me now. Even my dear customers left. Just the old hag who only drinks water stayed, and Lord Bourbon who never pays.",
+        "replies":[
+            {
+                "text":"You deserved it.",
+                "nextPhraseID":"glasforn_rumblings103_1"
+            },
+            {
+                "text":"Well done.",
+                "nextPhraseID":"glasforn_rumblings103_1"
+            },
+            {
+                "text":"Whatever.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

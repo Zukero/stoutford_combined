@@ -214,6 +214,11 @@
     <property name="spawngroup" value="berbane"/>
    </properties>
   </object>
+  <object id="6" name="stoutford_old_woman" type="spawn" x="256" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="stoutford_old_woman"/>
+   </properties>
+  </object>
   <object id="2" name="stoutford_thief" type="spawn" x="192" y="96" width="32" height="32">
    <properties>
     <property name="spawngroup" value="stoutford_thief"/>

@@ -68,6 +68,70 @@
         ]
     },
     {
+        "id":"stoutford_old_woman",
+        "message":"So young and already hanging around in taverns?",
+        "replies":[
+            {
+                "text":"No, I am looking for my brother Andor. Maybe you have seen him?",
+                "nextPhraseID":"stoutford_old_woman_10"
+            },
+            {
+                "text":"At least I am not drinking whole bottles of my own, like that guy next table.",
+                "nextPhraseID":"stoutford_old_woman_20"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_old_woman_10",
+        "message":"Yes, I have seen a boy that looks a bit like you. Not too long ago. But he is gone and I can not say where he was bound to.",
+        "replies":[
+            {
+                "text":"What a pity. Now, at least someone has seen him. Better than nothing.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_old_woman_20",
+        "message":"He looks rather well off. Who is he?",
+        "replies":[
+            {
+                "text":"This is Lord Bourbon ... - I mean Lord Berbane of Stoutford. His name invites for nasty pun, but honestly, he does not much to show a different character.",
+                "nextPhraseID":"stoutford_old_woman_30"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_old_woman_30",
+        "message":"Lord Bourbon sits there every evening, drinking or telling fairy tales. Or he plays lute and sing to it. I must admit he has a comfortable voice.",
+        "replies":[
+            {
+                "text":"Is he the heir of Stoutford Castle?",
+                "nextPhraseID":"stoutford_old_woman_40"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_old_woman_40",
+        "message":"Exactly, although there is not much heirloom left. And the castle is almost in ruins, now after the raid.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_old_woman_50"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_old_woman_50",
+        "message":"And now you should run home and go to bed. Your parents should take better care of you.",
+        "replies":[
+            {
+                "text":"Phew.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
         "id":"berbane",
         "replies":[
             {
