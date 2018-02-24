@@ -182,38 +182,31 @@
  </tileset>
  <layer name="Ground" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj2Ii8Uom6pq3ggbmUdONu4Bm7Qbi7cLUwdOAZp0F4uPC1MEw/zbxUAdT2zxY+LHL4MZNXPjlkfE9aPiJyeDGjVz45ZHxSqh5+NIAyDxq5o/NUDwc8gcAqecLzQ==
+   eJzbyMnAsHEUj2Ii8Uom6pq3ggbmUdONu4Bm7Qbi7cLUwdOAZp0F4uPC1MEw/7LLUAfDzGvioQ6GhR8+O5u4iHffPWj4icngxo1c+OWR8UqoefjSAMg8auaPzVA8HPIHABTEBEc=
   </data>
  </layer>
  <layer name="Objects" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJyFVM1KA0EMDr1I6cHOQFe3eBIEBcGHEF/A+gQVD1p8AvE5+hy92IMnXbC2lOKp0u2h4EFtvftzM+kkTHbcrR+E7CSTLz+b3dQAzGOARez0Bwphpw4wRF83Ang2Wd8Q9VSdCdo/wft3+HyvOKeco498JxbgMcirdYIy4phExUpu4RyJTeUTm5wJU+M5NJcgVbUQl7G+p3Aum3V/nhnPRXklJ/VWYxE8RF5GinMX+fbqvi7hkPOAOWpcUwP1k3FzFCEMcuZJaJd8rqHqe9v4uDFy3ARyy7zUg9ydc/yB9Tn0nJd9Kl4CzcJat0d94+w1fv+CJFJn7vO8AnCRI62Kq4f4UsVB703e/RifOzl7lZpsvWOOpx3rcr96b8M9Wc6j9NcmiANf0d12gV3uH67IIZA7EzWDF55dpOKjFVzikziNozJAs5yv//NrLbCcq8U6nJXGJfq21rJ9FvVxFdjLOfeu0bbPfA3l38DnH+79uOplHW2nVSevvBfvqOe8wwTZFw35PmbI26x6Ich+91TcInK8JG8oZzZ7V5BwTE/ZpY5P9H3nyFdOfX0V34l9zfr/XATqV387UssvRHS1ZA==
+   eJytVL1KA0EQXtKIpPB2IasXUgmCguBD+AbGJ1AsNPgE4nPkOWJhCis9MCYcwSqSS5FOTez96ZzJzrBz691VfjDs7vx883OTZFqpRazUMnbnBwhip6lUCra+VepF520pnDPxRkj7FPzv4f4gOGeUYwh8x0appyCvPBOQMcUkIpZzM+eYdSIf6/iNmGnPIbkYmagFubTxPYVz2Wr691x7LszLObG3Bgnj0XoZC85d4Ntr+rqYg98j4mhQTW04n7WbIwtiVDBPRLfmc6Wi723t4ybAcRvIHfFiD+y7oPgD43PIOa/6FLwInIUxbo+G2ukb9P0ZiRVv6vO8rtRFgXTqrh7kywQHfjf+9hO49wr2KtP5eicUjzvWp37l3oZ7sppH7a+OEQe2Mt9uiZ79DytyMNhnKmZw08r74NvWqu1V7/+EoTo6dIazkrgEW2vN3blPW+J/FejXC/yuQbdPfG1h34T7D+3bUeRlA3SnkZNX2ot3OBe0wwjeFwn+fcyB9yTyguD9Hoi4pXW8KG8gZybvy0goZiD0XMcn2L4L5KugvqGI78W+Zvn/XAbsV/52uJZfbfGxPA==
   </data>
  </layer>
- <layer name="Above" width="20" height="20" visible="0">
+ <layer name="Above" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJytlE0OgjAQhauJUZewIKlLokfwQph4Jc+h3ZIu9Aa6gp1LPYWdlBfHsQUFvmQy9Id5nWGKUp6jVuqk/XPtfKW9l2CNj40z28wZ8W7J9lr2DD3McX0CGlXgDFybA12ub3Q4BulyzVniLYRldSH06j1GjFi9wDrxthEasp7Igyhb4u1TpQpnu/Rznucg49b6u859uGXD3geo62Hqvfx+eeLPmzc5wZtAH8n60xlDeWIfYvCelL0L7vP+OYaYLMaNR2yXSp2z4R4UehwDl46e6Vr/d39snX9f3A/qla5418j6w8V4in6hWLH9fcD9IEL/uBhtd/2X+yE1rJij8QsV0297
+   eJytlE0OgjAQhauJ0S0sSOqS6MU08UqeQ7slXegNdAU7l3oKOxleHMcWFPmSSekP77XDFGOYgzXmaPm5CW1tudVgTvZdCN+OOfVuJdZ68Qw/jEl/Ah51ZA/SWwJf6e9sXIN8pecs44jhRV4Iu3z1oZHKF1hlHGvlofOJcxBVh94uN2YTYpu/j8szaN3GfuZ5CNfiv/cB8rqfcqu/X5nxfsv2TGhdpI50/mmPsXNiHTRkTeraBbf58DPGmCzG1SNOxTgBNnacAOeemvm1pvr0UvPy++J+kHef3iUxfw8aD1UvpJVaPwTcDyL2j0vRdde/uR/aw6sx6j8B4gJ09Q==
+  </data>
+ </layer>
+ <layer name="Top" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDHUwkZM6NAwsBPKTODHpxVB1i3DIo9OjYHgDAJuXDsA=
   </data>
  </layer>
  <layer name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEHRga41JCKKTETmx5KzMLmFmr4GZt51AgvXG4jxQ5ktcQAfGFPjDuJNZ8a4UKNdEmNND4QmFqA1PRNLbfT2jxy7SA2vPCZT434oBYgJpxIcQsA/kfOAA==
+   eJzbKMbAsBEHRga41JCKKTETmx5KzMLmFmr4GZt51AgvXG4jxQ5ktcQAfGFPjDuJNZ8a4UKNdEmNND4QmBqAluYRm1+oFRb0Cldi7KRGGFILEAonUt0CAH+hwx4=
   </data>
  </layer>
- <objectgroup name="Mapevents">
-  <object id="4" name="entrance1" type="mapchange" x="448" y="480" width="32" height="32">
-   <properties>
-    <property name="map" value="wild21"/>
-    <property name="place" value="entrance2"/>
-   </properties>
-  </object>
-  <object id="5" name="entrance2" type="mapchange" x="448" y="288" width="32" height="32">
-   <properties>
-    <property name="map" value="wild21"/>
-    <property name="place" value="entrance1"/>
-   </properties>
-  </object>
-  <object id="10" name="stoutford_guard1" type="spawn" x="480" y="384" width="160" height="32"/>
+ <objectgroup name="Mapevents" visible="0">
+  <object id="10" name="stoutford_guard1a" type="spawn" x="320" y="384" width="288" height="32"/>
   <object id="11" name="stoutford_guard1" type="spawn" x="64" y="384" width="224" height="32"/>
   <object id="14" name="south" type="mapchange" x="416" y="608" width="64" height="32">
    <properties>
@@ -240,7 +233,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn" visible="0"/>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

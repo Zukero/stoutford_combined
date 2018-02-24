@@ -266,3 +266,218 @@ conversationlist_stoutford_combined.json
     },
 
 
+	{ "id":"stn_burhczyd1",
+      "rewards":[{ "rewardType":"alignmentSet", "rewardID":"fct_stn_burhczyd", "value":71 }],
+      "replies":[{ "nextPhraseID":"stn_burhczydx_90", "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":61 }] },
+				 { "nextPhraseID":"stn_burhczydx_10" }]
+	},
+	{ "id":"stn_burhczyd2",
+      "rewards":[{ "rewardType":"alignmentSet", "rewardID":"fct_stn_burhczyd", "value":72 }],
+      "replies":[{ "nextPhraseID":"stn_burhczydx_90", "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":62 }] },
+				 { "nextPhraseID":"stn_burhczydx_10" }]
+	},
+	{ "id":"stn_burhczyd3",
+      "rewards":[{ "rewardType":"alignmentSet", "rewardID":"fct_stn_burhczyd", "value":73 }],
+      "replies":[{ "nextPhraseID":"stn_burhczydx_90", "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":63 }] },
+				 { "nextPhraseID":"stn_burhczydx_10" }]
+	},
+	{ "id":"stn_burhczyd4",
+      "rewards":[{ "rewardType":"alignmentSet", "rewardID":"fct_stn_burhczyd", "value":74 }],
+      "replies":[{ "nextPhraseID":"stn_burhczydx_90", "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":64 }] },
+				 { "nextPhraseID":"stn_burhczydx_10" }]
+	},
+
+
+	{ "id":"stn_burhczydx_10_bak",
+	  "replies":[{ "nextPhraseID":"stn_burhczydx_10_1", 
+				   "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":61 },
+							   { "requireType":"questProgress", "requireID":"stn_nondisplay", "value":71, "negate":true }] },
+			     { "nextPhraseID":"stn_burhczydx_10_2", 
+				   "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":62 },
+							   { "requireType":"questProgress", "requireID":"stn_nondisplay", "value":72, "negate":true }] },
+			     { "nextPhraseID":"stn_burhczydx_10_3", 
+				   "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":63 },
+							   { "requireType":"questProgress", "requireID":"stn_nondisplay", "value":73, "negate":true }] },
+			     { "nextPhraseID":"stn_burhczydx_10_4", 
+				   "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":64 },
+							   { "requireType":"questProgress", "requireID":"stn_nondisplay", "value":74, "negate":true }] },
+				 { "nextPhraseID":"stn_burhczydx_50" }]
+	},
+	{ "id":"stn_burhczydx_10",
+	  "replies":[{ "nextPhraseID":"stn_burhczydx_10_1", 
+				   "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":61 },
+							   { "requireType":"factionScoreExact", "requireID":"fct_stn_burhczyd", "value":71, "negate":true }] },
+			     { "nextPhraseID":"stn_burhczydx_10_2", 
+				   "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":62 },
+							   { "requireType":"factionScoreExact", "requireID":"fct_stn_burhczyd", "value":72, "negate":true }] },
+			     { "nextPhraseID":"stn_burhczydx_10_3", 
+				   "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":63 },
+							   { "requireType":"factionScoreExact", "requireID":"fct_stn_burhczyd", "value":73, "negate":true }] },
+			     { "nextPhraseID":"stn_burhczydx_10_4", 
+				   "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":64 },
+							   { "requireType":"factionScoreExact", "requireID":"fct_stn_burhczyd", "value":74, "negate":true }] },
+				 { "nextPhraseID":"stn_burhczydx_50" }]
+	},
+	{ "id":"stn_burhczydx_10_1",
+      "rewards":[{ "rewardType":"removeSpawnArea", "mapName":"stoutford_tavern", "rewardID":"stn_burhczyd1" },
+				 { "rewardType":"removeQuestProgress", "rewardID":"stn_nondisplay", "value":61 }],
+      "replies":[{ "nextPhraseID":"stn_burhczydx_50" }]
+	},
+	{ "id":"stn_burhczydx_10_2",
+      "rewards":[{ "rewardType":"removeSpawnArea", "mapName":"stoutford_tavern", "rewardID":"stn_burhczyd2" },
+				 { "rewardType":"removeQuestProgress", "rewardID":"stn_nondisplay", "value":62 }],
+      "replies":[{ "nextPhraseID":"stn_burhczydx_50" }]
+	},
+	{ "id":"stn_burhczydx_10_3",
+      "rewards":[{ "rewardType":"removeSpawnArea", "mapName":"stoutford_tavern", "rewardID":"stn_burhczyd3" },
+				 { "rewardType":"removeQuestProgress", "rewardID":"stn_nondisplay", "value":63 }],
+      "replies":[{ "nextPhraseID":"stn_burhczydx_50" }]
+	},
+	{ "id":"stn_burhczydx_10_4",
+      "rewards":[{ "rewardType":"removeSpawnArea", "mapName":"stoutford_tavern", "rewardID":"stn_burhczyd4" },
+				 { "rewardType":"removeQuestProgress", "rewardID":"stn_nondisplay", "value":64 }],
+      "replies":[{ "nextPhraseID":"stn_burhczydx_50" }]
+	},
+	
+	{ "id":"stn_burhczydx_50",
+	  "replies":[{ "nextPhraseID":"stn_burhczydx_4a", "requires":[{ "requireType":"questLatestProgress", "requireID":"stn_quest_merchant", "value":30 }] },
+				 { "nextPhraseID":"stn_burhczydx_3a", "requires":[{ "requireType":"questLatestProgress", "requireID":"stn_quest_merchant", "value":20 }] },
+				 { "nextPhraseID":"stn_burhczydx_2a", "requires":[{ "requireType":"questLatestProgress", "requireID":"stn_quest_merchant", "value":10 }] },
+				 { "nextPhraseID":"stn_burhczydx_1a" }]
+	},
+	{ "id":"stn_burhczydx_90",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_3e",  "requires":[{ "requireType":"questLatestProgress", "requireID":"stn_quest_merchant", "value":30 }] },
+				 { "nextPhraseID":"stn_burhczydx_2e",  "requires":[{ "requireType":"questLatestProgress", "requireID":"stn_quest_merchant", "value":20 }] },
+				 { "nextPhraseID":"stn_burhczydx_1e",  "requires":[{ "requireType":"questLatestProgress", "requireID":"stn_quest_merchant", "value":10 }] }]
+	},
+
+	{ "id":"stn_burhczydx_xa",
+      "rewards":[{ "rewardType":"alignmentChange", "rewardID":"fct_stn_burhczyd", "value":1 }],
+	  "replies":[{ "nextPhraseID":"stn_burhczyd1_10", "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":71 }] },
+				 { "nextPhraseID":"stn_burhczyd2_10", "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":72 }] },
+				 { "nextPhraseID":"stn_burhczyd3_10", "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":73 }] },
+				 { "nextPhraseID":"stn_burhczyd4_10", "requires":[{ "requireType":"questProgress", "requireID":"stn_nondisplay", "value":74 }] }]
+	},
+	{ "id":"stn_burhczyd1_10", "rewards":[{ "rewardType":"questProgress", "rewardID":"stn_nondisplay", "value":61 }] },
+	{ "id":"stn_burhczyd2_10", "rewards":[{ "rewardType":"questProgress", "rewardID":"stn_nondisplay", "value":62 }] },
+	{ "id":"stn_burhczyd3_10", "rewards":[{ "rewardType":"questProgress", "rewardID":"stn_nondisplay", "value":63 }] },
+	{ "id":"stn_burhczyd4_10", "rewards":[{ "rewardType":"questProgress", "rewardID":"stn_nondisplay", "value":64 }] },
+
+	
+	{ "id":"stn_burhczydx_1a",
+	  "message":"Hi, who are you? I have never seen you here?",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_1a_2", "text":"My name is $playername. I am from Crossglen." },
+				 { "nextPhraseID":"X", "text":"My father always told me not to talk to strangers." }]
+	},
+	{ "id":"stn_burhczydx_1a_2",
+	  "message":"Cool. I am Burhczyd afgz Dtaloumiye. Nice to meet you.",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_1a_3", "text":"Burh... - eh, ok. Do you live here in this town?" }]
+	},
+	{ "id":"stn_burhczydx_1a_3",
+	  "message":"Yes. At least until now. My parents gave me some money so I could look at the world. This morning I set off to stay here in the inn. However, I will have to earn some money, otherwise it will be a short trip.",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_1a_4", "text":"Yes, some gold coins always help. Hm, maybe you can kill two birds with one stone." }]
+	},
+	{ "id":"stn_burhczydx_1a_4",
+	  "message":"What are you talking about?",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_1a_5", "text":"Take a cart and start a transport company. You can deliver goods to different cities and get some money." }]
+	},
+	{ "id":"stn_burhczydx_1a_5",
+	  "message":"Wow, splendid idea! I take my fathers cart. Then all I need is a name for my company. Thanks for this tip.",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_1a_9", "text":"With pleasure." }]
+	},
+	{ "id":"stn_burhczydx_1a_9",
+	  "rewards":[{ "rewardType":"questProgress", "rewardID":"stn_quest_merchant", "value":10 }],
+      "replies":[{ "nextPhraseID":"stn_burhczydx_xa" }]
+	},
+	{ "id":"stn_burhczydx_1e",
+	  "message":"I'm still thinking about what to call my business. As soon as I have a name, I start."
+    },
+	
+	{ "id":"stn_burhczydx_2a",
+	  "message":"Hi, we know each other! Unfortunately I forgot your name. Come, have a drink with me. How are you?",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_2a_2", "text":"My name is $playername. And you are called something with Brr, I remember." }]
+	},
+	{ "id":"stn_burhczydx_2a_2",
+	  "message":"Yes, almost: Burhczyd afgz Dtaloumiye I am called. I opened a transport company as you had recommended.",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_2a_3", "text":"Great to hear. Is it going well? Do you already have many customers?" }]
+	},
+	{ "id":"stn_burhczydx_2a_3",
+	  "message":"Well, there are not many yet.",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_2a_4", "text":"N" }]
+	},
+	{ "id":"stn_burhczydx_2a_4",
+	  "message":"More precisely, none at all.",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_2a_5", "text":"Really? Why is this?" }]
+	},
+	{ "id":"stn_burhczydx_2a_5",
+	  "message":"I have no idea. My beautiful cart with BURHCZYD AFGZ DTALOUMIYE - TRANSPORTS written in big white letters always runs empty.",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_2a_6", "text":"Good gracious - how did you name your company?!!" }]
+	},
+	{ "id":"stn_burhczydx_2a_6",
+	  "message":"Burhczyd afgz Dtaloumiye - Transports. Why?",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_2a_7", "text":"Nobody can pronounce that name, let alone remember it! No wonder you do not get any orders." }]
+	},
+	{ "id":"stn_burhczydx_2a_7",
+	  "message":"Do you really think so?",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_2a_8", "text":"Sure. You have to use a short and catchy name." }]
+	},
+	{ "id":"stn_burhczydx_2a_8",
+	  "message":"Ok, I'll think about a better company name.",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_2a_9", "text":"N" }]
+	},
+	{ "id":"stn_burhczydx_2a_9",
+	  "rewards":[{ "rewardType":"questProgress", "rewardID":"stn_quest_merchant", "value":20 }],
+      "replies":[{ "nextPhraseID":"stn_burhczydx_xa" }]
+	},
+	{ "id":"stn_burhczydx_2e",
+	  "message":"I'm still thinking about a better name for my company. As soon as I have it, I'll leave." 
+	},
+	
+	{ "id":"stn_burhczydx_3a",
+	  "message":"Hello, how was your name? How are you?", 
+      "replies":[{ "nextPhraseID":"stn_burhczydx_3a_2", "text":"I am $playername. How's business?" }]
+	},
+	{ "id":"stn_burhczydx_3a_2",
+	  "message":"Don't ask. Still no orders. And I have now idea why.", 
+      "replies":[{ "nextPhraseID":"stn_burhczydx_3a_3", "text":"That's horrible! How did you call your company? It should be short and memorable." }]
+	},
+	{ "id":"stn_burhczydx_3a_3",
+	  "message":"Yes, that's what I've done. I simply chose the initials of my name. Clever, right?", 
+      "replies":[{ "nextPhraseID":"stn_burhczydx_3a_4", "text":"N" }]
+	},
+	{ "id":"stn_burhczydx_3a_4",
+	  "message":"So it is  B.A.D. TRANSPORTS - looks fine!", 
+      "replies":[{ "nextPhraseID":"stn_burhczydx_3a_5", "text":"My, you can not be serious?!  BAD TRANSPORTS - tell me that's just a joke!" }]
+	},
+	{ "id":"stn_burhczydx_3a_5",
+	  "message":"Oh no! Did I do everything wrong again? Never works anything I do. (sob)", 
+      "replies":[{ "nextPhraseID":"stn_burhczydx_3a_6", "text":"Look! Just call yourself 'Easy Transports'. That will do." }]
+	},
+	{ "id":"stn_burhczydx_3a_6",
+	  "message":"Ok, thank you. I'll try. Later. Tomorrow. Maybe. (sob)",
+      "replies":[{ "nextPhraseID":"stn_burhczydx_3a_9", "text":"N" }]
+	},
+	{ "id":"stn_burhczydx_3a_9",
+	  "rewards":[{ "rewardType":"questProgress", "rewardID":"stn_quest_merchant", "value":30 }],
+      "replies":[{ "nextPhraseID":"stn_burhczydx_xa" }]
+	},
+	{ "id":"stn_burhczydx_3e",
+	  "message":"Only one more beer, then I'll leave." 
+	},
+	
+	{ "id":"stn_burhczydx_4a",
+	  "message":"Hi Eduardo.", 
+      "replies":[{ "nextPhraseID":"stn_burhczydx_4a_2", "text":"No, $playername is my name." }]
+	},
+	{ "id":"stn_burhczydx_4a_2",
+	  "message":"... some more story ...", 
+      "replies":[{ "nextPhraseID":"stn_burhczydx_4a_9", "text":"N" }]
+	},
+	{ "id":"stn_burhczydx_4a_9",
+	  "rewards":[{ "rewardType":"questProgress", "rewardID":"stn_quest_merchant", "value":40 }],
+      "replies":[{ "nextPhraseID":"stn_burhczydx_xa" }]
+	},
+	{ "id":"stn_burhczydx_4e",
+	  "message":"4e, then I'll leave." 
+	},
+

@@ -1,5 +1,9 @@
 [
     {
+        "id":"stn_sign_stoutford",
+        "message":" * Welcome to Stoutford * \n\n(scribbled below) Death awaits you"
+    },
+    {
         "id":"stoutford_commoner4",
         "message":"These are hard days. It is nice to see kids like you still strolling around."
     },
