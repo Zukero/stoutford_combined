@@ -2639,18 +2639,94 @@
         ]
     },
     {
-        "id":"stoutford_guard",
-        "name":"Stoutford Guard",
-        "iconID":"monsters_tometik2:44",
-        "phraseID":"stoutford_guard1_0"
-    },
-    {
         "id":"stoutford_guard2",
         "message":"Oh, then does the shift end?? I want to have a some cold mead right now."
     },
     {
         "id":"stoutford_guard3",
         "message":"Stoutford shall prevail in these hard times, traveler."
+    },
+    {
+        "id":"stoutford_guard_camp1_10",
+        "message":"Hi kid. It is nice and warm here near to the fire. Come and make yourself comfortable.",
+        "replies":[
+            {
+                "text":"Ah no, thank you. I like to do more interesting things to do now.",
+                "nextPhraseID":"stoutford_guard_camp2_10"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_guard_camp2_10",
+        "message":"What do you do out here all alone?",
+        "replies":[
+            {
+                "text":"I am looking for my brother Andor. You have not seen him by chance?",
+                "nextPhraseID":"stoutford_guard_camp2_20"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_guard_camp2_20",
+        "message":"No. We're in a military exercise right now.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_guard_camp2_30"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_guard_camp2_30",
+        "message":"We just saw another horde of undead approach the castle when we left. We hurry here now, so that we are back in time to be able to help.",
+        "replies":[
+            {
+                "text":"You mean, you ran away just in time before you got involved in the fight?",
+                "nextPhraseID":"stoutford_guard_camp2_40"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_guard_camp2_40",
+        "message":"Ouh, that does not sound nice, as you put it.",
+        "replies":[
+            {
+                "text":"Cowardice. I'll report that to your commander.",
+                "nextPhraseID":"stoutford_guard_camp2_42"
+            },
+            {
+                "text":"I better leave now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I better leave now. And you need not hurry with your exercise. All your comrades have been killed already by the undead.",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":4
+                    }
+                ],
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_guard_camp2_42",
+        "message":"No, you won't.",
+        "replies":[
+            {
+                "text":"Oh, you draw your sword?",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"fct_stoutford_guard_camp", 
+				"value":1
+            }
+        ]
     },
     {
         "id":"stoutford_armorer",
