@@ -200,7 +200,7 @@
    eJzbKMbAsHEUk4VBAB+NrA5dDJtZ6IBUu5D14QPYzMXnDnR9xAJy7SEVEGMPMXYTcic+e/DFIbXtIZTWiEmLxPqHlLRHajqiBwYAI62beQ==
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object id="9" name="up" type="mapchange" x="384" y="96" width="32" height="32">
    <properties>
     <property name="map" value="stoutford_castle_barrack0"/>
@@ -217,7 +217,7 @@
   <object id="14" name="base_beamto_remgard" type="mapchange" x="96" y="96" width="32" height="32">
    <properties>
     <property name="map" value="remgard_tavern1"/>
-    <property name="place" value="down"/>
+    <property name="place" value="base_beamto_stoutford"/>
    </properties>
   </object>
   <object id="14" name="base_beamto_loneford" type="mapchange" x="160" y="96" width="32" height="32">

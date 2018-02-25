@@ -1,23 +1,5 @@
 [
     {
-        "id":"stn_sign_stoutford",
-        "message":" * Welcome to Stoutford * \n\n(scribbled below) Death awaits you"
-    },
-    {
-        "id":"stoutford_commoner4",
-        "message":"These are hard days. It is nice to see kids like you still strolling around."
-    },
-    {
-        "id":"stoutford_commoner5",
-        "message":"It is a lovely day for a drink. Come and join me.",
-        "replies":[
-            {
-                "text":"Thank you, maybe some other time.",
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
         "id":"stoutford_farmer2",
         "message":"Hello there. Please do not bother me, I have a lot of work to do."
     },
@@ -26,300 +8,12 @@
         "message":"Hello. Could you please move out of the way? I am trying to work here."
     },
     {
-        "id":"stoutford_guard4",
-        "message":"Hey, kid, get ouf of here immediatly!"
+        "id":"stoutford_armorer",
+        "message":"Hi, kid."
     },
     {
-        "id":"stoutford_commander",
-        "message":"Hey, kid, what are you doing here?",
-        "replies":[
-            {
-                "text":"Mind your own business.",
-                "nextPhraseID":"stoutford_commander_10"
-            },
-            {
-                "text":"Who are you?",
-                "nextPhraseID":"stoutford_commander_20"
-            }
-        ]
-    },
-    {
-        "id":"stoutford_commander_10",
-        "message":"Get out! But immediately, naughty child!"
-    },
-    {
-        "id":"stoutford_commander_20",
-        "message":"My name is Borlag. I am chief of the local guards here.",
-        "replies":[
-            {
-                "text":"Aha. And why are you sitting here in your tower instead of driving the undead out of the castle?",
-                "nextPhraseID":"stoutford_commander_10"
-            },
-            {
-                "text":"What are you doing here at the moment?",
-                "nextPhraseID":"stoutford_commander_30"
-            }
-        ]
-    },
-    {
-        "id":"stoutford_commander_30",
-        "message":"Oh, I'm working on a strategy to win back the castle. I have already made 17 plans. Now I have to compare and rate them.",
-        "replies":[
-            {
-                "text":"How about just starting?",
-                "nextPhraseID":"stoutford_commander_10"
-            }
-        ]
-    },
-    {
-        "id":"stoutford_old_woman",
-        "message":"So young and already hanging around in taverns?",
-        "replies":[
-            {
-                "text":"No, I am looking for my brother Andor. Maybe you have seen him?",
-                "nextPhraseID":"stoutford_old_woman_10"
-            },
-            {
-                "text":"At least I am not drinking whole bottles of my own, like that guy next table.",
-                "nextPhraseID":"stoutford_old_woman_20"
-            }
-        ]
-    },
-    {
-        "id":"stoutford_old_woman_10",
-        "message":"Yes, I have seen a boy that looks a bit like you. Not too long ago. But he is gone and I can not say where he was bound to.",
-        "replies":[
-            {
-                "text":"What a pity. Now, at least someone has seen him. Better than nothing.",
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
-        "id":"stoutford_old_woman_20",
-        "message":"He looks rather well off. Who is he?",
-        "replies":[
-            {
-                "text":"This is Lord Bourbon ... - I mean Lord Berbane of Stoutford. His name invites for nasty pun, but honestly, he does not much to show a different character.",
-                "nextPhraseID":"stoutford_old_woman_30"
-            }
-        ]
-    },
-    {
-        "id":"stoutford_old_woman_30",
-        "message":"Lord Bourbon sits there every evening, drinking or telling fairy tales. Or he plays lute and sing to it. I must admit he has a comfortable voice.",
-        "replies":[
-            {
-                "text":"Is he the heir of Stoutford Castle?",
-                "nextPhraseID":"stoutford_old_woman_40"
-            }
-        ]
-    },
-    {
-        "id":"stoutford_old_woman_40",
-        "message":"Exactly, although there is not much heirloom left. And the castle is almost in ruins, now after the raid.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"stoutford_old_woman_50"
-            }
-        ]
-    },
-    {
-        "id":"stoutford_old_woman_50",
-        "message":"And now you should run home and go to bed. Your parents should take better care of you.",
-        "replies":[
-            {
-                "text":"Phew.",
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
-        "id":"berbane",
-        "replies":[
-            {
-                "nextPhraseID":"berbane_100",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"stn_nondisplay",
-                        "value":44
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"berbane_10"
-            }
-        ]
-    },
-    {
-        "id":"berbane_10",
-        "message":"* The richly dressed man does not react *",
-        "replies":[
-            {
-                "text":"Who are you?",
-                "nextPhraseID":"berbane_10"
-            },
-            {
-                "text":"Yolgen asked me to help clearing the castle of undeads. Shall we do it together?",
-                "nextPhraseID":"berbane_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"stoutford_castle",
-                        "value":10
-                    }
-                ]
-			},
-            {
-                "text":"Gyra had found your helmet and asked me to give it to you. So that you could start to clear the castle.",
-                "nextPhraseID":"berbane_20",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"gyra",
-                        "value":70
-                    },
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"stoutford_helmet",
-                        "value":1
-                    }
-                ]
-			},
-            {
-                "text":"The castle is clean from undead now.",
-                "nextPhraseID":"berbane_100",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"stoutford_castle",
-                        "value":40
-                    }
-                ]
-			}
-		]
-    },
-    {
-        "id":"berbane_20",
-        "message":"(Berbane took the helmet)\nGyra? My dearest and most eager listener?",
-        "replies":[
-            {
-                "text":"Seems so.",
-                "nextPhraseID":"berbane_30"
-            }
-		],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"stn_quest_gyra",
-                "value":90
-            }
-        ]
-    },
-    {
-        "id":"berbane_30",
-        "message":"Many of my songs are about this magical helmet. But it's all just songs.",
-        "replies":[
-            {
-                "text":"Will you make the songs a reality now?",
-                "nextPhraseID":"berbane"
-            }
-		]
-    },
-    {
-        "id":"berbane_100",
-        "message":"(loud voice) Hear and listen everybody! The castle is free! The trembling is over!",
-        "replies":[
-            {
-                "text":"...?",
-                "nextPhraseID":"berbane_110"
-            }
-		],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"stn_nondisplay",
-                "value":44
-            }
-        ]
-    },
-    {
-        "id":"berbane_110",
-        "message":"(loud voice) My trainee and me, we were in the castle. I demonstrated how to fight properly. Especially Lord Erwyn himself was a good demonstration object.",
-        "replies":[
-            {
-                "text":"But ...",
-                "nextPhraseID":"berbane_120"
-            }
-		]
-    },
-    {
-        "id":"berbane_120",
-        "message":"(loud voice) But we will come to the details later - after the local round",
-        "replies":[
-            {
-                "text":"No, I have ...",
-                "nextPhraseID":"berbane_130"
-            }
-		]
-    },
-    {
-        "id":"berbane_130",
-        "replies":[
-            {
-                "nextPhraseID":"berbane_132",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"stoutford_helmet",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"berbane_134"
-            }
-		]
-    },
-    {
-        "id":"berbane_132",
-        "message":"(loud voice) Of course - you have carried my magical helmet for me. I take it back now.",
-        "replies":[
-            {
-                "text":"I give up.",
-                "nextPhraseID":"berbane_140"
-            }
-		],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"stn_quest_gyra",
-                "value":92
-            }
-        ]
-    },
-    {
-        "id":"berbane_134",
-        "message":"(loud voice) Of course - you have learned much from me. But no need to thank me now.",
-        "replies":[
-            {
-                "text":"I give up.",
-                "nextPhraseID":"berbane_140"
-            }
-		]
-    },
-    {
-        "id":"berbane_140",
-        "message":"(low voice) Well-behaved. \n(loud voice) And now mead for everyone! Let's be merry! Forget all sorrows!",
-        "rewards":[
-            {
-                "rewardType":"giveItem",
-                "rewardID":"mead",
-                "value":1
-            }
-        ]
+        "id":"stoutford_smith",
+        "message":"Hi, kid."
     },
     {
         "id":"cadoren_0",
@@ -2639,6 +2333,320 @@
         ]
     },
     {
+        "id":"stn_sign_stoutford",
+        "message":" * Welcome to Stoutford * \n\n(scribbled below) Death awaits you"
+    },
+    {
+        "id":"stoutford_commoner4",
+        "message":"These are hard days. It is nice to see kids like you still strolling around."
+    },
+    {
+        "id":"stoutford_commoner5",
+        "message":"It is a lovely day for a drink. Come and join me.",
+        "replies":[
+            {
+                "text":"Thank you, maybe some other time.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_guard4",
+        "message":"Hey, kid, get ouf of here immediatly!"
+    },
+    {
+        "id":"stoutford_commander",
+        "message":"Hey, kid, what are you doing here?",
+        "replies":[
+            {
+                "text":"Mind your own business.",
+                "nextPhraseID":"stoutford_commander_10"
+            },
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"stoutford_commander_20"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_commander_10",
+        "message":"Get out! But immediately, naughty child!"
+    },
+    {
+        "id":"stoutford_commander_20",
+        "message":"My name is Borlag. I am chief of the local guards here.",
+        "replies":[
+            {
+                "text":"Aha. And why are you sitting here in your tower instead of driving the undead out of the castle?",
+                "nextPhraseID":"stoutford_commander_10"
+            },
+            {
+                "text":"What are you doing here at the moment?",
+                "nextPhraseID":"stoutford_commander_30"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_commander_30",
+        "message":"Oh, I'm working on a strategy to win back the castle. I have already made 17 plans. Now I have to compare and rate them.",
+        "replies":[
+            {
+                "text":"How about just starting?",
+                "nextPhraseID":"stoutford_commander_10"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_old_woman",
+        "message":"So young and already hanging around in taverns?",
+        "replies":[
+            {
+                "text":"No, I am looking for my brother Andor. Maybe you have seen him?",
+                "nextPhraseID":"stoutford_old_woman_10"
+            },
+            {
+                "text":"At least I am not drinking whole bottles of my own, like that guy next table.",
+                "nextPhraseID":"stoutford_old_woman_20"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_old_woman_10",
+        "message":"Yes, I have seen a boy that looks a bit like you. Not too long ago. But he is gone and I can not say where he was bound to.",
+        "replies":[
+            {
+                "text":"What a pity. Now, at least someone has seen him. Better than nothing.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_old_woman_20",
+        "message":"He looks rather well off. Who is he?",
+        "replies":[
+            {
+                "text":"This is Lord Bourbon ... - I mean Lord Berbane of Stoutford. His name invites for nasty pun, but honestly, he does not much to show a different character.",
+                "nextPhraseID":"stoutford_old_woman_30"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_old_woman_30",
+        "message":"Lord Bourbon sits there every evening, drinking or telling fairy tales. Or he plays lute and sing to it. I must admit he has a comfortable voice.",
+        "replies":[
+            {
+                "text":"Is he the heir of Stoutford Castle?",
+                "nextPhraseID":"stoutford_old_woman_40"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_old_woman_40",
+        "message":"Exactly, although there is not much heirloom left. And the castle is almost in ruins, now after the raid.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_old_woman_50"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_old_woman_50",
+        "message":"And now you should run home and go to bed. Your parents should take better care of you.",
+        "replies":[
+            {
+                "text":"Phew.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"berbane",
+        "replies":[
+            {
+                "nextPhraseID":"berbane_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":44
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"berbane_10"
+            }
+        ]
+    },
+    {
+        "id":"berbane_10",
+        "message":"* The richly dressed man does not react *",
+        "replies":[
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"berbane_10"
+            },
+            {
+                "text":"Yolgen asked me to help clearing the castle of undeads. Shall we do it together?",
+                "nextPhraseID":"berbane_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":10
+                    }
+                ]
+			},
+            {
+                "text":"Gyra had found your helmet and asked me to give it to you. So that you could start to clear the castle.",
+                "nextPhraseID":"berbane_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gyra",
+                        "value":70
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"stoutford_helmet",
+                        "value":1
+                    }
+                ]
+			},
+            {
+                "text":"The castle is clean from undead now.",
+                "nextPhraseID":"berbane_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":40
+                    }
+                ]
+			}
+		]
+    },
+    {
+        "id":"berbane_20",
+        "message":"(Berbane took the helmet)\nGyra? My dearest and most eager listener?",
+        "replies":[
+            {
+                "text":"Seems so.",
+                "nextPhraseID":"berbane_30"
+            }
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_quest_gyra",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"berbane_30",
+        "message":"Many of my songs are about this magical helmet. But it's all just songs.",
+        "replies":[
+            {
+                "text":"Will you make the songs a reality now?",
+                "nextPhraseID":"berbane"
+            }
+		]
+    },
+    {
+        "id":"berbane_100",
+        "message":"(loud voice) Hear and listen everybody! The castle is free! The trembling is over!",
+        "replies":[
+            {
+                "text":"...?",
+                "nextPhraseID":"berbane_110"
+            }
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":44
+            }
+        ]
+    },
+    {
+        "id":"berbane_110",
+        "message":"(loud voice) My trainee and me, we were in the castle. I demonstrated how to fight properly. Especially Lord Erwyn himself was a good demonstration object.",
+        "replies":[
+            {
+                "text":"But ...",
+                "nextPhraseID":"berbane_120"
+            }
+		]
+    },
+    {
+        "id":"berbane_120",
+        "message":"(loud voice) But we will come to the details later - after the local round",
+        "replies":[
+            {
+                "text":"No, I have ...",
+                "nextPhraseID":"berbane_130"
+            }
+		]
+    },
+    {
+        "id":"berbane_130",
+        "replies":[
+            {
+                "nextPhraseID":"berbane_132",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"stoutford_helmet",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"berbane_134"
+            }
+		]
+    },
+    {
+        "id":"berbane_132",
+        "message":"(loud voice) Of course - you have carried my magical helmet for me. I take it back now.",
+        "replies":[
+            {
+                "text":"I give up.",
+                "nextPhraseID":"berbane_140"
+            }
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_quest_gyra",
+                "value":92
+            }
+        ]
+    },
+    {
+        "id":"berbane_134",
+        "message":"(loud voice) Of course - you have learned much from me. But no need to thank me now.",
+        "replies":[
+            {
+                "text":"I give up.",
+                "nextPhraseID":"berbane_140"
+            }
+		]
+    },
+    {
+        "id":"berbane_140",
+        "message":"(low voice) Well-behaved. \n(loud voice) And now mead for everyone! Let's be merry! Forget all sorrows!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"mead",
+                "value":1
+            }
+        ]
+    },
+    {
         "id":"stoutford_guard2",
         "message":"Oh, then does the shift end?? I want to have a some cold mead right now."
     },
@@ -2727,14 +2735,6 @@
 				"value":1
             }
         ]
-    },
-    {
-        "id":"stoutford_armorer",
-        "message":"Hi, kid."
-    },
-    {
-        "id":"stoutford_smith",
-        "message":"Hi, kid."
     },
     {
         "id":"stn_boralla",

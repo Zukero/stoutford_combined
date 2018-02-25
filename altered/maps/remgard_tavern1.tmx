@@ -212,7 +212,7 @@
   <object id="12" name="base_beamto_stoutford" type="mapchange" x="96" y="416" width="32" height="32">
    <properties>
     <property name="map" value="stoutford_castle_barrack2"/>
-    <property name="place" value="up"/>
+    <property name="place" value="base_beamto_remgard"/>
    </properties>
   </object>
  </objectgroup>

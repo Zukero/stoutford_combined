@@ -1,0 +1,25 @@
+[
+    {
+        "id":"caeda",
+        "message":"So much work to do. I sure hope we will have some rain soon.",
+        "replies":[
+            {
+                "text":"Do you know where I can find some Damerilias ?",
+                "nextPhraseID":"caeda_root10_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]
