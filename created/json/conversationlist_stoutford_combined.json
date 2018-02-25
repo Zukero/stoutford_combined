@@ -7417,5 +7417,57 @@
                 "rewardID":"stn_lizard"
             }
         ]
+    },
+    {
+        "id":"stn_northgate_10",
+        "replies":[
+            {
+                "nextPhraseID":"stn_northgate_14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stn_northgate_12"
+            }
+        ]
+    },
+    {
+        "id":"stn_northgate_12",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":5
+            }
+        ],
+        "replies":[
+            {
+                "nextPhraseID":"stn_northgate_20"
+            }
+        ]
+    },
+    {
+        "id":"stn_northgate_14",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"stn_nondisplay",
+                "value":5
+            }
+        ],
+        "replies":[
+            {
+                "nextPhraseID":"stn_northgate_20"
+            }
+        ]
+    },
+    {
+        "id":"stn_northgate_20",
+        "message":"You hear some mechanism rattle."
     }
 ]
