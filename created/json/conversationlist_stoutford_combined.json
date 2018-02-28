@@ -1520,21 +1520,7 @@
             }
         ]
     },
-    {
-        "id":"script_lakecave1_damerilia5_1",
-        "message":"Fetch the flower?",
-        "replies":[
-            {
-                "text":"Yes",
-                "nextPhraseID":"script_lakecave1_damerilia5_2"
-            },
-            {
-                "text":"No",
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
+F    {
         "id":"script_lakecave1_damerilia5_2",
         "message":"You fetched the flower.",
         "rewards":[
@@ -2422,10 +2408,20 @@
     },
     {
         "id":"stoutford_old_woman_20",
-        "message":"He looks rather well off. Who is he?",
+        "message":"Well spoken. I hope for you that you will choose other amusements.",
         "replies":[
             {
-                "text":"This is Lord Bourbon ... - I mean Lord Berbane of Stoutford. His name invites for nasty pun, but honestly, he does not much to show a different character.",
+                "text":"He looks rather well off. Who is he?",
+                "nextPhraseID":"stoutford_old_woman_22"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_old_woman_22",
+        "message":"This is Lord Bourbon ... - I mean Lord Berbane of Stoutford. His name invites for nasty pun, but honestly, he does not much to show a different character.",
+        "replies":[
+            {
+                "text":"N",
                 "nextPhraseID":"stoutford_old_woman_30"
             }
         ]
@@ -2452,7 +2448,7 @@
     },
     {
         "id":"stoutford_old_woman_50",
-        "message":"And now you should run home and go to bed. Your parents should take better care of you.",
+        "message":"And now you should run home and go to bed. Your parents should take better care of you and your brothers.",
         "replies":[
             {
                 "text":"Phew.",
