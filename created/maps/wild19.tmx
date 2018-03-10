@@ -214,7 +214,7 @@
   </object>
   <object id="6" name="north1" type="mapchange" x="160" y="0" width="64" height="32">
    <properties>
-    <property name="map" value="blackwatermountain0"/>
+    <property name="map" value="blackwater_mountain0"/>
     <property name="place" value="south1"/>
    </properties>
   </object>
@@ -226,7 +226,7 @@
   </object>
   <object id="14" name="north2" type="mapchange" x="480" y="0" width="64" height="32">
    <properties>
-    <property name="map" value="blackwatermountain0"/>
+    <property name="map" value="blackwater_mountain0"/>
     <property name="place" value="south2"/>
    </properties>
   </object>

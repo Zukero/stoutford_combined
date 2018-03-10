@@ -635,6 +635,7 @@
             "max":6
         },
         "spawnGroup":"stoutford_guard_camp",
+        "faction":"stoutford_guard_camp",
         "phraseID":"stoutford_guard_camp1_10",
         "attackCost":5,
         "attackChance":50,
@@ -654,6 +655,7 @@
             "max":6
         },
         "spawnGroup":"stoutford_guard_camp",
+        "faction":"stoutford_guard_camp",
         "phraseID":"stoutford_guard_camp2_10",
         "attackCost":5,
         "attackChance":50,

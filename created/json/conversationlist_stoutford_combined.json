@@ -2727,8 +2727,8 @@
         "rewards":[
             {
                 "rewardType":"alignmentSet",
-                "rewardID":"fct_stoutford_guard_camp", 
-				"value":1
+                "rewardID":"stoutford_guard_camp", 
+				"value":-10
             }
         ]
     },
