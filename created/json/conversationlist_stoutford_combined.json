@@ -3212,12 +3212,12 @@
     },
     {
         "id":"stn_gyra_52",
-        "message":"No! Please not through the gate! I won't go there!",
+        "message":"No! Please not to Flagstone! I won't go there!",
         "rewards":[
             {
                 "rewardType":"spawnAll",
-                "rewardID":"stn_gyra5",
-                "mapName":"waytogalmore0"
+                "rewardID":"stn_gyra2",
+                "mapName":"flagstone0"
             },
             {
                 "rewardType":"removeQuestProgress",
@@ -3750,7 +3750,7 @@
         "id":"stn_gyra_m14_2",
         "replies":[
             {
-                "nextPhraseID":"stn_gyra_m14_2_spawn",
+                "nextPhraseID":"stn_gyra_m14_C_spawn",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -3760,7 +3760,7 @@
                 ]
             },
             {
-                "nextPhraseID":"stn_gyra_m14_2b_spawn",
+                "nextPhraseID":"stn_gyra_m14_2_spawn",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -3775,7 +3775,7 @@
         "id":"stn_gyra_m14_2_spawn",
         "replies":[
             {
-                "nextPhraseID":"stn_gyra_m16_clr"
+                "nextPhraseID":"stn_gyra_m23_clr"
             }
         ],
         "rewards":[
@@ -3792,16 +3792,16 @@
         ]
     },
     {
-        "id":"stn_gyra_m14_2b_spawn",
+        "id":"stn_gyra_m14_C_spawn",
         "replies":[
             {
-                "nextPhraseID":"stn_gyra_m23_clr"
+                "nextPhraseID":"stn_gyra_m16_clr"
             }
         ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
-                "rewardID":"stn_gyra2",
+                "rewardID":"stn_gyraC",
                 "mapName":"waytogalmore1"
             },
             {
@@ -3965,7 +3965,7 @@
                 ]
             },
             {
-                "nextPhraseID":"stn_gyra_m14_7b_spawn",
+                "nextPhraseID":"stn_gyra_m14_B_spawn",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -3997,7 +3997,7 @@
         ]
     },
     {
-        "id":"stn_gyra_m14_7b_spawn",
+        "id":"stn_gyra_m14_B_spawn",
         "replies":[
             {
                 "nextPhraseID":"stn_gyra_m16_clr"
@@ -4006,7 +4006,7 @@
         "rewards":[
             {
                 "rewardType":"spawnAll",
-                "rewardID":"stn_gyra7",
+                "rewardID":"stn_gyraB",
                 "mapName":"waytogalmore1"
             },
             {
@@ -4148,6 +4148,16 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"stn_gyraA",
                 "mapName":"waytogalmore1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"stn_gyraB",
+                "mapName":"waytogalmore1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"stn_gyraC",
+                "mapName":"waytogalmore1"
             }
         ]
     },
@@ -4282,6 +4292,41 @@
             {
                 "rewardType":"spawnAll",
                 "rewardID":"stn_gyra4",
+                "mapName":"waytogalmore0"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"stn_gyra_m15_5",
+        "replies":[
+            {
+                "nextPhraseID":"stn_gyra_m15_5_spawn",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":28
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"stn_gyra_m15_5_spawn",
+        "replies":[
+            {
+                "nextPhraseID":"stn_gyra_m28_clr"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"stn_gyra5",
                 "mapName":"waytogalmore0"
             },
             {
@@ -5601,6 +5646,66 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"stn_gyra1",
                 "mapName":"stoutford_tower4"
+            }
+        ]
+    },
+    {
+        "id":"stn_gyra_m28_1",
+        "replies":[
+            {
+                "nextPhraseID":"stn_gyra_m28_1_spawn",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":15
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"stn_gyra_m28_1_spawn",
+        "replies":[
+            {
+                "nextPhraseID":"stn_gyra_m15_clr"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"stn_gyra1",
+                "mapName":"flagstone0"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":28
+            }
+        ]
+    },
+    {
+        "id":"stn_gyra_m28_clr",
+        "replies":[
+            {
+                "nextPhraseID":"stn_gyra_29"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"stn_nondisplay",
+                "value":28
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"stn_gyra1",
+                "mapName":"flagstone0"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"stn_gyra2",
+                "mapName":"flagstone0"
             }
         ]
     },

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><resources>
     <array name="loadresource_itemcategories">
         <item>@raw/itemcategories_1</item>
-        <!--Added by ATCS v0.6.10 for project stoutford_combined-->
+        <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/itemcategories_stoutford_combined</item>
     </array>
 
@@ -16,7 +16,7 @@
         <item>@raw/actorconditions_stoutford</item>
         <!-- 		<item>@raw/actorconditions_stoutford_roots_love</item>
  -->
-        <!--Added by ATCS v0.6.10 for project stoutford_combined-->
+        <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/actorconditions_stoutford_combined</item>
     </array>
 
@@ -47,7 +47,7 @@
         <!-- 		<item>@raw/itemlist_stoutford_roots_love</item>
  -->
         <item>@raw/itemlist_pathway_fallhaven</item>
-        <!--Added by ATCS v0.6.10 for project stoutford_combined-->
+        <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/itemlist_stoutford_combined</item>
     </array>
 
@@ -73,7 +73,7 @@
         <!-- 		<item>@raw/droplists_stoutford_roots_love</item>
  -->
         <item>@raw/droplists_pathway_fallhaven</item>
-        <!--Added by ATCS v0.6.10 for project stoutford_combined-->
+        <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/droplists_stoutford_combined</item>
     </array>
 
@@ -96,10 +96,8 @@
  -->
         <item>@raw/questlist_pathway_fallhaven</item>
         <item>@raw/questlist_halvor_surprise</item>
-        <!--Added by ATCS v0.6.10 for project stoutford_combined-->
+        <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/questlist_stoutford_combined</item>
-        <item>@raw/questlist_v069</item>
-        <item>@raw/questlist_v069</item>
     </array>
 
     <array name="loadresource_conversationlists">
@@ -261,24 +259,7 @@
         <item>@raw/conversationlist_stoutford</item>
         <!-- 		<item>@raw/conversationlist_stoutford_roots_love</item> -->
         <item>@raw/conversationlist_toszylae_fix</item>
-        <!--Added by ATCS v0.6.10 for project stoutford_combined-->
-        <item>@raw/conversationlist_flagstone</item>
-        <item>@raw/conversationlist_flagstone</item>
-        <item>@raw/conversationlist_flagstone</item>
-        <item>@raw/conversationlist_flagstone</item>
-        <item>@raw/conversationlist_flagstone</item>
-        <item>@raw/conversationlist_flagstone</item>
-        <item>@raw/conversationlist_flagstone</item>
-        <item>@raw/conversationlist_flagstone</item>
-        <item>@raw/conversationlist_flagstone</item>
-        <item>@raw/conversationlist_flagstone</item>
-        <item>@raw/conversationlist_flagstone</item>
-        <item>@raw/conversationlist_flagstone</item>
-        <item>@raw/conversationlist_flagstone</item>
-        <item>@raw/conversationlist_stoutford</item>
-        <item>@raw/conversationlist_stoutford</item>
-        <item>@raw/conversationlist_stoutford_combined</item>
-        <item>@raw/conversationlist_stoutford_combined</item>
+        <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/conversationlist_stoutford_combined</item>
     </array>
 
@@ -310,17 +291,7 @@
         <item>@raw/monsterlist_pathway_fallhaven</item>
         <item>@raw/monsterlist_halvor_surprise</item>
         <item>@raw/monsterlist_stoutford</item>
-        <!--Added by ATCS v0.6.10 for project stoutford_combined-->
-        <item>@raw/monsterlist_stoutford</item>
-        <item>@raw/monsterlist_stoutford</item>
-        <item>@raw/monsterlist_stoutford</item>
-        <item>@raw/monsterlist_stoutford</item>
-        <item>@raw/monsterlist_stoutford</item>
-        <item>@raw/monsterlist_stoutford</item>
-        <item>@raw/monsterlist_stoutford</item>
-        <item>@raw/monsterlist_stoutford</item>
-        <item>@raw/monsterlist_stoutford</item>
-        <item>@raw/monsterlist_stoutford</item>
+        <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/monsterlist_stoutford_combined</item>
     </array>
 
@@ -735,7 +706,7 @@
         <item>@xml/stoutford_smith</item>
         <item>@xml/stoutford_smith_basement</item>
         <item>@xml/stoutford_tavern</item>
-        <!--Added by ATCS v0.6.10 for project stoutford_combined-->
+        <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@xml/blackwater_mountain4a</item>
         <item>@xml/elm_mine0</item>
         <item>@xml/elm_mine1</item>
@@ -765,8 +736,6 @@
         <item>@xml/wild21</item>
         <item>@xml/wild22</item>
         <item>@xml/wild23</item>
-        <item>@xml/worldmap.xml</item>
-        <item>@xml/worldmap.xml</item>
     </array>
 
     </resources>

@@ -212,9 +212,10 @@
  </objectgroup>
  <objectgroup name="Spawn">
   <object id="2" name="erwyn_soldier" type="spawn" x="32" y="96" width="128" height="96"/>
-  <object id="7" name="stn_gyra1" type="spawn" x="32" y="96" width="64" height="64">
+  <object id="7" name="stn_gyra1" type="spawn" x="32" y="96" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
  </objectgroup>

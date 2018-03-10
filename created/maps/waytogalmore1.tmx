@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="22">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="24">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -187,12 +187,12 @@
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFVjtLA0EQXg/yqqJnCKQU/4KNlhaCYiEiVmKh9qLE2sIHGGwkShTBHyBYa59fYFL5KrQTtNDG1hkuw02W2ddF8IPhyNzOfTPf7OxGqX50q0rEa0H2c7wJay7dYdbvfA3AWy+F8UbFMN7vjPWOjybPapRYm2mOOqPPl5dqbxv6RjguJ7wPNaUeawlHh8UMFc2xBK6PVLsNxCtBqhd9m4I+kUeeJkj7hAP1Qb5dgdem71lAvxBULz1tvNSjLHNEWunac71jxtsRagydI57/e4/zZdi8/qYs+0312mZDz//TwovwOdP+ApOQxxTLxWfWJDyNhK2fBc45TYO9vFL7+fS3z75qCZrzWfpw6IxoAudpIC9Cv49c55wLWebIxdvKKXWe8+e1nRetqH+PSzNJmK4oNQE2U5Hf45kv1WviN939hDrUuAO2CHxLYMsGXkRIf9dKfuaTq4t3rHf36v38KaUmYTXfH3evxfvWi/FbrCbOS75tIQeMc90zNtA+OgJrgC0UUmtY4nTdEdcGP8dtrNRdnP6+oO+BjutgG2DzA9QjQdor1C/OuxKl/eLrpf1m2n86GtrzCuxA4z0U1qLpfcUzwPTOBdS5qflOwj6RCajzf/PS/2mdV9JQ8tE9R++ke0/n5Wc18j7Hg82pCy6dfWs14RfFTn94
+   eJzFVjtLA0EQXg/yuCp6hkBK8S/YaGkhKBYiYiUWai9KrC18gMFGokQR/AGCtY82lXbGylehnaCFNrbOcBluss4+LhH8YDgyt3Pfzjc7s1GqHXclJeIlJ/s5XoU1x+4w63c+u+CthOl4g3w63q8O8x3sj5+lILYG0xx1Rp8vL+XeMNSNsFuIee/LSj2UY44mi+nJm2MJXB8pdxuIV4KUL/qWBX0Cj32aIJ0TDtQH+dYFXpu+BynqhaB86WnjpRp10kekla491ztivE0hx7R9xPf/1uJ87jWvPyvIflO+tt7Q9/9h4UX4zLS/wDDsY4TtxafXJDz2pVs/DpwTmgYbWaU2s8lvn3NVFzTnvfTu0BlRA879Fu9lpNRV5EGsft9HrjlnwzVw3njy6rDx1jNKHWbs8Vxn27yoB+1nXOpJwmhRqSGwsaL8Hme+VF8Tv+nuJ1QgxzWwaeCbAZs18CJ85xVyLoR+5rNXF+9A6+7V6/kdJiZhPtsed6vF++aL8SssJ85LvlVhDxjnumdsoHO0A1YFm8olVrXE6bojTg1+jnPoswvWa0f0PdBxEWwJbLKLfCRIZ4XqxXnngqRefL103kznT0dVe56AbWm828JaNL2uOANM71xAnWuaby/dJzoC6vzfvPR/WueVNJR8dM/RO+ne03n5rEbep6i7PnXBpbNvrib8AC2ugZA=
   </data>
  </layer>
  <layer name="Top" width="30" height="30">
@@ -202,7 +202,7 @@
  </layer>
  <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztklEKwCAMQz3F7n8Fb7gvQbq0Nm2ZGxiQoWt8ptqv1roxZll1mmf4mD2QP8JmuaN+/rJcbc6e+w1ulJnhIu3Ie7jPNVkb5WpeRhYX1VgZPBxv36vk6VskTxWXeVtovrq/Ci6bN8OVWSJiuIij9bmKu/JL7opdxfV40P1k3nN0fI3r6V8mh6zz7Iv+R4T8bJ+z3K+OXec93H9zb0wI0ng=
+   eJztk9ENwCAIRJ2i+6/ghv0yMfSQA4zaxEtIY8vxhGp9SqmD6DXK0zzN56mB/BG2l9vy+6eXq629+17BjTIzXKQd/V7u953MjXI1L5J1JhAX5Yx6sPjM3JlaHjFzi/Qzi+s5W2htzXEGd2W/speIPFzE0ebM8BiuVUdy2bud5TIe9H8y5zkap3GZ+WX6kHlMXfQ9IuT3zjnLPTV27fdy/819AQfX1ZQ=
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
@@ -280,14 +280,14 @@
   </object>
   <object id="32" name="stn_gyra_m14_9" type="script" x="224" y="544" width="32" height="64"/>
   <object id="33" name="stn_gyra_m14_8" type="script" x="128" y="352" width="96" height="32"/>
-  <object id="34" name="stn_gyra_m14_7" type="script" x="64" y="704" width="32" height="32"/>
+  <object id="34" name="stn_gyra_m14_7" type="script" x="32" y="704" width="64" height="64"/>
   <object id="31" name="stn_gyra_m14_6" type="script" x="224" y="32" width="128" height="32"/>
   <object id="29" name="stn_gyra_m14_5" type="script" x="480" y="704" width="96" height="32"/>
   <object id="27" name="stn_gyra_m14_4" type="script" x="832" y="32" width="64" height="32"/>
   <object id="25" name="stn_gyra_m14_3" type="script" x="704" y="32" width="96" height="32"/>
   <object id="20" name="stn_gyra_m14_2" type="script" x="32" y="352" width="96" height="64"/>
   <object id="21" name="stn_gyra_m14_1" type="script" x="448" y="288" width="96" height="32"/>
-  <object id="20" name="stn_gyra_40" type="script" x="256" y="576" width="96" height="32"/>
+  <object id="20" name="stn_gyra_40" type="script" x="256" y="928" width="96" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object id="14" name="erwyn_soldier" type="spawn" x="448" y="704" width="416" height="64"/>
@@ -306,47 +306,67 @@
     <property name="quantity" type="int" value="2"/>
    </properties>
   </object>
-  <object id="21" name="stn_gyraA" type="spawn" x="256" y="544" width="96" height="32">
+  <object id="23" name="stn_gyraC" type="spawn" x="0" y="384" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
-  <object id="35" name="stn_gyra9" type="spawn" x="160" y="544" width="96" height="32">
+  <object id="22" name="stn_gyraB" type="spawn" x="0" y="704" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
-  <object id="36" name="stn_gyra8" type="spawn" x="128" y="352" width="96" height="32">
+  <object id="21" name="stn_gyraA" type="spawn" x="256" y="896" width="96" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
-  <object id="37" name="stn_gyra7" type="spawn" x="32" y="704" width="32" height="32">
+  <object id="35" name="stn_gyra9" type="spawn" x="192" y="512" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
-  <object id="30" name="stn_gyra6" type="spawn" x="256" y="32" width="96" height="32">
+  <object id="36" name="stn_gyra8" type="spawn" x="160" y="320" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
-  <object id="28" name="stn_gyra5" type="spawn" x="480" y="704" width="96" height="32">
+  <object id="37" name="stn_gyra7" type="spawn" x="64" y="672" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
-  <object id="26" name="stn_gyra4" type="spawn" x="832" y="32" width="64" height="32">
+  <object id="30" name="stn_gyra6" type="spawn" x="288" y="0" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
-  <object id="24" name="stn_gyra3" type="spawn" x="704" y="32" width="96" height="32">
+  <object id="28" name="stn_gyra5" type="spawn" x="512" y="672" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
-  <object id="22" name="stn_gyra2" type="spawn" x="32" y="352" width="64" height="64">
+  <object id="26" name="stn_gyra4" type="spawn" x="832" y="0" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+   </properties>
+  </object>
+  <object id="24" name="stn_gyra3" type="spawn" x="704" y="0" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+   </properties>
+  </object>
+  <object id="22" name="stn_gyra2" type="spawn" x="32" y="320" width="64" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
@@ -355,6 +375,7 @@
   <object id="23" name="stn_gyra1" type="spawn" x="480" y="256" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
  </objectgroup>

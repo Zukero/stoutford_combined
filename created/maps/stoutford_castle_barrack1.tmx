@@ -214,9 +214,10 @@
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object id="2" name="erwyn_commander" type="spawn" x="32" y="96" width="192" height="160"/>
-  <object id="4" name="stn_gyra1" type="spawn" x="192" y="128" width="64" height="64">
+  <object id="4" name="stn_gyra1" type="spawn" x="224" y="128" width="32" height="32" visible="0">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
  </objectgroup>

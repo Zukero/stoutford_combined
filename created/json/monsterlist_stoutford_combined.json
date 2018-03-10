@@ -868,6 +868,26 @@
         "phraseID":"stn_gyra"
     },
     {
+        "id":"stn_gyraB",
+        "name":"Gyra",
+        "iconID":"monsters_ld1:158",
+        "moveCost":2,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "phraseID":"stn_gyra"
+    },
+    {
+        "id":"stn_gyraC",
+        "name":"Gyra",
+        "iconID":"monsters_ld1:158",
+        "moveCost":2,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "phraseID":"stn_gyra"
+    },
+    {
         "id":"stn_colonel",
         "name":"Colonel Lutarc",
         "iconID":"monsters_rltiles2:37",

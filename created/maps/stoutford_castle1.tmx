@@ -228,16 +228,19 @@
   <object id="14" name="stn_gyra1" type="spawn" x="832" y="224" width="64" height="64">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
-  <object id="11" name="stn_gyra2" type="spawn" x="544" y="96" width="64" height="64">
+  <object id="11" name="stn_gyra2" type="spawn" x="544" y="96" width="64" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
-  <object id="15" name="stn_gyra3" type="spawn" x="480" y="160" width="32" height="96">
+  <object id="15" name="stn_gyra3" type="spawn" x="448" y="192" width="64" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
  </objectgroup>
