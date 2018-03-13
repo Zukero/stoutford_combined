@@ -976,5 +976,44 @@
                 }
             }
         ]
+    },
+    {
+        "id":"rawperch",
+        "items":[
+            {
+                "itemID":"rawperch",
+                "chance":"80",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"mead",
+        "items":[
+            {
+                "itemID":"mead",
+                "chance":"66",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"strawberry",
+        "items":[
+            {
+                "itemID":"strawberry",
+                "chance":"80",
+                "quantity":{
+                    "min":1,
+                    "max":5
+                }
+            }
+        ]
     }
 ]

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" nextobjectid="20">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" nextobjectid="21">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -197,7 +197,7 @@
  </layer>
  <layer name="Walkable" width="20" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzVlFEKACEIRDtF97+CN9z9WYjQdHRiS/Cjouc4UtJbkze1kJ7Pk3ksTRavyt/N+/aY/rF4Y8/VmaDezXess0pfEZ5Vw/JJ840RLJ7Xm1dfY0XqoLrmmt4MI7P3eJ6uFS8ayBu5iYfOJ6Nv9YeMazYPSeteRp+mK8uI8jI9Iz78mQ8XSwkj
+   eJzVlFEOwCAIQz2F97+CN9x+lhhDoWDNNhI+puFRitnorY07rRi9nl/mqTQh3i7/NO85U/qn4s0zZ+rRWca7tQbd7czF8FAP5JPlmyJUPGZXXn+LxfTJ6lp7Rjtkdh/xIl0ejw32vf+Nl91PRZ/3D5m/1bxMorqKPktXlcHyKjNnfHgzL/PDCFw=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -249,6 +249,7 @@
   <object id="17" name="stn_gyra_m16_2" type="script" x="64" y="32" width="160" height="32"/>
   <object id="18" name="stn_gyra_m16_1" type="script" x="576" y="288" width="32" height="224"/>
   <object id="19" name="gold20" type="container" x="192" y="128" width="64" height="32"/>
+  <object id="20" name="rawperch" type="container" x="544" y="256" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object id="13" name="stoutford_guard1" type="spawn" x="32" y="96" width="96" height="192"/>

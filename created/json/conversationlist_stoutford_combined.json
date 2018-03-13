@@ -2460,6 +2460,26 @@
         "id":"berbane",
         "replies":[
             {
+                "nextPhraseID":"berbane_92",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":92
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"berbane_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":90
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"berbane_100",
                 "requires":[
                     {
@@ -2476,7 +2496,8 @@
     },
     {
         "id":"berbane_10",
-        "message":"* The richly dressed man does not react *",
+		"switchToNPC":"none",
+        "message":"The richly dressed man does not react.",
         "replies":[
             {
                 "text":"Who are you?",
@@ -2490,6 +2511,12 @@
                         "requireType":"questProgress",
                         "requireID":"stoutford_castle",
                         "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":40,
+						"negate":true
                     }
                 ]
 			},
@@ -2499,11 +2526,11 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"gyra",
+                        "requireID":"stn_quest_gyra",
                         "value":70
                     },
                     {
-                        "requireType":"inventoryRemove",
+                        "requireType":"inventoryKeep",
                         "requireID":"stoutford_helmet",
                         "value":1
                     }
@@ -2524,11 +2551,50 @@
     },
     {
         "id":"berbane_20",
-        "message":"(Berbane took the helmet)\nGyra? My dearest and most eager listener?",
+		"switchToNPC":"berbane",
+        "message":"Gyra? My dearest and most eager listener?",
         "replies":[
             {
                 "text":"Seems so.",
                 "nextPhraseID":"berbane_30"
+            }
+		]
+    },
+    {
+        "id":"berbane_30",
+        "message":"Many of my songs are about this magical helmet. But it's all just songs.",
+        "replies":[
+            {
+                "text":"Will you make the songs a reality now?",
+                "nextPhraseID":"berbane_32",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"stoutford_helmet",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I cleared the castle from undead already.",
+                "nextPhraseID":"berbane_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":40
+                    }
+                ]
+			}
+		]
+    },
+    {
+        "id":"berbane_32",
+		"message":"He sighed and slowly took the helmet.",
+        "replies":[
+            {
+                "text":"Let's go now.",
+                "nextPhraseID":"berbane"
             }
 		],
         "rewards":[
@@ -2540,21 +2606,33 @@
         ]
     },
     {
-        "id":"berbane_30",
-        "message":"Many of my songs are about this magical helmet. But it's all just songs.",
+        "id":"berbane_90",
+		"switchToNPC":"none",
+        "message":"Lord Bourbon looks sadly at his bottle, but still shows no sign to get up."
+    },
+    {
+        "id":"berbane_92",
+		"switchToNPC":"none",
+        "message":"Lord Bourbon is singing merrily about his heroic deeds."
+    },
+    {
+        "id":"berbane_100",
+		"switchToNPC":"none",
+        "message":"Lord Berbane jumps up and cried with a loud voice: SILENCE!",
         "replies":[
             {
-                "text":"Will you make the songs a reality now?",
-                "nextPhraseID":"berbane"
+                "text":"...?",
+                "nextPhraseID":"berbane_102"
             }
 		]
     },
     {
-        "id":"berbane_100",
+        "id":"berbane_102",
+		"switchToNPC":"berbane",
         "message":"(loud voice) Hear and listen everybody! The castle is free! The trembling is over!",
         "replies":[
             {
-                "text":"...?",
+                "text":"...??",
                 "nextPhraseID":"berbane_110"
             }
 		],
@@ -6380,13 +6458,23 @@
         "message":"Oh, I know many things. A good leader has to be attentively.",
         "replies":[
             {
-                "text":"N",
+                "text":"You are commanding the undead soldiers down there?",
                 "nextPhraseID":"stn_colonel_42"
             }
         ]
     },
     {
         "id":"stn_colonel_42",
+        "message":"No, do not be worried. I have nothing to do with the undead here in the castle. I just think them interesting.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stn_colonel_44"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_44",
         "message":"I am Colonel Lutarc, maybe you have already heard of me? Not? However.",
         "replies":[
             {
@@ -6397,7 +6485,7 @@
     },
     {
         "id":"stn_colonel_50",
-        "message":"I enjoy my tea here. It is a splendid place, I really like it here.",
+        "message":"Can't you see that? I enjoy my tea here. It is a splendid place, I really like it here.",
         "switchToNPC":"stn_colonel",
         "replies":[
             {
@@ -6426,7 +6514,17 @@
                     {
                         "requireType":"killedMonster",
                         "requireID":"erwyn_knight",
-                        "value":2
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stn_colonel_63",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_soldier",
+                        "value":1
                     }
                 ]
             },
@@ -6437,7 +6535,17 @@
     },
     {
         "id":"stn_colonel_62",
-        "message":"How easily you killed a knight was nice to look at.",
+        "message":"How easily you killed the undead knight was nice to look at.",
+        "replies":[
+            {
+                "text":"Oh that - small thing for me ...",
+                "nextPhraseID":"stn_colonel_64"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_63",
+        "message":"How easily you killed the undead soldier was nice to look at.",
         "replies":[
             {
                 "text":"Oh that - small thing for me ...",
@@ -6658,7 +6766,7 @@
                     {
                         "requireType":"killedMonster",
                         "requireID":"stn_colonel_mons3",
-                        "value":1
+                        "value":2
                     },
                     {
                         "requireType":"questLatestProgress",
