@@ -577,15 +577,24 @@
         }
     },
     {
-        "id":"stoutford_guard",
+        "id":"stoutford_guard1_b",
         "name":"Stoutford Guard",
         "iconID":"monsters_tometik2:44",
-        "phraseID":"stoutford_guard1_0"
+		"spawnGroup":"stoutford_guard1",
+        "phraseID":"stoutford_guard1_0b"
+    },
+    {
+        "id":"stoutford_guard1_c",
+        "name":"Stoutford Guard",
+        "iconID":"monsters_tometik2:44",
+		"spawnGroup":"stoutford_guard1",
+        "phraseID":"stoutford_guard1_0c"
     },
     {
         "id":"stoutford_guard1a",
         "name":"Stoutford Guard",
         "iconID":"monsters_tometik2:44",
+        "spawnGroup":"stoutford_guard1a",
         "phraseID":"stoutford_guard1_0"
     },
     {
@@ -605,6 +614,7 @@
         "name":"Stoutford Guard",
         "iconID":"monsters_tometik2:45",
         "monsterClass":"humanoid",
+		"spawnGroup":"stoutford_guard1",
         "phraseID":"stoutford_guard2"
     },
     {
@@ -612,6 +622,7 @@
         "name":"Stoutford Guard",
         "iconID":"monsters_tometik7:71",
         "monsterClass":"humanoid",
+		"spawnGroup":"stoutford_guard1",
         "phraseID":"stoutford_guard3"
     },
     {

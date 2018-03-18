@@ -1,5 +1,13 @@
 [
     {
+        "id":"stoutford_guard1_0b",
+        "message":"Hey. Be careful in what you do."
+    },
+    {
+        "id":"stoutford_guard1_0c",
+        "message":"Kids should not walk alone these times."
+    },
+    {
         "id":"glasforn_rumblings60_5_1",
         "message":"It was terrible! I could feel the necklace draining the life out of me, and the only thing that made me feel better was giving it another victim.",
         "replies":[
