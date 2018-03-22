@@ -22,9 +22,15 @@
             {
                 "rewardType":"alignmentSet",
                 "rewardID":"fct_bandit1",
-                "value":0
+                "value":100
             }
         ],
-        "message":"About damn time. You are free to go."
+        "message":"About damn time. You are free to go.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
