@@ -978,11 +978,24 @@
         ]
     },
     {
+        "id":"cont_stoutford_grave",
+        "items":[
+            {
+                "itemID":"rock",
+                "chance":"100",
+                "quantity":{
+                    "min":7,
+                    "max":7
+                }
+            }
+        ]
+    },
+    {
         "id":"rawperch",
         "items":[
             {
                 "itemID":"rawperch",
-                "chance":"80",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -995,7 +1008,7 @@
         "items":[
             {
                 "itemID":"mead",
-                "chance":"66",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1008,7 +1021,7 @@
         "items":[
             {
                 "itemID":"strawberry",
-                "chance":"80",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":5

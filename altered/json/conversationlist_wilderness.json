@@ -1,0 +1,30 @@
+[
+    {
+        "id":"bandit1",
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"fct_bandit1",
+                "value":-10
+            }
+        ],
+        "message":"What have we here? A lost wanderer?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bandit1_2"
+            }
+        ]
+    },
+    {
+        "id":"bandit1_3",
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"fct_bandit1",
+                "value":0
+            }
+        ],
+        "message":"About damn time. You are free to go."
+    }
+]

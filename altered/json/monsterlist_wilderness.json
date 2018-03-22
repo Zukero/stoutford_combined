@@ -1,0 +1,24 @@
+[
+    {
+        "id":"highwayman",
+        "name":"Highwayman",
+        "iconID":"monsters_men:8",
+        "maxHP":54,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":2,
+            "max":4
+        },
+        "spawnGroup":"bandit1",
+        "phraseID":"bandit1",
+        "droplistID":"bandit1",
+        "attackCost":5,
+        "attackChance":90,
+        "criticalSkill":50,
+        "criticalMultiplier":2.0,
+        "blockChance":30,
+        "damageResistance":2,
+		"faction":"fct_bandit1"
+    }
+]

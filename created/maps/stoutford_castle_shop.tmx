@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="9" height="8" tilewidth="32" tileheight="32" nextobjectid="6">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="9" height="8" tilewidth="32" tileheight="32" nextobjectid="7">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -216,6 +216,7 @@
     <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
+  <object id="6" name="erwyn_child" type="spawn" x="32" y="128" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>

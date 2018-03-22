@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="16">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="17">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,7 +190,7 @@
  </layer>
  <layer name="Objects" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJydlD1LAzEAhqM0cqjg3QkHBV36AxxcxA+KCA7iB+JWFJ38QkHUURdBZ3FwE/wDztpFBwdtxcXJohXpIrZX0Ul00jcmMXch11YDD/m45Lk36aVfDiFPIO8RUowTUgKsPDqqL+trcOmR35Lx+Jh8HlyTF/OyTtjL5s+6yqH7mGPC5fPKjnomfc9eNEXPnO8e+OL952IP0pfDO+apYg50xQjZjfH1uk8/k35L+RotPu8B7VPBmcd9hxE+VnyxzwzqcSucL7j3BZHvRvRLqH3RvkOdBsca0vcayPSm5ZNlG+4dqrKdgFGsTwbQ8w228nqfKmTJ4ne8csM+tp66ClM+HZmxxVXOaj6Zb9UmZM1WNTu7gsi0bnNqyfdSJVstvoLwvWP84498VsjX3URID+gFF4E7I0u8PtzvFOcQ5RuCpw8MgxlqdgTdAzb/D5E+dqd034jwrcDXjDUHbYR4omalo53z85tRfvcr5ZO+FOYuw3MkPLLON+DegyU826L8btXiW8TczcBePdEuw+WDDfT3KD9nk28a/RQ8U2ASJDBWZ4B9U+wbYe2E+B5NPv0+R3ELctpY2uBLWv9jzDLn+wZ5o8xF
+   eJydlDtLAzEAx6M0cqjg9YRAQZd+AAcX8UERwUF8IG5F0ckXCqKOugg6i4Ob4Bdw1i46OGgrLk4WrUgXsb2KTqKT/mMScxfShwZ+5NHkd//kLv2KEvIEcoyQQoyQIuClFNV9VV+DS0Z+S5qJMfX7Y2BNTs7LRMNePn/W0w7Txx0TnpjHM6iifM+sPAVmz3cPfPn8c7kH5cviGfNUMwe6IoTsRsR602eeSb+jfY2OmPeA9qnkjAnfYRkfL77cZxr1uBPOF9z7gsx3I/tF1L5s36FOgWMD5XsNZHoz8qmyDfcO1dlOwCjWJwKY+QZbRb1PNapk8B6vvLCPr6eexpbPRGVs8bSzmk/lW3UJWXN1zc8uLzOtu4Ja8r1UyVaLLy997xj/+COfFfJ1NxHSA3rBReDOqBKrD/c75TmU8w3B0weGwQy1O4LuAVf8hygfv1Omb0T6VuBrxpqDNkKYrHnpaBf8vDMq7n6lfMqXxNxleI6kR9W5Btx7sITftqi4W7X4FjF3M7BXJtsluHywgf4eFeds802jn4RnCkyCOMbqLPBvin8jvB2X36PNZ97nctyCrDGWsvgSzv8Yc+z5vgHJq8xS
   </data>
  </layer>
  <layer name="Above" width="20" height="20">
@@ -200,10 +200,16 @@
  </layer>
  <layer name="Walkable" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJy1lGEKQCEIgztF979CN3z/HiHTzVqCBCWf06w1x29rco+mxO17iMF4qqn6WEyls6q30qrWwRidfnTyRv6+KveBzjPerb6q59nsqXPp0OfiZTlQzphbfcesJ90/wcFz63PwUPxL3u2cMH0njngfdTOMtA==
+   eJy1klEKwDAIQ3eK3v8KveE+BkNCNHF1gpS24Zla97re2OtJ3MfEYBrUxTPGUDw3XH9KU/ms3lt5dd+hGJ1+dOoiP67Of7D7jHfqr+p5NnvuXE74m+JlNVhNrK1S8VyO2/8Ob9rfBI/p/+Sdzony9yUZ7wbffYsm
   </data>
  </layer>
  <objectgroup name="Mapevents">
+  <object id="16" name="north3" type="mapchange" x="160" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="wild20"/>
+    <property name="place" value="south3"/>
+   </properties>
+  </object>
   <object id="1" name="north2" type="mapchange" x="384" y="0" width="128" height="32">
    <properties>
     <property name="map" value="wild20"/>

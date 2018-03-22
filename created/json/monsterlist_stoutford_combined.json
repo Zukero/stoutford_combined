@@ -464,7 +464,7 @@
             "max":5
         },
         "spawnGroup":"erwyn_soldier2",
-        "phraseID":"stoutford_castle_1",
+        "phraseID":"stoutford_castle_1b",
         "attackCost":3,
         "attackChance":90,
         "blockChance":60,
@@ -483,7 +483,7 @@
             "max":5
         },
         "spawnGroup":"erwyn_soldier3",
-        "phraseID":"stoutford_castle_1",
+        "phraseID":"stoutford_castle_1c",
         "attackCost":3,
         "attackChance":90,
         "blockChance":60,
@@ -577,17 +577,23 @@
         }
     },
     {
+        "id":"erwyn_child",
+        "name":"Undead child",
+        "iconID":"monsters_rltiles4:0",
+        "phraseID":"erwyn_child"
+    },
+    {
         "id":"stoutford_guard1_b",
         "name":"Stoutford Guard",
         "iconID":"monsters_tometik2:44",
-		"spawnGroup":"stoutford_guard1",
+        "spawnGroup":"stoutford_guard1",
         "phraseID":"stoutford_guard1_0b"
     },
     {
         "id":"stoutford_guard1_c",
         "name":"Stoutford Guard",
         "iconID":"monsters_tometik2:44",
-		"spawnGroup":"stoutford_guard1",
+        "spawnGroup":"stoutford_guard1",
         "phraseID":"stoutford_guard1_0c"
     },
     {
@@ -614,7 +620,7 @@
         "name":"Stoutford Guard",
         "iconID":"monsters_tometik2:45",
         "monsterClass":"humanoid",
-		"spawnGroup":"stoutford_guard1",
+        "spawnGroup":"stoutford_guard1",
         "phraseID":"stoutford_guard2"
     },
     {
@@ -622,7 +628,7 @@
         "name":"Stoutford Guard",
         "iconID":"monsters_tometik7:71",
         "monsterClass":"humanoid",
-		"spawnGroup":"stoutford_guard1",
+        "spawnGroup":"stoutford_guard1",
         "phraseID":"stoutford_guard3"
     },
     {
@@ -1112,5 +1118,17 @@
         "monsterClass":"humanoid",
         "spawnGroup":"stn_boralla7",
         "phraseID":"stn_boralla7"
+    },
+    {
+        "id":"stn_horse",
+        "name":"Horse",
+        "iconID":"monsters_ld2:66",
+        "monsterClass":"animal",
+        "phraseID":"stn_horse"
+    },
+    {
+        "id":"none",
+        "name":"none",
+        "iconID":"monsters_eye1:0"
     }
 ]

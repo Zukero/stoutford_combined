@@ -120,6 +120,8 @@
     "showInLog": 1,
     "stages": [	{ "progress":  4, "logText":"4=Castle visited" },
 				{ "progress":  5, "logText":"5=North gate open" },
+				{ "progress":  6, "logText":"6=Horse got food" },
+				{ "progress":  7, "logText":"7=Grave visited" },
 				{ "progress": 10, "logText":"10=Gyra roaming" },
 				{ "progress": 11, "logText":"11=Gyra in castle1" },
 				{ "progress": 12, "logText":"12=Gyra in castle0" },

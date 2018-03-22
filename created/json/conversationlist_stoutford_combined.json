@@ -969,13 +969,13 @@
                         "requireType":"questProgress",
                         "requireID":"stn_quest_gyra",
                         "value":10,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"stn_quest_gyra",
                         "value":60,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -1156,7 +1156,7 @@
             }
         ]
     },
-	{
+    {
         "id":"honey_bee",
         "message":"Buzzzzz"
     },
@@ -2046,6 +2046,26 @@
         ]
     },
     {
+        "id":"stoutford_castle_1b",
+        "message":"Ah, your ssskull will be my favorite cup!",
+        "replies":[
+            {
+                "text":"Yes, I also like it very much. So I'd rather keep it.",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle_1c",
+        "message":"Bonesss! Niccce little bonesss!!",
+        "replies":[
+            {
+                "text":"But not for you, sorry.",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
         "id":"stoutford_castle_2",
         "message":"I shall crush you little mortal!",
         "replies":[
@@ -2057,7 +2077,8 @@
     },
     {
         "id":"stoutford_castle_3",
-        "message":"*You see a heavily armed and cloaked skeleton moving towards you. This must be Lord Erwyn himself.*",
+        "message":"You see a heavily armed and cloaked skeleton moving towards you. This must be Lord Erwyn himself.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -2068,6 +2089,7 @@
     {
         "id":"stoutford_castle_4",
         "message":"You shall die now mortal!",
+        "switchToNPC":"erwyn",
         "replies":[
             {
                 "text":"No, you are going to die once and for all!",
@@ -2121,16 +2143,17 @@
     },
     {
         "id":"yolgen_castle_1_1b",
-		"message":"Let me see... You killed already some of Erwyn's undead knights and soldiers - if killed is the correct word for undead. But there are some still uproad.",
-		"replies":[
+        "message":"Let me see... You killed already some of Erwyn's undead knights and soldiers - if killed is the correct word for undead. But there are some still uproad.",
+        "replies":[
             {
-                "text":"Ok, I will go and look for the rest."
+                "text":"Ok, I will go and look for the rest.",
+                "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"yolgen_castle_1_1a",
-		"message":"Let me see... Ok, you killed all of the undead knights and soldiers who had worn Lord Erwyn's tattered banner.",
+        "message":"Let me see... Ok, you killed all of the undead knights and soldiers who had worn Lord Erwyn's tattered banner.",
         "replies":[
             {
                 "text":"N",
@@ -2165,7 +2188,7 @@
     },
     {
         "id":"yolgen_castle_1_2a",
-		"message":"And you slew Lord Erwyn's commander.",
+        "message":"And you slew Lord Erwyn's commander.",
         "replies":[
             {
                 "text":"N",
@@ -2182,10 +2205,11 @@
     },
     {
         "id":"yolgen_castle_1_2b",
-		"message":"But their commander is still uproad.",
-		"replies":[
+        "message":"But their commander is still uproad.",
+        "replies":[
             {
-                "text":"Ok, I will go and look for him."
+                "text":"Ok, I will go and look for him.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -2209,7 +2233,7 @@
     },
     {
         "id":"yolgen_castle_1_3a",
-		"message":"And you slew Lord Erwyn himself.",
+        "message":"And you slew Lord Erwyn himself.",
         "replies":[
             {
                 "text":"An unfriendly guy, yes.",
@@ -2226,10 +2250,11 @@
     },
     {
         "id":"yolgen_castle_1_3b",
-		"message":"But Lord Erwyn is still uproad.",
-		"replies":[
+        "message":"But Lord Erwyn is still uproad.",
+        "replies":[
             {
-                "text":"Ok, I will go and look for him."
+                "text":"Ok, I will go and look for him.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -2265,7 +2290,8 @@
     },
     {
         "id":"yolgen_castle_5",
-        "message":"*Yolgen puts the ring on his altar and chants a spell. Suddenly the altar seems to be getting darker and darker and then the ring cracks.*",
+        "message":"Yolgen puts the ring on his altar and chants a spell. Suddenly the altar seems to be getting darker and darker and then the ring cracks.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -2276,6 +2302,7 @@
     {
         "id":"yolgen_castle_6",
         "message":"This is it. The ring is destroyed. I just wonder where it came from. Maybe from the depths of Mt. Galmore or some mischievous traveller put it on Lord Erwyn's remains? Anyway, my friend, I and the people of Stoutford are most grateful. Here is your reward. ",
+        "switchToNPC":"yolgen",
         "replies":[
             {
                 "text":"Thank you. ",
@@ -2496,8 +2523,8 @@
     },
     {
         "id":"berbane_10",
-		"switchToNPC":"none",
         "message":"The richly dressed man does not react.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"Who are you?",
@@ -2516,10 +2543,10 @@
                         "requireType":"questProgress",
                         "requireID":"stoutford_castle",
                         "value":40,
-						"negate":true
+                        "negate":true
                     }
                 ]
-			},
+            },
             {
                 "text":"Gyra had found your helmet and asked me to give it to you. So that you could start to clear the castle.",
                 "nextPhraseID":"berbane_20",
@@ -2535,7 +2562,7 @@
                         "value":1
                     }
                 ]
-			},
+            },
             {
                 "text":"The castle is clean from undead now.",
                 "nextPhraseID":"berbane_100",
@@ -2546,19 +2573,19 @@
                         "value":40
                     }
                 ]
-			}
-		]
+            }
+        ]
     },
     {
         "id":"berbane_20",
-		"switchToNPC":"berbane",
         "message":"Gyra? My dearest and most eager listener?",
+        "switchToNPC":"berbane",
         "replies":[
             {
                 "text":"Seems so.",
                 "nextPhraseID":"berbane_30"
             }
-		]
+        ]
     },
     {
         "id":"berbane_30",
@@ -2585,18 +2612,18 @@
                         "value":40
                     }
                 ]
-			}
-		]
+            }
+        ]
     },
     {
         "id":"berbane_32",
-		"message":"He sighed and slowly took the helmet.",
+        "message":"He sighed and slowly took the helmet.",
         "replies":[
             {
                 "text":"Let's go now.",
                 "nextPhraseID":"berbane"
             }
-		],
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2607,35 +2634,35 @@
     },
     {
         "id":"berbane_90",
-		"switchToNPC":"none",
-        "message":"Lord Bourbon looks sadly at his bottle, but still shows no sign to get up."
+        "message":"Lord Bourbon looks sadly at his bottle, but still shows no sign to get up.",
+        "switchToNPC":"none"
     },
     {
         "id":"berbane_92",
-		"switchToNPC":"none",
-        "message":"Lord Bourbon is singing merrily about his heroic deeds."
+        "message":"Lord Bourbon is singing merrily about his heroic deeds.",
+        "switchToNPC":"none"
     },
     {
         "id":"berbane_100",
-		"switchToNPC":"none",
         "message":"Lord Berbane jumps up and cried with a loud voice: SILENCE!",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"...?",
                 "nextPhraseID":"berbane_102"
             }
-		]
+        ]
     },
     {
         "id":"berbane_102",
-		"switchToNPC":"berbane",
         "message":"(loud voice) Hear and listen everybody! The castle is free! The trembling is over!",
+        "switchToNPC":"berbane",
         "replies":[
             {
                 "text":"...??",
                 "nextPhraseID":"berbane_110"
             }
-		],
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2652,7 +2679,7 @@
                 "text":"But ...",
                 "nextPhraseID":"berbane_120"
             }
-		]
+        ]
     },
     {
         "id":"berbane_120",
@@ -2662,7 +2689,7 @@
                 "text":"No, I have ...",
                 "nextPhraseID":"berbane_130"
             }
-		]
+        ]
     },
     {
         "id":"berbane_130",
@@ -2680,7 +2707,7 @@
             {
                 "nextPhraseID":"berbane_134"
             }
-		]
+        ]
     },
     {
         "id":"berbane_132",
@@ -2690,7 +2717,7 @@
                 "text":"I give up.",
                 "nextPhraseID":"berbane_140"
             }
-		],
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2707,7 +2734,7 @@
                 "text":"I give up.",
                 "nextPhraseID":"berbane_140"
             }
-		]
+        ]
     },
     {
         "id":"berbane_140",
@@ -2782,14 +2809,14 @@
             },
             {
                 "text":"I better leave now. And you need not hurry with your exercise. All your comrades have been killed already by the undead.",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"stn_nondisplay",
                         "value":4
                     }
-                ],
-                "nextPhraseID":"X"
+                ]
             }
         ]
     },
@@ -2805,8 +2832,8 @@
         "rewards":[
             {
                 "rewardType":"alignmentSet",
-                "rewardID":"stoutford_guard_camp", 
-				"value":-10
+                "rewardID":"stoutford_guard_camp",
+                "value":-10
             }
         ]
     },
@@ -7723,36 +7750,131 @@
     },
     {
         "id":"stn_northgate_12",
+        "replies":[
+            {
+                "nextPhraseID":"stn_northgate_20"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"stn_nondisplay",
                 "value":5
             }
-        ],
-        "replies":[
-            {
-                "nextPhraseID":"stn_northgate_20"
-            }
         ]
     },
     {
         "id":"stn_northgate_14",
+        "replies":[
+            {
+                "nextPhraseID":"stn_northgate_20"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"stn_nondisplay",
                 "value":5
             }
-        ],
-        "replies":[
-            {
-                "nextPhraseID":"stn_northgate_20"
-            }
         ]
     },
     {
         "id":"stn_northgate_20",
         "message":"You hear some mechanism rattle."
+    },
+    {
+        "id":"stn_horse",
+        "replies":[
+            {
+                "nextPhraseID":"stn_horse_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stn_horse_10"
+            }
+        ]
+    },
+    {
+        "id":"stn_horse_10",
+        "message":"Neigh!",
+        "replies":[
+            {
+                "text":"Oh, nice to meat you.",
+                "nextPhraseID":"stn_horse_12"
+            }
+        ]
+    },
+    {
+        "id":"stn_horse_12",
+        "message":"Neigh!!!",
+        "replies":[
+            {
+                "text":"One could think you want something from me.",
+                "nextPhraseID":"stn_horse_20"
+            },
+            {
+                "text":"Haha, I think I'm going crazy. Horses can't talk.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Neigh.",
+                "nextPhraseID":"stn_horse_12"
+            }
+        ]
+    },
+    {
+        "id":"stn_horse_20",
+        "message":"Neigh! Neigh!!! neigh.",
+        "replies":[
+            {
+                "text":"Oh I see now. They left you here without anything to drink. Wait, Here is a bucket of water.",
+                "nextPhraseID":"stn_horse_30"
+            },
+            {
+                "text":"Slowly you become annoying. I'm leaving now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stn_horse_30",
+        "message":"(after drinking greedily) Neiiieieiiigh!!",
+        "replies":[
+            {
+                "text":"There, now you feel better! I have to leave now.",
+                "nextPhraseID":"stn_horse_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":6
+            }
+        ]
+    },
+    {
+        "id":"stn_horse_90",
+        "message":"Neigh."
+    },
+    {
+        "id":"erwyn_child",
+        "message":"Please don't kill me! I am too young to die.",
+        "replies":[
+            {
+                "text":"Eh, you do know that you are already dead?",
+                "nextPhraseID":"erwyn_child_10"
+            }
+        ]
+    },
+    {
+        "id":"erwyn_child_10",
+        "message":"Oh."
     }
 ]
