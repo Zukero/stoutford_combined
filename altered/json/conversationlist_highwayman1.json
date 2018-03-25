@@ -1,31 +1,31 @@
 [
     {
-        "id":"bandit1",
+        "id":"highwayman1",
         "rewards":[
             {
                 "rewardType":"alignmentSet",
-                "rewardID":"fct_bandit1",
+                "rewardID":"fct_highwayman1",
                 "value":-10
             }
         ],
-        "message":"What have we here? A lost wanderer?",
+        "message":"Hold up. What have we here? A lone traveller on the Duleian road.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"bandit1_2"
+                "nextPhraseID":"highwayman1_2"
             }
         ]
     },
     {
-        "id":"bandit1_3",
+        "id":"highwayman1_5",
         "rewards":[
             {
                 "rewardType":"alignmentSet",
-                "rewardID":"fct_bandit1",
+                "rewardID":"fct_highwayman1",
                 "value":11
             }
         ],
-        "message":"About damn time. You are free to go.",
+        "message":"Thank you. Have a pleasant day. Watch out for those robbers!",
         "replies":[
             {
                 "text":"N",

@@ -1,0 +1,19 @@
+[
+    {
+        "id":"highwayman1",
+        "name":"Highwayman",
+        "iconID":"monsters_men:8",
+        "maxHP":154,
+        "attackDamage":{
+            "min":2,
+            "max":7
+        },
+        "phraseID":"highwayman1",
+        "droplistID":"highwayman1",
+        "attackCost":5,
+        "attackChance":160,
+        "blockChance":70,
+        "damageResistance":4,
+		"faction":"fct_highwayman1"
+    }
+]

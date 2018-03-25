@@ -1,0 +1,12 @@
+[
+    {
+        "id":"fct_highwayman1",
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"fct_highwayman1",
+                "value":0
+            }
+        ]
+    }
+]
