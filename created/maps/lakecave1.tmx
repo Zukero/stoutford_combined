@@ -213,10 +213,10 @@
  </layer>
  <layer name="Top" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzkERACAIAEGGIAaxK12N4BNGdwvcRQAw2V5/NOE1ld0HAHcHlL4BUA==
+   eJxjYBgFo4A0YC03MPZqD5C9o2AUDDSwGoC0P1D5bSD8OgpGAa3AXKaBdsEoGAWjYBQQBgAPTgI7
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30">
+ <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztlDEOwDAIA/ONLP3/M7tGUbEhYNqhSCwgcYYQ5jXG/P01t4zlVFzGR7UquJ6ed40K7lrbqyvL3fvZ44ybMVRnjXu4nplYMY++zM5H/l/lfzq1brb6pkTuikqHgnkyBxVbWf8r3jVPxIy8bVRrZIcRP6qP9YR69/CrrZtncb378ZRj2te5s92ydLI+kCFudOYZHnvnk72vuAnqu9PJvQEAvnTh
   </data>
