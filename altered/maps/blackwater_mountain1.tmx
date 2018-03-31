@@ -190,7 +190,7 @@
  </layer>
  <layer name="Objects" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJx9VMFKw0AQDYHek4iB/oif4D/ozZNnvXjw6Gf4CX5AEbwJTVpzqQVLbaBYQU3yEbpDdtzXyUwHlu1utu/Nm7ezm3EUdW5s3GjdwKjzfp7kYT1LIzVWfn/pMeosfEP8b39ul9kcHEUazh2Kx7zH70T+ZbqPOVM4GP8htvFZG+tAnk/W6zA/HNZUcDzD2cJ9L92YuTHPhpyvWcBHP76Ejon3AXVwMDbPpO8+Dr5QEG6j1As5ZK1+0n0NO+DAIC+O46CddVyO+rHIe8wK7hGt75JhLi3rhrMr+C39kBwUU++LViuO/7uo3G3ph8aBd5d1nTk956CpVrSw/1b/tandH+zHzaifrb5EHYj/K+qvcci8r5ye6yTMlP8TYLIPFeyxr4T5luocFIXnkRyIR3zo91ZotnSwhotE17F2eO9CB9brBb5xn1s6bhNdRwN4S9F/5CVp3Cp9jutS8ZjxF5AH36sKdFi10t5ECnqLDvWDtdY4To6GHPg/zrMb6++ftc+YVL9TwaHhaTPXy8JHTHzbGyNfbd/i1TjQ87Whm7y0+P4A2d/3XA==
+   eJx9VMFKw0AQDYHek4iB/Iif4D/ozZNnvXjw6Gf4CX5AEbwJTVJzqQVLbaFYQU3jP+gOyXRfJjMdGLa72b43b97urrIgaFyuXO5c/ibBPtZpO45TPy/jQI1Ftz7Pur2Ag/jf3b5tYnNw5LHfdyge0xa/yfrrRdzHLBUOxn8IbXzWxjqQ55P1OswPhzURHM+wN3ffC5ely2ky5HxNPD73i+JL6Bh3PqAODsbmkfTdh94XCsKtlX4hh+zVT9zXsAUODPLiOPTaWcflqM1Z2mJWcI5ofhcNa9mxbti7gN/SD8lBMel80XrFsT+LytmWfmgceHZZ15nTcw6a1ooW9l/6jfqt+8F+3Iza0bqXqAPx/0T/NQ5Z95XTcx35kep/Akz2oYI19pUw32KdgyLveCQH4hEf+r0Rmi0drOEi0nUsHd670IH9eoFvfM8tHbeRrqMGvLm4f+Qladwo9xznheIx48+gDj5XFeiweqW9iRT0Fh26D9Zc4zg5GnLg/7jOJtPfP2udMal/p4JDw9NG7peFj5j4ttdGvdq6xatxoOdLQzd5afH9A4rF+Fo=
   </data>
  </layer>
  <layer name="Above" width="25" height="20">
@@ -200,11 +200,11 @@
  </layer>
  <layer name="Walkable" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEJkwo2ipGGyQG0Np8SfxCyE10trcMLm35amI+LTav4GWp24FNH7fggxQ5KALHhQo98SIk9pOY/UuwhNz9QIz8S8h+p5uKzjxblCKnxQoz55OKBNp9cewCHCLau
+   eJzbKMbAsBENkwLQ9RLC5ABam0+JPwjZia6W1uGFTT8tzMfFplX8DDU78KmjdnyQYgclgNhwoUc+JMceUtMqOfaQmx+okR/RxSiJe1qnK3LKDnLyH7l4oM0n1x4AzNC4PA==
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
-  <object id="1" name="north" type="mapchange" x="128" y="0" width="384" height="32">
+  <object id="1" name="north" type="mapchange" x="160" y="0" width="352" height="32">
    <properties>
     <property name="map" value="blackwater_mountain2"/>
     <property name="place" value="south"/>

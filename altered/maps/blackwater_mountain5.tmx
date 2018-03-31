@@ -133,12 +133,17 @@
  </layer>
  <layer name="Objects" width="30" height="29">
   <data encoding="base64" compression="zlib">
-   eJzFVjtLJEEQ7p0ZQR0XVzBQRME/cGigh4HImlywi4gIBqsi3O1iIqwGiyc+UBS5O01EzQRTf4CIpiIamWh80YGgJqeBgYlVdDVT09OjMs5gwUc/arq+qurq7hEifilkhMgDRjMJGH+DdyKdHO+QFYTiTTLeH1YQRStZ3m7H63c5fh3y5iDP+XT8vF+dcB3yFnB/E+AVGm8L7W0r5RnlM+r5I7zHkKfdlDeucf1AWQf9Ta0QfRDnF0A2hrq6t4U40vaI+7HqSOyl/N8o3kLE/T1k636B7WpXQsW77UgUgeO7FY0jTNYoFrT9v16IB8JjffCbuOS2zuyDSSZYbvYb/W0UqaT9rbI/Bu044I58K9N8Uct3nPnHnE+F1AzeUWWqY2zXI9TWOdTzhW3mVTlvgrpqZnfIqMY7EOOd1Uq5azHk0LX8vOOv8F6C78+1Eij9rqd7AF0fjA9cqT8hO7zm8IyfsprjvCgd4EsvrJ+s8vP+ZWu2WL8E+ftGObxKSdvXhrwr/Wu8KLMab0pDJ81XgHMEMAu+/gQsAP4x3rBaNfHifVPRct5AaKc2S/P6+UUZdINz7+E1+XrB7KvzWGJ65aeuw/mSFnOR6qpMdY08yKveEf3dPqsL+oBiipn7oMs0cK1QnMvQzmhvUtg6tcdt6h8N9jNve/1H29MJ4e8PU6z8zsTxMPumh8XbBv0jWwL3uJ3mkW/HlnwF6ttqHb1DPIYS8c41evcojvlemM58VLmxpQ9zgHnAEr2/izReSOh/5wl4bwG/wf4G4Q/rbxJvnLGaBO/RXCZ5HpPk3sjtC4A3dgQ=
+   eJzFVjtLJEEQ7t0Z4dxxcQ8MFFHwD4gGpxiIaGKwi4iIF6yKoLuYCHsGiy564nGy+EpEzQRTf4CIlx7HGV2isZEg6CWngYGJVXQ1U9PT48o4wxV89KOm66uqru4eIaKXfEaIHGAyE4PxGrwz6fh4x5J+KN44451L+lFIxsvbY7v9T7ZXh7xZyHMuHT1vrx2sQ9487m8MvELjbaW9baM8o/yPen4P7znk6TDhjusdL1CqoL9NCTEAcXYCBiOoq7+WEGfaHnE/vtsSRwnvN4o3H3J/T9m6TbD9wZFQ8e7bEgXgmE2G4wiSDYoFbf9rFOKB8Njo/yYquWsw+2CSGZab4yZvG0bKaW+r7E9BOw24J99KNF/Q8h1l/jHnCwE1g3dUieoY22qI2voN9XxhmXlVzpuhrlrYHTKp8Y5EeGe1Ue5aDTmcyHh5p1/h/QO+P6ckUIYcV/cAugEYnzhS/4Ps8JrDM/6T1RznRekC//ph/Xydl/eardlj/SLkb5hyeJmQtq8MeVf613hRljTehIZumi8D52fAEvi6DFgF3DDeoFo18eJ9U9Zy/pHQQe0gzevnF2XU8c+9hdfk6wWzr85jkemVn7oO54tazHh+ka9EdY08yKveEf3d/tXg9wHFFDP3QZcvwPWN4lyHdlF7k4LWqT1uV/9osJ85y+0/Wq5OCG9/nGLldyaOx9k3fSzeduifWRK4xx00j3wHluTLU99S6+gd4jEUibfS5N6jOOZ7YTrzYeXWkj5UACuANXp/v9J4Nab/nSfgvQNsgf0dwjbr7xJvlLGaBO/RbCZ+HpNka+T2BYLPdl0=
   </data>
  </layer>
  <layer name="Above" width="30" height="29">
   <data encoding="base64" compression="zlib">
-   eJy9lTtSwzAQhqVMClJ4xgUtJ+LRuuAxaRy11PQwEwp6KOAW5AA5AieAnIBwAbQj73hZpLUsS/lnPPFEXn3ap5TKr6Z2v8uqwOYR3NsCXNwb9aj79xVb22kVpe3Ad3v9n/ti/3uzz6n18ayaFuNngc+5qEvLuxKYsb6P5YKf5/a5KFRTIS7o2jJvOu5X59/nRD8lYQxN7Wo5Ncfcp03kPmD3rV28c3B9umfxA1/vjvuH6yMi3pzb1n9ZwOAxABvopyfteiulfof85fOB2rx2vB8t9+NYbqhXfDZjazkmvz4bnFkPI+qK5r1h+eQ1BDqaK7WY97ZggzMLZ0jK2VNssG+BCTMkpoZzCpiLWXid+/Ve+f+nMmSNfmdIfiWGtL/EbQJcml/QXk/jwnyAPsTZwVlQc2tyL/M+O4S/ILyTdgn++uaRb20VOMMQI6VfQuJ7LYUaLcHl+ZVmOagl70Y4jwl8R+/A0F2YojWbPSczd+42Q8wOPddySspRSQ3V6i8JXU+X
+   eJy9lb1OwzAQx+2qAwhFysDKE/ExkoGCuqRemdlBKkN3GOAt4AH6CDwB9AnavgA+Oacch31xnLh/KUqU5PzzfVqp8VWV7j4vMiwewb3PwMW1Uc+6fV6wbxutorTu+G+n/3Nf7bt3e51bHy+KYTF+Efici7qxvJnAjPW9Lxf8vLTXVaaaCnFBt5Z513B/Gv++B/opCWNoSlfLqTnmPn1GrgN2W+3iPQbXp0cWP/D14bS9uL4i4s25dfmXBQweA7CBflpp11sp9dvlL58P1Oat4e213I99uaFe8dn0reWY/PpscGY99agrmveK5ZPXEOhoqtTxtLUFG5xZOENS9p5ig30LTJghMTU8VCeT9hmY18LeuV8fhf89lSHf6H+G5FdiSOtL3CrApfkF7fQwLswH6EOcHZwFNbck5zLvs0P4C8IzaZPgr28e+b4tAnvoYqT0S0h8rblQozm4PL/SLAfV5NkI+zGB/+gZGDoLU7Rks+ds4vZdjxCzQ8y1XJJylFNdtfoLXPtP/w==
+  </data>
+ </layer>
+ <layer name="Top" width="30" height="29">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMFJAmAACD3d7ke2kp90DZS+63ZxMA2MvPcGovcPX3pGYf0fBKAAASrcRlA==
   </data>
  </layer>
  <layer name="Walkable" width="30" height="29" visible="0">
@@ -146,7 +151,7 @@
    eJztk1EKACEIRDvCXqr7X2nZv5Axx1AJ1gGhQueh1XzGmB0dHR0/iU+V3lKRLFbRPSL/lZPF3s08s2drDlZOxTvLZrLc6n61HLT3vhFvv8hX42qy7hCdZ3Cl53ru5Z4IeTGztzxQDVojjqzf3YNVw3qyOaf/ilE0l2FnMJm/dAP3BZeH6Ww=
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="exit2" type="mapchange" x="640" y="736" width="32" height="32">
    <properties>
     <property name="map" value="blackwater_mountain4a"/>
@@ -179,7 +184,7 @@
   <object id="15" name="rest6" type="rest" x="128" y="768" width="32" height="32"/>
   <object id="16" name="rest5" type="rest" x="160" y="640" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="3" name="bwm_agent_1" type="spawn" x="544" y="768" width="352" height="96"/>
   <object id="17" name="gornaud_1" type="spawn" x="224" y="352" width="256" height="160"/>
   <object id="18" name="gornaud_2" type="spawn" x="416" y="320" width="256" height="192">
@@ -195,7 +200,7 @@
   <object id="20" name="gornaud_1" type="spawn" x="416" y="512" width="96" height="288"/>
   <object id="21" name="gornaud_1" type="spawn" x="672" y="480" width="96" height="192"/>
  </objectgroup>
- <objectgroup name="Keys">
+ <objectgroup name="Keys" visible="0">
   <object id="4" name="bwm_agent:10" type="key" x="864" y="576" width="32" height="32">
    <properties>
     <property name="phrase" value="keyarea_bwm_agent_1"/>

@@ -219,7 +219,7 @@
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object id="3" name="erwyn_knight" type="spawn" x="32" y="128" width="448" height="160"/>
-  <object id="5" name="erwyn_servant" type="spawn" x="544" y="128" width="352" height="160">
+  <object id="5" name="erwyn_servant" type="spawn" x="544" y="128" width="320" height="160">
    <properties>
     <property name="quantity" type="int" value="2"/>
    </properties>

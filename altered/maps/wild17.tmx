@@ -200,7 +200,7 @@
  </layer>
  <layer name="Walkable" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1lMENwDAIAzNF918hG/YfgX0mLVJehcMEp/tZaxeniyq3q3MswlQ1CfMmkvsg2lyvqfYzP9kV0UEYE73Tmc87n7Kcf7tvjtlpTUL1Jvt22sh+6fwTjpv7y3dc6XazpT2dh7qdKZ7zeNVLaZjqU1ocz/0zUn3K2zTHxV/+c1zaL2VR79PdflnXzUbnJqwb/xEN1XkB6vzQVQ==
+   eJytlMsNwDAIQzNF918hG+aOwD+KlEsL5hHc3u+c25wputypjmkpmqjG0dyEcx8KG+uVstd8Z1cKh6KR8KYz1ztPtZh/p3dMc2J1AvVW9s3YlP2q8yc6bO4/v+OOm83m9mQemnaG9JjHu16IIeVDLEyP/TNcPuRtNYdFN+s2lFnUfq6W6n11t7VuYncZ0HPEmPhry8fOA1S+zsc=
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
@@ -216,7 +216,7 @@
     <property name="place" value="west1"/>
    </properties>
   </object>
-  <object id="3" name="south1" type="mapchange" x="32" y="928" width="96" height="32">
+  <object id="3" name="south1" type="mapchange" x="64" y="928" width="32" height="32">
    <properties>
     <property name="map" value="wild20"/>
     <property name="place" value="north1"/>
