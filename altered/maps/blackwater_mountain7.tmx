@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="10">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="12">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -155,6 +155,31 @@
    eJzFlFEOwzAIQ3uEXar3v9J+p8o2z0m2RYqapmCDgd6v67r/tN1K33ZtCS+JU927HHd5pxxTjASntXnerdRXadTyOtyJl8Te9LA6J9tv8SaN1PtJ3vbZrJO8pD8d71TP9FS4O7zK1vFOM/F5XukFkhNZtC7K51RfKVw6Z43OjmOaOTrvJN/UV8qH8qzyOo1O8bY+KeamZhTH5dnY7fCmf4zThfASvendxKv8kn4rtUzY7Ty5ReKb/Ke+odo/MSe+lE8TL+lNgpPw25pP8dI4V7T4xX4DM/CUFw==
   </data>
  </layer>
+ <layer name="Walkable2" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzFlFsOgzAQAzlCL8X9r9TfqvLa4yS0kRAQsjveF/fruu4/XdNy33bPEi7RqfanGHe5KUankfhpz3zvrdRX5ajlTn4Tl2hvelg9u7NPcV2O1PtJbntv1kku6c+Jm+rp7srvDlednbhpJj6fV3qBxEQWrYuyOdVXyi+dsybPEyPNHJ13Eq/rK2VDOavcKUenuK2N09zUjPqZ4k19OGluue4f4/YSl+Sb7iWuskt5bmvpfLfzNC2iL9nTvlFc5zPxXDyNXtKbxI/z39Y86aU6V3Lxi+sN06OUbA==
+  </data>
+ </layer>
+ <layer name="Walkable3" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzFU9sNhDAMYwSWYv+V+EWVn2lPF6kqookd5/Hc1/X86TBTb7u+Ce/3Zv7oP9O4y+s0qhwTnNZn/TfpL6pRy8twHW+SezPD6Fv5/opX1egUv6pjczd2kjeZT8br+qluhLvDi3wZr9uJ7/dkFhJNiaV9WXmbOIWBcmF6Vwz05vwmO5fue6JXzRWKSXmmvKxGp3jbGJVz07MUh+lM+sT0TuaL7YLiULzKkG5Wg4QXxak6T3qpsNt9Ypbk5+LdfKk6K0zHp/Q0+SazmeAo/LbnLt80T4Y5yfXkeQFyd5Rs
+  </data>
+ </layer>
+ <layer name="Walkable4" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzFk+sNwyAMhBmhS2X/lfq3iu5pSIoUhRDwdz6b67PW9aeHDfVvd2/CTXSidZbjLtflqDQmcdo997VJfZFHLZfFddxEe9PDaK72PsVVHqHvk9z23YyT3KQ/GdfVU71R3B0u2su47k78ztPan6gr0pJ6gzRPeIzr6o30ND4zRut7wk657kzKmXKZR6e47RmlualZGkdpcvVn+U76i90Ftua4aqB8mtyYvrtO5t+klip2e5/YSPS5865vlM8qpuOpfBq9SW8mcVT8tuZOb6pz4sUbzxdsVpPC
+  </data>
+ </layer>
+ <layer name="Walkable5" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzFVMkNhDAMpASaov+W9ouiOR1gLUUJiT3jk+s8jutPi4l629VNeBM/0T2LcZfXxah8THBanfVuUl+Uo5aX4TrexPemh9FZ6b7Fq3KEvp/kbfdG1BxN+F2fMF5XT7Uj3B1epMt43Uzcz5NeSGJKJK0Lsnmjr1S8KwZ6c3qTmUvnPYlX9RWySXmmvCxHT/G2NsrnpmYpDouz0dvhVf8YlpeEN8l3eud4kZ3K36SWCrudJyaJf87e9U2a+xXT8al4Gn+T3kxwFH5bc+dv6uckF1+sHxmbk8I=
+  </data>
+ </layer>
+ <layer name="Walkable6" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzFlNENxCAMQztCl+r+K91vhWLnOXB3SBUtBNtxQp/7up4/PWq4vd1Ywkt0Vusqx13eLkenkeCkMevapL6VRymvwu14ifakh6t3F/stXudR9X2SN52TcZKX9Kfi7erp5gp3h7eKVbzdnXi/T3qB5EQGrcvKm5xzGJUWle+KUe11cZM7R+87ydf1lcI94bPiVR6d4k3POM1JzSiOyjOJ2+F1/xjlC+ElftO1jrc65/yb1NJh0/tEfUnxad5Kg8OlPrt8Er2kNwmOw09r3umlOide/OL5AK4glBc=
+  </data>
+ </layer>
  <objectgroup name="Mapevents">
   <object id="1" name="west" type="mapchange" x="64" y="448" width="32" height="32">
    <properties>
@@ -189,4 +214,46 @@
   <object id="9" name="gornaud_1" type="spawn" x="160" y="512" width="160" height="128"/>
  </objectgroup>
  <objectgroup name="Keys"/>
+ <objectgroup name="Replace" visible="0">
+  <object name="blackwater_mountain7_2" type="replace" x="32" y="32" width="896" height="896">
+   <properties>
+    <property name="Walkable" value="Walkable2"/>
+    <property name="requireId" value="stn_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="82"/>
+   </properties>
+  </object>
+  <object name="blackwater_mountain7_3" type="replace" x="32" y="32" width="896" height="896">
+   <properties>
+    <property name="Walkable" value="Walkable3"/>
+    <property name="requireId" value="stn_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="83"/>
+   </properties>
+  </object>
+  <object name="blackwater_mountain7_4" type="replace" x="32" y="32" width="896" height="896">
+   <properties>
+    <property name="Walkable" value="Walkable4"/>
+    <property name="requireId" value="stn_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="84"/>
+   </properties>
+  </object>
+  <object name="blackwater_mountain7_5" type="replace" x="32" y="32" width="896" height="896">
+   <properties>
+    <property name="Walkable" value="Walkable5"/>
+    <property name="requireId" value="stn_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="85"/>
+   </properties>
+  </object>
+  <object name="blackwater_mountain7_6" type="replace" x="32" y="32" width="896" height="896">
+   <properties>
+    <property name="Walkable" value="Walkable6"/>
+    <property name="requireId" value="stn_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="86"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

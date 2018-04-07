@@ -2,10 +2,9 @@
 <worldmap>
   <segment id="bwentry" x="14" y="387">
     <map id="blackwater_mountain4a" x="55" y="417"/>
-    <map id="blackwater_mountain5a" x="14" y="387"/>
+    <map id="blackwater_mountain6" x="66" y="389"/>
     <map id="blackwater_mountain5" x="35" y="387"/>
-    <map id="blackwater_mountain5c" x="35" y="403"/>
-    <map id="blackwater_mountain9" x="51" y="400"/>
+    <map id="blackwater_mountain9" x="53" y="361"/>
   </segment>
   <segment id="world1" x="1" y="-52">
     <map id="blackwater_mountain0" x="53" y="469"/>
@@ -13,15 +12,15 @@
     <map id="blackwater_mountain2" x="32" y="437"/>
     <map id="blackwater_mountain3" x="32" y="426"/>
     <map id="blackwater_mountain4" x="32" y="410"/>
-    <map id="blackwater_mountain10" x="57" y="382"/>
-    <map area="prim" id="blackwater_mountain11" x="57" y="351"/>
-    <map id="blackwater_mountain12" x="28" y="372"/>
-    <map id="blackwater_mountain14" x="78" y="382"/>
-    <map id="blackwater_mountain15" x="99" y="351"/>
-    <map id="blackwater_mountain16" x="115" y="351"/>
-    <map id="blackwater_mountain30" x="95" y="426"/>
-    <map id="blackwater_mountain32" x="64" y="428"/>
-    <map id="blackwater_mountain40" x="95" y="403"/>
+    <map id="blackwater_mountain10" x="33" y="368"/>
+    <map area="prim" id="blackwater_mountain11" x="33" y="337"/>
+    <map id="blackwater_mountain12" x="4" y="358"/>
+    <map id="blackwater_mountain14" x="54" y="368"/>
+    <map id="blackwater_mountain15" x="75" y="337"/>
+    <map id="blackwater_mountain16" x="91" y="337"/>
+    <map id="blackwater_mountain30" x="114" y="407"/>
+    <map id="blackwater_mountain32" x="83" y="409"/>
+    <map id="blackwater_mountain40" x="71" y="389"/>
     <map area="crossglen" id="crossglen" x="148" y="355"/>
     <map area="crossroads" id="crossroads" x="179" y="300"/>
     <map area="fallhaven" id="fallhaven_ne" x="241" y="382"/>
@@ -190,14 +189,14 @@
     <map id="waytogalmore0" x="95" y="500"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
-	<namedarea id="charwoodh" name="Charwood" type="settlement"/>
-	<namedarea id="fallhaven" name="Fallhaven" type="settlement"/>
-	<namedarea id="flagstone" name="Flagstone Prison" type="other"/>
-	<namedarea id="fflask" name="Foaming Flask Tavern" type="other"/>
-	<namedarea id="loneford" name="Loneford" type="settlement"/>
-	<namedarea id="remgard" name="Remgard" type="settlement"/>
-	<namedarea id="vilegard" name="Vilegard" type="settlement"/>
-	<namedarea id="prim" name="Prim" type="settlement"/>
-	<namedarea id="stoutford" name="Stoutford" type="settlement"/>
+    <namedarea id="charwoodh" name="Charwood" type="settlement"/>
+    <namedarea id="fallhaven" name="Fallhaven" type="settlement"/>
+    <namedarea id="flagstone" name="Flagstone Prison" type="other"/>
+    <namedarea id="fflask" name="Foaming Flask Tavern" type="other"/>
+    <namedarea id="loneford" name="Loneford" type="settlement"/>
+    <namedarea id="remgard" name="Remgard" type="settlement"/>
+    <namedarea id="vilegard" name="Vilegard" type="settlement"/>
+    <namedarea id="prim" name="Prim" type="settlement"/>
+    <namedarea id="stoutford" name="Stoutford" type="settlement"/>
   </segment>
 </worldmap>
