@@ -183,7 +183,16 @@
                     "chance":"25"
                 }
             ]
-        }
+        },
+		"phraseID":"lakecave2_troll_10"
+    },
+    {
+        "id":"lakecave2_key",
+        "name":"Glade Key",
+        "iconID":"items_japozero:387",
+        "unique":1,
+        "spawnGroup":"lakecave2_key",
+		"phraseID":"key_keycheck2"
     },
     {
         "id":"cave_scorpion_0",

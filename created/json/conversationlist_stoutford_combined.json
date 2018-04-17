@@ -135,7 +135,7 @@
     },
     {
         "id":"stoutford_widow_2",
-        "message":"Are you willing to hear my story ?",
+        "message":"Are you willing to hear my story?",
         "replies":[
             {
                 "text":"Oh no. Not again.",
@@ -182,7 +182,7 @@
         "message":"I've never been there, as he always said how dangerous that road was, but every year, for our anniversary, he went back to bring me a Damerilia, the same flower he offered me on the day we met.",
         "replies":[
             {
-                "text":"N",
+                "text":"How romantic!",
                 "nextPhraseID":"stoutford_widow_7"
             }
         ]
@@ -192,7 +192,7 @@
         "message":"During one of the recent attacks on Stoutford, my husband sacrificed his life to save mine.\nNow, I can't do anything but mourn next to his grave.",
         "replies":[
             {
-                "text":"N",
+                "text":"He must have loved you very much.",
                 "nextPhraseID":"stoutford_widow_8"
             }
         ]
@@ -202,7 +202,11 @@
         "message":"I'd really love to flower his grave with Damerilias, in memory of the symbol of our love.",
         "replies":[
             {
-                "text":"N",
+                "text":"What a nice idea!",
+                "nextPhraseID":"stoutford_widow_9"
+            },
+            {
+                "text":"Oh dear, I suspect something ...",
                 "nextPhraseID":"stoutford_widow_9"
             }
         ]
@@ -212,7 +216,7 @@
         "message":"But it would be reckless of me to ask such a young kid as you to go this far to the north-east.",
         "replies":[
             {
-                "text":"I've had enough.",
+                "text":"I've had enough - bye.",
                 "nextPhraseID":"X"
             },
             {
@@ -222,19 +226,23 @@
             {
                 "text":"I'm an adventurer. I'm afraid of nothing.",
                 "nextPhraseID":"stoutford_widow_10"
+            },
+            {
+                "text":"Remgard - sigh. Ok, I'll do it.",
+                "nextPhraseID":"stoutford_widow_10"
             }
         ]
     },
     {
         "id":"stoutford_widow_10",
-        "message":"Really ? If you manage to do it, I'll make sure to reward you with something only I can do, and that I haven't done in a long time.",
+        "message":"Really? If you manage to do it, I'll make sure to reward you with something only I can do, and that I haven't done in a long time.",
         "replies":[
             {
-                "text":"And what would that be ?",
+                "text":"And what would that be?",
                 "nextPhraseID":"stoutford_widow_11"
             },
             {
-                "text":"Great !",
+                "text":"Great!",
                 "nextPhraseID":"stoutford_widow_12"
             },
             {
@@ -252,7 +260,7 @@
     },
     {
         "id":"stoutford_widow_11",
-        "message":"That's a secret. You'll know when you'll see it.",
+        "message":"That's a secret. I can't tell you, but you'll know when you'll see it.",
         "replies":[
             {
                 "text":"N",
@@ -329,10 +337,10 @@
     },
     {
         "id":"stoutford_widow_roots10_0",
-        "message":"You're back ! Have you found some Damerilias yet ?",
+        "message":"You're back! Have you found some Damerilias yet?",
         "replies":[
             {
-                "text":"Yes. Here they are.",
+                "text":"Yes. Here they are, three of the most beautiful Damerilias.",
                 "nextPhraseID":"stoutford_widow_roots10_2",
                 "requires":[
                     {
@@ -343,18 +351,94 @@
                 ]
             },
             {
+                "text":"Yes. Here they are, two of the most beautiful Damerilias.",
+                "nextPhraseID":"stoutford_widow_roots10_1a",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"damerilias",
+                        "value":3,
+						"negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"damerilias",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"Yes. Here it is, the most beautiful one.",
+                "nextPhraseID":"stoutford_widow_roots10_1a",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"damerilias",
+                        "value":2,
+						"negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"damerilias",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "text":"No, not yet.",
-                "nextPhraseID":"stoutford_widow_roots10_1"
+                "nextPhraseID":"stoutford_widow_roots10_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"damerilias",
+                        "value":1,
+						"negate":true
+                    }
+                ]
             }
         ]
     },
     {
         "id":"stoutford_widow_roots10_1",
-        "message":"Oh. Come back to me if you find some, ok ?"
+        "message":"Oh. Come back to me if you find some, will you?"
+    },
+    {
+        "id":"stoutford_widow_roots10_1a",
+        "message":"Oh. But that is not enough - how would that look like! There just have to be 3 Damerilias on the grave. Please ...",
+        "replies":[
+            {
+                "text":"Alright. I'm going again.",
+                "nextPhraseID":"stoutford_widow_12"
+            }
+        ]
+    },
+    {
+        "id":"caeda_1",
+        "message":"So much work to do. I sure hope we will have some rain soon."
+	},
+    {
+        "id":"caeda_2",
+        "message":"So much work to do. I sure hope we will have some rain soon.",
+        "replies":[
+            {
+                "text":"Do you know where I can find some Damerilias?",
+                "nextPhraseID":"caeda_root10_0"
+            }
+        ]
+    },
+    {
+        "id":"caeda_3",
+        "message":"Oh, it is you again.",
+        "replies":[
+            {
+                "text":"Thank you for the Damerilias.",
+                "nextPhraseID":"caeda_root10_5"
+            }
+        ]
     },
     {
         "id":"caeda_root10_0",
-        "message":"What a strange request !",
+        "message":"What a strange request!",
         "replies":[
             {
                 "text":"N",
@@ -364,7 +448,7 @@
     },
     {
         "id":"caeda_root10_1",
-        "message":"Yes I happen to have some. Why are you asking ?",
+        "message":"Yes I happen to have some. Why are you asking?",
         "replies":[
             {
                 "text":"There is this woman in Stoutford, she wants some for the grave of her husband, Noraed.",
@@ -374,35 +458,45 @@
     },
     {
         "id":"caeda_root10_2",
-        "message":"Noraed is dead ? Oh no.... poor little brother. What happened ?",
+        "message":"Noraed is dead? Oh no.... my poor little brother. What happened?",
         "replies":[
             {
-                "text":"He was killed saving the life of his wife, during a monster attack on stoutford.",
+                "text":"He was killed saving the life of his wife, during a monster attack on Stoutford.",
                 "nextPhraseID":"caeda_root10_3"
             }
         ]
     },
     {
         "id":"caeda_root10_3",
-        "message":"He loved her so much. I never had the chance to meet her.",
+        "message":"Yes, that would be him. He loved Aryfora so much. I never had the chance to meet her.",
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"caeda_root10_3a"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root10_3a",
+        "message":"Every year he came to pick the most beautiful Damerilia to give it to her as present.",
+        "replies":[
+            {
+                "text":"Yes, Aryfora told me. She asked me to bring her some Damerilias for Noraed's grave.",
                 "nextPhraseID":"caeda_root10_4"
             }
         ]
     },
     {
         "id":"caeda_root10_4",
-        "message":"Here, take these to her, and send her my condolances.",
+        "message":"I still have some. Here, take these to her, and send her my condolances.",
         "replies":[
             {
                 "text":"Thanks. I'll make sure she gets them.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"caeda_root10_5"
             },
             {
                 "text":"All this trouble for a bunch of smelly flowers...",
-                "nextPhraseID":"X"
+                "nextPhraseID":"caeda_root10_5"
             }
         ],
         "rewards":[
@@ -419,8 +513,468 @@
         ]
     },
     {
+        "id":"caeda_root10_5",
+        "message":"These Damerilias are not really good any more. You should get fresh ones from my family's glade north of Remgard.",
+        "replies":[
+            {
+                "text":"How would I get to your glade?",
+                "nextPhraseID":"caeda_root10_6"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root10_6",
+        "message":"To find the glade you have to pass through a cave. There are trolls, but my father had put up a statue that the trolls don't like passing by. So I was able to pass the cave fairly safely.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"caeda_root10_6a"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root10_6a",
+        "message":"The glade itself is barred by a solid door to keep trolls out. I had a key for it of course.",
+        "replies":[
+            {
+                "text":"Had ?",
+                "nextPhraseID":"caeda_root10_7"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root10_7",
+        "message":"Yes. Unfortunately I did not pay attention to my path when I was there last time and took a wrong turn.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"caeda_root10_8"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root10_8",
+        "message":"Suddenly there were trolls everywhere. I barely escaped, but I must have lost the key to our glade there. If only I could have my key back!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"secret_garden",
+                "value":10
+            }
+        ],
+        "replies":[
+            {
+                "text":"Your Damerilias look a bit wilted indeed. I will go to your glade.",
+                "nextPhraseID":"caeda_root10_9"
+            },
+            {
+                "text":"Eh, ok. This isn't worth the trouble. Fresh Damerilias wouldn't look different after my travel back.\nThank you, I will return to Stoutford directly.",
+                "nextPhraseID":"caeda_root10_8a"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root10_8a",
+        "message":"Farewell then. Greetings to my sister in law.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"secret_garden",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"caeda_root10_9",
+        "message":"And you would bring back my key to the glade? I would be the happiest person then!",
+        "replies":[
+            {
+                "text":"Small thing for me.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"caeda_10",
+        "message":"Oh, it is you again. Did you found my key?",
+        "replies":[
+            {
+                "text":"No, not yet."
+            }
+        ]
+    },
+    {
+        "id":"lakecave2_troll_10",
+        "message":"You! You have not lost anything here! Get out of my cave!",
+        "replies":[
+            {
+                "text":"Of course, sorry, please excuse the disturbance.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"May I ask a question before I leave?",
+                "nextPhraseID":"lakecave2_troll_12"
+            }
+        ]
+    },
+    {
+        "id":"lakecave2_troll_12",
+        "message":"That was already a question! Hahaha! You are lucky that I am in good mood - and not hungry at the moment.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lakecave2_troll_14"
+            }
+        ]
+    },
+    {
+        "id":"lakecave2_troll_14",
+        "message":"What do you want?",
+        "replies":[
+            {
+                "text":"I am looking for my brother Andor. Have you seen him?",
+                "nextPhraseID":"lakecave2_troll_20"
+            },
+            {
+                "text":"I am looking for some flowers called Damerilia.",
+                "nextPhraseID":"lakecave2_troll_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Someone had lost a key here. Once I have found the key, you can have your wet dark hole again for yourself.",
+                "nextPhraseID":"lakecave2_troll_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_garden",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_garden",
+                        "value":20,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I will leave now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"lakecave2_troll_20",
+        "message":"No. If your brother looks like you then I never have seen him. And now go!",
+        "replies":[
+            {
+                "text":"I have another question.",
+                "nextPhraseID":"lakecave2_troll_14"
+            }        
+		]
+    },
+    {
+        "id":"lakecave2_troll_30",
+        "message":"Everyone wants to steal my Damerilias! For what only? This ugly, stinking stuff!\nNo, I need them all for myself. You really should leave, before I get hungry.",
+        "replies":[
+            {
+                "text":"What do you need Damerilias for, if you do not like them?",
+                "nextPhraseID":"lakecave2_troll_32"
+            }        
+		]
+    },
+    {
+        "id":"lakecave2_troll_32",
+        "message":"The Damerilias are for my bees. And their honey is for me. No Damerilias, no honey. Clear?",
+        "replies":[
+            {
+                "text":"Clear. I have another question.",
+                "nextPhraseID":"lakecave2_troll_14"
+            }        
+		]
+    },
+    {
+        "id":"lakecave2_troll_40",
+        "message":"What do you know about the key? I keep the key well. Do you belong to this thief who comes once a year and steals my Dalmarilla?",
+        "replies":[
+            {
+                "text":"You talk of Noraed? He is dead.",
+                "nextPhraseID":"lakecave2_troll_50"
+            }        
+		]
+    },
+    {
+        "id":"lakecave2_troll_50",
+        "message":"Dead? That is good news. And you will also be dead now.",
+        "replies":[
+            {
+                "text":"We'll see.",
+                "nextPhraseID":"F"
+            }        
+		]
+    },
+    {
+        "id":"script_keycheck1",
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"lakecave2_timer_keycheck"
+            }
+        ]
+    },
+    {
+        "id":"key_keycheck1",
+        "switchToNPC":"cave_troll_5",
+        "message":"Away from there!"
+    },
+    {
+        "id":"key_keycheck2",
+        "replies":[
+            {
+                "nextPhraseID":"key_keycheck2_10",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"lakecave2_timer_keycheck",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"key_keycheck2_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":8,
+						"negate":true
+                    }
+                ]
+            },
+			{
+                "nextPhraseID":"key_keycheck2_90"
+            }
+        ]
+    },
+    {
+        "id":"key_keycheck2_10",
+        "switchToNPC":"none",
+        "message":"You may be a great warrior - but not a tall one. Maybe jump with a startup?",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"stn_nondisplay",
+                "value":8
+            }
+        ]
+    },
+    {
+        "id":"key_keycheck2_20",
+        "switchToNPC":"none",
+        "message":"That was close - just half an inch missing. Try again!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":8
+            }
+        ]
+    },
+    {
+        "id":"key_keycheck2_90",
+        "switchToNPC":"none",
+        "message":"You got hold of the shelves and tore them down!",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "mapName":"lakecave2",
+                "rewardID":"lakecave2_key"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "mapName":"lakecave2",
+                "rewardID":"Inactive"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":9
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"secret_garden",
+                "value":30
+            }
+        ],
+		"text":"Oops - ok, and where is the key now?"
+    },
+    {
+        "id":"caeda_20",
+        "message":"Oh, it is you. Nice to meet you again."
+    },
+    {
+        "id":"caeda_30",
+        "message":"Oh, it is you again. Did you found my key?",
+        "replies":[
+            {
+                "text":"Yes. Here, take it back.",
+                "nextPhraseID":"caeda_root30_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"glade_key",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Yes. Eh, no. I seem to have lost it. Wait, I'll go and find it.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root30_1",
+        "message":"You really found my key! Thank you - I still can't believe it! ",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"secret_garden",
+                "value":40
+            }
+        ],
+        "replies":[
+            {
+                "text":"The troll didn't like the glade with its beautiful damerilias, but he enjoyed the honey of the bees.",	
+                "nextPhraseID":"caeda_root40_1"
+            }
+        ]
+    },
+    {
+        "id":"caeda_40",
+        "message":"Oh, it is you again. Thank you again for bringing back my key.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"caeda_root40_1"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root40_1",
+        "message":"With all these trolls around I don't feel safe to go through the cave and take care of the flowers in the glade."
+        "replies":[
+            {
+                "text":"The scorpions are bad enough, but the trolls are really dangerous.",	
+                "nextPhraseID":"caeda_root40_2"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root40_2",
+        "message":"Would it be too much to ask if you could get rid of the trolls?",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"secret_garden",
+                "value":50
+            }
+        ],
+        "replies":[
+            {
+                "text":"I could clear the caves a bit more. No problem.",	
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"caeda_50",
+        "replies":[
+            {
+                "nextPhraseID":"caeda_root50_3",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"cave_troll_2",
+                        "value":7
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"cave_troll_3",
+                        "value":15
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"cave_troll_4",
+                        "value":7
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"caeda_root50_2"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root50_2",
+        "message":"Is the passage to the glade safe again?",
+        "replies":[
+            {
+                "text":"No, not yet. I guess there are at least 30 trolls to kill. I will go for them again.",	
+                "nextPhraseID":"caeda_root50_2a"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root50_2a",
+        "message":"Please do, and come to me if you are done with them."
+	},
+    {
+        "id":"caeda_root50_3",
+        "message":"Is the passage to the glade safe again?",
+        "replies":[
+            {
+                "text":"Yes, I have dealt with most of the trolls. They won't dare to bother you for a long time.",	
+                "nextPhraseID":"caeda_root50_4"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root50_4",
+        "message":"Thank you so much! If ever you want to go to the glade, just ask me for the key.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"secret_garden",
+                "value":60
+            }
+        ],
+        "replies":[
+            {
+                "text":"Gladly. I will leave now.",	
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"caeda_60",
+        "message":"Oh, it is you again. Thank you for all you have done.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
         "id":"remgard_farmer2_roots10_0",
-        "message":"Damerilias. I haven't seen one in a long time. Try with Caeda.",
+        "message":"Damerilias. I haven't seen one in a long time. Try with Caeda, she used to give us a Damerilia sometimes.",
         "replies":[
             {
                 "text":"Thank you.",
@@ -434,7 +988,7 @@
     },
     {
         "id":"remgard_farmer2_roots10_1",
-        "message":"I have work to do now. Excuse me."
+        "message":"I don't know where she might be at the moment. And I have work to do now, so excuse me."
     },
     {
         "id":"remgard_farmer1_root10_0",
@@ -445,7 +999,7 @@
         "message":"Thank you very much for the flowers. Is there anything I can do for you ?",
         "replies":[
             {
-                "text":"Your potion was great ! Can I have some more ?",
+                "text":"Your potion was great! Can I have some more ?",
                 "nextPhraseID":"stoutford_widow_roots4045_1",
                 "requires":[
                     {
@@ -477,7 +1031,7 @@
     },
     {
         "id":"stoutford_widow_roots10_2",
-        "message":"Oh. They're beautiful !\nThank you !",
+        "message":"Oh. They're beautiful!\nThank you! Here is your reward.",
         "replies":[
             {
                 "text":"N",
@@ -502,7 +1056,7 @@
         "message":"How did you find these flowers ?",
         "replies":[
             {
-                "text":"Noraed's sister, Caeda, gave them to me. She sends you her condolances.",
+                "text":"Caeda, Noraed's sister, gave them to me. She sends you her condolances.",
                 "nextPhraseID":"stoutford_widow_roots30_3"
             },
             {
@@ -516,7 +1070,7 @@
         "message":"Is that so ?\nRemgard must be a beautiful place to have such nice flowers growing in the wild.",
         "replies":[
             {
-                "text":"Beautiful, but deadly !",
+                "text":"Beautiful, but deadly to get there!",
                 "nextPhraseID":"stoutford_widow_roots30_2"
             },
             {
@@ -552,7 +1106,7 @@
     },
     {
         "id":"stoutford_widow_roots30_3",
-        "message":"Noraed had a sister ? He never talked about his family.\nHe said he had a happy childhood, but that's it.\nI think he didn't want me to ask to go there with him.\nI'd love to meet her someday.",
+        "message":"Noraed had a sister? He never talked about his family.\nHe said he had a happy childhood, but that's it.\nI think he didn't want me to ask to go there with him.\nI'd love to meet her someday.",
         "replies":[
             {
                 "text":"I'm sure she feels the same.",
@@ -586,7 +1140,7 @@
     },
     {
         "id":"blornvale_0",
-        "message":"Welcome to my shop kid.\nMy potions are not for the faint of heart.\nDo you want to take a look ?",
+        "message":"Welcome to my shop kid.\nMy potions are not for the faint of heart.\nDo you want to take a look?",
         "replies":[
             {
                 "text":"Sure.",
@@ -631,7 +1185,7 @@
         "message":"It's a long story.",
         "replies":[
             {
-                "text":"Nevermind.",
+                "text":"Nevermind. Now I understand why Noraed traveled so far every year.",
                 "nextPhraseID":"X"
             },
             {
@@ -642,7 +1196,7 @@
     },
     {
         "id":"stoutford_widow_roots4045_5",
-        "message":"My father was the alchemist of this town.\nHe was very talented, and inspired. He experimented with all sorts of ingredients from all over Dhayavar he could get with the travellers that stopped by Stoutford.",
+        "message":"My father was the alchemist of this town.\nHe was very talented, and inspired. He experimented with all sorts of ingredients from all over Dhayavar he could get from the travellers stopping at Stoutford.",
         "replies":[
             {
                 "text":"N",
@@ -675,7 +1229,7 @@
         "message":"He passed away a few years later. They said he poisoned himself during a new experiment, but I never believed it.",
         "replies":[
             {
-                "text":"Sorry.",
+                "text":"Sorry, I have to go now.",
                 "nextPhraseID":"X"
             },
             {
@@ -706,10 +1260,10 @@
     },
     {
         "id":"stoutford_widow_roots4045_11",
-        "message":"They all agreed, even though my uncle is a lousy alchemist.\nI was sent to work in a farm, while my uncle took my father's house.",
+        "message":"They all agreed, even though my uncle is a lousy alchemist.\nI was sent to work in a farm, while my uncle took my father's house and opened the shop again.",
         "replies":[
             {
-                "text":"N",
+                "text":"Outrageous!",
                 "nextPhraseID":"stoutford_widow_roots4045_12"
             }
         ]
@@ -743,7 +1297,7 @@
                 "nextPhraseID":"stoutford_widow_roots4045_15"
             },
             {
-                "text":"And, would you brew more potions if you had your father's shop back ?",
+                "text":"And, would you brew more potions if you had your father's shop back?",
                 "nextPhraseID":"stoutford_widow_roots4045_16"
             }
         ]
@@ -753,7 +1307,7 @@
         "message":"No. Every time I talk to him, he denies everything, and call me crazy. I can tell he's lying though.",
         "replies":[
             {
-                "text":"And, would you brew more potions if you had your father's shop back ?",
+                "text":"And, would you brew more potions if you had your father's shop back?",
                 "nextPhraseID":"stoutford_widow_roots4045_16"
             }
         ]
@@ -763,14 +1317,24 @@
         "message":"Maybe. If the villagers asked me to, and if they recognize the guilt of my uncle.",
         "replies":[
             {
-                "text":"Maybe I can help you do this.",
+                "text":"Can I help you do this?",
+                "nextPhraseID":"stoutford_widow_roots4045_16a"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_16a",
+        "message":"You have already done so much for me. I can not accept that.",
+        "replies":[
+            {
+                "text":"Oh, that's alright.",
                 "nextPhraseID":"stoutford_widow_roots4045_17"
             }
         ]
     },
     {
         "id":"stoutford_widow_roots4045_17",
-        "message":"Now that you mention it, I think I have a plan.",
+        "message":"Really? Then I think I have a plan.",
         "replies":[
             {
                 "text":"N",
@@ -783,7 +1347,7 @@
         "message":"My uncle is very cautious with me, but with an unknown kid, there's a chance we can make him confess.",
         "replies":[
             {
-                "text":"N",
+                "text":"Sounds reasonable.",
                 "nextPhraseID":"stoutford_widow_roots4045_19"
             }
         ]
@@ -797,7 +1361,7 @@
                 "nextPhraseID":"stoutford_widow_roots4045_20"
             },
             {
-                "text":"I'd better leave. It's none of my business.",
+                "text":"Eh, I'd better leave now. It's none of my business.",
                 "nextPhraseID":"X"
             }
         ]
@@ -1165,12 +1729,12 @@
         "message":"Here lies Zorin, the first to tend this glade. Its beauty would be diminished without him."
     },
     {
-        "id":"sign_lakecave0_1",
+        "id":"script_lakecave0_1",
         "message":"You see large shapes moving in the shadows to the East. It looks dangerous that way!",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"sign_lakecave0_2"
+                "nextPhraseID":"script_lakecave0_2"
             }
         ],
         "rewards":[
@@ -1182,7 +1746,7 @@
         ]
     },
     {
-        "id":"sign_lakecave0_2",
+        "id":"script_lakecave0_2",
         "message":"They don't seem to want to come in your direction though. Maybe it has something to do with the statue?"
     },
     {
@@ -1190,11 +1754,11 @@
         "message":"Baaaaaa!"
     },
     {
-        "id":"sign_lakecave0",
+        "id":"script_lakecave0",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"sign_lakecave0_1",
+                "nextPhraseID":"script_lakecave0_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1517,6 +2081,20 @@
                         "negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"script_lakecave1_damerilia5_1",
+        "message":"Fetch the flower?",
+        "replies":[
+            {
+                "text":"Yes",
+                "nextPhraseID":"script_lakecave1_damerilia5_2"
+            },
+            {
+                "text":"No",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -3143,7 +3721,17 @@
     },
     {
         "id":"stn_gyra_init_10",
-        "message":"I am Gyra, Odirath's daughter. I was looking for Lord Bourbon's helmet, when I was surprised by these monsters.",
+        "message":"I am Gyra, Odirath's daughter. My father is the armorer of Stoutford, a very important man.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stn_gyra_init_12"
+            }
+        ]
+    },
+    {
+        "id":"stn_gyra_init_12",
+        "message":"I was looking for Lord Bourbon's helmet, when I was surprised by these monsters.",
         "replies":[
             {
                 "text":"N",
@@ -3174,9 +3762,20 @@
     },
     {
         "id":"stn_gyra_init_50",
+        "message":"Great! It is so important that Lord Bourbon gets his helmet. Then he will drive out these monsters!",
         "replies":[
             {
-                "nextPhraseID":"X"
+                "text":"N",
+                "nextPhraseID":"stn_gyra_init_52"
+            }
+        ]
+    },
+    {
+        "id":"stn_gyra_init_52",
+        "message":"I started to look in the main house, but maybe we have to search the whole castle.",
+        "replies":[
+            {
+                "text":"Let's go then."
             }
         ],
         "rewards":[

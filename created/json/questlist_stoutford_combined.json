@@ -64,7 +64,7 @@
             },
             {
                 "progress":60,
-                "logText":"I killed the monsters and told Caeda. She left Remgard and went to attend to the glade.",
+                "logText":"I killed the monsters and told Caeda, so that she could attend to the glade.",
                 "finishesQuest":1
             }
         ]
@@ -122,6 +122,8 @@
 				{ "progress":  5, "logText":"5=North gate open" },
 				{ "progress":  6, "logText":"6=Horse got food" },
 				{ "progress":  7, "logText":"7=Grave visited" },
+				{ "progress":  8, "logText":"8=lakecave5 first jump" },
+				{ "progress":  9, "logText":"8=lakecave5 got key" },
 				{ "progress": 10, "logText":"10=Gyra roaming" },
 				{ "progress": 11, "logText":"11=Gyra in castle1" },
 				{ "progress": 12, "logText":"12=Gyra in castle0" },

@@ -1080,7 +1080,7 @@
     },
     {
         "id":"glade_key",
-        "iconID":"items_japozero:386",
+        "iconID":"items_japozero:387",
         "name":"Key to the glade",
         "displaytype":"quest",
         "category":"other"
