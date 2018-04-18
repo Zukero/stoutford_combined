@@ -200,7 +200,7 @@
    eJxjYBgFo2AUjIJRMApGwSiAgG0cA+0C+oGR5FcYOMXOwHAais+w08/eZDYETmGjnT07hRgYdgnR396TQDtPCRFWNwpGwWAEAHmmC10=
   </data>
  </layer>
- <layer name="Top2" width="30" height="30">
+ <layer name="Top2" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzbENADAIwDAmHi3/38DIBR1AtpQ5EQAA8M/LqfL+FzZpIaUDSw==
   </data>
@@ -387,7 +387,6 @@
  <objectgroup name="Replace" visible="0">
   <object id="26" name="stn_northgate" type="replace" x="256" y="704" width="128" height="64">
    <properties>
-    <property name="Objects" value="stn_northgate_open"/>
     <property name="Top" value="Objects"/>
     <property name="Walkable" value="Objects"/>
     <property name="requireId" value="stn_nondisplay"/>
@@ -397,7 +396,6 @@
   </object>
   <object id="27" name="stn_northgate" type="replace" x="256" y="704" width="128" height="64">
    <properties>
-    <property name="Objects" value="stn_northgate_close"/>
     <property name="Top" value="Top2"/>
     <property name="Walkable" value="Walkable2"/>
     <property name="requireId" value="stn_nondisplay"/>
