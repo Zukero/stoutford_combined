@@ -192,7 +192,15 @@
         "iconID":"items_japozero:387",
         "unique":1,
         "spawnGroup":"lakecave2_key",
-		"phraseID":"key_keycheck2"
+		"phraseID":"lakecave2_key_check2"
+    },
+    {
+        "id":"lakecave2_key2",
+        "name":"Glade Key",
+        "iconID":"items_japozero:387",
+        "unique":1,
+        "spawnGroup":"lakecave2_key2",
+		"phraseID":"lakecave2_key_found"
     },
     {
         "id":"cave_scorpion_0",
@@ -707,6 +715,15 @@
         "iconID":"monsters_tometik2:42",
         "spawnGroup":"berbane",
         "phraseID":"berbane"
+    },
+    {
+        "id":"stoutford_alchemist2",
+        "name":"Blornvale",
+        "iconID":"monsters_rltiles1:70",
+        "monsterClass":"humanoid",
+        "spawnGroup":"stoutford_alchemist2",
+        "phraseID":"blornvale_select_0",
+        "droplistID":"stoutford_alchemist2"
     },
     {
         "id":"stoutford_old_woman",

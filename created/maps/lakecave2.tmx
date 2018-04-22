@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="26">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="29">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -188,12 +188,12 @@
    eJy9l0EOgkAMRY07r84ZuMKMLNyDR0Cu4EGExCZN/W3/ILr4K5pfnP6+wXo+narSpFQPUuZ5X/VQGp36iZT1E89qapZVT6UZ1CMvT9ZPPIupuV0+pesHx8sT8ttUiBqtgazLVBp9juzbv/XvvpLRK+F5VN/6w76yJ5060x7sLtOXzcNsdj/jBjuXzgjlQ+8+4oaVPhM0l4hBth7ttHAj45z+rYhp4jWSsxKvjHM6Ux7T5FzZ+Rfw7h7nmCzLefdAe/K5yZ6hZIrNsZ1ZlCOdJ93X3lNMjhfTN9vh4jyz91SWY+TJ9I32u/V+YZhl54U4MapnmRAzUF80L7ur3kxZXnl7jzjBzDTiVevd0LLPUR6ivtGOeVlCzEDc8Ppm74Sy1ML66FnUtyVLiBvfMIXNEuIGyxTmu6CFGyxT0HfBHkU+R/0fi/QCJgebDA==
   </data>
  </layer>
- <layer name="Objects" width="30" height="30">
+ <layer name="Objects" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJzNVjtPAkEQPk/BBBQihQkqWPs77IkJPRG1VCwsbBSjna2t2mgpDYmthbEjsUUbK0BojQitO2E2DMPs3l4gxi/Z3D7mPbNz63n/AxvJwXfXn4685vzoCMIR6m0nPO8zMXq2mPW8ojqPw8gO9g6UvTl/OKdI4X6a+XKI64r6/igdX2r0FG8D99cE3/Nqb1WNDJ6dKvoCmWt5gMfMkE/LBL4zf0DTQ/oZ/B5HPO9b2dBNDOkrxIYOkfe+NG6bRo/QPTO6Oq6r+K0h7SzacBdx0xEWtwF1dBWxn/eJT9pmHY+3ADuf5sxnTVZbNHY23DN7rwX/XpXelqAb4nph8Zf7I8m24cPir8bLsvms7RgDDshxC+PZZXE9T47Tc16NhuAv3O1E1t0ODVPs4kQW171O1oWQsTchZekpgJoQc8gDjcU+zheU7TGcbxnkVYR9KsuW/yqrvxPCt4LzbX9ch6RT31EppxSm/sBtAehY0dzC3iVZB/UbFz2SjDD1RH3O+TJtEOqG3gZ96sHiI+iGmiuQf1Wa5My1z1FINaN9tNUThSl+O1H11sCxFzXzh81rEPqGOGz6g3tmoi/6QzqNEpnHHO2skfsBfSdv6RO0nvJkXhbu5yTQeqQ74corAeTx/Ev51LXUFu45B/BLvdMVnQl4p42S0COKBt+p3SVG43K3G4b64XWn/1u8t0NPKWOPkfo+BeTTVksu7w1eA/RdG/Z9NAlu/lAX4BeKO3f+
   </data>
  </layer>
- <layer name="Objects2" width="30" height="30" visible="0">
+ <layer name="Objects2" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzaENACAMBdEfDGiCQbD/AozEDICkCSs0VffMyZPgrabfnuKet0hzSM16ctx32WuPuB8AAAAAPw+xEwUZ
   </data>
@@ -208,7 +208,7 @@
    eJxjYBgFo2AUUBNcFhsYew+PMHvnMg2MvaNgFIwC6oCBKjtGwSgYBaNgFKACAFjJBBQ=
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30">
+ <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztk1EKgDAMQz2F97/Cbih+CCKatGl0UwzsR+p729q1eZrah9eaEb1b3D7G3eeqvpoMw+XcsyLMO70Rt8JmTuTOnFedP8br5X3iDWZZLrfqrfbgrJ6xHO5jrYsVCbvzqBvVoXOw/3p5mVv1RveForwpta8ZVvXe3upFPVJSnTn0rcKOel1z+Hvzc4eCOI53MepaAP1Rxgg=
   </data>
@@ -247,13 +247,7 @@
     <property name="when" value="step"/>
    </properties>
   </object>
-  <object id="19" name="script_keycheck1" type="script" x="640" y="64" width="288" height="160"/>
- </objectgroup>
- <objectgroup name="Inactive" visible="0">
-  <properties>
-   <property name="active" value="false"/>
-  </properties>
-  <object id="25" name="lakecave2_container_key" type="container" x="864" y="96" width="32" height="32"/>
+  <object id="19" name="lakecave2_script_keycheck1" type="script" x="640" y="64" width="288" height="160"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object id="6" name="lakecave2_1" type="spawn" x="64" y="96" width="288" height="512">
@@ -262,7 +256,7 @@
     <property name="spawngroup" value="scorpion_1"/>
    </properties>
   </object>
-  <object id="7" name="lakecave2_2" type="spawn" x="864" y="160" width="64" height="64">
+  <object id="7" name="lakecave2_2" type="spawn" x="864" y="128" width="64" height="64">
    <properties>
     <property name="spawngroup" value="cave_troll_5"/>
    </properties>
@@ -332,11 +326,17 @@
    </properties>
   </object>
   <object id="22" name="lakecave2_key" type="spawn" x="832" y="32" width="32" height="32"/>
- </objectgroup>
- <objectgroup name="Keys" visible="0">
-  <object id="29" name="key_keycheck1" type="key" x="832" y="64" width="32" height="32">
+  <object id="27" name="lakecave2_key2" type="spawn" x="864" y="96" width="32" height="32">
    <properties>
-    <property name="phrase" value="key_keycheck1"/>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object id="29" name="lakecave2_key_check1" type="key" x="832" y="64" width="32" height="32">
+   <properties>
+    <property name="phrase" value="lakecave2_key_check1"/>
     <property name="requireId" value="cave_troll_5"/>
     <property name="requireType" value="killedMonster"/>
     <property name="requireValue" value="1"/>

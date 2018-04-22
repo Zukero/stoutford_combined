@@ -286,6 +286,56 @@
         "id":"stoutford_widow_select_0",
         "replies":[
             {
+                "nextPhraseID":"stoutford_widow_thorns50_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stoutford_widow_thorns40_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stoutford_widow_thorns30_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stoutford_widow_thorns20_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stoutford_widow_thorns10_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":10
+                    }
+                ]
+            },
+            {
                 "text":"N",
                 "nextPhraseID":"stoutford_widow_roots4045_0",
                 "requires":[
@@ -358,7 +408,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"damerilias",
                         "value":3,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"inventoryKeep",
@@ -375,7 +425,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"damerilias",
                         "value":2,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"inventoryKeep",
@@ -392,7 +442,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"damerilias",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -415,7 +465,7 @@
     {
         "id":"caeda_1",
         "message":"So much work to do. I sure hope we will have some rain soon."
-	},
+    },
     {
         "id":"caeda_2",
         "message":"So much work to do. I sure hope we will have some rain soon.",
@@ -555,13 +605,6 @@
     {
         "id":"caeda_root10_8",
         "message":"Suddenly there were trolls everywhere. I barely escaped, but I must have lost the key to our glade there. If only I could have my key back!",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"secret_garden",
-                "value":10
-            }
-        ],
         "replies":[
             {
                 "text":"Your Damerilias look a bit wilted indeed. I will go to your glade.",
@@ -570,6 +613,13 @@
             {
                 "text":"Eh, ok. This isn't worth the trouble. Fresh Damerilias wouldn't look different after my travel back.\nThank you, I will return to Stoutford directly.",
                 "nextPhraseID":"caeda_root10_8a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"secret_garden",
+                "value":10
             }
         ]
     },
@@ -659,7 +709,7 @@
                         "requireType":"questProgress",
                         "requireID":"secret_garden",
                         "value":20,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -676,8 +726,8 @@
             {
                 "text":"I have another question.",
                 "nextPhraseID":"lakecave2_troll_14"
-            }        
-		]
+            }
+        ]
     },
     {
         "id":"lakecave2_troll_30",
@@ -686,8 +736,8 @@
             {
                 "text":"What do you need Damerilias for, if you do not like them?",
                 "nextPhraseID":"lakecave2_troll_32"
-            }        
-		]
+            }
+        ]
     },
     {
         "id":"lakecave2_troll_32",
@@ -696,8 +746,8 @@
             {
                 "text":"Clear. I have another question.",
                 "nextPhraseID":"lakecave2_troll_14"
-            }        
-		]
+            }
+        ]
     },
     {
         "id":"lakecave2_troll_40",
@@ -706,21 +756,28 @@
             {
                 "text":"You talk of Noraed? He is dead.",
                 "nextPhraseID":"lakecave2_troll_50"
-            }        
-		]
+            }
+        ]
     },
     {
         "id":"lakecave2_troll_50",
-        "message":"Dead? That is good news. And you will also be dead now.",
+        "message":"Dead? That is good news. And you too will be dead now.",
         "replies":[
             {
                 "text":"We'll see.",
                 "nextPhraseID":"F"
-            }        
-		]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":203
+            }
+        ]
     },
     {
-        "id":"script_keycheck1",
+        "id":"lakecave2_script_keycheck1",
         "rewards":[
             {
                 "rewardType":"createTimer",
@@ -729,15 +786,15 @@
         ]
     },
     {
-        "id":"key_keycheck1",
-        "switchToNPC":"cave_troll_5",
-        "message":"Away from there!"
+        "id":"lakecave2_key_check1",
+        "message":"Away from there!",
+        "switchToNPC":"cave_troll_5"
     },
     {
-        "id":"key_keycheck2",
+        "id":"lakecave2_key_check2",
         "replies":[
             {
-                "nextPhraseID":"key_keycheck2_10",
+                "nextPhraseID":"lakecave2_key_check2_10",
                 "requires":[
                     {
                         "requireType":"timerElapsed",
@@ -747,25 +804,25 @@
                 ]
             },
             {
-                "nextPhraseID":"key_keycheck2_20",
+                "nextPhraseID":"lakecave2_key_check2_20",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"stn_nondisplay",
                         "value":8,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
-			{
-                "nextPhraseID":"key_keycheck2_90"
+            {
+                "nextPhraseID":"lakecave2_key_check2_90"
             }
         ]
     },
     {
-        "id":"key_keycheck2_10",
-        "switchToNPC":"none",
+        "id":"lakecave2_key_check2_10",
         "message":"You may be a great warrior - but not a tall one. Maybe jump with a startup?",
+        "switchToNPC":"none",
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
@@ -775,9 +832,9 @@
         ]
     },
     {
-        "id":"key_keycheck2_20",
-        "switchToNPC":"none",
+        "id":"lakecave2_key_check2_20",
         "message":"That was close - just half an inch missing. Try again!",
+        "switchToNPC":"none",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -787,32 +844,51 @@
         ]
     },
     {
-        "id":"key_keycheck2_90",
-        "switchToNPC":"none",
+        "id":"lakecave2_key_check2_90",
         "message":"You got hold of the shelves and tore them down!",
+        "switchToNPC":"none",
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
-                "mapName":"lakecave2",
-                "rewardID":"lakecave2_key"
+                "rewardID":"lakecave2_key",
+                "mapName":"lakecave2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lakecave2_key2",
+                "mapName":"lakecave2"
             },
             {
                 "rewardType":"activateMapObjectGroup",
-                "mapName":"lakecave2",
-                "rewardID":"Inactive"
+                "rewardID":"Inactive",
+                "mapName":"lakecave2"
             },
             {
                 "rewardType":"questProgress",
                 "rewardID":"stn_nondisplay",
                 "value":9
+            }
+        ]
+    },
+    {
+        "id":"lakecave2_key_found",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lakecave2_key2",
+                "mapName":"lakecave2"
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"glade_key",
+                "value":1
             },
             {
                 "rewardType":"questProgress",
                 "rewardID":"secret_garden",
                 "value":30
             }
-        ],
-		"text":"Oops - ok, and where is the key now?"
+        ]
     },
     {
         "id":"caeda_20",
@@ -842,17 +918,17 @@
     {
         "id":"caeda_root30_1",
         "message":"You really found my key! Thank you - I still can't believe it! ",
+        "replies":[
+            {
+                "text":"The troll didn't like the glade with its beautiful damerilias, but he enjoyed the honey of the bees.",
+                "nextPhraseID":"caeda_root40_1"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"secret_garden",
                 "value":40
-            }
-        ],
-        "replies":[
-            {
-                "text":"The troll didn't like the glade with its beautiful damerilias, but he enjoyed the honey of the bees.",	
-                "nextPhraseID":"caeda_root40_1"
             }
         ]
     },
@@ -868,10 +944,10 @@
     },
     {
         "id":"caeda_root40_1",
-        "message":"With all these trolls around I don't feel safe to go through the cave and take care of the flowers in the glade."
+        "message":"With all these trolls around I don't feel safe to go through the cave and take care of the flowers in the glade.",
         "replies":[
             {
-                "text":"The scorpions are bad enough, but the trolls are really dangerous.",	
+                "text":"The scorpions are bad enough, but the trolls are really dangerous.",
                 "nextPhraseID":"caeda_root40_2"
             }
         ]
@@ -879,17 +955,17 @@
     {
         "id":"caeda_root40_2",
         "message":"Would it be too much to ask if you could get rid of the trolls?",
+        "replies":[
+            {
+                "text":"I could clear the caves a bit more. No problem.",
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"secret_garden",
                 "value":50
-            }
-        ],
-        "replies":[
-            {
-                "text":"I could clear the caves a bit more. No problem.",	
-                "nextPhraseID":"X"
             }
         ]
     },
@@ -926,7 +1002,7 @@
         "message":"Is the passage to the glade safe again?",
         "replies":[
             {
-                "text":"No, not yet. I guess there are at least 30 trolls to kill. I will go for them again.",	
+                "text":"No, not yet. I guess there are at least 30 trolls to kill. I will go for them again.",
                 "nextPhraseID":"caeda_root50_2a"
             }
         ]
@@ -934,13 +1010,13 @@
     {
         "id":"caeda_root50_2a",
         "message":"Please do, and come to me if you are done with them."
-	},
+    },
     {
         "id":"caeda_root50_3",
         "message":"Is the passage to the glade safe again?",
         "replies":[
             {
-                "text":"Yes, I have dealt with most of the trolls. They won't dare to bother you for a long time.",	
+                "text":"Yes, I have dealt with most of the trolls. They won't dare to bother you for a long time.",
                 "nextPhraseID":"caeda_root50_4"
             }
         ]
@@ -948,17 +1024,17 @@
     {
         "id":"caeda_root50_4",
         "message":"Thank you so much! If ever you want to go to the glade, just ask me for the key.",
+        "replies":[
+            {
+                "text":"Gladly. I will leave now.",
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"secret_garden",
                 "value":60
-            }
-        ],
-        "replies":[
-            {
-                "text":"Gladly. I will leave now.",	
-                "nextPhraseID":"X"
             }
         ]
     },
@@ -1031,7 +1107,7 @@
     },
     {
         "id":"stoutford_widow_roots10_2",
-        "message":"Oh. They're beautiful!\nThank you! Here is your reward.",
+        "message":"Oh. They're beautiful!\nThank you! Here, take this potion as your reward.",
         "replies":[
             {
                 "text":"N",
@@ -1126,33 +1202,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"roots_love",
                 "value":40
-            }
-        ]
-    },
-    {
-        "id":"blornvale_select_0",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"blornvale_0"
-            }
-        ]
-    },
-    {
-        "id":"blornvale_0",
-        "message":"Welcome to my shop kid.\nMy potions are not for the faint of heart.\nDo you want to take a look?",
-        "replies":[
-            {
-                "text":"Sure.",
-                "nextPhraseID":"S"
-            },
-            {
-                "text":"No thanks.",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"Not interested.",
-                "nextPhraseID":"X"
             }
         ]
     },
@@ -1372,13 +1421,342 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"stoutford_widow_roots4045_21"
+                "nextPhraseID":"stoutford_widow_thorns10_0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":10
             }
         ]
     },
     {
-        "id":"stoutford_widow_roots4045_21",
-        "message":"To begin, you'll have to buy some potions from him: "
+        "id":"stoutford_widow_thorns10_0",
+        "message":"To begin, you'll have to buy some potions of the brave from him. I need these as base for a potion I want to create.\nDon't forget: Three potions of the brave.",
+        "replies":[
+            {
+                "text":"What will you do with it?",
+                "nextPhraseID":"stoutford_widow_thorns10_1"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns10_1",
+        "message":"The potion of the brave can be enhanced to the much more useful potion of truth. These additions are easy, but for the potion of brave I would need a laboratory.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_thorns10_2"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns10_2",
+        "message":"That is why you must get the potions of the brave from Blornvale. Oh how I hate this name! Be quick.",
+        "replies":[
+            {
+                "text":"I will be right back.",
+                "nextPhraseID":"X"
+            },
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"blornvale_select_0",
+        "replies":[
+            {
+                "nextPhraseID":"blornvale_select_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":202
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"blornvale_select_2"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_select_1",
+        "switchToNPC":"stoutford_alchemist2",
+        "replies":[
+            {
+                "nextPhraseID":"blornvale_select_2"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_select_2",
+        "replies":[
+            {
+                "nextPhraseID":"blornvale_stage90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"blornvale_shop2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":202
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"blornvale_shop1"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_shop1",
+        "message":"Welcome to my shop kid.\nMy potions are not for the faint of heart. Do you want to take a look?",
+        "replies":[
+            {
+                "text":"Sure.",
+                "nextPhraseID":"blornvale_shop1_10"
+            },
+            {
+                "text":"No thanks.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Not interested.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_shop1_10",
+        "replies":[
+            {
+                "nextPhraseID":"S"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":201
+            }
+        ]
+    },
+    {
+        "id":"blornvale_s1",
+        "replies":[
+            {
+                "nextPhraseID":"blornvale_s1_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":201
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":202,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"blornvale_s1_2",
+        "message":"Wait! You look rather disappointed. Are you displeased with my selection?",
+        "switchToNPC":"stoutford_alchemist2",
+        "replies":[
+            {
+                "text":"That's all children's stuff",
+                "nextPhraseID":"blornvale_s1_3"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_s1_3",
+        "message":"What did you expect? You are a kid after all. I must not give strong potions to you.",
+        "replies":[
+            {
+                "text":"You are right. Have a nice day.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"It is not for me of course. My father and his men are fighting in Flagstone right now. They need urgently some useful potions, not soap!\nI think of three potions of the brave, if you happen to have. And more if it is good stuff.",
+                "nextPhraseID":"blornvale_s1_4"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_s1_4",
+        "message":"Ah. Oh. That changes everything. Wait a second.",
+        "replies":[
+            {
+                "text":"Look lively now.",
+                "nextPhraseID":"blornvale_shop2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":202
+            }
+        ]
+    },
+    {
+        "id":"blornvale_shop2",
+        "message":"Come, I show you my special selection.",
+        "switchToNPC":"stoutford_alchemist2",
+        "replies":[
+            {
+                "text":"Ok, let's see, if that is more interesting than soap.",
+                "nextPhraseID":"S"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"stn_nondisplay",
+                "value":201
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns20_0",
+        "message":"Did you get the three potions of the brave from Blornvale?",
+        "replies":[
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes, here they are.",
+                "nextPhraseID":"stoutford_widow_thorns20_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"potion_brave",
+                        "value":3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns20_1",
+        "message":"Great! This will break his neck finally.",
+        "replies":[
+            {
+                "text":"I hope so. He is a most unfriendly guy.",
+                "nextPhraseID":"stoutford_widow_thorns30_0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns30_0",
+        "message":"Now I take three potions of the brave (chanting) ... add my prepared ingredients (chanting) ... shake it (chanting) ... shake it - ready.\nHere, be careful with it. Potions of truth are rare.",
+        "replies":[
+            {
+                "text":"Thank you. What do you have in mind now?",
+                "nextPhraseID":"stoutford_widow_thorns30_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns30_1",
+        "message":"Isn't it obvious? ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_thorns40_0"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns40_0",
+        "message":"With the potion of truth you will make Blornvale confess, that he poisoned his brother.",
+        "replies":[
+            {
+                "text":"Well, who will believe me, a stranger?",
+                "nextPhraseID":"stoutford_widow_thorns40_1"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns40_1",
+        "message":"Yes. We need a credible witness ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_thorns40_2"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns40_2",
+        "message":"Best would be Talahendor himself. Yes, you must get the priest to be present, when Blornvale tells the whole story.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":50
+            }
+        ],
+        "replies":[
+            {
+                "text":"Tahalendor? How should I do that?",
+                "nextPhraseID":"stoutford_widow_thorns40_3"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns40_3",
+        "message":"I have full confidence, that you will come up with something."
+    },
+    {
+        "id":"stoutford_widow_thorns50_0",
+        "message":"Blornvale drank the potion of truth already?",
+        "replies":[
+            {
+                "text":"Eh, almost.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"tahalendor_rumblings10x_1",
@@ -3212,12 +3590,12 @@
     },
     {
         "id":"berbane_90",
-        "message":"Lord Bourbon looks sadly at his bottle, but still shows no sign to get up.",
+        "message":"Lord Berbane looks sadly at his bottle, but still shows no sign to get up.",
         "switchToNPC":"none"
     },
     {
         "id":"berbane_92",
-        "message":"Lord Bourbon is singing merrily about his heroic deeds.",
+        "message":"Lord Berbane is singing merrily about his heroic deeds.",
         "switchToNPC":"none"
     },
     {
@@ -3648,8 +4026,8 @@
         "message":"This took you a bit longer now to find me!",
         "replies":[
             {
-                "text":"Indeed.  Once more?  1, 2 ...",
-                "nextPhraseID":"stn_boralla7_12"
+                "text":"Indeed.  Once more?",
+                "nextPhraseID":"stn_boralla_end"
             }
         ]
     },
@@ -3666,6 +4044,23 @@
                 "rewardID":"stn_boralla1",
                 "mapName":"stoutford_ne"
             },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"stn_boralla7",
+                "mapName":"stoutford_ne"
+            }
+        ]
+    },
+    {
+        "id":"stn_boralla_end",
+        "message":"Haha - no! I have to go home to lunch now, what a pity. It was fun with you! See you.",
+        "replies":[
+            {
+                "text":"Yes, see you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"stn_boralla7",
@@ -8489,7 +8884,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"rnd_bwm7_2",
                 "requires":[
                     {
@@ -8499,7 +8894,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"rnd_bwm7_3",
                 "requires":[
                     {
@@ -8509,7 +8904,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"rnd_bwm7_4",
                 "requires":[
                     {
@@ -8519,7 +8914,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"rnd_bwm7_5",
                 "requires":[
                     {
@@ -8529,7 +8924,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"rnd_bwm7_6",
                 "requires":[
                     {
@@ -8539,7 +8934,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"rnd_bwm7_0"
             }
         ]
@@ -8547,7 +8942,7 @@
     {
         "id":"rnd_bwm7_0",
         "rewards":[
-			{
+            {
                 "rewardType":"questProgress",
                 "rewardID":"stn_nondisplay",
                 "value":82
@@ -8562,7 +8957,7 @@
                 "rewardID":"stn_nondisplay",
                 "value":82
             },
-			{
+            {
                 "rewardType":"questProgress",
                 "rewardID":"stn_nondisplay",
                 "value":83
@@ -8577,7 +8972,7 @@
                 "rewardID":"stn_nondisplay",
                 "value":83
             },
-			{
+            {
                 "rewardType":"questProgress",
                 "rewardID":"stn_nondisplay",
                 "value":84
@@ -8592,7 +8987,7 @@
                 "rewardID":"stn_nondisplay",
                 "value":84
             },
-			{
+            {
                 "rewardType":"questProgress",
                 "rewardID":"stn_nondisplay",
                 "value":85
@@ -8607,7 +9002,7 @@
                 "rewardID":"stn_nondisplay",
                 "value":85
             },
-			{
+            {
                 "rewardType":"questProgress",
                 "rewardID":"stn_nondisplay",
                 "value":86

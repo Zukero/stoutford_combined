@@ -72,6 +72,7 @@
     {
         "id":"thorns_vengeance",
         "name":"The thorns of vengeance",
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,
@@ -91,7 +92,7 @@
             },
             {
                 "progress":50,
-                "logText":"She wants me to give that potion to Blornvale, and make him confess his crimes."
+                "logText":"She wants me to give that potion to Blornvale, and make him confess his crimes. I should have Tahalendor as witness."
             },
             {
                 "progress":60,
@@ -120,7 +121,8 @@
     "showInLog": 1,
     "stages": [	{ "progress":  4, "logText":"4=Castle visited" },
 				{ "progress":  5, "logText":"5=North gate open" },
-				{ "progress":  6, "logText":"6=Horse got food" },
+				{ "progress":  6, "logText":"6=Horse got food", 
+				  "rewardExperience":50 },
 				{ "progress":  7, "logText":"7=Grave visited" },
 				{ "progress":  8, "logText":"8=lakecave5 first jump" },
 				{ "progress":  9, "logText":"8=lakecave5 got key" },
@@ -182,6 +184,9 @@
 				{ "progress":130, "logText":"130=Monster3 waits" },
 				{ "progress":140, "logText":"140=Monster4 waits" },
 				{ "progress":150, "logText":"150=Monster5 waits" },
+				{ "progress":201, "logText":"201=Blornvales Shop1 seen" },
+				{ "progress":202, "logText":"202=Blornvales Shop2 enabled" },
+				{ "progress":203, "logText":"203=Troll fights" },
 				{ "progress":999, "logText":"-" }]
   },
   {
@@ -220,17 +225,17 @@
     "name": "Lost girl looking for lost things",
     "showInLog": 1,
     "stages": [	{ "progress":10, "logText":"The little daughter of Odirath the armorer was missed since several days now. You offered to help search for her." },
-				{ "progress":20, "logText":"Odirath's daughter Gyra was hidden in the storeroom of the main house of the castle. She was surprised by the raid on the castle and no longer dared to leave the hiding place.\nShe was looking for Lord Bourbon's helmet, which he had forgotten somewhere in the castle." },
+				{ "progress":20, "logText":"Odirath's daughter Gyra was hidden in the storeroom of the main house of the castle. She was surprised by the raid on the castle and no longer dared to leave the hiding place.\nShe was looking for Lord Berbanes helmet, which he had forgotten somewhere in the castle." },
 				{ "progress":30, "logText":"You offered Gyra to lead her back home safely." },
 				{ "progress":40, "logText":"Gyra has the feeling that the helmet is very close." },
 				{ "progress":50, "logText":"You found the helmet." },
 				{ "progress":60, "logText":"Back in Stoutford Gyra knew the way and ran to her father Odirath." },
 				{ "progress":70, "logText":"Odirath thanks you many thousand times.",
                   "rewardExperience":2000 },
-				{ "progress":90, "logText":"Lord Bourbon slowly took his helmet. Nevertheless, he remained sitting at the table. He probably needs a few more hours without drinks before he can get back to work. If ever.",
+				{ "progress":90, "logText":"Lord Barbane slowly took his helmet. Nevertheless, he remained sitting at the table. He probably needs a few more hours without drinks before he can get back to work. If ever.",
                   "rewardExperience":200,
                   "finishesQuest":1 },
-				{ "progress":92, "logText":"Lord Bourbon took his helmet. But somehow that does not really satisfy you.",
+				{ "progress":92, "logText":"Lord Berbane took his helmet. But somehow that does not really satisfy you.",
                   "rewardExperience":200,
                   "finishesQuest":1 }
 	]

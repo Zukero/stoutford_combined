@@ -1160,16 +1160,25 @@
             "increaseBlockChance":10
         }
     },
-	{	"id":"stoutford_helmet",
-		"iconID":"items_armours:13",
-		"name":"Stoutford chief helmet",
+    {
+        "id":"soap",
+        "iconID":"items_japozero:305",
+        "name":"Soap",
+        "displaytype":"ordinary",
+        "category":"other"
+    },
+    {
+        "id":"stoutford_helmet",
+        "iconID":"items_armours:13",
+        "name":"Stoutford chief helmet",
         "displaytype":"quest",
         "category":"other"
-	},
-	{	"id":"lutarc_medallion",
-		"iconID":"items_necklaces_1:20",
-		"name":"Lutarcs medallion",
+    },
+    {
+        "id":"lutarc_medallion",
+        "iconID":"items_necklaces_1:20",
+        "name":"Lutarcs medallion",
         "displaytype":"quest",
         "category":"other"
-	}
+    }
 ]

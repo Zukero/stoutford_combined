@@ -185,12 +185,12 @@
  </tileset>
  <layer name="Ground" width="31" height="18">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsBEPluMiHuMzBxfeLYyK6Wn3aWFUTLHdQPYmIjBIbZA0A0MwFIdIk+d+ZHwRaO4lIjBIbSLQviQoTkazGz0+8GFK3UwoPvDhwWI3oTSxnIl0u4OQ0gWt7UZPh4lI6QJfGqWG3djS4Q4xwmmUGnaTiwnZvYKGdutyYccwP9PSbmSMXg7A7J6GhmlhN3p+gNmNDVPbDej5AZ/dILySAvuXo+kH5YffnIj8gCvM0f2PD+OzG19awuXvlQTCA1v84HM/Pv8BAIjGZgk=
+   eJzbyMnAsBEPluMiHuMzBxfeLYyK6WI3VP1pYVRMsd1A9iYC+BhUfZA0A0MwFIdIkxd2yPgi0NxLRGCQ2kSgfUlQnIxmN3p84MOUuhkdo8cHPkyKucuZaGc3oTRBjt1BSOmC1najp8NEpHSBL41Sw25s6XCHGOE0Sg27ycWE7F5BQ7t1ubBjmJ9paTcyRi8HYHZPQ8O0sBs9P8Dsxoap7Qb0/IDPbhBeSYH9y9H0g/LDb05EfsAV5uj+x4fx2Y0vLeHy90oC4YEtfvC5H5//AL8cZg0=
   </data>
  </layer>
  <layer name="Objects" width="31" height="18">
   <data encoding="base64" compression="zlib">
-   eJylVc1KW1EQPiTcajc198ZeueGCfYS+QH/eoN26sAhdCW5c2EXpSwiKDyK0KXTTWjSJQZAWNS6EbAKJIRS6ahbF+TJnOJOTe5OIA8PccyZnvu/Mz4kxxnQTY3qJs28XjfkSsw2i+VWfOw7NSCSmSNPGP1R7WjYeiI3zgnlkMcoVY5ZJn1b4d9i/IH5Jgf1iXwUPw54lH0ts35ONCfPvI7bQNxZ7nWK9vIe+uyc28gK84oLDhiCG1AzyuOC+/5cn9yD9kM+9XpzEq5HvysYTv9TlD+1fku4F7EOMtcBxEcH6yfL4ntQKOZRatULGg5xYK3eBf7/gevA4dvwEezOY5O+L5qaxi1G2dil+w5sBnAG/usLeVthyt5uUewM2KYz758Huq3xg3qRONVUPrHdtzo8I5yfpAn0PUu6NgcUW39ac2CKYL33vF16/CpdfFPt3yjzQD+iNlYjX4vtE36VoNvYO8ftg+/xzzFqN3XfWWu9XZ/inYZ8m3Ge63r6V3qxnvI0dVTPdv53QvWvTsNs294j3nfSHwm1ajGuK1Qvz+flv9YhrztsiffnczmdP1b5vuR/Qb1Zp/1k0fvbMYvg8IYdqrfPh4/pvhcjQYkk+wCHvnheqDrfq/0L8qOeB7XvBxFxiTr6lvPc1Iz8txbsRjt/vbErexaLmwn8pcvfGXEKaKeMOvXnL46P9bXUGd6tl9MMoByH7RTCXJ149rtT6n417ruJn9YSfn7zftzJqL3eD7w53a+VS
+   eJylVb1KA0EQXk7OaKPeqScXDvQRfAF/3kBbC0WwEmwstBBfQlDyIII/YKORmMQQECUaC8FGMIYgWGkhzmR22MnmLolkYJjdndv55ndPKaXeQ6VqoZHLQ0qdBiRdv3eW93KeahLbZCpp+z++iqX1PrHxPmNmNe54WqkJ4Mk0fYdUAf9Ch9YsF9z+sLvR3hjJDZABYH4NkkRe0tirYGv+H7z2T2zMC+INpAw2EtrgmiENO2b9O95+hlT36N7iUDteHnRP2h7qjxxTl084fwQ+dEmHNlZc4wsT7kcmWs+4VphDrlXVIzykGy05Fq4392AuMP4x9qbb7r9N0jeJPeDH8zvYL1ozgHfQv4LA3hbYHNtLRL2BMnRa9b1g10U+cN64TnlRD9wf6JxnAecaOAXrRkS90dDYrNvqEZsJ50vGPWf1K/tyD7YfIvID+wF7Y8qnPev2YT3md8feAf92dZ+fBMRngVnH7eX5WRd9J+zbkHpc1tuW3JuFmLfxTdRM9u+bZ961TtivvunzS+ArgVvSGM9gq+Yl+2e/1U1fE94W7stZPZ81Ufu69j0D30zD+Yz11pc1hu0n0rHYy3zYuPZbwcT/Fc5HxkmOsyLq8CH+F6zHemZ03zMmziXOyUVEZ+cx+akKv4tea3zlDnlniTVn/0d9EzfOJVIpItwfa96S/JH6V3EHY8vH9EMzBx7pmXAub6x6PIn9t7Z7J+zH9YSdn6TvqzG159hQ9wckA+S2
   </data>
  </layer>
  <layer name="Above" width="31" height="18">
@@ -200,10 +200,10 @@
  </layer>
  <layer name="Walkable" width="31" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzFk1EKACEIRDvF3v8K3XDpY0FiJ2cmKUGSSt5o2Z/W+o8P+9Y5RhbzdpzlMey4x2jbYbsaFX0oT2XPcbyncjMNiFdRd9aDVZ8q2Jkh/km2WjdzptaN/k0lW50J1Vg2O6fO/FawVZ0Oz+EzfXHYzmwp//KUphsabrwB4y8ffQw/
+   eJzFk1EKACEIRDtF979CN1z2I5AonRmlBEkqeaPl6K2Njf821zU+mc3LOMpD2HYP0Zhhqxp3Wtl+sew1tvdYbqTBy8vWHfXA61MFO7IT/yabrRs5Y+v23r+Kzc4EaygbnVNlfivYrE6Fp/CRvihsZbaYf3lL0wsNL94A8Q/+Mww/
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="northeast" type="mapchange" x="640" y="0" width="32" height="32">
    <properties>
     <property name="map" value="stoutford_ne"/>
@@ -252,20 +252,20 @@
     <property name="place" value="fieldsouth"/>
    </properties>
   </object>
-  <object id="13" name="east1" type="mapchange" x="960" y="64" width="32" height="32">
+  <object id="13" name="east1" type="mapchange" x="960" y="32" width="32" height="32">
    <properties>
     <property name="map" value="wild22"/>
     <property name="place" value="west1"/>
    </properties>
   </object>
-  <object id="14" name="east2" type="mapchange" x="960" y="96" width="32" height="64">
+  <object id="14" name="east2" type="mapchange" x="960" y="64" width="32" height="64">
    <properties>
     <property name="map" value="wild22"/>
     <property name="place" value="west2"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup name="Spawn">
   <object id="9" name="stoutford_farmer3" type="spawn" x="704" y="160" width="192" height="224"/>
   <object id="10" name="stoutford_commoner4" type="spawn" x="384" y="320" width="256" height="64"/>
   <object id="11" name="stoutford_guard1" type="spawn" x="896" y="32" width="32" height="32"/>

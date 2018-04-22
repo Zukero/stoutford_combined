@@ -187,7 +187,7 @@
  </layer>
  <layer name="Objects" width="16" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAekGRC5RdB+exQWlkYIaeOxA4Cyn9nh7BBtCgaHx8NAxwcDAxr+CE0jI9OlwhA6JdCCHEYkADyt3FAaBiA8dFpbECDgzwaBipYsZsLAyC/gQATlE7Cov4h0F/c/Aj+DUEInioA4TMzYeoBgcVAs0qBasoEEGIw/hIgXgrEXWj2JeNw7wdBCMYF0OUA+dMdUg==
+   eJxjYKAekGRC5RdB+exQWlkYIaeOxA4Cyn9nh7BBtCgaHx8NAxwcDAxr+CE0jI9OlwhA6JdCCHEYkADyt3FAaBAAqYXx0WlsQIODPBoGKlixmwsDIL+BABOUTsKi/iHQX9z8CP4NQQieKgDhMzNh6gGBxUCzSoFqygQQYjD+EiBeCsRdaPYl43DvB0EIxgXQ5QCzch3W
   </data>
  </layer>
  <layer name="Above" width="16" height="10">
@@ -197,7 +197,7 @@
  </layer>
  <layer name="Walkable" width="16" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGYYRggVh5dLbn6SaWx6ScE8LmXkB5s4qSEHSG9xIYdMh8AJRBXEQ==
+   eJzbKMbAsHGYYRggVh5dLT69+PSTSmPTTwjg0k+MHmzipIQdIb3Ehj0yHwA84VfY
   </data>
  </layer>
  <layer name="Top" width="16" height="10">
