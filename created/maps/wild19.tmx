@@ -180,6 +180,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_trail_1.png" width="512" height="256"/>
+ </tileset>
  <layer name="Ground" width="20" height="20">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj+JRjBVvF2Zg2MyJinGpIwYfx2IeNnxcmDjMLgPBTTy4zQLJwdQRwiC1MPxdGDtGVkMIo5gvggMT6TYQFkPD6PGALk8ID3T6GuoYAPG3CHY=
@@ -200,9 +203,9 @@
    eJxjYBgFo2AUDFUwkZM0dYTohUSaB1KXxEmYHgXDGwAAdp8JsA==
   </data>
  </layer>
- <layer name="Walkable" width="20" height="20" visible="0">
+ <layer name="Walkable" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBENwwC6ODnq0AGl6pDVU8N9lPoZmx5Kwg8XINf9+AAl7iPWbFLsJKSXWHfjs5ccs6gRlqSYRY678JlLrJ3UDA9yw4VcTIld2NyKLIZPHl0NPrHhBkB+BADmJ6vM
+   eJzbKMbAsBENwwC6ODnq0AGl6pDVU8N9lPoZmx5Kwg8XINf9+AAl7iPWbFLsJKSXWHfjs5ccs6gRlqSYRY678JlLrJ3UDA9yw4VcTIld2NyKLIZPHiY+UxZTbLgDkB8Blmmsgg==
   </data>
  </layer>
  <objectgroup name="Mapevents">

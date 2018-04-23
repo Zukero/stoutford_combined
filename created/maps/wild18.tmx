@@ -180,6 +180,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_trail_1.png" width="512" height="256"/>
+ </tileset>
  <layer name="Ground" width="20" height="30">
   <data encoding="base64" compression="zlib">
    eJztlD0OgkAQRjcU/hA7EBtOaeEBxDPsFcASTTQaG2OIBcZED+BZ3C9AMo7DsiYWFhYvBHb37TcDbD5UKv/z58eYhtV1Fn7HN46VigyT2H2N9pTaBjI94+kbBo6+zKs4BzKf5EtrF/L1Yxmabz6y0/hA2xya7xMfz2VbJ9WhiQtE8Ss2H5+LXAfDjvh4b7Hnwn/14B5gfE2A72ooa2cq+LBvwny4TwQfzVW2+IBrvibXvnbuWnyA+o7GdfLleXBealf5BR94dNQr+QrDirAW/K6+m1l7J2xa8rr2j49J9Xf1L7N8o5KvtPjo/wiW3ruvEPro6uMZbx19tNVK0ZacDXScnxX0nNRC7fy93317jdIzzaBZwBPhkZC2
@@ -200,9 +203,9 @@
    eJxjYBgFo2AUDFUwkRM7TS5YCNSfxImgJ1No3igYBaNgFIxUAADI8ASV
   </data>
  </layer>
- <layer name="Walkable" width="20" height="30" visible="0">
+ <layer name="Walkable" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJzN09ENwCAIBFCn6P4ruGF/DQE87860JiT9wCeCnc8YcxPr2uV+ZTm8zFTcdb/qIsthOWbKWo6e37D+HMgcT95NlxPni3hsze4eoHvjPdVaMs/VK8arTGS+bq8yFS8z1foqM35nXnc+MifmH0bfJFtflcvUiJyJmCd3cHtdvJUCGXY=
+   eJzNk0EOACEIA32Ft334PsMf7pUYwVJqVhIuBodKcfTWxiZt7Gr/Yil4K2aFa+9XuUgoWApPWZZi5idYNyfiY2ZvoprZX4THalbPAL07v7OqZcVTzYrheUzEX5b3Pjkmq89jVnjeHtiziBf1R3xi/jC6k6w+r5bRiPREmJk3qHlRfrQrGiw=
   </data>
  </layer>
  <objectgroup name="Mapevents">

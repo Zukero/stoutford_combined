@@ -180,6 +180,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_trail_1.png" width="512" height="256"/>
+ </tileset>
  <layer name="Ground" width="20" height="30">
   <data encoding="base64" compression="zlib">
    eJydlDFOw0AQRVduIq9FKlfADbhN4AKBghpRcARu4CtA6AyicExN49CE3teICAIxi3bkyWfGNimedjzZfTuzsbdMnSuJu8S5e0DLSRZKruzxVcQyovnqf/oaYhWphHcZXW89PpkrRNxG2P0SR3RxH1ibjMP5XOY27KhFH1hbBb6b3GYlauU+8NwacVb1gI/r5DMLcZXY/0PY9zYfhn1hj8Z4z9rY7+zIuVOFMzGyj93c3ybt4H7nNP9c4UKM7JvFmPuTPu63rz72MHORa8HXJt0cq77ftd65RwN2TXrmIK/EM7GOyFjWt/bjefddnxwX0C+ezVgK5V3hb2Mfn+a5opqv/f51PQz4Pij+hOctcZI596TcdYsBX0rrPHFATGPMz8GL9xP6eP421uGzv3xR/jv+Jn14HwSfnMtrD7PdnKxV+hqoMYxWX1OlNvRhz7JfXDdVapPv7CbVz1DryQJ9RaL/x30Oyzc53nXgXnw3aHl17gifuVbZB98Tuc8Q4ZwCMqf5xrjwm7fulALAvLVGPv8AfA556Q==
@@ -195,9 +198,9 @@
    eJxjYKAMXBZD5d+UZGC4JUm+eYfFCKshFoDcRsi8qUwQejoTYTeB6EskuO8hO375T0jyxPj74wCZ94idOH8zcuCXZ+JA0ITsJgYgxws2u1M4UWlsIBcp3mHmwfwqhidNIIM5/Aj1tVjMowSAzIO5g5S0Rw1QgifcyAEtnAgaX34jF4Dy+0UywmgGmlsuI6UrdFApgImnYvELcrl4GI95hADM7MNYzKMkPWAzjxIwnYh0f1eANDPxxQMuUAhMW0lIGBlQEg/YAMwcctJyIR73gQDM/asIsIlx3z9R0t0HAujpGl+4wdyCHu7Y4gGfeV1YMLI7QGGNLkaM+0AAPZ/jA9jMxwaQ4x5bWwIAELtL7w==
   </data>
  </layer>
- <layer name="Walkable" width="20" height="30" visible="0">
+ <layer name="Walkable" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJzVlMsNwCAMQ5mC/VfIhu0RoXwcY1Q1UgQceHEchM0x7E0vbPJ5m6dinXAi3in/Bm9d973CPxXP04r2F/WMerffqTxk+kJ4UY3IJ883Rah4yKyy+h4LqdPVtdesZojMvuJVujIeGuh7/xuvOx9GX/aHrGc1r5PRPUafp4tloDym544PX+YDfToJ6g==
+   eJzVlDsOwDAIQ3OKbD14jsEN2zFCfAxxhiJZbYc8jIkqcwz5ZJXMvm7zWKwTjsc75d/g7U/9zsiPxbO8ovN5M6PZ6TNZhp25EJ7Xw8vJyo1RLB6yq6i/xUL6VH3pntkOkd1nvMxXxEMLve9/41X30/EX/UP2bzavIu9c1d96bF/VGb25ozvNEJPF0gtu5Aqg
   </data>
  </layer>
  <objectgroup name="Mapevents">
