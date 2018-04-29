@@ -46,5 +46,30 @@
                 "nextPhraseID":"glasforn_rumblings60_6"
             }
         ]
+    },
+    {
+        "id":"tahalendor_thorns50",
+        "message":"If I must. Well, go ahead, I'll be there in time.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":65
+            }
+        ]
+    },
+    {
+        "id":"tahalendor2_script_X",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tahalendor2",
+				"mapName":"stoutford_potion"
+            }
+        ]
+    },
+    {
+        "id":"tahalendor2_0",
+        "message":"What now?"
     }
 ]

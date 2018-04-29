@@ -99,9 +99,23 @@
                 "logText":"I agreed to make Blornvale drink that potion."
             },
             {
+                "progress":65,
+                "logText":"Tahalendor agreed to go with you to the alchemist's house to hear Blornvale's confession."
+            },
+            {
                 "progress":70,
                 "logText":"Blornvale drank the potion.",
                 "rewardExperience":1500
+            },
+            {
+                "progress":72,
+                "logText":"Blornvale confessed killing Aryfora's father. Unfortunately there is no witness."
+            },
+            {
+                "progress":74,
+                "logText":"Blornvale understood now. You will not be able to help Aryfora get back her shop anymore.",
+                "rewardExperience":5,
+                "finishesQuest":1
             },
             {
                 "progress":80,

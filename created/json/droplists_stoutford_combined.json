@@ -513,6 +513,14 @@
                 }
             },
             {
+                "itemID":"pot_quickdeath",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":2
+                }
+            },
+            {
                 "itemID":"health",
                 "chance":"100",
                 "quantity":{
@@ -523,7 +531,7 @@
         ]
     },
     {
-        "id":"stoutford_widow",
+        "id":"stoutford_widow2",
         "items":[
             {
                 "itemID":"pot_alertness",

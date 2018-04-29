@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="32" tileheight="32" nextobjectid="5">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="32" tileheight="32" nextobjectid="8">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -182,7 +182,7 @@
  </tileset>
  <layer name="Ground" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJyzlmZgsCYCg4AhkDbCgY2R1DoAsSMO7ISkzpAHqBcJTwTiSUA8GYiNeRDqHIFsJxzYGapuoxRhdSA1B4E4EMgOgmInJDYIB/NA1LzjRMUgdehiIAwAo5siGA==
+   eJxjYGBgsJYmjEHAEEgb4cDGSGodgNgRB3ZCUmfIA9SLhCcC8SQgngzExjwIdY5AthMO7AxVt1GKsDqQmoNAHAhkB0GxExIbhIN5IGrecaJikDp0MRAGADg2IcI=
   </data>
  </layer>
  <layer name="Objects" width="10" height="8">
@@ -192,12 +192,12 @@
  </layer>
  <layer name="Above" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYCAOWEszMBwWI04tKeouIqm9iEMfseZd4ofQl/kJ20stAACQjAgl
+   eJyzlmYgClgD1R0WI04tKeouIqm9iEMfseZd4ofQl/kJ20stAAD78Qh7
   </data>
  </layer>
- <layer name="Walkable" width="10" height="8" visible="0">
+ <layer name="Walkable" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJEIDALEqKMEIwNc4uiAGPcSMg9ZjFT/AwD8AS6l
+   eJxjYGBg2ChGGDMQqY4SjAxwiaMDYtxLyDxkMVL9DwADVy3e
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -222,6 +222,18 @@
   <object id="4" name="stoutford_alchemist2" type="spawn" x="0" y="32" width="32" height="32">
    <properties>
     <property name="spawngroup" value="stoutford_alchemist2"/>
+   </properties>
+  </object>
+  <object id="5" name="tahalendor2" type="spawn" x="64" y="192" width="64" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="tahalendor2"/>
+   </properties>
+  </object>
+  <object id="7" name="stoutford_widow2" type="spawn" x="32" y="96" width="128" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="stoutford_widow2"/>
    </properties>
   </object>
  </objectgroup>

@@ -1,5 +1,83 @@
 [
     {
+        "id":"tahalendor_initial_0",
+        "message":"How dare you come back here after all you've done?",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"tahalendor_initial_1"
+            },
+            {
+                "text":"Actually, it's the first time we have met.",
+                "nextPhraseID":"tahalendor_initial_2"
+            },
+            {
+                "text":"I need you as witness for ...",
+                "nextPhraseID":"tahalendor_initial_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":65,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":74,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"tahalendor_rumblings80_0",
+        "message":"You! You saved us!",
+        "replies":[
+            {
+                "text":"No thanks to you...",
+                "nextPhraseID":"tahalendor_rumblings80_1"
+            },
+            {
+                "text":"Indeed.",
+                "nextPhraseID":"tahalendor_rumblings80_1"
+            },
+            {
+                "text":"That was the right thing to do.",
+                "nextPhraseID":"tahalendor_rumblings80_1"
+            },
+            {
+                "text":"Would you come with me to Blomvale? He wants to confess something important.",
+                "nextPhraseID":"tahalendor_thorns50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":65,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":74,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"tahalendor_rumblings10x_0",
         "message":"Go with the shadow child.",
         "replies":[
@@ -10,6 +88,29 @@
             {
                 "text":"Whatever.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"Would you come with me to Blomvale? He wants to confess something important.",
+                "nextPhraseID":"tahalendor_thorns50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":65,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":74,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"Do you have anything to trade?",

@@ -286,6 +286,56 @@
         "id":"stoutford_widow_select_0",
         "replies":[
             {
+                "nextPhraseID":"stoutford_widow_thorns90_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stoutford_widow_thorns80_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stoutford_widow_thorns74_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":74
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stoutford_widow_thorns72_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":72
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stoutford_widow_thorns70_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":70
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"stoutford_widow_thorns50_0",
                 "requires":[
                     {
@@ -1470,8 +1520,274 @@
         ]
     },
     {
+        "id":"stoutford_widow_thorns20_0",
+        "message":"Did you get the three potions of the brave from Blornvale?",
+        "replies":[
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes, here they are.",
+                "nextPhraseID":"stoutford_widow_thorns20_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"potion_brave",
+                        "value":3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns20_1",
+        "message":"Great! This will break his neck finally.",
+        "replies":[
+            {
+                "text":"I hope so. He is a most unfriendly guy.",
+                "nextPhraseID":"stoutford_widow_thorns30_0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns30_0",
+        "message":"Now I take three potions of the brave (chanting) ... add my prepared ingredients (chanting) ... shake it (chanting) ... shake it - ready.\nHere, be careful with it. Potions of truth are rare.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":40
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"potion_truth",
+                "value":1
+            }
+        ],
+        "replies":[
+            {
+                "text":"Thank you. What do you have in mind now?",
+                "nextPhraseID":"stoutford_widow_thorns30_1"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns30_1",
+        "message":"Isn't it obvious? ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_thorns40_0"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns40_0",
+        "message":"With the potion of truth you will make Blornvale confess, that he poisoned his brother.",
+        "replies":[
+            {
+                "text":"Well, who will believe me, a stranger?",
+                "nextPhraseID":"stoutford_widow_thorns40_1"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns40_1",
+        "message":"You are right. We need a credible witness ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_thorns40_2"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns40_2",
+        "message":"Best would be Talahendor himself. Yes, you must get the priest to be present, when Blornvale tells the whole story.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":50
+            }
+        ],
+        "replies":[
+            {
+                "text":"Tahalendor? How should I do that?",
+                "nextPhraseID":"stoutford_widow_thorns40_3"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns40_3",
+        "message":"I have full confidence, that you will come up with something."
+    },
+    {
+        "id":"stoutford_widow_thorns50_0",
+        "message":"Blornvale drank the potion of truth already?",
+        "replies":[
+            {
+                "text":"Eh, almost.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns70_0",
+        "message":"Blornvale drank the potion of truth already?",
+        "replies":[
+            {
+                "text":"Indeed. I just have to make him confess his murder.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns72_0",
+        "message":"Any news of this murderer?",
+        "replies":[
+            {
+                "text":"Yes, he confessed poisoning your father.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns74_0",
+        "message":"Any news of this murderer?",
+        "replies":[
+            {
+                "text":"Yes, but no good news. He guessed that I tried to lure him and is cautionous now.",
+                "nextPhraseID":"stoutford_widow_thorns74_1"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns74_1",
+        "message":"Oh no! I will never get justice!",
+        "replies":[
+            {
+                "text":"I did my very best.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns80_0",
+        "message":"You look so glad. What did you achieve?",
+        "replies":[
+            {
+                "text":"Blornvale is gone! Tahalendor came to hear him confess the murder in single details. Then he took him away.",
+                "nextPhraseID":"stoutford_widow_thorns80_1"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns80_1",
+        "message":"At last! How only could I thank you?",
+        "replies":[
+            {
+                "text":"Oh, that was just a triffle.",
+                "nextPhraseID":"stoutford_widow_thorns80_2"
+            },
+            {
+                "text":"I could handle myself.",
+                "nextPhraseID":"stoutford_widow_thorns80_2"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns80_2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":90
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"stoutford_widow",
+				"mapName":"stoutford_gate"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"stoutford_widow2",
+				"mapName":"stoutford_potion"
+            }
+        ],
+        "message":"Now I can move back into my fathers house and create potions again. I will leave at once. Please come and visit me at any time.",
+        "replies":[
+            {
+                "text":"Bye.",
+                "nextPhraseID":"R"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow2_0",
+        "message":"Welcome! I already created some good potions - better than Blornvale's stuff. Want to have a look?",
+        "replies":[
+            {
+                "text":"Of course! Show me, what you have, please.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Nice to see you happy again.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
         "id":"blornvale_select_0",
         "replies":[
+            {
+                "nextPhraseID":"blornvale_thorns74",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":74
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"blornvale_thorns72",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":72
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"blornvale_thorns70",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"blornvale_thorns50",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"potion_truth",
+                        "value":1
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"blornvale_select_1",
                 "requires":[
@@ -1530,14 +1846,21 @@
         "replies":[
             {
                 "text":"Sure.",
-                "nextPhraseID":"blornvale_shop1_10"
-            },
-            {
-                "text":"No thanks.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"blornvale_shop1_10",
+				"requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":20
+                    }
+                ]
             },
             {
                 "text":"Not interested.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Maybe later.",
                 "nextPhraseID":"X"
             }
         ]
@@ -1644,118 +1967,261 @@
         ]
     },
     {
-        "id":"stoutford_widow_thorns20_0",
-        "message":"Did you get the three potions of the brave from Blornvale?",
+        "id":"blornvale_thorns50",
+        "message":"Ah, my best customer! You sure want to buy more potions?",
         "replies":[
             {
-                "text":"No, not yet.",
-                "nextPhraseID":"X"
-            },
+                "text":"Your potions are unhealthy. Two of our man drank from it. Now they complain of bad stomach ache.",
+                "nextPhraseID":"blornvale_thorns50_10"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns50_10",
+        "message":"That can not be! My potions are not that bad! And they never have any side effects.",
+        "replies":[
             {
-                "text":"Yes, here they are.",
-                "nextPhraseID":"stoutford_widow_thorns20_1",
+                "text":"Well, who believes it ...\nProve it!",
+                "nextPhraseID":"blornvale_thorns50_20"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns50_20",
+        "message":"Is there any left over from the potions?",
+        "replies":[
+            {
+                "text":"Yes, here I still have one bottle with your potion of the brave.",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
-                        "requireID":"potion_brave",
-                        "value":3
+                        "requireID":"potion_truth",
+                        "value":1
                     }
-                ]
+                ],
+                "nextPhraseID":"blornvale_thorns50_30"
+            },
+            {
+                "text":"No, I poured the rest all away.",
+                "nextPhraseID":"blornvale_thorns50_22"
             }
         ]
     },
     {
-        "id":"stoutford_widow_thorns20_1",
-        "message":"Great! This will break his neck finally.",
-        "replies":[
-            {
-                "text":"I hope so. He is a most unfriendly guy.",
-                "nextPhraseID":"stoutford_widow_thorns30_0"
-            }
-        ],
+        "id":"blornvale_thorns50_22",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"thorns_vengeance",
-                "value":30
-            }
-        ]
-    },
-    {
-        "id":"stoutford_widow_thorns30_0",
-        "message":"Now I take three potions of the brave (chanting) ... add my prepared ingredients (chanting) ... shake it (chanting) ... shake it - ready.\nHere, be careful with it. Potions of truth are rare.",
-        "replies":[
-            {
-                "text":"Thank you. What do you have in mind now?",
-                "nextPhraseID":"stoutford_widow_thorns30_1"
+                "value":74
             }
         ],
+        "message":"Then you can never prove it. That's good. Out now, leave my shop, you scum!"
+    },
+    {
+        "id":"blornvale_thorns50_30",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"thorns_vengeance",
-                "value":40
+                "value":70
             }
-        ]
-    },
-    {
-        "id":"stoutford_widow_thorns30_1",
-        "message":"Isn't it obvious? ",
+        ],
+        "message":"Do you see me drinking? Yes? Anything wrong? No - this potion is just perfect!",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"stoutford_widow_thorns40_0"
+                "text":"Yes. I'm just curious if you still think so in a minute.",
+                "nextPhraseID":"blornvale_thorns70"
             }
         ]
     },
     {
-        "id":"stoutford_widow_thorns40_0",
-        "message":"With the potion of truth you will make Blornvale confess, that he poisoned his brother.",
+        "id":"blornvale_thorns70",
+        "message":"What ... what is this? I feel strange ...",
         "replies":[
             {
-                "text":"Well, who will believe me, a stranger?",
-                "nextPhraseID":"stoutford_widow_thorns40_1"
+                "text":"(loud voice) Tahalendor! Come in, we could start!",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":65
+                    }
+                ],
+                "nextPhraseID":"blornvale_thorns70_20"
+            },
+            {
+                "text":"Well, it looks like the potion is already working. Blornvale - that is your name. Right?",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":65,
+						"negate":true
+                    }
+                ],
+                "nextPhraseID":"blornvale_thorns70_10"
             }
         ]
     },
     {
-        "id":"stoutford_widow_thorns40_1",
-        "message":"Yes. We need a credible witness ...",
+        "id":"blornvale_thorns70_10",
+        "message":"Yes.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"stoutford_widow_thorns40_2"
+                "text":"How did you kill Aryforas father, your own brother?",
+                "nextPhraseID":"blornvale_thorns70_12"
             }
         ]
     },
     {
-        "id":"stoutford_widow_thorns40_2",
-        "message":"Best would be Talahendor himself. Yes, you must get the priest to be present, when Blornvale tells the whole story.",
+        "id":"blornvale_thorns70_12",
+        "message":"He was naive enough to take a potion from me. I poisoned him with the potion of Quick Death.",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"thorns_vengeance",
-                "value":50
+                "value":72
             }
         ],
         "replies":[
             {
-                "text":"Tahalendor? How should I do that?",
-                "nextPhraseID":"stoutford_widow_thorns40_3"
+                "text":"I thought so. Didn't you worry that someone would suspect it?",
+                "nextPhraseID":"blornvale_thorns70_14"
             }
         ]
     },
     {
-        "id":"stoutford_widow_thorns40_3",
-        "message":"I have full confidence, that you will come up with something."
-    },
-    {
-        "id":"stoutford_widow_thorns50_0",
-        "message":"Blornvale drank the potion of truth already?",
+        "id":"blornvale_thorns70_14",
+        "message":"Only an alchemist could have find out, so I had just Aryfora herself to fear. But no one believed her complaints.",
         "replies":[
             {
-                "text":"Eh, almost.",
+                "text":"That's enough evidence, thank you. I am going to bring Tahalendor here.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns70_20",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"tahalendor2",
+				"mapName":"stoutford_potion"
+            }
+        ],
+        "replies":[
+            {
+                "nextPhraseID":"blornvale_thorns70_22"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns70_22",
+		"switchToNPC":"tahalendor2",
+        "message":"Well, it looks like the potion is already working. Blornvale, how did you kill Aryforas father, your own brother?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"blornvale_thorns70_24"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns70_24",
+		"switchToNPC":"stoutford_alchemist",
+        "message":"He was naive enough to take a potion from me. I poisoned him with the potion of Quick Death.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"blornvale_thorns70_26"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns70_26",
+		"switchToNPC":"tahalendor2",
+        "message":"I thought so. Didn't you worry that someone would suspect it?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"blornvale_thorns70_28"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns70_28",
+		"switchToNPC":"stoutford_alchemist",
+        "message":"Only an alchemist could have find out, so I had just Aryfora herself to fear. But no one believed her complaints, not even you, Tahalendor.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"blornvale_thorns70_30"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns70_30",
+		"switchToNPC":"tahalendor2",
+        "message":"I heard enough. Thank you, kid. I will ensure that Blornvale never makes trouble again.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":80
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"stoutford_alchemist",
+				"mapName":"stoutford_potion"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tahalendor2",
+				"mapName":"stoutford_potion"
+            }
+        ],
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns72",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":74
+            }
+        ],
+        "message":"This was - a potion of truth! How dare you! Do you think I wouldn't recognize it?",
+        "replies":[
+            {
+                "text":"One could try.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns74",
+        "message":"You dare to come again!",
+        "replies":[
+            {
+                "text":"Yes. I need some potions.",
+                "nextPhraseID":"blornvale_thorns74_1"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns74_1",
+        "message":"As you wish.",
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"S"
             }
         ]
     },

@@ -1,0 +1,17 @@
+[
+    {
+        "id":"tahalendor2",
+        "name":"Tahalendor",
+        "iconID":"monsters_ld1:3",
+        "phraseID":"tahalendor2_0"
+    },
+    {
+        "id":"stoutford_widow2",
+        "name":"Aryfora",
+        "iconID":"monsters_karvis2:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"stoutford_widow2",
+        "phraseID":"stoutford_widow2_0",
+        "droplistID":"stoutford_widow2"
+    }
+]

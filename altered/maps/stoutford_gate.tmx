@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="17">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="18">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -263,6 +263,7 @@
     <property name="quantity" type="int" value="2"/>
    </properties>
   </object>
+  <object id="17" name="tahalendor2_script_X" type="script" x="320" y="544" width="64" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object id="10" name="stoutford_builder" type="spawn" x="64" y="128" width="288" height="224"/>
