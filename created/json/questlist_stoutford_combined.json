@@ -139,7 +139,7 @@
 				  "rewardExperience":50 },
 				{ "progress":  7, "logText":"7=Grave visited" },
 				{ "progress":  8, "logText":"8=lakecave5 first jump" },
-				{ "progress":  9, "logText":"8=lakecave5 got key" },
+				{ "progress":  9, "logText":"9=lakecave5 got key" },
 				{ "progress": 10, "logText":"10=Gyra roaming" },
 				{ "progress": 11, "logText":"11=Gyra in castle1" },
 				{ "progress": 12, "logText":"12=Gyra in castle0" },
@@ -201,6 +201,7 @@
 				{ "progress":201, "logText":"201=Blornvales Shop1 seen" },
 				{ "progress":202, "logText":"202=Blornvales Shop2 enabled" },
 				{ "progress":203, "logText":"203=Troll fights" },
+				{ "progress":204, "logText":"204=wall door opened" },
 				{ "progress":999, "logText":"-" }]
   },
   {
@@ -246,7 +247,7 @@
 				{ "progress":60, "logText":"Back in Stoutford Gyra knew the way and ran to her father Odirath." },
 				{ "progress":70, "logText":"Odirath thanks you many thousand times.",
                   "rewardExperience":2000 },
-				{ "progress":90, "logText":"Lord Barbane slowly took his helmet. Nevertheless, he remained sitting at the table. He probably needs a few more hours without drinks before he can get back to work. If ever.",
+				{ "progress":90, "logText":"Lord Berbane slowly took his helmet. Nevertheless, he remained sitting at the table. He probably needs a few more hours without drinks before he can get back to work. If ever.",
                   "rewardExperience":200,
                   "finishesQuest":1 },
 				{ "progress":92, "logText":"Lord Berbane took his helmet. But somehow that does not really satisfy you.",

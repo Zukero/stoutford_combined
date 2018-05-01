@@ -656,6 +656,13 @@
         "phraseID":"stoutford_guard4"
     },
     {
+        "id":"stoutford_guard_wild21a",
+        "name":"Stoutford Guard",
+        "iconID":"monsters_tometik7:71",
+        "monsterClass":"humanoid",
+        "phraseID":"key_wild21a"
+    },
+    {
         "id":"stoutford_guard_camp1",
         "name":"Stoutford Guard",
         "iconID":"monsters_tometik7:71",

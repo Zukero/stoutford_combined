@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="18">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="20">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -182,7 +182,7 @@
  </tileset>
  <layer name="Ground" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj2Ii8Uom6pq3ggbmUdONu4Bm7Qbi7cLUwdOAZp0F4uPC1MEw/7LLUAfDzGvioQ6GhR8+O5u4iHffPWj4icngxo1c+OWR8UqoefjSAMg8auaPzVA8HPIHABTEBEc=
+   eJzbyMnAsHEUj2Ii8Uom6pq3ggbmUdONu4Bm7Qbi7cLEYxjAJjcNaNZZID4uTBoGAWziMP+yy1AHw8xr4qEOhoUfPjubuIh33z1o+InJ4MaNXPjlkfFKqHn40gDIPGrmj81QPBzyBwBF3AHZ
   </data>
  </layer>
  <layer name="Objects" width="20" height="20">
@@ -192,7 +192,7 @@
  </layer>
  <layer name="Above" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJytlE0OgjAQhauJ0S0sSOqS6MU08UqeQ7slXegNdAU7l3oKOxleHMcWFPmSSekP77XDFGOYgzXmaPm5CW1tudVgTvZdCN+OOfVuJdZ68Qw/jEl/Ah51ZA/SWwJf6e9sXIN8pecs44jhRV4Iu3z1oZHKF1hlHGvlofOJcxBVh94uN2YTYpu/j8szaN3GfuZ5CNfiv/cB8rqfcqu/X5nxfsv2TGhdpI50/mmPsXNiHTRkTeraBbf58DPGmCzG1SNOxTgBNnacAOeemvm1pvr0UvPy++J+kHef3iUxfw8aD1UvpJVaPwTcDyL2j0vRdde/uR/aw6sx6j8B4gJ09Q==
+   eJytlL8OgjAQxquJ0RVMSOpI9MUw8ZV8Du3gQjro4K6TbI76FPZSvnieLQjySy6lf/i+9riilGenldpr/1y59qZ9K8Ec7xsXth4z4t2SrbXsGX4Y4/4EPG6BPXBvDny5v9FhDfLlnpPERwjL8kLoxbsPjVi+wDLxsRIeMp84B1E26G1SpQoX6/RznJ9B6lb6O899uGb/vQ+Q1+3Yt/L75Ynfb16fCa0J1JHMP+0xdE6sgwavSVm74D7tdq7D3EeM0aybHnFu0COO2TABCj1MgFNLzXStqTa92Dz/vrgf5N2md4nMP5zGU9QLacXW9wH3gwj942I03fVf7of0sGKM+i+w6ndj
   </data>
  </layer>
  <layer name="Top" width="20" height="20">
@@ -202,10 +202,10 @@
  </layer>
  <layer name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEHRga41JCKKTETmx5KzMLmFmr4GZt51AgvXG4jxQ5ktcQAfGFPjDuJNZ8a4UKNdEmNND4QmBqAluYRm1+oFRb0Cldi7KRGGFILEAonUt0CAH+hwx4=
+   eJytk8ERADAEBFWR/lvQoa8H5sSa8WOdi/gz8yZzdDXbvDCrngur0kLsXPEIvzptmxm5VonJe0Wnyid8Ie6SvHGCdb2T37egeep/obygZqg7TnzCQyoUnzZaAuxVwMk=
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object id="10" name="stoutford_guard1a" type="spawn" x="320" y="384" width="288" height="32"/>
   <object id="11" name="stoutford_guard1" type="spawn" x="64" y="384" width="224" height="32"/>
   <object id="14" name="south" type="mapchange" x="416" y="608" width="64" height="32">
@@ -230,6 +230,18 @@
    <properties>
     <property name="map" value="wild20"/>
     <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object id="18" name="wall_south" type="mapchange" x="448" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="wild21a"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="19" name="wall_north" type="mapchange" x="416" y="320" width="64" height="32">
+   <properties>
+    <property name="map" value="wild21a"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>

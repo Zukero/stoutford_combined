@@ -4057,7 +4057,7 @@
     },
     {
         "id":"berbane_90",
-        "message":"Lord Berbane looks sadly at his bottle, but still shows no sign to get up.",
+        "message":"Lord Berbane looks sadly at his bottle, but still shows no sign of getting up.",
         "switchToNPC":"none"
     },
     {
@@ -9337,6 +9337,57 @@
     {
         "id":"erwyn_child_10",
         "message":"Oh."
+    },
+    {
+        "id":"key_wild21a",
+		"switchToNPC":"stoutford_guard_wild21a",
+        "message":"You know the password?",
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"key_wild21a_10"
+            },
+			{
+                "text":"No.",
+                "nextPhraseID":"key_wild21a_20"
+            }
+        ]
+    },
+    {
+        "id":"key_wild21a_10",
+        "message":"Ok, then you may pass.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":204
+            }
+        ]
+    },
+    {
+        "id":"key_wild21a_20",
+        "message":"Not? Without password, I cannot let you pass.",
+		"replies":[
+            {
+                "text":"I will find out the password and come back.",
+                "nextPhraseID":"X"
+            },
+			{
+                "text":"Haha, just kidding. Of course I know it.",
+                "nextPhraseID":"key_wild21a_30"
+            }
+        ]
+    },
+    {
+        "id":"key_wild21a_30",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":204
+            }
+        ],
+        "message":"Ah, I knew you would. You may pass."
     },
     {
         "id":"rnd_bwm7",
