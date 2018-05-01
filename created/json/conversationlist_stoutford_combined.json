@@ -9366,6 +9366,13 @@
     },
     {
         "id":"key_wild21a_20",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"stn_nondisplay",
+                "value":204
+            }
+        ],
         "message":"Not? Without password, I cannot let you pass.",
 		"replies":[
             {

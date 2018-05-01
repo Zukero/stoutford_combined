@@ -185,7 +185,7 @@
  </tileset>
  <layer name="Ground" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRjBVvF2Zg2MyJinGpIwYfx2IeNnxcmDjMLgPBTTy4zQLJwdQRwiC1MPxdGDtGVkMIo5gvggMT6TYQFkPD6PGALk8ID3T6GuoYAPG3CHY=
+   eJzbyMnAsHEUj+JRjBVvF2Zg2MyJinGpIwYfx2IeNnxcmDi8lBOCm3hwmwWSg6kjhEFqYfi7MHaMrIYQZpdBwiI4sAzxWAwNo8cDujwhPNDpa6hjAABzDvo=
   </data>
  </layer>
  <layer name="Objects" width="20" height="20">
@@ -203,7 +203,7 @@
    eJxjYBgFo2AUDFUwkZM0dYTohUSaB1KXxEmYHgXDGwAAdp8JsA==
   </data>
  </layer>
- <layer name="Walkable" width="20" height="20">
+ <layer name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsBENwwC6ODnq0AGl6pDVU8N9lPoZmx5Kwg8XINf9+AAl7iPWbFLsJKSXWHfjs5ccs6gRlqSYRY678JlLrJ3UDA9yw4VcTIld2NyKLIZPHiY+UxZTbLgDkB8Blmmsgg==
   </data>
