@@ -921,7 +921,7 @@
     {
         "id":"potion_user",
         "iconID":"items_tometik1:57",
-        "name":"Potion of the user",
+        "name":"Potion of deftness",
         "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":250,

@@ -175,8 +175,8 @@
     <map id="woodsettlement0" x="201" y="367"/>
     <map area="stoutford" id="stoutford_gate" x="32" y="521"/>
     <map area="stoutford" id="stoutford_ne" x="53" y="521"/>
-    <map area="stoutford" id="stoutford_se" x="42" y="542"/>
-    <map area="stoutford" id="stoutford_sw" x="17" y="542"/>
+    <map area="stoutford" id="stoutford_se" x="41" y="542"/>
+    <map area="stoutford" id="stoutford_sw" x="16" y="542"/>
     <map area="stoutford" id="stoutford_nw" x="11" y="521"/>
     <map id="lakecave1" x="695" y="-52"/>
     <map id="wild18" x="74" y="500"/>
