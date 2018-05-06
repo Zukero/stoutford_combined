@@ -781,7 +781,7 @@
     },
     {
         "id":"lakecave2_troll_30",
-        "message":"Everyone wants to steal my Damerilias! For what only? This ugly, stinking stuff!\nNo, I need them all for myself. You really should leave, before I get hungry.",
+        "message":"Everyone is going for my Damerilias! For what only? This ugly, stinking stuff!\nNo, I won't give you not a single one. And you really should leave now, before I get hungry.",
         "replies":[
             {
                 "text":"What do you need Damerilias for, if you do not like them?",
@@ -791,17 +791,27 @@
     },
     {
         "id":"lakecave2_troll_32",
-        "message":"The Damerilias are for my bees. And their honey is for me. No Damerilias, no honey. Clear?",
+        "message":"The Damerilias attract food for me, tasty delicate little people. The catch is a kind of sport for me. This makes eating more fun.",
         "replies":[
             {
-                "text":"Clear. I have another question.",
+                "text":"N",
+                "nextPhraseID":"lakecave2_troll_34"
+            }
+        ]
+    },
+    {
+        "id":"lakecave2_troll_34",
+        "message":"But talking about food with a troll is not the smartest idea...",
+        "replies":[
+            {
+                "text":"Right. I have another question.",
                 "nextPhraseID":"lakecave2_troll_14"
             }
         ]
     },
     {
         "id":"lakecave2_troll_40",
-        "message":"What do you know about the key? I keep the key well. Do you belong to this thief who comes once a year and steals my Dalmarilla?",
+        "message":"What do you know about the key? I keep the key well. Do you belong to this thief who comes once a year and steals my Damerilias?",
         "replies":[
             {
                 "text":"You talk of Noraed? He is dead.",
@@ -811,7 +821,75 @@
     },
     {
         "id":"lakecave2_troll_50",
-        "message":"Dead? That is good news. And you too will be dead now.",
+        "message":"Dead? No - what a pity! I am really sorry. What a loss.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lakecave2_troll_52"
+            }
+        ]
+    },
+    {
+        "id":"lakecave2_troll_52",
+        "message":"I was so looking forward to eating him.",
+        "replies":[
+            {
+                "text":"I would like to have some Damerilias on his grave.",
+                "nextPhraseID":"lakecave2_troll_60"
+            }
+        ]
+    },
+    {
+        "id":"lakecave2_troll_60",
+        "message":"Forget it. Especially because you belong to those people, who had built up this terrible statue near the entrance.",
+        "replies":[
+            {
+                "text":"What about that statue?",
+                "nextPhraseID":"lakecave2_troll_62"
+            }
+        ]
+    },
+    {
+        "id":"lakecave2_troll_62",
+        "message":"It is a scare for all trolls. We avoid going near or even past her.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lakecave2_troll_64"
+            }
+        ]
+    },
+    {
+        "id":"lakecave2_troll_64",
+        "message":"I might let you go if you eliminate this ghastly statue. Maybe I'll even give you two of these ugly plants for that. Agreed?",
+        "replies":[
+            {
+                "text":"(lie) Agreed. Bring the Damerilias first.",
+                "nextPhraseID":"lakecave2_troll_70"
+            },
+            {
+                "text":"No. This statue is a blessing to the people here. Even if I could, I would not tear down the statue.",
+                "nextPhraseID":"lakecave2_troll_90"
+            }
+        ]
+    },
+    {
+        "id":"lakecave2_troll_70",
+        "message":"You lie. You think I am just a stupid troll.",
+        "replies":[
+            {
+                "text":"Of course you are.",
+                "nextPhraseID":"lakecave2_troll_90"
+            },
+            {
+                "text":"It was worth a try.",
+                "nextPhraseID":"lakecave2_troll_90"
+            }
+        ]
+    },
+    {
+        "id":"lakecave2_troll_90",
+        "message":"Outrageous! I will put you in my pantry now.",
         "replies":[
             {
                 "text":"We'll see.",
@@ -970,7 +1048,7 @@
         "message":"You really found my key! Thank you - I still can't believe it! ",
         "replies":[
             {
-                "text":"The troll didn't like the glade with its beautiful damerilias, but he enjoyed the honey of the bees.",
+                "text":"A troll had taken the key, but he won't need it any more.",
                 "nextPhraseID":"caeda_root40_1"
             }
         ],
@@ -1093,8 +1171,71 @@
         "message":"Oh, it is you again. Thank you for all you have done.",
         "replies":[
             {
-                "text":"N",
+                "text":"Could you give me the key for the glade again?",
+                "nextPhraseID":"caeda_root60_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":205,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"No problem.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"It was all for the Shadow",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root60_1",
+        "message":"Yes, of course. I will give you my father's key. Keep it. Then you can always pick Damerilias for Noraed's grave.",
+        "replies":[
+            {
+                "text":"That would be great, thank you.",
+                "nextPhraseID":"caeda_root60_2"
+            }
+        ]
+    },
+    {
+        "id":"caeda_root60_2",
+        "message":"Here is the key. I will move to the glade and retire there. It is the most beautiful place in the world.",
+        "replies":[
+            {
+                "text":"So I will meet you there. Bye.",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":205
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"caeda",
+				"mapName":"remgard0"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"caeda",
+				"mapName":"lakecave2"
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"glade_key",
+                "value":1
             }
         ]
     },
@@ -1192,6 +1333,40 @@
         ]
     },
     {
+        "id":"stoutford_widow_roots30_1_1",
+        "replies":[
+            {
+                "nextPhraseID":"stoutford_widow_roots30_1_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":206,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stoutford_widow_roots30_1"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots30_1_2",
+        "replies":[
+            {
+                "nextPhraseID":"stoutford_widow_roots30_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":207
+            }
+        ]
+    },
+    {
         "id":"stoutford_widow_roots30_1",
         "message":"Is that so ?\nRemgard must be a beautiful place to have such nice flowers growing in the wild.",
         "replies":[
@@ -1227,6 +1402,40 @@
             {
                 "text":"That wasn't worth the trouble...",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots30_3_1",
+        "replies":[
+            {
+                "nextPhraseID":"stoutford_widow_roots30_3_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":20,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stoutford_widow_roots30_3"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_roots30_3_2",
+        "replies":[
+            {
+                "nextPhraseID":"stoutford_widow_roots30_3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":207
             }
         ]
     },
@@ -1738,6 +1947,109 @@
             {
                 "text":"Of course! Show me, what you have, please.",
                 "nextPhraseID":"S"
+            },
+            {
+                "text":"Could you give me of your masterpiece, the potion of deftness?",
+                "nextPhraseID":"stoutford_widow2_1"
+            },
+            {
+                "text":"Nice to see you happy again.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow2_1",
+        "replies":[
+            {
+                "nextPhraseID":"stoutford_widow2_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":207
+                    }
+                ]
+            },
+			{
+                "nextPhraseID":"stoutford_widow2_3"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow2_2",
+        "message":"Well, no. Somehow I had the feeling that you not always tell the truth about the damerilias. I don't think that you are already old enough to get such a potent potion.",
+        "replies":[
+            {
+                "text":"Then let me see your other potions, please.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"I have to leave now - bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow2_3",
+        "message":"This potion I won't give for money. You can pay me in flowers - damerilias of course. \nI would give you one potion of deftness for three damerilias.",
+        "replies":[
+            {
+                "text":"Ok, I have some damerilias with me.",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"damerilias",
+                        "value":3
+                    }
+                ],
+                "nextPhraseID":"stoutford_widow2_4"
+            },
+            {
+                "text":"I will think over it.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow2_4",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"potion_deftness",
+                "value":1
+            }
+		],
+        "message":"Here I have one potion for you.",
+        "replies":[
+            {
+                "text":"And another one, please.",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"damerilias",
+                        "value":3
+                    }
+                ],
+                "nextPhraseID":"stoutford_widow2_4"
+            },
+            {
+                "text":"Thank you, it is enough for today.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow2_10",
+        "message":"Welcome! I already created some good potions - better than Blornvale's stuff. Want to have a look?",
+        "replies":[
+            {
+                "text":"Of course! Show me, what you have, please.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Could you give me of your masterpiece, the potion of deftness?",
+                "nextPhraseID":"stoutford_widow2_0"
             },
             {
                 "text":"Nice to see you happy again.",
@@ -2741,6 +3053,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":31
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":206
             }
         ]
     },
@@ -2797,6 +3114,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":33
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":206
             }
         ]
     },
@@ -2853,6 +3175,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":35
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":206
             }
         ]
     },
@@ -2909,6 +3236,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":37
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":206
             }
         ]
     },
@@ -2965,6 +3297,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":39
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":206
             }
         ]
     },
@@ -4058,7 +4395,24 @@
     {
         "id":"berbane_90",
         "message":"Lord Berbane looks sadly at his bottle, but still shows no sign of getting up.",
-        "switchToNPC":"none"
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"The castle is clean from undead now.",
+                "nextPhraseID":"berbane_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"Hey, up!",
+                "nextPhraseID":"berbane_90"
+            }
+        ]
     },
     {
         "id":"berbane_92",
@@ -4637,7 +4991,8 @@
         "message":"I started to look in the main house, but maybe we have to search the whole castle.",
         "replies":[
             {
-                "text":"Let's go then."
+                "text":"Let's go then.",
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -7693,7 +8048,7 @@
     },
     {
         "id":"stn_gyra_hlm1b_found",
-        "message":"Look there, under the bed!",
+        "message":"Look there, behind the cupboard!",
         "switchToNPC":"stn_gyra1",
         "replies":[
             {
@@ -7729,7 +8084,7 @@
         "id":"stn_gyra_hlm2b",
         "replies":[
             {
-                "nextPhraseID":"stn_gyra_hlm1b_found",
+                "nextPhraseID":"stn_gyra_hlm2b_found",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -7753,7 +8108,7 @@
     },
     {
         "id":"stn_gyra_hlm2b_found",
-        "message":"Look there, in the bed!",
+        "message":"Look there, under the bed!",
         "switchToNPC":"stn_gyra1",
         "replies":[
             {

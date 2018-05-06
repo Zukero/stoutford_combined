@@ -13,5 +13,14 @@
         "spawnGroup":"stoutford_widow2",
         "phraseID":"stoutford_widow2_0",
         "droplistID":"stoutford_widow2"
+    },
+    {
+        "id":"stoutford_widow2a",
+        "name":"Aryfora",
+        "iconID":"monsters_karvis2:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"stoutford_widow2a",
+        "phraseID":"stoutford_widow2_0",
+        "droplistID":"stoutford_widow2a"
     }
 ]

@@ -919,7 +919,7 @@
         }
     },
     {
-        "id":"potion_user",
+        "id":"potion_deftness_bad",
         "iconID":"items_tometik1:57",
         "name":"Potion of deftness",
         "displaytype":"ordinary",

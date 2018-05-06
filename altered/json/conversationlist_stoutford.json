@@ -162,6 +162,24 @@
                     }
 
                 ]
+            },
+            {
+                "text":"I cleared Flagstone of a bad deamon.",
+                "nextPhraseID":"yolgen_flagstone_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":100,
+						"negate":true
+                    }
+
+                ]
             }
         ]
     },

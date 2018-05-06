@@ -217,7 +217,7 @@
   <object id="13" name="stn_gyra_m11_3" type="script" x="416" y="160" width="96" height="32"/>
   <object id="12" name="stn_gyra_m11_2" type="script" x="576" y="96" width="32" height="96"/>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup name="Spawn">
   <object id="3" name="erwyn_knight" type="spawn" x="32" y="128" width="448" height="160"/>
   <object id="5" name="erwyn_servant" type="spawn" x="544" y="128" width="320" height="160">
    <properties>
@@ -231,13 +231,13 @@
     <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
-  <object id="11" name="stn_gyra2" type="spawn" x="544" y="96" width="64" height="32">
+  <object id="11" name="stn_gyra2" type="spawn" x="544" y="96" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
-  <object id="15" name="stn_gyra3" type="spawn" x="448" y="192" width="64" height="32">
+  <object id="15" name="stn_gyra3" type="spawn" x="448" y="192" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>

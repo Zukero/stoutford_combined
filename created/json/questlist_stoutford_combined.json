@@ -202,6 +202,9 @@
 				{ "progress":202, "logText":"202=Blornvales Shop2 enabled" },
 				{ "progress":203, "logText":"203=Troll fights" },
 				{ "progress":204, "logText":"204=wall door opened" },
+				{ "progress":205, "logText":"205=Caeda retired" },
+				{ "progress":206, "logText":"206=Picked a damerilia" },
+				{ "progress":207, "logText":"207=Lied about damerilias" },
 				{ "progress":999, "logText":"-" }]
   },
   {

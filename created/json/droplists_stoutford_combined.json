@@ -465,7 +465,7 @@
         "id":"stoutford_alchemist2",
         "items":[
             {
-                "itemID":"potion_user",
+                "itemID":"potion_deftness_bad",
                 "chance":"100",
                 "quantity":{
                     "min":10,
