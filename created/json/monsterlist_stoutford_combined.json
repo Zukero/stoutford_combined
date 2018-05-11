@@ -711,7 +711,7 @@
     },
     {
         "id":"stoutford_commoner5",
-        "name":"Old man",
+        "name":"Young man",
         "iconID":"monsters_ld1:14",
         "spawnGroup":"stoutford_commoner5",
         "phraseID":"stoutford_commoner5"

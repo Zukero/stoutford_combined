@@ -1197,7 +1197,7 @@
     },
     {
         "id":"stoutford_helmet",
-        "iconID":"items_armours:13",
+        "iconID":"items_armours_3:32",
         "name":"Stoutford chief helmet",
         "displaytype":"quest",
         "category":"other"

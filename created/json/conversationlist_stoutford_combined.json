@@ -8,14 +8,6 @@
         "message":"Hello. Could you please move out of the way? I am trying to work here."
     },
     {
-        "id":"stoutford_armorer",
-        "message":"Hi, kid."
-    },
-    {
-        "id":"stoutford_smith",
-        "message":"Hi, kid."
-    },
-    {
         "id":"cadoren_0",
         "message":"Welcome to Stoutford kid. ",
         "replies":[
@@ -4025,6 +4017,10 @@
             {
                 "text":"Oh well, it was a tough fight. I managed to slay Lord Erwyn himself and found this ring among his remains.",
                 "nextPhraseID":"yolgen_castle_3"
+            },
+			{
+                "text":"He was no match for me.",
+                "nextPhraseID":"yolgen_castle_10"
             }
         ]
     },
@@ -4061,7 +4057,7 @@
     },
     {
         "id":"yolgen_castle_6",
-        "message":"This is it. The ring is destroyed. I just wonder where it came from. Maybe from the depths of Mt. Galmore or some mischievous traveller put it on Lord Erwyn's remains? Anyway, my friend, I and the people of Stoutford are most grateful. Here is your reward. ",
+        "message":"This is it. The ring is destroyed. I just wonder where it came from. Maybe from the depths of Mt. Galmore or some mischievous traveller put it on Lord Erwyn's remains? Anyway, my friend, I and the people of Stoutford are most grateful.",
         "switchToNPC":"yolgen",
         "replies":[
             {
@@ -4078,6 +4074,68 @@
                 "rewardType":"questProgress",
                 "rewardID":"stoutford_castle",
                 "value":50
+            }
+        ]
+    },
+    {
+        "id":"yolgen_castle_10",
+        "message":"He was there without any of his ... special items? Did you look thoroughly?",
+        "replies":[
+            {
+                "text":"(lie) No, I found nothing worthy.",
+                "nextPhraseID":"yolgen_castle_11"
+            },
+            {
+                "text":"I found a strangely glowing ring. But I prefer to keep it. You have enough of such toys, I am sure.",
+                "nextPhraseID":"yolgen_castle_12"
+            },
+            {
+                "text":"Yes, indeed, look here at this ring.",
+                "nextPhraseID":"yolgen_castle_4"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_castle_11",
+        "message":"As you wish. If you find Lord Erwyn's ring, you must bring it to mee. It is dangerous.",
+        "replies":[
+            {
+                "text":"Thank you for the warning. I wonder who had owned the ring before Erwyn.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stoutford_castle",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"yolgen_castle_12",
+        "message":"You're insane! Lord Erwyn's ring is dangerous. It must be destroyed!",
+        "replies":[
+            {
+                "text":"No, I don't think so. I wonder who had owned the ring before Erwyn?",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stoutford_castle",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"yolgen_castle_13",
+        "message":"Do not play with ancient forces that are beyond your power.",
+        "replies":[
+            {
+                "text":"Now I'm even more curious who the ring belonged to. Farewell, Yolgen.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -4253,6 +4311,21 @@
                         "requireType":"questProgress",
                         "requireID":"stn_quest_gyra",
                         "value":92
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"berbane_92",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":90
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":44
                     }
                 ]
             },
