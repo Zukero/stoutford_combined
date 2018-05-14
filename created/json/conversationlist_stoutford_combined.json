@@ -3860,24 +3860,9 @@
                 "nextPhraseID":"yolgen_castle_1_1a",
                 "requires":[
                     {
-                        "requireType":"killedMonster",
-                        "requireID":"erwyn_knight",
-                        "value":7
-                    },
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"erwyn_soldier",
-                        "value":12
-                    },
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"erwyn_soldier2",
-                        "value":7
-                    },
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"erwyn_soldier3",
-                        "value":4
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":46
                     }
                 ]
             },
@@ -4305,27 +4290,12 @@
         "id":"berbane",
         "replies":[
             {
-                "nextPhraseID":"berbane_92",
+                "nextPhraseID":"berbane_200",
                 "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"stn_quest_gyra",
-                        "value":92
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"berbane_92",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"stn_quest_gyra",
-                        "value":90
-                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"stn_nondisplay",
-                        "value":44
+                        "value":45
                     }
                 ]
             },
@@ -4374,8 +4344,8 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"stoutford_castle",
-                        "value":40,
+                        "requireID":"stn_nondisplay",
+                        "value":47,
                         "negate":true
                     }
                 ]
@@ -4402,8 +4372,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"stoutford_castle",
-                        "value":40
+                        "requireID":"stn_nondisplay",
+                        "value":47
                     }
                 ]
             }
@@ -4441,8 +4411,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"stoutford_castle",
-                        "value":40
+                        "requireID":"stn_nondisplay",
+                        "value":47
                     }
                 ]
             }
@@ -4454,7 +4424,7 @@
         "replies":[
             {
                 "text":"Let's go now.",
-                "nextPhraseID":"berbane"
+                "nextPhraseID":"berbane_90"
             }
         ],
         "rewards":[
@@ -4476,8 +4446,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"stoutford_castle",
-                        "value":40
+                        "requireID":"stn_nondisplay",
+                        "value":47
                     }
                 ]
             },
@@ -4486,11 +4456,6 @@
                 "nextPhraseID":"berbane_90"
             }
         ]
-    },
-    {
-        "id":"berbane_92",
-        "message":"Lord Berbane is singing merrily about his heroic deeds.",
-        "switchToNPC":"none"
     },
     {
         "id":"berbane_100",
@@ -4561,7 +4526,7 @@
     },
     {
         "id":"berbane_132",
-        "message":"(loud voice) Of course - you have carried my magical helmet for me. I take it back now.",
+        "message":"(loud voice) Yes, he has carried my magical helmet for me. I take it back now.",
         "replies":[
             {
                 "text":"I give up.",
@@ -4578,7 +4543,7 @@
     },
     {
         "id":"berbane_134",
-        "message":"(loud voice) Of course - you have learned much from me. But no need to thank me now.",
+        "message":"(loud voice) Yes, he has learned much from me. But no need to thank me now.",
         "replies":[
             {
                 "text":"I give up.",
@@ -4588,12 +4553,86 @@
     },
     {
         "id":"berbane_140",
-        "message":"(low voice) Well-behaved. \n(loud voice) And now mead for everyone! Let's be merry! Forget all sorrows!",
+        "message":"(low voice) Well-behaved. \n(loud voice) And now: Mead for everyone! Let's be merry! Forget all sorrows!",
         "rewards":[
             {
                 "rewardType":"giveItem",
                 "rewardID":"mead",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_gyra",
+                "value":99
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":45
+            }
+        ]
+    },
+    {
+        "id":"berbane_200",
+        "message":"Lord Berbane is singing merrily about his heroic deeds.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"Psst. I have something for you.",
+				"nextPhraseID":"berbane_200_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"stoutford_helmet",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Lalala lala lala",
+				"nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"berbane_200_1",
+        "message":"Why are you disturbing my song?",
+        "switchToNPC":"berbane",
+        "replies":[
+            {
+                "text":"Gyra had found your helmet and asked me to give it to you.",
+                "nextPhraseID":"berbane_200_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"stoutford_helmet",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Eh, nothing. Sing on.",
+				"nextPhraseID":"berbane_200"
+            }
+        ]
+    },
+    {
+        "id":"berbane_200_2",
+        "message":"Ah yes, one of my helmets. Thank you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"berbane_200_3"
+            }
+        ]
+    },
+    {
+        "id":"berbane_200_3",
+        "message":"Anything else?",
+        "replies":[
+            {
+                "text":"Here you go. You're welcome. No, I don't need a reward. I always like to help without appreciation. Everything is okay. Bye.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -8224,6 +8263,73 @@
             {
                 "text":"Yes, there it is!",
                 "nextPhraseID":"stn_gyra_hlm1b_found_10"
+            }
+        ]
+    },
+    {
+        "id":"stn_castle_cleared",
+        "replies":[
+            {
+                "nextPhraseID":"stn_castle_cleared_1",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_knight",
+                        "value":7
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_soldier",
+                        "value":12
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_soldier2",
+                        "value":7
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_soldier3",
+                        "value":4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"stn_castle_cleared_1",
+        "replies":[
+            {
+                "nextPhraseID":"stn_castle_cleared_2",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_commander",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":46
+            }
+        ]
+    },
+    {
+        "id":"stn_castle_cleared_2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":47
             }
         ]
     },
