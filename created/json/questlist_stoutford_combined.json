@@ -138,8 +138,6 @@
 				{ "progress":  6, "logText":"6=Horse got food", 
 				  "rewardExperience":50 },
 				{ "progress":  7, "logText":"7=Grave visited" },
-				{ "progress":  8, "logText":"8=lakecave5 first jump" },
-				{ "progress":  9, "logText":"9=lakecave5 got key" },
 				{ "progress": 10, "logText":"10=Gyra roaming" },
 				{ "progress": 11, "logText":"11=Gyra in castle1" },
 				{ "progress": 12, "logText":"12=Gyra in castle0" },
@@ -208,6 +206,9 @@
 				{ "progress":205, "logText":"205=Caeda retired" },
 				{ "progress":206, "logText":"206=Picked a damerilia" },
 				{ "progress":207, "logText":"207=Lied about damerilias" },
+				{ "progress":210, "logText":"210=lakecave2 first jump" },
+				{ "progress":211, "logText":"211=lakecave2 shelves fallen on ground" },
+				{ "progress":212, "logText":"212=lakecave2 key taken" },
 				{ "progress":999, "logText":"-" }]
   },
   {
@@ -326,8 +327,12 @@
             },
             {
                 "progress":40,
-                "logText":"I slew Lord Erwyn himself. Among his remains I found a strange ring. I should show it to Yolgen.",
+                "logText":"I slew Lord Erwyn himself.",
                 "rewardExperience":500
+            },
+            {
+                "progress":42,
+                "logText":"Among his remains I found a strange ring. I should show it to Yolgen."
             },
             {
                 "progress":50,

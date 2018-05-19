@@ -1196,6 +1196,17 @@
         "category":"other"
     },
     {
+        "id":"erwyn_ring",
+        "iconID":"items_jewelry:4",
+        "name":"Lord Erwyn's ring",
+        "displaytype":"extraordinary",
+        "category":"ring",
+        "description":"A broad ring with wicked looking runes all around",
+        "equipEffect":{
+            "increaseDamageResistance":1
+        }
+    },
+    {
         "id":"stoutford_helmet",
         "iconID":"items_armours_3:32",
         "name":"Stoutford chief helmet",

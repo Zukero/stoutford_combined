@@ -5,6 +5,11 @@
         "showInLog":1,
         "stages":[
             {
+                "progress":5,
+                "logText":"Yolgen asked me to have a look what was wrong with Flagstone prison.",
+                "finishesQuest":0
+            },
+            {
                 "progress":10,
                 "logText":"I met a few guards from Stoutford on sentry outside a fortress called Flagstone. Their leader told me that Flagstone was built a few hundred of years ago and served as a prison for house Gorland of Stoutford. When Lord Emeric of Stoutford was slain during the Noble Wars, it was fogotten soon after. Recently, undeads started  pouring out of  Flagstone. I should investigate the source of the undead monsters. The guard tells me to return to him if I need help.",
                 "finishesQuest":0

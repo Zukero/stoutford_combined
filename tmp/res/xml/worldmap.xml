@@ -5,6 +5,13 @@
     <map id="lakecave1" x="349" y="407"/>
     <map id="lakecave2" x="380" y="413"/>
   </segment>
+  <segment id="waterwayacave" x="195" y="188">
+    <map id="waterwayacave1" x="207" y="188"/>
+    <map id="waterwayacave2" x="207" y="218"/>
+    <map id="waterwayacave3" x="215" y="249"/>
+    <map id="waterwayacave4" x="195" y="280"/>
+    <map id="waterwayacavex" x="246" y="269"/>
+  </segment>
   <segment id="bwentry" x="14" y="387">
     <map id="blackwater_mountain4a" x="55" y="417"/>
     <map id="blackwater_mountain6" x="66" y="389"/>

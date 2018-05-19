@@ -159,13 +159,25 @@
                         "requireID":"stoutford_castle",
                         "value":50,
 						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":60,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":70,
+						"negate":true
                     }
 
                 ]
             },
             {
                 "text":"I cleared Flagstone of a bad demon.",
-                "nextPhraseID":"yolgen_flagstone_0",
+                "nextPhraseID":"yolgen_flagstone_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -180,6 +192,10 @@
                     }
 
                 ]
+            },
+            {
+                "text":"Is there anything I could do to help?",
+                "nextPhraseID":"yolgen_task_0"
             }
         ]
     },

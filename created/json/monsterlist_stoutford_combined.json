@@ -576,6 +576,7 @@
             "max":7
         },
         "spawnGroup":"erwyn",
+        "droplistID":"erwyn",
         "phraseID":"stoutford_castle_3",
         "attackCost":53,
         "attackChance":130,

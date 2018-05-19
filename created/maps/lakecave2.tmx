@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="31">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="35">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -200,10 +200,15 @@
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgc4LAYdc27TIR5IDWXiFRHLCDGPGLtJEYdtQG142HUXsrsnc3EwDCXiTi1qvzUs5fagFg/kAIGyi/EAnq4D71sIlRukFKW4QPIdhBTVg2n+KfUXnLjgFJ7yU0X+OylND0FsTEwBENxCBuqHL40Q2l6Ggpph1p5lVR7qRk2Q8FeapZNtMwr5OZRWpYb+OSGU1tjpAAAPLov3A==
+   eJxjYBgc4LAYdc27DDVPiB+/mktE2HuZBLcRYx6xdhKjjtqA2vEwai9l9s5mYmCYy0ScWlU8aZ1Ue6kNiPUDKWCg/EIsoIf70MsmQuUGKWUZPoBsBzFl1XCKf0rtJTcOKLWX3HSBz15K01MQGwNDMBSHsKHK4UszlKanoZB2qJVXSbWXmmEzFOylZtlEy7xCbh6lZbmBT244tTVGCgAA7+ov/Q==
   </data>
  </layer>
- <layer name="Top" width="30" height="30">
+ <layer name="Above2" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBie4LLYwNh7aYDsRQaC/APtglEwCkbBKBgFo2AUjIJRMApGwVAAACzEAfI=
+  </data>
+ </layer>
+ <layer name="Top" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUUBNcFhsYew+PMHvnMg2MvaNgFIwC6oCBKjtGwSgYBaNgFKACAFjJBBQ=
   </data>
@@ -218,7 +223,7 @@
    eJxjYBieYKMYKh7s9lLDreToHYgwGgWjYBSMglEwCkbBKBgFo2AUDA4AAH/fC6o=
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="west1" type="mapchange" x="0" y="896" width="32" height="32">
    <properties>
     <property name="map" value="lakecave0"/>
@@ -247,6 +252,7 @@
     <property name="when" value="step"/>
    </properties>
   </object>
+  <object id="33" name="lakecave2_script_keycheck3" type="script" x="864" y="96" width="32" height="32"/>
   <object id="19" name="lakecave2_script_keycheck1" type="script" x="640" y="64" width="288" height="160"/>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
@@ -325,13 +331,6 @@
     <property name="spawngroup" value="cave_troll_3"/>
    </properties>
   </object>
-  <object id="22" name="lakecave2_key" type="spawn" x="832" y="32" width="32" height="32"/>
-  <object id="27" name="lakecave2_key2" type="spawn" x="864" y="96" width="32" height="32">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-   </properties>
-  </object>
   <object id="30" name="caeda" type="spawn" x="96" y="128" width="256" height="256">
    <properties>
     <property name="active" value="false"/>
@@ -339,7 +338,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
+ <objectgroup name="Keys" visible="0">
   <object id="29" name="lakecave2_key_check1" type="key" x="832" y="64" width="32" height="32">
    <properties>
     <property name="phrase" value="lakecave2_key_check1"/>
@@ -348,15 +347,32 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
+  <object id="31" name="lakecave2_key_check2" type="key" x="832" y="32" width="32" height="32">
+   <properties>
+    <property name="phrase" value="lakecave2_key_check2"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Replace" visible="0">
   <object id="23" name="board" type="replace" x="768" y="32" width="128" height="128">
    <properties>
+    <property name="Above" value="Above2"/>
     <property name="Objects" value="Objects2"/>
     <property name="Walkable" value="Walkable2"/>
     <property name="requireId" value="stn_nondisplay"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="9"/>
+    <property name="requireValue" value="211"/>
+   </properties>
+  </object>
+  <object id="34" name="key_taken" type="replace" x="864" y="96" width="32" height="32">
+   <properties>
+    <property name="Above" value="Top"/>
+    <property name="requireId" value="stn_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="212"/>
    </properties>
   </object>
   <object id="29" name="caedas_bed" type="replace" x="256" y="96" width="96" height="96">
