@@ -70,80 +70,6 @@
         }
     },
     {
-        "id":"cured_ham",
-        "iconID":"items_misc_3:70",
-        "name":"Cured ham",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":70,
-        "category":"food",
-        "useEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"food",
-                    "magnitude":3,
-                    "duration":10,
-                    "chance":"100"
-                }
-            ]
-        }
-    },
-    {
-        "id":"salt_pork",
-        "iconID":"items_rijackson_1:4",
-        "name":"Salt pork",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":40,
-        "category":"food",
-        "useEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"food",
-                    "magnitude":3,
-                    "duration":12,
-                    "chance":"100"
-                },
-                {
-                    "condition":"nausea",
-                    "magnitude":1,
-                    "duration":8,
-                    "chance":"15"
-                }
-            ]
-        }
-    },
-    {
-        "id":"whip_bind",
-        "iconID":"items_weapons_3:57",
-        "name":"Whip of binding",
-        "displaytype":"extraordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":6700,
-        "category":"whip",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":5
-            },
-            "increaseAttackCost":5,
-            "increaseAttackChance":10,
-            "increaseCriticalSkill":5,
-            "increaseBlockChance":8,
-            "setCriticalMultiplier":1.5
-        },
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"entanglement",
-                    "magnitude":1,
-                    "duration":1,
-                    "chance":"25"
-                }
-            ]
-        }
-    },
-    {
         "id":"shortsword2",
         "iconID":"items_weapons:15",
         "name":"Steel shortsword",
@@ -254,23 +180,6 @@
                     "chance":"5"
                 }
             ]
-        }
-    },
-    {
-        "id":"flail_farm",
-        "iconID":"items_weapons_3:23",
-        "name":"Farmer's flail",
-        "displaytype":"ordinary",
-        "category":"staff",
-        "description":"This looks more suited to farming than fighting",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":1,
-                "max":2
-            },
-            "increaseAttackCost":5,
-            "increaseAttackChance":5,
-            "increaseBlockChance":5
         }
     },
     {
@@ -530,22 +439,6 @@
         }
     },
     {
-        "id":"boots_spiked",
-        "iconID":"items_rijackson_1:9",
-        "name":"Spiked metal boots",
-        "displaytype":"ordinary",
-        "category":"feet_mtl_li",
-        "description":"These boots look very uncomfortable. For your enemy!",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":1,
-                "max":3
-            },
-            "increaseAttackChance":-2,
-            "increaseBlockChance":7
-        }
-    },
-    {
         "id":"necklace_stfrd_combat",
         "iconID":"items_necklaces_1:8",
         "name":"Stoutford combat amulet",
@@ -557,30 +450,6 @@
                 "max":4
             },
             "increaseDamageResistance":1
-        }
-    },
-    {
-        "id":"necklace_dexterity",
-        "iconID":"items_reterski_1:11",
-        "name":"Necklace of dexterity",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":3160,
-        "category":"neck",
-        "equipEffect":{
-            "increaseUseItemCost":-1,
-            "increaseReequipCost":-1
-        }
-    },
-    {
-        "id":"ring_dexterity",
-        "iconID":"items_jewelry:2",
-        "name":"Ring of dexterity",
-        "displaytype":"ordinary",
-        "category":"ring",
-        "equipEffect":{
-            "increaseUseItemCost":-1,
-            "increaseReequipCost":-1
         }
     },
     {
@@ -668,25 +537,6 @@
                     "condition":"food",
                     "magnitude":2,
                     "duration":5,
-                    "chance":"100"
-                }
-            ]
-        }
-    },
-    {
-        "id":"pot_light_attack",
-        "iconID":"items_consumables:64",
-        "name":"Potion of lightning attack",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":5000,
-        "category":"pot",
-        "useEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"light_attack",
-                    "magnitude":1,
-                    "duration":2,
                     "chance":"100"
                 }
             ]
@@ -1114,81 +964,6 @@
         "category":"other"
     },
     {
-        "id":"stoutford_plate_mail1",
-        "iconID":"items_japozero:169",
-        "name":"Stoutford's plate mail",
-        "displaytype":"rare",
-        "category":"plmail",
-        "equipEffect":{
-            "increaseMaxHP":7,
-            "increaseBlockChance":28,
-            "increaseDamageResistance":0
-        }
-    },
-    {
-        "id":"stoutford_plate_mail2",
-        "iconID":"items_japozero:175",
-        "name":"Stoutford's rigid plate mail",
-        "displaytype":"rare",
-        "category":"plmail",
-        "equipEffect":{
-            "increaseBlockChance":25,
-            "increaseDamageResistance":2
-        }
-    },
-    {
-        "id":"stoutford_steel_helmet",
-        "iconID":"items_armours:25",
-        "name":"Stoutford's steel helmet",
-        "displaytype":"ordinary",
-        "category":"hd_mtl_hv",
-        "equipEffect":{
-            "increaseMaxHP":10,
-            "increaseAttackChance":-5,
-            "increaseBlockChance":7
-        }
-    },
-    {
-        "id":"stoutford_engraved_steel_helmet",
-        "iconID":"items_armours:25",
-        "name":"Stoutford's engraved steel helmet",
-        "displaytype":"rare",
-        "category":"hd_mtl_hv",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
-            "increaseMaxHP":15,
-            "increaseAttackChance":-4,
-            "increaseBlockChance":7
-        }
-    },
-    {
-        "id":"boots_combat3",
-        "iconID":"items_tometik3:3",
-        "name":"Superior combat boots",
-        "displaytype":"ordinary",
-        "category":"feet_mtl_hv",
-        "equipEffect":{
-            "increaseAttackChance":5,
-            "increaseBlockChance":12,
-            "increaseDamageResistance":1
-        }
-    },
-    {
-        "id":"boots_6",
-        "iconID":"items_armours:32",
-        "name":"Boots of Swiftness",
-        "displaytype":"ordinary",
-        "category":"feet_mtl_li",
-        "equipEffect":{
-            "increaseMaxHP":5,
-            "increaseAttackChance":7,
-            "increaseBlockChance":10
-        }
-    },
-    {
         "id":"soap",
         "iconID":"items_japozero:305",
         "name":"Soap",
@@ -1209,14 +984,14 @@
     {
         "id":"stoutford_helmet",
         "iconID":"items_armours_3:32",
-        "name":"Stoutford chief helmet",
+        "name":"Stoutford chief's helmet",
         "displaytype":"quest",
         "category":"other"
     },
     {
         "id":"lutarc_medallion",
         "iconID":"items_necklaces_1:20",
-        "name":"Lutarcs medallion",
+        "name":"Lutarc's medallion",
         "displaytype":"quest",
         "category":"other"
     }

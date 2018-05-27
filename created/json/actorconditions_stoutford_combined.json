@@ -10,16 +10,6 @@
         }
     },
     {
-        "id":"entanglement",
-        "iconID":"actorconditions_japozero:39",
-        "name":"Entanglement",
-        "category":"physical",
-        "abilityEffect":{
-            "increaseMoveCost":3,
-            "increaseAttackCost":1
-        }
-    },
-    {
         "id":"poison_blood",
         "iconID":"actorconditions_1:60",
         "name":"Blood poisoning",
@@ -30,16 +20,6 @@
                 "min":-1,
                 "max":-2
             }
-        }
-    },
-    {
-        "id":"light_attack",
-        "iconID":"actorconditions_1:87",
-        "name":"Lightning attack",
-        "category":"physical",
-        "isPositive":1,
-        "abilityEffect":{
-            "increaseAttackCost":-1
         }
     },
     {
