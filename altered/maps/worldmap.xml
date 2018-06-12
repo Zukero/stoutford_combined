@@ -71,14 +71,14 @@
     <map area="loneford" id="loneford2" x="238" y="251"/>
     <map id="lostmine0" x="426" y="361"/>
     <map id="mountainlake0" x="702" y="159"/>
-    <map id="mountainlake1" x="704" y="128"/>
+    <map id="mountainlake1" x="702" y="128"/>
     <map id="mountainlake10" x="732" y="0"/>
     <map id="mountainlake10a" x="724" y="31"/>
     <map id="mountainlake11" x="701" y="4"/>
     <map id="mountainlake12" x="671" y="8"/>
     <map id="mountainlake13" x="640" y="20"/>
     <map id="mountainlake13a" x="648" y="50"/>
-    <map id="mountainlake2" x="735" y="141"/>
+    <map id="mountainlake2" x="733" y="128"/>
     <map id="mountainlake3" x="756" y="128"/>
     <map id="mountainlake4" x="761" y="111"/>
     <map id="mountainlake5" x="787" y="104"/>
@@ -86,6 +86,7 @@
     <map id="mountainlake7" x="800" y="53"/>
     <map id="mountainlake8" x="779" y="31"/>
     <map id="mountainlake9" x="763" y="0"/>
+    <map id="lakecave1" x="695" y="-52"/>
     <map area="remgard" id="remgard0" x="642" y="76"/>
     <map area="remgard" id="remgard1" x="673" y="83"/>
     <map area="remgard" id="remgard2" x="673" y="114"/>
@@ -99,7 +100,7 @@
     <map id="road5" x="455" y="462"/>
     <map id="roadbeforecrossroads" x="210" y="309"/>
     <map id="roadbeforecrossroads1" x="232" y="322"/>
-    <map id="roadbeforecrossroads2" x="232" y="348"/>
+    <map id="roadbeforecrossroads2" x="232" y="351"/>
     <map id="roadbeforecrossroads3" x="262" y="366"/>
     <map id="roadbeforecrossroads4" x="272" y="382"/>
     <map id="roadbeforecrossroads5" x="272" y="403"/>
@@ -178,7 +179,6 @@
     <map area="stoutford" id="stoutford_se" x="41" y="542"/>
     <map area="stoutford" id="stoutford_sw" x="16" y="542"/>
     <map area="stoutford" id="stoutford_nw" x="11" y="521"/>
-    <map id="lakecave1" x="695" y="-52"/>
     <map id="wild18" x="74" y="500"/>
     <map id="wild19" x="53" y="500"/>
     <map id="wild20" x="32" y="500"/>
@@ -186,7 +186,49 @@
     <map id="wild22" x="74" y="531"/>
     <map id="wild23" x="1" y="469"/>
     <map id="waytogalmore1" x="95" y="531"/>
-    <map id="waytogalmore0" x="95" y="500"/>
+    <map id="waytogalmore0" x="95" y="500"/>    
+    <map id="fields11a" x="238" y="218"/>
+    <map id="fields11b" x="238" y="234"/>
+    <map id="graveyard0" x="358" y="181"/>
+    <map id="graveyard1" x="358" y="197"/>
+    <map id="loneford11" x="259" y="234"/>
+    <map id="loneford12" x="241" y="291"/>
+    <map id="loneford13" x="241" y="278"/>
+    <map id="loneford14" x="269" y="275"/>
+    <map id="waterwaya1" x="331" y="202"/>
+    <map id="waterwaya2" x="341" y="197"/>
+    <map id="waterwaya3" x="341" y="228"/>
+    <map id="waterwaya5" x="364" y="228"/>
+    <map id="waterwaya6" x="310" y="202"/>
+    <map id="waterwayb1" x="302" y="237"/>
+    <map id="waterwayb2" x="279" y="237"/>
+    <map id="waterwayb3" x="279" y="223"/>
+    <map id="waterwayb4" x="310" y="219"/>
+    <map id="waytobrimhaven4" x="333" y="268"/>
+    <map id="waytobrimhaven5" x="343" y="268"/>
+    <map id="waytobrimhaven6" x="364" y="269"/>
+    <map id="waytolake6" x="678" y="190"/>
+    <map id="waytolake7" x="643" y="229"/>
+    <map id="waytolake7b" x="649" y="255"/>
+    <map id="waytolake8" x="643" y="208"/>
+    <map id="waytolake9" x="647" y="187"/>
+    <map id="waytolake10" x="647" y="156"/>
+    <map id="waytolake11" x="678" y="153"/>
+    <map area="guynmart_area" id="guynmart" x="86" y="175"/>
+    <map id="guynmart_wood_1" x="86" y="206" />
+    <map id="guynmart_wood_2" x="86" y="144" />
+    <map id="guynmart_wood_3" x="55" y="144" />
+    <map id="guynmart_wood_4" x="39" y="144" />
+    <map id="guynmart_wood_5" x="39" y="175" />
+    <map id="guynmart_wood_6" x="70" y="175" />
+    <map id="guynmart_wood_7" x="117" y="144" />
+    <map id="guynmart_wood_8" x="55" y="191" />
+    <map id="guynmart_wood_9" x="117" y="160" />
+    <map id="guynmart_wood_10" x="117" y="191" />
+    <map id="guynmart_wood_11" x="117" y="222" />
+    <map id="guynmart_wood_12" x="86" y="237" />
+    <map id="guynmart_wood_13" x="70" y="222" />
+    <map id="guynmart_wood_14" x="54" y="222" />    
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
@@ -198,5 +240,6 @@
     <namedarea id="vilegard" name="Vilegard" type="settlement"/>
     <namedarea id="prim" name="Prim" type="settlement"/>
     <namedarea id="stoutford" name="Stoutford" type="settlement"/>
+    <namedarea id="guynmart_area" name="Guynmart Castle" type="other"/>
   </segment>
 </worldmap>

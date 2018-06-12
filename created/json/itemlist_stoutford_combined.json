@@ -978,7 +978,7 @@
         "category":"ring",
         "description":"A broad ring with wicked looking runes all around",
         "equipEffect":{
-            "increaseDamageResistance":1
+            "increaseDamageResistance":3
         }
     },
     {

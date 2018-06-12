@@ -2876,10 +2876,36 @@
         "message":"Please give the helmet to his owner Lord Bourbon - eh, Lord Berbane I mean. He will be in the tavern.",
         "replies":[
             {
-                "text":"Ok.",
+                "text":"OK.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I did that already. But he didn't seem to be happy about it.",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":90
+                    }
+                ],
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I did that already. Although he won't need it, because the castle is already clear of the undead.",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":92
+                    }
+                ],
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Maybe.",
                 "nextPhraseID":"X"
             }
-        ]
+		]
     },
     {
         "id":"honey_bee",
@@ -4091,9 +4117,47 @@
         ]
     },
     {
+        "id":"stoutford_castle_3a",
+        "message":"Did you come to serve me? On your knees!",
+        "switchToNPC":"erwyn",
+        "replies":[
+            {
+                "text":"What would I gain of it?",
+                "nextPhraseID":"stoutford_castle_3b"
+            },
+            {
+                "text":"You are very rude and poorly educated. May I introduce myself? $playername is my name.",
+                "nextPhraseID":"stoutford_castle_3c"
+            },
+            {
+                "text":"I serve you - my weapon. Attack!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle_3b",
+        "message":"Gain? I am the the one who gains!",
+        "replies":[
+            {
+                "text":"No, that's not okay. Do not you have anything better to offer?",
+                "nextPhraseID":"stoutford_castle_4"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_castle_3c",
+        "message":"Your name does not matter. Are you going to bend your knees now?",
+        "replies":[
+            {
+                "text":"No. The floor is not clean here.",
+                "nextPhraseID":"stoutford_castle_4"
+            }
+        ]
+    },
+    {
         "id":"stoutford_castle_4",
         "message":"You shall die now mortal!",
-        "switchToNPC":"erwyn",
         "replies":[
             {
                 "text":"No, you are going to die once and for all!",
@@ -8846,12 +8910,30 @@
             {
                 "text":"You are commanding the undead soldiers down there?",
                 "nextPhraseID":"stn_colonel_42"
+            },
+            {
+                "text":"You didn't answer my question who you are.",
+                "nextPhraseID":"stn_colonel_44"
             }
         ]
     },
     {
         "id":"stn_colonel_42",
         "message":"No, do not be worried. I have nothing to do with the undead here in the castle. I just think them interesting.",
+        "replies":[
+            {
+                "text":"Interesting indeed.",
+                "nextPhraseID":"stn_colonel_44"
+            },
+            {
+                "text":"Do you have any idea what the undead are doing here?",
+                "nextPhraseID":"stn_colonel_43"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_43",
+        "message":"No. I expected Lord Berbane's men to be here. But these undead are a nice change.",
         "replies":[
             {
                 "text":"N",
@@ -8876,6 +8958,10 @@
         "replies":[
             {
                 "text":"From here you have a nice view.",
+                "nextPhraseID":"stn_colonel_52"
+            },
+            {
+                "text":"You drink tea while fighting is going on down there?",
                 "nextPhraseID":"stn_colonel_52"
             }
         ]
@@ -8944,14 +9030,18 @@
         "message":"I'm always impressed when I see a good fighter at work.",
         "replies":[
             {
-                "text":"N",
+                "text":"Thank you.",
+                "nextPhraseID":"stn_colonel_70"
+            },
+            {
+                "text":"Tell me at last. what you want from me.",
                 "nextPhraseID":"stn_colonel_70"
             }
         ]
     },
     {
         "id":"stn_colonel_70",
-        "message":"Now I am curious how you could handle a number of my better warriors. Would you like to try?",
+        "message":"Now I am curious how, you could handle a number of my better warriors. Would you like to try?",
         "replies":[
             {
                 "text":"Sure. After I have finished my tea of course.",
@@ -8966,15 +9056,7 @@
             },
             {
                 "text":"Why not? A little change is always good.",
-                "nextPhraseID":"stn_colonel_80",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"stn_nondisplay",
-                        "value":50,
-                        "negate":true
-                    }
-                ]
+                "nextPhraseID":"stn_colonel_80"
             },
             {
                 "text":"Maybe some other time. I have to leave now.",
@@ -8987,13 +9069,89 @@
         "message":"Take your time.",
         "replies":[
             {
-                "text":"N",
+                "text":"(drinking)",
+                "nextPhraseID":"stn_colonel_74"
+            },
+            {
+                "text":"OK, now to business.",
+                "nextPhraseID":"stn_colonel_80"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_74",
+        "message":"This is really an excellent tea, right?",
+        "replies":[
+            {
+                "text":"(drinking)",
+                "nextPhraseID":"stn_colonel_75"
+            },
+            {
+                "text":"OK, now to business.",
+                "nextPhraseID":"stn_colonel_80"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_75",
+        "message":"I had not noticed that the cups are so big.",
+        "replies":[
+            {
+                "text":"(drinking)",
+                "nextPhraseID":"stn_colonel_76"
+            },
+            {
+                "text":"OK, now to business.",
+                "nextPhraseID":"stn_colonel_80"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_76",
+        "message":"You are really a connoisseur.",
+        "replies":[
+            {
+                "text":"(drinking)",
+                "nextPhraseID":"stn_colonel_77"
+            },
+            {
+                "text":"OK, now to business.",
+                "nextPhraseID":"stn_colonel_80"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_77",
+        "message":"We have all the time in the world. Do not hurry.",
+        "replies":[
+            {
+                "text":"(drinking)",
+                "nextPhraseID":"stn_colonel_79"
+            },
+            {
+                "text":"OK, now to business.",
+                "nextPhraseID":"stn_colonel_80"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_79",
+		"switchToNPC":"none",
+        "message":"The Colonel looks at you silently now.",
+        "replies":[
+            {
+                "text":"(drinking)",
+                "nextPhraseID":"stn_colonel_79"
+            },
+            {
+                "text":"OK, now to business.",
                 "nextPhraseID":"stn_colonel_80"
             }
         ]
     },
     {
         "id":"stn_colonel_80",
+		"switchToNPC":"stn_colonel",
         "message":"Good. Please go to the foot of this hill, right down there, by the gate.",
         "replies":[
             {
@@ -9021,6 +9179,10 @@
             {
                 "text":"Five?",
                 "nextPhraseID":"stn_colonel_84"
+            },
+            {
+                "text":"Well, I'm curious.",
+                "nextPhraseID":"stn_colonel_86"
             }
         ]
     },
