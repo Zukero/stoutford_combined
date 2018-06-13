@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="26" height="12" tilewidth="32" tileheight="32" infinite="0" nextobjectid="16">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="18" height="12" tilewidth="32" tileheight="32" infinite="0" nextobjectid="18">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,113 +180,76 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="26" height="12">
+ <tileset firstgid="7577" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../created/drawable/map_ground_1.png" width="512" height="256"/>
+ </tileset>
+ <layer name="Ground" width="18" height="12">
   <data encoding="base64" compression="zlib">
-   eJz7zcnA8JtOOFgaP0ZXQ4wedPUgnCSNH6OrIUYPunoQPkoAg9yEj08IE2tPkjR+PjouFWNgKAPicjHS7EHGV4kQawWa3wbE7XjswWYOqZgYe4gNb2zhQyt70M3DZw8paQcWpjA96OZdxWFPsDThtENM+iNG/VNO+mAAWQXwcA==
+   eJyT52JgMEDD8kgYXQ4bBqlTAOL9UqhYgQuB0eWwYZja81KoGNkcdDlsGKa2jpuBoYEbQSObs42TMIapnQfUu4AbQetzITAp5qC7B9nvlLgH2e+kmINN7gwSJsYcXGFArBkgrM9FfBjgw/tJCAN8GGTGS078eBsBeRgGADo5jcI=
   </data>
  </layer>
- <layer name="Objects" width="26" height="12">
+ <layer name="Objects" width="18" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYKA/EGNiYGBngrAlmVDlVIWx63FGUneFD0Kr8aOaiW4HCMgyYVcjhKb+FisDw20g/gDEl4E4FojjWBHy4mjqQUAdiKeyQOilLAi+F5QGgR1Qt/4WhdCvgGa+BpnLxsDwGEjnAnEekj0PhTDtMcdBRyGpOcGHqY8Xi5uPQN0FC/djLAg5kJsvikHYXEhhC3PTO6A737Mi1CADbn5U/hWgWSeRxK4h2eOFqZ0scEcIYg8IqPJj2gMKH5jbmYHhzQLER6Duh6UFLjR3g8JnD5IYLHyuIJkryoRqDyjclrJgD5fJSOqQ4xZmHihdb+NHmAcTP4nFP+pImAGNxiYOM08UaFYwE6p5T4D0VKB7pwHxdCB+hmSPORIG+Q2ZRhdfSoR5MLCHH1OM1gAAThI/dw==
+   eJxjYKAeuMrHwCDJxMBwCUojA1EBoJgAhAZhKSgN0qPAD6FhgAWIt7EyMPwE4v2sqObcA/LvA/EVIL4KxCFAvJ2dgQFknQE/hIYBESA+BpTnZGNgOI9mzjsg/z0QPwHip0CcAsTHgeYIQeWFkNQqIbEXs+APAxYxiDkqQPYNQQgNAzv4UNXOBrprDhDPZYP4IxjqxkggPRXqHph/kP11AmiOKQcDgzkHhL8aqH8NEK9lg/gjGYgvAt2RCaSt8PjLnAWBQQCkDh/A5S+Q/kKgfcViCHWHgexAYPxehPqJEch+BIyfh/wQeVA4gtzIhGbORKDYZKg514HqnFkh+CHUT5/4IfgjP0QeZg7IX6A0x8WE6S90AHI/Lr4KA3UBAJ4UOtU=
   </data>
  </layer>
- <layer name="Above" width="26" height="12">
+ <layer name="Objects_basement" width="18" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYKAfOCxGfT3n+RgYLgCxmjBt7cGl5zIQKwpDaBAA0b/4EHxC9lwkwl6QnktQddjoe6wMDPdZUfVcItI/yO4kJwyIBYfR7IHZ+xno7i9AvIUVuz5igSgTdnuQw0FJmIEgQI83ZL4yjjRGjfSGywxs9iCnLxitKIzKh9HE2oMcTiA2zK/o6Q1d/SUc9hCb/mgNAI40Mv4=
+   eJxjYBgF1ARcYgPtglEwmAAARUoAIQ==
   </data>
  </layer>
- <layer name="Walkable" width="26" height="12">
+ <layer name="Above" width="18" height="12">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEUk4VBAB+NrA5dDJtZ6IBUu5D14QPYzMXnDnR9xAJy7SEVEGMPMXYTcic+e/DFIbXtIZTWiEmLxPqHlLRHajqiBwYAI62beQ==
+   eJyT52KgGjgsRp4cPcy5KIZbDlkNNnFy3EOqOaSYjy62nR1TTS0Lgk2Kvwi5EZeek/xAmh8hZszKwGDCiqruCD+qHlLtRgcgf13Cogeb2EABALTDGrc=
+  </data>
+ </layer>
+ <layer name="Walkable" width="18" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBg2Cg2PDEDGX5DBtjE8alHV0NIPbFuxucPYv2Iy33o4vgALjuJ8TMxbqfEHHz+IgVQO20BAIwUegw=
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object id="9" name="up" type="mapchange" x="384" y="96" width="32" height="32">
+  <object id="1" name="south" type="mapchange" x="256" y="352" width="32" height="32">
    <properties>
-    <property name="map" value="stoutford_castle_barrack0"/>
-    <property name="place" value="down"/>
+    <property name="map" value="waytominingtown2"/>
+    <property name="place" value="tradehouse0"/>
    </properties>
   </object>
-  <object id="11" name="stn_gyra_m22_1" type="script" x="352" y="128" width="64" height="32"/>
-  <object id="15" name="base_beamto_enable" type="script" x="64" y="128" width="352" height="192"/>
-  <object id="15" name="base_beamto_lodar" type="mapchange" x="352" y="320" width="32" height="32">
+  <object id="2" name="down" type="mapchange" x="384" y="128" width="32" height="32">
    <properties>
-    <property name="map" value="lodarhouse1"/>
-    <property name="place" value="base_beamto_stoutford"/>
+    <property name="map" value="tradehouse0a"/>
+    <property name="place" value="up"/>
    </properties>
   </object>
-  <object id="13" name="base_beamto_guynmart" type="mapchange" x="32" y="96" width="32" height="32">
+  <object id="3" name="rest1" type="rest" x="448" y="96" width="32" height="32"/>
+  <object id="4" name="rest2" type="rest" x="512" y="96" width="32" height="32"/>
+  <object id="5" name="rest3" type="rest" x="448" y="192" width="32" height="32"/>
+  <object id="6" name="rest4" type="rest" x="512" y="192" width="32" height="32"/>
+  <object id="7" name="rest5" type="rest" x="512" y="288" width="32" height="32"/>
+  <object id="16" name="base_beamto_stoutford" type="mapchange" x="32" y="96" width="32" height="32">
    <properties>
-    <property name="map" value="guynmart_farmhouse"/>
-    <property name="place" value="base_beamto_stoutford"/>
-   </properties>
-  </object>
-  <object id="14" name="base_beamto_remgard" type="mapchange" x="96" y="96" width="32" height="32">
-   <properties>
-    <property name="map" value="remgard_tavern1"/>
-    <property name="place" value="base_beamto_stoutford"/>
-   </properties>
-  </object>
-  <object id="14" name="base_beamto_loneford" type="mapchange" x="160" y="96" width="32" height="32">
-   <properties>
-    <property name="map" value="loneford10"/>
-    <property name="place" value="base_beamto_stoutford"/>
-   </properties>
-  </object>
-  <object id="14" name="base_beamto_charwood" type="mapchange" x="224" y="96" width="32" height="32">
-   <properties>
-    <property name="map" value="tradehouse0"/>
-    <property name="place" value="base_beamto_stoutford"/>
-   </properties>
-  </object>
-  <object id="11" name="base_beamto_prim" type="mapchange" x="96" y="320" width="32" height="32">
-   <properties>
-    <property name="map" value="blackwater_mountain29"/>
-    <property name="place" value="base_beamto_stoutford"/>
-   </properties>
-  </object>
-  <object id="12" name="base_beamto_bwm" type="mapchange" x="160" y="320" width="32" height="32">
-   <properties>
-    <property name="map" value="blackwater_mountain45"/>
-    <property name="place" value="base_beamto_stoutford"/>
-   </properties>
-  </object>
-  <object id="13" name="base_beamto_fallhaven" type="mapchange" x="224" y="320" width="32" height="32">
-   <properties>
-    <property name="map" value="fallhaven_tavern"/>
-    <property name="place" value="base_beamto_stoutford"/>
-   </properties>
-  </object>
-  <object id="14" name="base_beamto_flask" type="mapchange" x="288" y="320" width="32" height="32">
-   <properties>
-    <property name="map" value="foaming_flask"/>
-    <property name="place" value="base_beamto_stoutford"/>
+    <property name="map" value="stoutford_castle_barrack2"/>
+    <property name="place" value="base_beamto_charwood"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object id="10" name="erwyn_soldier" type="spawn" x="64" y="128" width="736" height="224">
-   <properties>
-    <property name="quantity" type="int" value="2"/>
-   </properties>
-  </object>
-  <object id="12" name="stn_gyra1" type="spawn" x="384" y="96" width="32" height="32">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-   </properties>
-  </object>
+  <object id="8" name="kantya" type="spawn" x="64" y="128" width="64" height="64"/>
+  <object id="9" name="maevalia" type="spawn" x="192" y="224" width="96" height="32"/>
+  <object id="10" name="khorailla" type="spawn" x="352" y="224" width="64" height="32"/>
+  <object id="11" name="drashad" type="spawn" x="32" y="224" width="96" height="128"/>
+  <object id="15" name="khorailla_cheddar" type="spawn" x="0" y="0" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Keys">
-  <object id="16" name="base_nondisplay:1" type="key" x="32" y="96" width="224" height="32">
+  <object id="12" name="charwood1:115" type="key" x="448" y="320" width="32" height="32">
    <properties>
-    <property name="phrase" value="base_beamto_10"/>
-    <property name="requireId" value="base_nondisplay"/>
+    <property name="phrase" value="charwood_rest"/>
+    <property name="requireId" value="charwood1"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="requireValue" value="115"/>
    </properties>
   </object>
-  <object id="17" name="base_nondisplay:1b" type="key" x="96" y="320" width="288" height="32">
+  <object id="17" name="base_nondisplay:1" type="key" x="32" y="96" width="32" height="32">
    <properties>
     <property name="phrase" value="base_beamto_10"/>
     <property name="requireId" value="base_nondisplay"/>
@@ -295,5 +258,17 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Replace"/>
+ <objectgroup name="Replace">
+  <object id="13" name="charwood1:60" type="replace" x="384" y="128" width="32" height="32">
+   <properties>
+    <property name="objects" value="Objects_basement"/>
+   </properties>
+  </object>
+  <object id="14" name="charwood1:60" type="replace" x="320" y="192" width="32" height="32">
+   <properties>
+    <property name="above" value="Objects_basement"/>
+    <property name="walkable" value="Objects_basement"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
