@@ -1187,7 +1187,7 @@
                         "requireType":"questProgress",
                         "requireID":"stn_nondisplay",
                         "value":205,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -1229,12 +1229,12 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"caeda",
-				"mapName":"remgard0"
+                "mapName":"remgard0"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"caeda",
-				"mapName":"lakecave2"
+                "mapName":"lakecave2"
             },
             {
                 "rewardType":"giveItem",
@@ -1346,7 +1346,7 @@
                         "requireType":"questProgress",
                         "requireID":"stn_nondisplay",
                         "value":206,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -1419,7 +1419,7 @@
                         "requireType":"questProgress",
                         "requireID":"roots_love",
                         "value":20,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -1723,7 +1723,7 @@
                 "text":"I will be right back.",
                 "nextPhraseID":"X"
             }
-		],
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1773,6 +1773,12 @@
     {
         "id":"stoutford_widow_thorns30_0",
         "message":"Now I take three potions of the brave (chanting) ... add my prepared ingredients (chanting) ... shake it (chanting) ... shake it - ready.\nHere, be careful with it. Potions of truth are rare.",
+        "replies":[
+            {
+                "text":"Thank you. What do you have in mind now?",
+                "nextPhraseID":"stoutford_widow_thorns30_1"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1783,12 +1789,6 @@
                 "rewardType":"giveItem",
                 "rewardID":"potion_truth",
                 "value":1
-            }
-        ],
-        "replies":[
-            {
-                "text":"Thank you. What do you have in mind now?",
-                "nextPhraseID":"stoutford_widow_thorns30_1"
             }
         ]
     },
@@ -1825,17 +1825,17 @@
     {
         "id":"stoutford_widow_thorns40_2",
         "message":"Best would be Talahendor himself. Yes, you must get the priest to be present, when Blornvale tells the whole story.",
+        "replies":[
+            {
+                "text":"Tahalendor? How should I do that?",
+                "nextPhraseID":"stoutford_widow_thorns40_3"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"thorns_vengeance",
                 "value":50
-            }
-        ],
-        "replies":[
-            {
-                "text":"Tahalendor? How should I do that?",
-                "nextPhraseID":"stoutford_widow_thorns40_3"
             }
         ]
     },
@@ -1919,6 +1919,13 @@
     },
     {
         "id":"stoutford_widow_thorns80_2",
+        "message":"Now I can move back into my fathers house and create potions again. I will leave at once. Please come and visit me at any time.",
+        "replies":[
+            {
+                "text":"Bye.",
+                "nextPhraseID":"R"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1928,19 +1935,12 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"stoutford_widow",
-				"mapName":"stoutford_gate"
+                "mapName":"stoutford_gate"
             },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"stoutford_widow2",
-				"mapName":"stoutford_potion"
-            }
-        ],
-        "message":"Now I can move back into my fathers house and create potions again. I will leave at once. Please come and visit me at any time.",
-        "replies":[
-            {
-                "text":"Bye.",
-                "nextPhraseID":"R"
+                "mapName":"stoutford_potion"
             }
         ]
     },
@@ -1975,7 +1975,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"stoutford_widow2_3"
             }
         ]
@@ -2000,14 +2000,14 @@
         "replies":[
             {
                 "text":"Ok, I have some damerilias with me.",
+                "nextPhraseID":"stoutford_widow2_4",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"damerilias",
                         "value":3
                     }
-                ],
-                "nextPhraseID":"stoutford_widow2_4"
+                ]
             },
             {
                 "text":"I will think over it.",
@@ -2017,29 +2017,29 @@
     },
     {
         "id":"stoutford_widow2_4",
-        "rewards":[
-            {
-                "rewardType":"giveItem",
-                "rewardID":"potion_deftness",
-                "value":1
-            }
-		],
         "message":"Here I have one potion for you.",
         "replies":[
             {
                 "text":"And another one, please.",
+                "nextPhraseID":"stoutford_widow2_4",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"damerilias",
                         "value":3
                     }
-                ],
-                "nextPhraseID":"stoutford_widow2_4"
+                ]
             },
             {
                 "text":"Thank you, it is enough for today.",
                 "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"potion_deftness",
+                "value":1
             }
         ]
     },
@@ -2163,7 +2163,7 @@
             {
                 "text":"Sure.",
                 "nextPhraseID":"blornvale_shop1_10",
-				"requires":[
+                "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"thorns_vengeance",
@@ -2308,14 +2308,14 @@
         "replies":[
             {
                 "text":"Yes, here I still have one bottle with your potion of the brave.",
+                "nextPhraseID":"blornvale_thorns50_30",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"potion_truth",
                         "value":1
                     }
-                ],
-                "nextPhraseID":"blornvale_thorns50_30"
+                ]
             },
             {
                 "text":"No, I poured the rest all away.",
@@ -2325,29 +2325,29 @@
     },
     {
         "id":"blornvale_thorns50_22",
+        "message":"Then you can never prove it. That's good. Out now, leave my shop, you scum!",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"thorns_vengeance",
                 "value":74
             }
-        ],
-        "message":"Then you can never prove it. That's good. Out now, leave my shop, you scum!"
+        ]
     },
     {
         "id":"blornvale_thorns50_30",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"thorns_vengeance",
-                "value":70
-            }
-        ],
         "message":"Do you see me drinking? Yes? Anything wrong? No - this potion is just perfect!",
         "replies":[
             {
                 "text":"Yes. I'm just curious if you still think so in a minute.",
                 "nextPhraseID":"blornvale_thorns70"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":70
             }
         ]
     },
@@ -2357,26 +2357,26 @@
         "replies":[
             {
                 "text":"(loud voice) Tahalendor! Come in, we could start!",
+                "nextPhraseID":"blornvale_thorns70_20",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"thorns_vengeance",
                         "value":65
                     }
-                ],
-                "nextPhraseID":"blornvale_thorns70_20"
+                ]
             },
             {
                 "text":"Well, it looks like the potion is already working. Blornvale - that is your name. Right?",
+                "nextPhraseID":"blornvale_thorns70_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"thorns_vengeance",
                         "value":65,
-						"negate":true
+                        "negate":true
                     }
-                ],
-                "nextPhraseID":"blornvale_thorns70_10"
+                ]
             }
         ]
     },
@@ -2393,17 +2393,17 @@
     {
         "id":"blornvale_thorns70_12",
         "message":"He was naive enough to take a potion from me. I poisoned him with the potion of Quick Death.",
+        "replies":[
+            {
+                "text":"I thought so. Didn't you worry that someone would suspect it?",
+                "nextPhraseID":"blornvale_thorns70_14"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"thorns_vengeance",
                 "value":72
-            }
-        ],
-        "replies":[
-            {
-                "text":"I thought so. Didn't you worry that someone would suspect it?",
-                "nextPhraseID":"blornvale_thorns70_14"
             }
         ]
     },
@@ -2419,23 +2419,23 @@
     },
     {
         "id":"blornvale_thorns70_20",
+        "replies":[
+            {
+                "nextPhraseID":"blornvale_thorns70_22"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
                 "rewardID":"tahalendor2",
-				"mapName":"stoutford_potion"
-            }
-        ],
-        "replies":[
-            {
-                "nextPhraseID":"blornvale_thorns70_22"
+                "mapName":"stoutford_potion"
             }
         ]
     },
     {
         "id":"blornvale_thorns70_22",
-		"switchToNPC":"tahalendor2",
         "message":"Well, it looks like the potion is already working. Blornvale, how did you kill Aryforas father, your own brother?",
+        "switchToNPC":"tahalendor2",
         "replies":[
             {
                 "text":"N",
@@ -2445,8 +2445,8 @@
     },
     {
         "id":"blornvale_thorns70_24",
-		"switchToNPC":"stoutford_alchemist",
         "message":"He was naive enough to take a potion from me. I poisoned him with the potion of Quick Death.",
+        "switchToNPC":"stoutford_alchemist",
         "replies":[
             {
                 "text":"N",
@@ -2456,8 +2456,8 @@
     },
     {
         "id":"blornvale_thorns70_26",
-		"switchToNPC":"tahalendor2",
         "message":"I thought so. Didn't you worry that someone would suspect it?",
+        "switchToNPC":"tahalendor2",
         "replies":[
             {
                 "text":"N",
@@ -2467,8 +2467,8 @@
     },
     {
         "id":"blornvale_thorns70_28",
-		"switchToNPC":"stoutford_alchemist",
         "message":"Only an alchemist could have find out, so I had just Aryfora herself to fear. But no one believed her complaints, not even you, Tahalendor.",
+        "switchToNPC":"stoutford_alchemist",
         "replies":[
             {
                 "text":"N",
@@ -2478,8 +2478,14 @@
     },
     {
         "id":"blornvale_thorns70_30",
-		"switchToNPC":"tahalendor2",
         "message":"I heard enough. Thank you, kid. I will ensure that Blornvale never makes trouble again.",
+        "switchToNPC":"tahalendor2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2489,35 +2495,29 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"stoutford_alchemist",
-				"mapName":"stoutford_potion"
+                "mapName":"stoutford_potion"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"tahalendor2",
-				"mapName":"stoutford_potion"
-            }
-        ],
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"X"
+                "mapName":"stoutford_potion"
             }
         ]
     },
     {
         "id":"blornvale_thorns72",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"thorns_vengeance",
-                "value":74
-            }
-        ],
         "message":"This was - a potion of truth! How dare you! Do you think I wouldn't recognize it?",
         "replies":[
             {
                 "text":"One could try.",
                 "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":74
             }
         ]
     },
@@ -2881,31 +2881,31 @@
             },
             {
                 "text":"I did that already. But he didn't seem to be happy about it.",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"stn_quest_gyra",
                         "value":90
                     }
-                ],
-                "nextPhraseID":"X"
+                ]
             },
             {
                 "text":"I did that already. Although he won't need it, because the castle is already clear of the undead.",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"stn_quest_gyra",
                         "value":92
                     }
-                ],
-                "nextPhraseID":"X"
+                ]
             },
             {
                 "text":"Maybe.",
                 "nextPhraseID":"X"
             }
-		]
+        ]
     },
     {
         "id":"honey_bee",
@@ -3527,7 +3527,7 @@
     },
     {
         "id":"yolgen_1",
-        "message":"Oh this is a long story my friend. This town has existed for ages and it used to be a prosperous and well visited outpost on the border of the Aewhata Kingdom. We used to trade with Fallhaven and Prim.",
+        "message":"Oh, that is a long story my friend. This town has existed for ages and it used to be a prosperous and well visited outpost on the border of the Aewhata Kingdom. We used to trade with Fallhaven and Prim.",
         "replies":[
             {
                 "text":"N",
@@ -3547,7 +3547,7 @@
     },
     {
         "id":"yolgen_2",
-        "message":"Well, the Noble Wars. It was one of the darkest parts of our history. They lasted only 3 years but brought great misery over our country.",
+        "message":"Well, the Noble Wars were one of the darkest periods of our history. They lasted only 3 years but brought great misery to most of the area.",
         "replies":[
             {
                 "text":"N",
@@ -3557,7 +3557,7 @@
     },
     {
         "id":"yolgen_2a",
-        "message":"When out great King Luthor died and left the throne with no heir, the three mighty lords of the land soon enough began fighting over the title as successor. This was Lord Erwyn of Stoutford, Lord Geomyr of Feygard who used to be the advisor of King Luthor and Lord Emeric of Nor City. The former capital of Fallhaven first remained neutral.",
+        "message":"When our great King Luthor died and left the throne with no heir the three mighty lords of the land soon enough began fighting over the title as successor. They were Lord Erwyn of Stoutford, Lord Geomyr of Feygard, who used to be the advisor to King Luthor, and Lord Emeric of Nor City. The former capital of Fallhaven at first remained neutral.",
         "replies":[
             {
                 "text":"N",
@@ -3567,7 +3567,7 @@
     },
     {
         "id":"yolgen_3",
-        "message":"While Erwyn and Emeric fought over the capture of the centre area, Lord Geomyr waited for the right moment and crushed his enemies with his great army. He rules the Kingdom ever since with an iron hand.",
+        "message":"While Erwyn and Emeric fought to capture of the central area, Lord Geomyr waited for the right moment and crushed his enemies with his great army. He has ruled the Kingdom ever since with an iron hand.",
         "replies":[
             {
                 "text":"Why do you say iron hand?",
@@ -3601,22 +3601,22 @@
     },
     {
         "id":"yolgen_surroundings_0",
-        "message":"Oh well to the east where you came from, there's Flagstone Prison. To the south, there's Mt. Galmore. Definitely not a place where you want to go... To the west, we've got our so called railway terminal and beyond this point, you come to our border post at Blackwater River. Nothing but bogs and marshes westwards of this point. And finally, to the north, we had a tunnel to Prim and the Elm mine leading in the heart of Blackwater Mountain.",
+        "message":"Well, to the east, there's Flagstone prison. To the south, there's Mt. Galmore. That's definitely a place that you don't want to go to. To the northwest, we have our railway terminal, and going west beyond that, you come to our border post at the Blackwater river. Nothing but bogs and marshes westwards of that. And finally, to the north, we had a tunnel leading to Prim and the Elm mine, in the heart of Blackwater Mountain.",
         "replies":[
             {
-                "text":"Tell me more about Flagstone?",
+                "text":"Can you tell me more about Flagstone?",
                 "nextPhraseID":"yolgen_surroundings_1"
             },
             {
-                "text":"Tell me more about Mt. Galmore?",
+                "text":"Can you tell me more about Mt. Galmore?",
                 "nextPhraseID":"yolgen_surroundings_2"
             },
             {
-                "text":"Tell me more about the west?",
+                "text":"Can you tell me more about the railway terminal northwest of here?",
                 "nextPhraseID":"yolgen_surroundings_3"
             },
             {
-                "text":"Tell me more about Blackwater Mountain?",
+                "text":"Can you tell me more about Blackwater Mountain?",
                 "nextPhraseID":"yolgen_surroundings_4"
             },
             {
@@ -3627,7 +3627,7 @@
     },
     {
         "id":"yolgen_surroundings_1",
-        "message":"Flagstone Prison was built a four hundred years ago by house Gorland of Stoutford and used right until the Noble Wars when the house was extinguished. They mostly detained people worshipping the old gods there.",
+        "message":"Flagstone Prison was built four hundred years ago by house Gorland of Stoutford, and was used until the Noble Wars, when the house was vanguished by it's enemies. They mostly used it to detain people that were worshipping the \"old gods\".",
         "replies":[
             {
                 "text":"N",
@@ -3637,7 +3637,7 @@
     },
     {
         "id":"yolgen_surroundings_1a",
-        "message":"This dreadful place has been left abandoned ever since. Recently, however, undead started pouring out of the prison and we had to send guards to keep them away from the road. ",
+        "message":"That dreadful place has been left abandoned ever since. Recently, however, undead have started pouring out of the prison, and we had to send guards to keep them away from the road. ",
         "replies":[
             {
                 "text":"N",
@@ -3658,23 +3658,23 @@
                         "requireType":"questProgress",
                         "requireID":"flagstone",
                         "value":5,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
-                "text":"Is there anything I could do for you?",
+                "text":"Is there anything I could help you with?",
                 "nextPhraseID":"yolgen_task_0"
             },
             {
-                "text":"There was something else I wanted to know.",
+                "text":"There was something else I wanted to ask you about.",
                 "nextPhraseID":"yolgen_surroundings_0"
             }
         ]
     },
     {
         "id":"yolgen_surroundings_2",
-        "message":"Mt. Galmore? It has been our scourge for a long time. Garthan I, the founder of Aewhata Kingdom, ordered the excavation of the mountain for gold and gems 430 years ago.",
+        "message":"Mt. Galmore? It has been our bane for a long time. Garthan I, the founder of Aewhata Kingdom, ordered the excavation of the mountain for gold and gems 430 years ago.",
         "replies":[
             {
                 "text":"N",
@@ -3684,7 +3684,7 @@
     },
     {
         "id":"yolgen_surroundings_2a",
-        "message":"As far as I recall, fortifications against the monster attacks were built and an enormous network of mine tunnels was dug under the mountain. They found plentiful ore veins and the mine flourished.",
+        "message":"Local lore says that fortifications were built to protect against monster attacks, and an enormous network of mine tunnels was dug under the mountain. They found rich ore veins and the mine flourished.",
         "replies":[
             {
                 "text":"N",
@@ -3694,7 +3694,7 @@
     },
     {
         "id":"yolgen_surroundings_2b",
-        "message":"But their success didn't last long. It is said, unspeakable horrors overwhelmed the knights and miners of the King after a few years and the mine has been left abandoned ever since.",
+        "message":"But their success didn't last long. It is said that after a few years unspeakable horrors overwhelmed the knights and miners of the King, and the mine has been abandoned ever since.",
         "replies":[
             {
                 "text":"N",
@@ -3704,7 +3704,7 @@
     },
     {
         "id":"yolgen_surroundings_2c",
-        "message":"However more and more of the most foul monsters are coming down the mountain since then and we have to fend them off. Otherwise, the Kingdom would be overwhelmed by their numbers. With the rise of undead knights in the castle and Lord Erwyn's demise, we struggle more and more.",
+        "message":"However, recently more and more of the most foul monsters are coming from the mountain and we have to fend them off. With the rise of undead knights in the castle and Lord Erwyn's demise we struggle more and more.",
         "replies":[
             {
                 "text":"That sounds dreadful. Can I help you with the castle?",
@@ -3723,7 +3723,7 @@
                 "nextPhraseID":"yolgen_task_0"
             },
             {
-                "text":"There was something else I wanted to know.",
+                "text":"There was something else I wanted to ask you about.",
                 "nextPhraseID":"yolgen_surroundings_0"
             }
         ]
@@ -3860,20 +3860,20 @@
     },
     {
         "id":"yolgen_task_0_2_1",
-        "message":"You wanted to look after Flagstone?",
+        "message":"Could you help with Flagstone?",
         "replies":[
             {
-                "text":"Ah, yes, the prison.",
+                "text":"OK. I will go to the prison.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"yolgen_task_0_2_2",
-        "message":"You wanted to clear the castle?",
+        "message":"Can you clear the castle?",
         "replies":[
             {
-                "text":"Ah, yes, the undead.",
+                "text":"Sure. All the undead will soon be dead!",
                 "nextPhraseID":"X"
             }
         ]
@@ -3913,7 +3913,7 @@
         "message":"If you could help with Flagstone, it would take a big burden off us.",
         "replies":[
             {
-                "text":"Ok, I will have a look.",
+                "text":"OK, I will take a look.",
                 "nextPhraseID":"X"
             },
             {
@@ -3931,7 +3931,7 @@
     },
     {
         "id":"yolgen_flagstone_10",
-        "message":"Oh this is good news! I am very pleased that the citizens of Stoutford have one thing less to worry about. It is only sad that we didn't send guards earlier on to investigate the prison. Then, all of this wouldn't have happened. Here take this gold.",
+        "message":"Oh that is good news! I am very pleased that the citizens of Stoutford have one thing less to worry about. It is a pity that we didn't send guards to investigate the prison earlier. Then all of this wouldn't have happened. Here, take this gold.",
         "replies":[
             {
                 "text":"Thank you kindly. I am happy to help.",
@@ -3959,7 +3959,7 @@
         "message":"Thanks to you my friend, we don't need to worry about the undead anymore.",
         "replies":[
             {
-                "text":"There was something else I wanted to know.",
+                "text":"There was something else I wanted to ask you about.",
                 "nextPhraseID":"yolgen_surroundings_0"
             }
         ]
@@ -3985,10 +3985,10 @@
     },
     {
         "id":"yolgen_castle_0a",
-        "message":"However, five days ago, the undead knights of Lord Erwyn started to rise from their grave. I've got no idea why this happened. We haven't been able to recapture the castle yet. I would ask you to rid us from this plague.",
+        "message":"However, five days ago, the undead knights of Lord Erwyn started to rise from their grave. I have no idea why this happened. We haven't been able to recapture the castle yet. I would ask you to rid us of this plague.",
         "replies":[
             {
-                "text":"It sounds more like a task for the guard. I'll go and talk to the captain of the guard.",
+                "text":"It sounds more like a task for the guards. I'll go and talk to the captain of the guard.",
                 "nextPhraseID":"X"
             },
             {
@@ -3996,11 +3996,11 @@
                 "nextPhraseID":"yolgen_castle_0_1"
             },
             {
-                "text":"Hm, I wonder where they came from.",
+                "text":"Hmm, I wonder where they came from.",
                 "nextPhraseID":"yolgen_1"
             },
             {
-                "text":"No thank you. I think that's way over the top of my head.",
+                "text":"No thanks. I think that's way over my head.",
                 "nextPhraseID":"X"
             }
         ]
@@ -4022,7 +4022,7 @@
     },
     {
         "id":"yolgen_surroundings_3",
-        "message":"As I said, we've got our railway terminal with all kinds of goods to the west.",
+        "message":"As I said, we've got our railway terminal to the west.",
         "replies":[
             {
                 "text":"N",
@@ -4032,7 +4032,7 @@
     },
     {
         "id":"yolgen_surroundings_3a",
-        "message":"We used to trade food and tools with Prim and the miners from Elm mine and get loads of iron ingots instead. We shipped them further to Nor City and Feygard and prospered due to it.",
+        "message":"We used to trade food and tools with Prim and the miners from Elm mine and get loads of iron ingots in return. We shipped them on to Nor City and Feygard and prospered from the trade.",
         "replies":[
             {
                 "text":"N",
@@ -4042,14 +4042,14 @@
     },
     {
         "id":"yolgen_surroundings_3b",
-        "message":"Further to the west, there's the border outpost right next to Blackwater River. Anyway, there's nothing but bogs, marshes and grasslands west of the river and some native tribes from what I heard.",
+        "message":"Further to the west, there's the border outpost next to Blackwater River. Anyway, from what I have heard there's nothing but bogs, marshes and grasslands west of the river, along with a few native tribes.",
         "replies":[
             {
                 "text":"Is there anything I could do to help?",
                 "nextPhraseID":"yolgen_task_0"
             },
             {
-                "text":"There was something else I wanted to know.",
+                "text":"There was something else I wanted to ask you about.",
                 "nextPhraseID":"yolgen_surroundings_0"
             }
         ]
@@ -4206,10 +4206,10 @@
     },
     {
         "id":"yolgen_castle_1_1b",
-        "message":"Let me see... You killed already some of Erwyn's undead knights and soldiers - if killed is the correct word for undead. But there are some still uproad.",
+        "message":"Let me see... You already killed some of Erwyn's undead knights and soldiers - if killed is the correct word for undead. But there are some still around.",
         "replies":[
             {
-                "text":"Ok, I will go and look for the rest.",
+                "text":"OK, I will go and look for the rest.",
                 "nextPhraseID":"X"
             },
             {
@@ -4234,7 +4234,7 @@
     },
     {
         "id":"yolgen_castle_1_1a",
-        "message":"Let me see... Ok, you killed all of the undead knights and soldiers who had worn Lord Erwyn's tattered banner.",
+        "message":"Let me see... OK, you killed all of the undead knights and soldiers who had worn Lord Erwyn's tattered banner.",
         "replies":[
             {
                 "text":"N",
@@ -4286,10 +4286,10 @@
     },
     {
         "id":"yolgen_castle_1_2b",
-        "message":"But their commander is still uproad.",
+        "message":"But their commander is still around.",
         "replies":[
             {
-                "text":"Ok, I will go and look for him.",
+                "text":"OK, I will go and look for him.",
                 "nextPhraseID":"X"
             }
         ]
@@ -4331,10 +4331,10 @@
     },
     {
         "id":"yolgen_castle_1_3b",
-        "message":"But Lord Erwyn is still uproad.",
+        "message":"But Lord Erwyn is still around.",
         "replies":[
             {
-                "text":"Ok, I will go and look for him.",
+                "text":"OK, I will go and look for him.",
                 "nextPhraseID":"X"
             }
         ]
@@ -4344,10 +4344,10 @@
         "message":"That is unbelievable!",
         "replies":[
             {
-                "text":"Oh well, it was a tough fight, but I managed to slay Lord Erwyn himself.",
+                "text":"Well, it was a tough fight, but I managed to slay Lord Erwyn himself.",
                 "nextPhraseID":"yolgen_castle_2a"
             },
-			{
+            {
                 "text":"Undeads are no match for me.",
                 "nextPhraseID":"yolgen_castle_2a"
             }
@@ -4359,17 +4359,17 @@
         "replies":[
             {
                 "text":"Sure. I found this ring among his remains.",
+                "nextPhraseID":"yolgen_castle_3",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"erwyn_ring",
                         "value":1
                     }
-                ],
-                "nextPhraseID":"yolgen_castle_3"
+                ]
             },
-			{
-                "text":"(lie) He had nothing of worth with him.",
+            {
+                "text":"(lie) He had nothing of any worth on him.",
                 "nextPhraseID":"yolgen_castle_10"
             }
         ]
@@ -4393,18 +4393,18 @@
     },
     {
         "id":"yolgen_castle_4",
-        "message":"Hmm. This looks most interesting. It is certainly some magical item and seems to have the powers to reanimate the dead. I am indeed very grateful that you brought this ring to me. We should destroy it once and for all to avoid further damage.",
+        "message":"Hmm. This looks most interesting. I suspected something like this. It is certainly some magical item and seems to have the powers to reanimate the dead. I am indeed very grateful that you brought this ring to me. We should destroy it once and for all to avoid further trouble.",
         "replies":[
             {
-                "text":"Sounds fine by me. Anything for the safety of the people of Stoutford.",
+                "text":"Sounds fine to me. Anything for the safety of the people of Stoutford.",
+                "nextPhraseID":"yolgen_castle_5",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"erwyn_ring",
                         "value":1
                     }
-                ],
-                "nextPhraseID":"yolgen_castle_5"
+                ]
             },
             {
                 "text":"I prefer to keep it.",
@@ -4432,7 +4432,7 @@
     },
     {
         "id":"yolgen_castle_6",
-        "message":"This is it. The ring is destroyed. I just wonder where it came from. Maybe from the depths of Mt. Galmore or some mischievous traveller put it on Lord Erwyn's remains? Anyway, my friend, I and the people of Stoutford are most grateful.",
+        "message":"That is it. The ring is destroyed. I just wonder where it came from. Maybe from the depths of Mt. Galmore, or some mischievous traveller put it on Lord Erwyn's remains? Anyway, my friend, I and the people of Stoutford are most grateful.",
         "switchToNPC":"yolgen",
         "replies":[
             {
@@ -4457,29 +4457,29 @@
         "message":"He was there without any of his ... special items? Did you look thoroughly?",
         "replies":[
             {
-                "text":"(lie) No, I found nothing worthy.",
+                "text":"(lie)Yes, but I found nothing worth having.",
                 "nextPhraseID":"yolgen_castle_11"
             },
             {
-                "text":"I found a strangely glowing ring. But I prefer to keep it. You have enough of such toys, I am sure.",
+                "text":"I found a strange glowing ring. But I prefer to keep it. You have enough such toys, I am sure.",
                 "nextPhraseID":"yolgen_castle_12"
             },
             {
-                "text":"Yes, indeed, look here at this ring.",
+                "text":"Yes, indeed, look at this ring.",
+                "nextPhraseID":"yolgen_castle_4",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"erwyn_ring",
                         "value":1
                     }
-                ],
-                "nextPhraseID":"yolgen_castle_4"
+                ]
             }
         ]
     },
     {
         "id":"yolgen_castle_11",
-        "message":"As you wish. If you find Lord Erwyn's ring, you must bring it to mee. It is dangerous.",
+        "message":"If you say so. I suspect Lord Erwyn had a ring, and if you find it you must bring it to me. It is dangerous.",
         "replies":[
             {
                 "text":"Thank you for the warning. I wonder who had owned the ring before Erwyn.",
@@ -4503,15 +4503,15 @@
                 "nextPhraseID":"yolgen_castle_13"
             },
             {
-                "text":"Probably you are right. Here is the ring.",
+                "text":"You are probably right. Here is the ring.",
+                "nextPhraseID":"yolgen_castle_5",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"erwyn_ring",
                         "value":1
                     }
-                ],
-                "nextPhraseID":"yolgen_castle_5"
+                ]
             }
         ]
     },
@@ -4534,7 +4534,7 @@
     },
     {
         "id":"yolgen_surroundings_4",
-        "message":"Oh Blackwater Mountain. This is a long story as well. We used to trade food and tools with Prim and the miners from Elm mine and get loads of iron ingots instead. We shipped them further to Nor City and Feygard and prospered due to it.",
+        "message":"Ah. Blackwater Mountain. I will try to keep a long story short. We used to trade food and tools with Prim and the miners from Elm mine, and get loads of iron ingots in return. We shipped them on to Nor City and Feygard and prospered from the trade.",
         "replies":[
             {
                 "text":"N",
@@ -4554,7 +4554,7 @@
     },
     {
         "id":"yolgen_surroundings_5a",
-        "message":"Pretty much at the same time, those Gornaud beasts attacked us and with all the trouble we're having, we haven't been able to restore the tunnel yet and our trade declines.",
+        "message":"At almost the same time, those Gornaud beasts attacked us, and with all the trouble we're having we haven't been able to restore the tunnel yet.",
         "replies":[
             {
                 "text":"N",
@@ -4564,14 +4564,14 @@
     },
     {
         "id":"yolgen_surroundings_5b",
-        "message":" There hasn't been any contact with Prim after this. Therefore, also less travellers are coming from Fallhaven and Nor City. It's a shame.",
+        "message":" There hasn't been any contact with Prim since then, so we no longer have any trade with them. That means there are also fewer travellers coming from Fallhaven and Nor City. It's a shame.",
         "replies":[
             {
                 "text":"Is there anything I can help with?",
                 "nextPhraseID":"yolgen_task_0"
             },
             {
-                "text":"There was something else I wanted to know.",
+                "text":"There was something else I wanted to ask you about.",
                 "nextPhraseID":"yolgen_surroundings_0"
             }
         ]
@@ -5007,7 +5007,7 @@
         "replies":[
             {
                 "text":"Psst. I have something for you.",
-				"nextPhraseID":"berbane_200_1",
+                "nextPhraseID":"berbane_200_1",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
@@ -5018,7 +5018,7 @@
             },
             {
                 "text":"Lalala lala lala",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -5040,7 +5040,7 @@
             },
             {
                 "text":"Eh, nothing. Sing on.",
-				"nextPhraseID":"berbane_200"
+                "nextPhraseID":"berbane_200"
             }
         ]
     },
@@ -9136,8 +9136,8 @@
     },
     {
         "id":"stn_colonel_79",
-		"switchToNPC":"none",
         "message":"The Colonel looks at you silently now.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"(drinking)",
@@ -9151,8 +9151,8 @@
     },
     {
         "id":"stn_colonel_80",
-		"switchToNPC":"stn_colonel",
         "message":"Good. Please go to the foot of this hill, right down there, by the gate.",
+        "switchToNPC":"stn_colonel",
         "replies":[
             {
                 "text":"N",
@@ -10400,14 +10400,14 @@
     },
     {
         "id":"key_wild21a",
-		"switchToNPC":"stoutford_guard_wild21a",
         "message":"You know the password?",
+        "switchToNPC":"stoutford_guard_wild21a",
         "replies":[
             {
                 "text":"Yes.",
                 "nextPhraseID":"key_wild21a_10"
             },
-			{
+            {
                 "text":"No.",
                 "nextPhraseID":"key_wild21a_20"
             }
@@ -10426,35 +10426,35 @@
     },
     {
         "id":"key_wild21a_20",
+        "message":"Not? Without password, I cannot let you pass.",
+        "replies":[
+            {
+                "text":"I will find out the password and come back.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Haha, just kidding. Of course I know it.",
+                "nextPhraseID":"key_wild21a_30"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"stn_nondisplay",
                 "value":204
             }
-        ],
-        "message":"Not? Without password, I cannot let you pass.",
-		"replies":[
-            {
-                "text":"I will find out the password and come back.",
-                "nextPhraseID":"X"
-            },
-			{
-                "text":"Haha, just kidding. Of course I know it.",
-                "nextPhraseID":"key_wild21a_30"
-            }
         ]
     },
     {
         "id":"key_wild21a_30",
+        "message":"Ah, I knew you would. You may pass.",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"stn_nondisplay",
                 "value":204
             }
-        ],
-        "message":"Ah, I knew you would. You may pass."
+        ]
     },
     {
         "id":"rnd_bwm7",
@@ -10601,6 +10601,103 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"stn_nondisplay",
                 "value":86
+            }
+        ]
+    },
+    {
+        "id":"caeda_2xxx",
+        "message":"So much work to do. I sure hope we will have some rain soon.",
+        "replies":[
+            {
+                "text":"Do you know where I can find some Damerilias ?",
+                "nextPhraseID":"caeda_root10_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"roots_love",
+                        "value":20,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_garden",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"About the glade...",
+                "nextPhraseID":"caeda_root10_6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_garden",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_garden",
+                        "value":20,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_garden",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I found your key. A troll took it for himself.",
+                "nextPhraseID":"caeda_root30_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_garden",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_garden",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Did you get rid of these hideous trolls?",
+                "nextPhraseID":"caeda_root50_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_garden",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_garden",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I killed most of the trolls in the cave.",
+                "nextPhraseID":"caeda_root60_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_garden",
+                        "value":60
+                    }
+                ]
             }
         ]
     }

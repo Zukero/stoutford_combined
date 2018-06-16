@@ -20,13 +20,12 @@
                         "requireType":"questProgress",
                         "requireID":"roots_love",
                         "value":10
-					},
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"roots_love",
                         "value":20,
                         "negate":true
-
                     },
                     {
                         "requireType":"questProgress",
@@ -43,7 +42,7 @@
                         "requireType":"questProgress",
                         "requireID":"roots_love",
                         "value":20
-					},
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"secret_garden",
@@ -113,104 +112,6 @@
                 ]
             },
             {
-                "nextPhraseID":"caeda_root30_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"secret_garden",
-                        "value":40
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"secret_garden",
-                        "value":50,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"Did you get rid of these hideous trolls?",
-                "nextPhraseID":"caeda_root50_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"secret_garden",
-                        "value":50
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"secret_garden",
-                        "value":60,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"I killed most of the trolls in the cave.",
-                "nextPhraseID":"caeda_root60_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"secret_garden",
-                        "value":60
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"caeda_2xxx",
-        "message":"So much work to do. I sure hope we will have some rain soon.",
-        "replies":[
-            {
-                "text":"Do you know where I can find some Damerilias ?",
-                "nextPhraseID":"caeda_root10_0",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"roots_love",
-                        "value":10
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"roots_love",
-                        "value":20,
-                        "negate":true
-
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"secret_garden",
-                        "value":10,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"About the glade...",
-                "nextPhraseID":"caeda_root10_6",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"secret_garden",
-                        "value":10
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"secret_garden",
-                        "value":20,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"secret_garden",
-                        "value":30,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"I found your key. A troll took it for himself.",
                 "nextPhraseID":"caeda_root30_1",
                 "requires":[
                     {
