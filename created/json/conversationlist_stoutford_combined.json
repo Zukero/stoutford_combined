@@ -130,7 +130,7 @@
         "message":"Are you willing to hear my story?",
         "replies":[
             {
-                "text":"Oh no. Not again.",
+                "text":"Oh no. Not a long story.",
                 "nextPhraseID":"X"
             },
             {
@@ -191,21 +191,21 @@
     },
     {
         "id":"stoutford_widow_8",
-        "message":"I'd really love to flower his grave with Damerilias, in memory of the symbol of our love.",
+        "message":"I'd really love to place Damerilias on his grave, as a symbol of our love.",
         "replies":[
             {
                 "text":"What a nice idea!",
                 "nextPhraseID":"stoutford_widow_9"
             },
             {
-                "text":"Oh dear, I suspect something ...",
+                "text":"Uh oh, I suspect I am going to be asked for something ...",
                 "nextPhraseID":"stoutford_widow_9"
             }
         ]
     },
     {
         "id":"stoutford_widow_9",
-        "message":"But it would be reckless of me to ask such a young kid as you to go this far to the north-east.",
+        "message":"But it would be reckless of me to ask such a young kid as you to go so far to the northeast.",
         "replies":[
             {
                 "text":"I've had enough - bye.",
@@ -220,7 +220,7 @@
                 "nextPhraseID":"stoutford_widow_10"
             },
             {
-                "text":"Remgard - sigh. Ok, I'll do it.",
+                "text":"Remgard. *sigh*. OK, I'll do it.",
                 "nextPhraseID":"stoutford_widow_10"
             }
         ]
@@ -262,10 +262,10 @@
     },
     {
         "id":"stoutford_widow_12",
-        "message":"Thank you for listening to me anyway. I hope you'll be fine.",
+        "message":"Thank you for listening to me anyway. I wish you the best.",
         "replies":[
             {
-                "text":"Good bye.",
+                "text":"Goodbye.",
                 "nextPhraseID":"X"
             },
             {
@@ -496,10 +496,10 @@
     },
     {
         "id":"stoutford_widow_roots10_1a",
-        "message":"Oh. But that is not enough - how would that look like! There just have to be 3 Damerilias on the grave. Please ...",
+        "message":"Oh. But that is not enough - what would that look like! There must be at least 3 Damerilias for the grave. Please ...",
         "replies":[
             {
-                "text":"Alright. I'm going again.",
+                "text":"Alright. I'll go there again.",
                 "nextPhraseID":"stoutford_widow_12"
             }
         ]
@@ -1267,10 +1267,10 @@
     },
     {
         "id":"stoutford_widow_roots4045_0",
-        "message":"Thank you very much for the flowers. Is there anything I can do for you ?",
+        "message":"Thank you very much for the flowers. Is there anything I can do for you?",
         "replies":[
             {
-                "text":"Your potion was great! Can I have some more ?",
+                "text":"Your potion was great! Can I have some more?",
                 "nextPhraseID":"stoutford_widow_roots4045_1",
                 "requires":[
                     {
@@ -1288,14 +1288,14 @@
     },
     {
         "id":"stoutford_widow_roots4045_1",
-        "message":"No sorry.",
+        "message":"No, sorry.",
         "replies":[
             {
                 "text":"Too bad.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Oh. Why is that so?",
+                "text":"Oh. Why is that?",
                 "nextPhraseID":"stoutford_widow_roots4045_2"
             }
         ]
@@ -1327,7 +1327,7 @@
         "message":"How did you find these flowers ?",
         "replies":[
             {
-                "text":"Caeda, Noraed's sister, gave them to me. She sends you her condolances.",
+                "text":"Caeda, Noraed's sister, gave them to me. She sends you her condolences.",
                 "nextPhraseID":"stoutford_widow_roots30_3"
             },
             {
@@ -1372,7 +1372,7 @@
     },
     {
         "id":"stoutford_widow_roots30_1",
-        "message":"Is that so ?\nRemgard must be a beautiful place to have such nice flowers growing in the wild.",
+        "message":"Is that so?\nRemgard must be a beautiful place to have such nice flowers growing in the wild.",
         "replies":[
             {
                 "text":"Beautiful, but deadly to get there!",
@@ -1404,7 +1404,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"That wasn't worth the trouble...",
+                "text":"That wasn't worth the trouble.",
                 "nextPhraseID":"X"
             }
         ]
@@ -1445,7 +1445,7 @@
     },
     {
         "id":"stoutford_widow_roots30_3",
-        "message":"Noraed had a sister? He never talked about his family.\nHe said he had a happy childhood, but that's it.\nI think he didn't want me to ask to go there with him.\nI'd love to meet her someday.",
+        "message":"Noraed had a sister? He never talked about his family. He said he had a happy childhood, but that's it. I think he didn't want me to ask to go there with him. I'd love to meet her someday.",
         "replies":[
             {
                 "text":"I'm sure she feels the same.",
@@ -1480,7 +1480,7 @@
     },
     {
         "id":"stoutford_widow_roots4045_3",
-        "message":"This is something I gave up long ago.",
+        "message":"It is something I gave up long ago.",
         "replies":[
             {
                 "text":"Why did you stop?",
@@ -1497,18 +1497,18 @@
         "message":"It's a long story.",
         "replies":[
             {
-                "text":"Nevermind. Now I understand why Noraed traveled so far every year.",
+                "text":"Never mind. Now I understand why Noraed traveled so far every year.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Go on. Please.",
+                "text":"Go on, please.",
                 "nextPhraseID":"stoutford_widow_roots4045_5"
             }
         ]
     },
     {
         "id":"stoutford_widow_roots4045_5",
-        "message":"My father was the alchemist of this town.\nHe was very talented, and inspired. He experimented with all sorts of ingredients from all over Dhayavar he could get from the travellers stopping at Stoutford.",
+        "message":"My father was the alchemist of this town. He was very talented, and inspired. He experimented with all sorts of ingredients from all over Dhayavar. Whatever he could get from the travellers stopping at Stoutford.",
         "replies":[
             {
                 "text":"N",
@@ -1518,7 +1518,7 @@
     },
     {
         "id":"stoutford_widow_roots4045_6",
-        "message":"He created unique potions, and no other alchemist I heard of managed to reproduce his recipes.",
+        "message":"He created unique potions, and no other alchemist that I have heard of managed to reproduce his recipes.",
         "replies":[
             {
                 "text":"N",
@@ -1572,7 +1572,7 @@
     },
     {
         "id":"stoutford_widow_roots4045_11",
-        "message":"They all agreed, even though my uncle is a lousy alchemist.\nI was sent to work in a farm, while my uncle took my father's house and opened the shop again.",
+        "message":"They all agreed, even though my uncle is a lousy alchemist.\nI was sent to work on a farm, while my uncle took my father's house and opened the shop again.",
         "replies":[
             {
                 "text":"Outrageous!",
@@ -1582,7 +1582,7 @@
     },
     {
         "id":"stoutford_widow_roots4045_12",
-        "message":"Everyone suffered from the nasty side-effects of my uncle's... I can't say potions... poisonous imitations of my father's recipes.",
+        "message":"Everyone suffered from the nasty side effects of my uncle's... I can't say potions... poisonous imitations of my father's recipes.",
         "replies":[
             {
                 "text":"N",
@@ -1609,17 +1609,17 @@
                 "nextPhraseID":"stoutford_widow_roots4045_15"
             },
             {
-                "text":"And, would you brew more potions if you had your father's shop back?",
+                "text":"And would you brew more potions if you had your father's shop back?",
                 "nextPhraseID":"stoutford_widow_roots4045_16"
             }
         ]
     },
     {
         "id":"stoutford_widow_roots4045_15",
-        "message":"No. Every time I talk to him, he denies everything, and call me crazy. I can tell he's lying though.",
+        "message":"No. Every time I talk to him, he denies everything, and calls me crazy. I can tell he's lying though.",
         "replies":[
             {
-                "text":"And, would you brew more potions if you had your father's shop back?",
+                "text":"And would you brew more potions if you had your father's shop back?",
                 "nextPhraseID":"stoutford_widow_roots4045_16"
             }
         ]
@@ -1629,14 +1629,14 @@
         "message":"Maybe. If the villagers asked me to, and if they recognize the guilt of my uncle.",
         "replies":[
             {
-                "text":"Can I help you do this?",
+                "text":"Can I help you with this?",
                 "nextPhraseID":"stoutford_widow_roots4045_16a"
             }
         ]
     },
     {
         "id":"stoutford_widow_roots4045_16a",
-        "message":"You have already done so much for me. I can not accept that.",
+        "message":"You have already done so much for me. I cannot accept that.",
         "replies":[
             {
                 "text":"Oh, that's alright.",
@@ -1697,17 +1697,17 @@
     },
     {
         "id":"stoutford_widow_thorns10_0",
-        "message":"To begin, you'll have to buy some potions of the brave from him. I need these as base for a potion I want to create.\nDon't forget: Three potions of the brave.",
+        "message":"To begin, you'll have to buy some potions of the brave from him. I need these as the base for a potion I want to create.\nDon't forget: three potions of the brave.",
         "replies":[
             {
-                "text":"What will you do with it?",
+                "text":"What will you do with them?",
                 "nextPhraseID":"stoutford_widow_thorns10_1"
             }
         ]
     },
     {
         "id":"stoutford_widow_thorns10_1",
-        "message":"The potion of the brave can be enhanced to the much more useful potion of truth. These additions are easy, but for the potion of brave I would need a laboratory.",
+        "message":"The potion of the brave can be enhanced to the much more useful potion of truth. These additions are easy, but for the potion of the brave I would need a laboratory.",
         "replies":[
             {
                 "text":"N",
@@ -1717,7 +1717,7 @@
     },
     {
         "id":"stoutford_widow_thorns10_2",
-        "message":"That is why you must get the potions of the brave from Blornvale. Oh how I hate this name! Be quick.",
+        "message":"That is why you must get the potions of the brave from Blornvale. Oh how I hate that name! Be quick.",
         "replies":[
             {
                 "text":"I will be right back.",
@@ -1755,7 +1755,7 @@
     },
     {
         "id":"stoutford_widow_thorns20_1",
-        "message":"Great! This will break his neck finally.",
+        "message":"Great! This will finally break him.",
         "replies":[
             {
                 "text":"I hope so. He is a most unfriendly guy.",
@@ -1804,10 +1804,10 @@
     },
     {
         "id":"stoutford_widow_thorns40_0",
-        "message":"With the potion of truth you will make Blornvale confess, that he poisoned his brother.",
+        "message":"With the potion of truth you will make Blornvale confess that he poisoned his brother.",
         "replies":[
             {
-                "text":"Well, who will believe me, a stranger?",
+                "text":"But who would believe me, a stranger?",
                 "nextPhraseID":"stoutford_widow_thorns40_1"
             }
         ]
@@ -1824,10 +1824,10 @@
     },
     {
         "id":"stoutford_widow_thorns40_2",
-        "message":"Best would be Talahendor himself. Yes, you must get the priest to be present, when Blornvale tells the whole story.",
+        "message":"Best would be Talahendor himself. Yes, you must persuade the priest to be present when Blornvale tells the whole story.",
         "replies":[
             {
-                "text":"Tahalendor? How should I do that?",
+                "text":"Tahalendor? How can I do that?",
                 "nextPhraseID":"stoutford_widow_thorns40_3"
             }
         ],
@@ -1841,11 +1841,11 @@
     },
     {
         "id":"stoutford_widow_thorns40_3",
-        "message":"I have full confidence, that you will come up with something."
+        "message":"I have full confidence in you. You will come up with something."
     },
     {
         "id":"stoutford_widow_thorns50_0",
-        "message":"Blornvale drank the potion of truth already?",
+        "message":"Did Blornvale drink the potion of truth?",
         "replies":[
             {
                 "text":"Eh, almost.",
@@ -1855,74 +1855,78 @@
     },
     {
         "id":"stoutford_widow_thorns70_0",
-        "message":"Blornvale drank the potion of truth already?",
+        "message":"Did Blornvale drink the potion of truth?",
         "replies":[
             {
-                "text":"Indeed. I just have to make him confess his murder.",
+                "text":"Yes. I just have to make him confess to the murder.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"stoutford_widow_thorns72_0",
-        "message":"Any news of this murderer?",
+        "message":"Any news about the murderer?",
         "replies":[
             {
-                "text":"Yes, he confessed poisoning your father.",
+                "text":"Yes, he confessed to poisoning your father.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"stoutford_widow_thorns74_0",
-        "message":"Any news of this murderer?",
+        "message":"Any news about the murderer?",
         "replies":[
             {
-                "text":"Yes, but no good news. He guessed that I tried to lure him and is cautionous now.",
+                "text":"Yes, but it's not good news. He guessed that I tried to entrap him, and is cautious now.",
                 "nextPhraseID":"stoutford_widow_thorns74_1"
             }
         ]
     },
     {
         "id":"stoutford_widow_thorns74_1",
-        "message":"Oh no! I will never get justice!",
+        "message":"Oh no! Now I will never get justice!",
         "replies":[
             {
-                "text":"I did my very best.",
+                "text":"I did my best.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"stoutford_widow_thorns80_0",
-        "message":"You look so glad. What did you achieve?",
+        "message":"You look like you are in a good mood. What did you accomplish?",
         "replies":[
             {
-                "text":"Blornvale is gone! Tahalendor came to hear him confess the murder in single details. Then he took him away.",
+                "text":"Blornvale is gone! Tahalendor came to hear him give a detailed confession to the murder. Then he took him away.",
                 "nextPhraseID":"stoutford_widow_thorns80_1"
             }
         ]
     },
     {
         "id":"stoutford_widow_thorns80_1",
-        "message":"At last! How only could I thank you?",
+        "message":"At last! How can I thank you?",
         "replies":[
             {
-                "text":"Oh, that was just a triffle.",
+                "text":"Oh, that was just a trifle.",
                 "nextPhraseID":"stoutford_widow_thorns80_2"
             },
             {
-                "text":"I could handle myself.",
+                "text":"No problem. I can handle myself.",
                 "nextPhraseID":"stoutford_widow_thorns80_2"
             }
         ]
     },
     {
         "id":"stoutford_widow_thorns80_2",
-        "message":"Now I can move back into my fathers house and create potions again. I will leave at once. Please come and visit me at any time.",
+        "message":"Now I can move back into my father's house and create potions again. I will leave at once. Please come and visit me at any time.",
         "replies":[
             {
                 "text":"Bye.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"I will.",
                 "nextPhraseID":"R"
             }
         ],
@@ -2131,16 +2135,6 @@
     {
         "id":"blornvale_select_2",
         "replies":[
-            {
-                "nextPhraseID":"blornvale_stage90",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"thorns_vengeance",
-                        "value":90
-                    }
-                ]
-            },
             {
                 "nextPhraseID":"blornvale_shop2",
                 "requires":[
