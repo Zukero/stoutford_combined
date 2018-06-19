@@ -1,0 +1,10 @@
+[
+    {
+        "id":"caeda",
+        "name":"Caeda",
+        "iconID":"monsters_ld1:145",
+        "monsterClass":"humanoid",
+        "spawnGroup":"caeda",
+        "phraseID":"caeda"
+    }
+]
