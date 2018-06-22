@@ -61,7 +61,7 @@
     },
     {
         "id":"cadoren_4",
-        "message":"The path to Blackwater mountain has been cut off. There are also regular attacks by the Sakul. These things have driven down trade, making supplies hard to get.",
+        "message":"The path to Blackwater mountain has been cut off. There are also increasing attacks by monsters. These things have driven down trade, making supplies hard to get.",
         "replies":[
             {
                 "text":"So all the food you sell is old?",
@@ -72,7 +72,7 @@
                 "nextPhraseID":"cadoran_4b"
             },
             {
-                "text":"Who are the Sakul?",
+                "text":"Why are monster attacks increasing?",
                 "nextPhraseID":"cadoren_4a"
             }
         ]
@@ -560,7 +560,7 @@
     },
     {
         "id":"caeda_root10_3a",
-        "message":"Every year he came to pick the most beautiful Damerilia to give it to her as present.",
+        "message":"Every year he came to pick the most beautiful Damerilia to give it to her as a present.",
         "replies":[
             {
                 "text":"Yes, Aryfora told me. She asked me to bring her some Damerilias for Noraed's grave.",
@@ -606,7 +606,7 @@
     },
     {
         "id":"caeda_root10_6",
-        "message":"To find the glade you have to pass through a cave. There are trolls, but my father had put up a statue that the trolls don't like passing by. So I was able to pass the cave fairly safely.",
+        "message":"To find the glade you have to pass through a cave. There are trolls, but my father had put up a statue that the trolls don't like to pass. So I was able to pass through the cave fairly safely.",
         "replies":[
             {
                 "text":"N",
@@ -616,7 +616,7 @@
     },
     {
         "id":"caeda_root10_6a",
-        "message":"The glade itself is barred by a solid door to keep trolls out. I had a key for it of course.",
+        "message":"The glade itself is barred by a solid door to keep the trolls out. I had a key for it of course.",
         "replies":[
             {
                 "text":"Had ?",
@@ -626,7 +626,7 @@
     },
     {
         "id":"caeda_root10_7",
-        "message":"Yes. Unfortunately I did not pay attention to my path when I was there last time and took a wrong turn.",
+        "message":"Yes. Unfortunately I did not pay enough attention to where I was going when I was there last time, and took a wrong turn.",
         "replies":[
             {
                 "text":"N",
@@ -639,11 +639,11 @@
         "message":"Suddenly there were trolls everywhere. I barely escaped, but I must have lost the key to our glade there. If only I could have my key back!",
         "replies":[
             {
-                "text":"Your Damerilias look a bit wilted indeed. I will go to your glade.",
+                "text":"Your Damerilias do look a bit wilted. I will go to your glade.",
                 "nextPhraseID":"caeda_root10_9"
             },
             {
-                "text":"Eh, ok. This isn't worth the trouble. Fresh Damerilias wouldn't look different after my travel back.\nThank you, I will return to Stoutford directly.",
+                "text":"Eh, OK. This isn't worth the trouble. Fresh Damerilias wouldn't look different after my travel back. Thank you, I will return to Stoutford directly.",
                 "nextPhraseID":"caeda_root10_8a"
             }
         ],
@@ -657,7 +657,7 @@
     },
     {
         "id":"caeda_root10_8a",
-        "message":"Farewell then. Greetings to my sister in law.",
+        "message":"Farewell then. Give my greetings to my sister-in-law.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -668,17 +668,17 @@
     },
     {
         "id":"caeda_root10_9",
-        "message":"And you would bring back my key to the glade? I would be the happiest person then!",
+        "message":"And you will bring back my key to the glade? Then I would be the happiest person!",
         "replies":[
             {
-                "text":"Small thing for me.",
+                "text":"A small thing for me.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"caeda_10",
-        "message":"Oh, it is you again. Did you found my key?",
+        "message":"Oh, it is you again. Did you find my key?",
         "replies":[
             {
                 "text":"No, not yet."
@@ -1021,7 +1021,7 @@
         "message":"Oh, it is you again. Did you find my key?",
         "replies":[
             {
-                "text":"Yes. Here, take it back.",
+                "text":"Yes. Here. Please take it.",
                 "nextPhraseID":"caeda_root30_1",
                 "requires":[
                     {
@@ -1039,7 +1039,7 @@
     },
     {
         "id":"caeda_root30_1",
-        "message":"You really found my key! Thank you - I still can't believe it! ",
+        "message":"You really found my key! Thank you - I can't believe it! ",
         "replies":[
             {
                 "text":"A troll had taken the key, but he won't need it any more.",
@@ -1124,14 +1124,14 @@
         "message":"Is the passage to the glade safe again?",
         "replies":[
             {
-                "text":"No, not yet. I guess there are at least 30 trolls to kill. I will go for them again.",
+                "text":"No, not yet. I guess there are at least 30 trolls to kill. I will go after them again.",
                 "nextPhraseID":"caeda_root50_2a"
             }
         ]
     },
     {
         "id":"caeda_root50_2a",
-        "message":"Please do, and come to me if you are done with them."
+        "message":"Please do, and come to me when you are done with them."
     },
     {
         "id":"caeda_root50_3",
@@ -1148,7 +1148,7 @@
         "message":"Thank you so much! If ever you want to go to the glade, just ask me for the key.",
         "replies":[
             {
-                "text":"Gladly. I will leave now.",
+                "text":"Thanks you. I will leave now.",
                 "nextPhraseID":"X"
             }
         ],
@@ -2574,10 +2574,10 @@
     },
     {
         "id":"cornith_1_4",
-        "message":" There's a guard that protects the path, but without a good reason to come this way most people choose not to risk it. And then of course, there are the Sakul.",
+        "message":" There's a guard that protects the path, but without a good reason to come this way most people choose not to risk it. And then of course, there are the monsters coming from the south.",
         "replies":[
             {
-                "text":"Who are the Sakul?",
+                "text":"Monsters from the south?",
                 "nextPhraseID":"cornith_1_5"
             },
             {
@@ -2588,7 +2588,7 @@
     },
     {
         "id":"cornith_1_5",
-        "message":"We don't know much about them, but they keep attacking our town. ",
+        "message":"We think they come from Mount Galmore, and they keep attacking our town. ",
         "replies":[
             {
                 "text":"I'm sorry to hear about all the trouble, but there's something else I wanted to talk about.",
@@ -2598,10 +2598,10 @@
     },
     {
         "id":"cadoren_4a",
-        "message":"We don't know where they came from, but they recently started attacking the town. We can fight them off, but they deter travelers from coming here.",
+        "message":"We think they came from Mount Galmore, and they recently started attacking the town. We can fight them off, but they deter travelers from coming here.",
         "replies":[
             {
-                "text":"OK. Could you repeat what you said about that mountain.",
+                "text":"OK. Could you repeat what you said about that other mountain.",
                 "nextPhraseID":"cadoren_4"
             }
         ]
@@ -2611,7 +2611,7 @@
         "message":"Follow the path to the west. There are two settlements there, Prim and Blackwater Mountain Settlement. There has been a rockfall though, making it very difficult to get to them.",
         "replies":[
             {
-                "text":"Thanks for the information. What was it you said about the Sakul?",
+                "text":"Thanks for the information. What was it you said about the monsters?",
                 "nextPhraseID":"cadoren_4"
             }
         ]
@@ -2649,7 +2649,7 @@
                 "nextPhraseID":"S"
             },
             {
-                "text":"Whatever. Why don't we go back to what you said about the Sakul and that mountain.",
+                "text":"Whatever. Why don't we go back to what you said about the monsters and that mountain.",
                 "nextPhraseID":"cadoren_4"
             }
         ]

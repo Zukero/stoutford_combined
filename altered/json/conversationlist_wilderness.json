@@ -1,35 +1,70 @@
 [
     {
         "id":"bandit1",
-        "rewards":[
-            {
-                "rewardType":"alignmentSet",
-                "rewardID":"fct_bandit1",
-                "value":-10
-            }
-        ],
         "message":"What have we here? A lost wanderer?",
         "replies":[
             {
                 "text":"N",
                 "nextPhraseID":"bandit1_2"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"fct_bandit1",
+                "value":-10
+            }
         ]
     },
     {
         "id":"bandit1_3",
+        "message":"About damn time. You are free to go.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"R"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"alignmentSet",
                 "rewardID":"fct_bandit1",
                 "value":11
             }
-        ],
-        "message":"About damn time. You are free to go.",
+        ]
+    },
+    {
+        "id":"bandit1_2",
+        "message":"How much is your life worth to you? Give me 100 gold and I'll let you go.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"R"
+                "text":"OK OK. Here is the gold. Please don't hurt me!",
+                "nextPhraseID":"bandit1_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"How about we fight over it?",
+                "nextPhraseID":"bandit1_4"
+            },
+            {
+                "text":"How much is your life worth?",
+                "nextPhraseID":"bandit1_4"
+            }
+        ]
+    },
+    {
+        "id":"bandit1_4",
+        "message":"OK then, your life it is. Let's fight. I have been looking forward to a good fight!",
+        "replies":[
+            {
+                "text":"Let's fight!",
+                "nextPhraseID":"F"
             }
         ]
     }
