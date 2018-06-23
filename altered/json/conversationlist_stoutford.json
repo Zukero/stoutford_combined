@@ -12,7 +12,7 @@
                 "nextPhraseID":"tahalendor_initial_2"
             },
             {
-                "text":"I need you as witness for ...",
+                "text":"I need you as a witness for ...",
                 "nextPhraseID":"tahalendor_initial_1",
                 "requires":[
                     {
@@ -53,7 +53,7 @@
                 "nextPhraseID":"tahalendor_rumblings80_1"
             },
             {
-                "text":"Would you come with me to Blomvale? He wants to confess something important.",
+                "text":"Would you come with me to talk to Blornvale? He wants to confess something important.",
                 "nextPhraseID":"tahalendor_thorns50",
                 "requires":[
                     {
@@ -90,7 +90,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Would you come with me to Blomvale? He wants to confess something important.",
+                "text":"Would you come with me to talk to Blomvale? He wants to confess something important.",
                 "nextPhraseID":"tahalendor_thorns50",
                 "requires":[
                     {
@@ -236,6 +236,122 @@
             {
                 "text":"Yes. I think I found the cause.",
                 "nextPhraseID":"yolgen_rumblings50_1"
+            }
+        ]
+    },
+    {
+        "id":"kayla_halvor_6",
+        "message":"Here. Take these. I've given one pair to Halvor, and I'll keep the last one for myself.",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"kayla_4"
+            },
+            {
+                "text":"Wow. I have to try these. Goodbye.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"halvor_surprise",
+                "value":190
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"globetrotter_boots",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"soutford_gateguard_what_0",
+        "message":"This is Stoutford. Our small town was the resting place of choice for many merchants on their way between Fallhaven and the Blackwater moutain.",
+        "replies":[
+            {
+                "text":"Was?",
+                "nextPhraseID":"soutford_gateguard_what_1"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_gateguard_andor_1",
+        "message":"I can't really tell. No known trouble at least. He headed straight to the tavern, and I didn't see him again before he left.",
+        "replies":[
+            {
+                "text":"Do you know where he was going?",
+                "nextPhraseID":"stoutford_gateguard_andor_2"
+            },
+            {
+                "text":"I have other questions...",
+                "nextPhraseID":"stoutford_gateguard_0"
+            },
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"soutford_gateguard_what_1",
+        "message":"Yes. It seems the road is closed for some reason. Maybe this is related to the monster attacks we have been suffering from recently.",
+        "replies":[
+            {
+                "text":"Is there anything I can do to help?",
+                "nextPhraseID":"soutford_gateguard_what_2"
+            },
+            {
+                "text":"Whatever...",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"soutford_gateguard_who_1",
+        "message":"In the past, troublemakers that bothered the citizens or merchants. Nowadays, it's mainly the monsters, when I can handle them.",
+        "replies":[
+            {
+                "text":"What monsters?",
+                "nextPhraseID":"soutford_gateguard_who_2"
+            },
+            {
+                "text":"Pathetic...",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"tahalendor_initial_2",
+        "message":"Nonsense! Go away!",
+        "replies":[
+            {
+                "text":"OK...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"rumblings",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"tahalendor_initial_1",
+        "message":"Go away! You're not welcome here!",
+        "replies":[
+            {
+                "text":"OK...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"rumblings",
+                "value":10
             }
         ]
     }

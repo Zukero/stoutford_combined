@@ -117,5 +117,23 @@
         "iconID":"monsters_tometik2:55",
         "unique":1,
         "phraseID":"stoutford_commoner_0"
+    },
+    {
+        "id":"tahalendor",
+        "name":"Tahalendor",
+        "iconID":"monsters_ld1:3",
+        "phraseID":"tahalendor_0"
+    },
+    {
+        "id":"stoutford_gateguard",
+        "name":"Stoutford Guard",
+        "iconID":"monsters_tometik2:43",
+        "phraseID":"stoutford_gateguard_0"
+    },
+    {
+        "id":"stoutford_innkeeper",
+        "name":"Glasforn",
+        "iconID":"monsters_ld1:33",
+        "phraseID":"glasforn_0"
     }
 ]

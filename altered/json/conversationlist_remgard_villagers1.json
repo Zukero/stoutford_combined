@@ -128,23 +128,6 @@
                 ]
             },
             {
-                "text":"Did you get rid of those hideous trolls?",
-                "nextPhraseID":"caeda_root50_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"secret_garden",
-                        "value":50
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"secret_garden",
-                        "value":60,
-                        "negate":true
-                    }
-                ]
-            },
-            {
                 "text":"I killed most of the trolls in the cave.",
                 "nextPhraseID":"caeda_root60_1",
                 "requires":[

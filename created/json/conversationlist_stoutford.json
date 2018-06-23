@@ -49,7 +49,7 @@
     },
     {
         "id":"tahalendor_thorns50",
-        "message":"If I must. Well, go ahead, I'll be there in time.",
+        "message":"If I must. Well, go ahead, I'll be there when you get there.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -64,7 +64,7 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"tahalendor2",
-				"mapName":"stoutford_potion"
+                "mapName":"stoutford_potion"
             }
         ]
     },
