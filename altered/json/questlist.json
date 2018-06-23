@@ -6,12 +6,12 @@
         "stages":[
             {
                 "progress":5,
-                "logText":"Yolgen asked me to have a look what was wrong with Flagstone prison.",
+                "logText":"Yolgen asked me to have a look at what is wrong with Flagstone prison.",
                 "finishesQuest":0
             },
             {
                 "progress":10,
-                "logText":"I met a few guards from Stoutford on sentry outside a fortress called Flagstone. Their leader told me that Flagstone was built a few hundred of years ago and served as a prison for house Gorland of Stoutford. When Lord Emeric of Stoutford was slain during the Noble Wars, it was fogotten soon after. Recently, undeads started  pouring out of  Flagstone. I should investigate the source of the undead monsters. The guard tells me to return to him if I need help.",
+                "logText":"I met a guard from Stoutford on sentry duty outside a fortress called Flagstone. He told me that Flagstone used to serve as a prison for house Gorland of Stoutford, but it is now abandoned. Recently, undead have started  pouring out of  Flagstone. I should investigate the source of the undead monsters. The guard tells me to return to him if I need help.",
                 "finishesQuest":0
             },
             {
@@ -21,7 +21,7 @@
             },
             {
                 "progress":30,
-                "logText":"The guard tells me to look around for more the former warden. He is worried about the demon and the undead prisoners.",
+                "logText":"The guard suggested that the former warden may have something to do with this, and I should go and look for him. If I find him I should return to the guard with any important news.",
                 "finishesQuest":0
             },
             {
@@ -46,7 +46,7 @@
             },
             {
                 "progress":70,
-                "logText":"I approached the sentry again and he was happy to hear the source of the undead is banished. I should talk to Yolgen, the priest of Stoutford, for a reward."
+                "logText":"I approached the sentry again and he was happy to hear the source of the undead is gone. I should talk to Yolgen, the priest of Stoutford, for a reward."
             },
             {
                 "progress":100,

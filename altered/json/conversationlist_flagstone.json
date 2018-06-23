@@ -1,7 +1,7 @@
 [
     {
         "id":"flagstone_sentry_4",
-        "message":"Flagstone Prison was built a few hundred years ago by house Gorland of Stoutford and used right until the Noble Wars when the house was extinguished. This dreadful place has been left abandoned ever since.",
+        "message":"Flagstone Prison was built a few hundred years ago by house Gorland of Stoutford and used until the Noble Wars, when the house was vanquished. This dreadful place has been abandoned ever since.",
         "replies":[
             {
                 "text":"N",
@@ -30,7 +30,7 @@
     },
     {
         "id":"flagstone_sentry_8",
-        "message":"For years and years, no one took notice of Flagstone. Except for the occasional reports from travelers of terrible screams coming from the camp.",
+        "message":"For years, no one took notice of Flagstone, although there were occasional reports from travelers of terrible screams coming from the camp.",
         "replies":[
             {
                 "text":"N",
@@ -102,7 +102,7 @@
         "message":"Hello again. It seems something happened inside Flagstone that made the undead weaker. I'm sure we have you to thank for it.",
         "replies":[
             {
-                "text":"In the depths of Flagstone, I had to fight a winged demon and found a prisoner called Narael. He told me that the warden continued running the prison and tortured the prisoners and even experimented with necromancy.",
+                "text":"In the depths of Flagstone, I had to fight a winged demon and found a prisoner called Narael. He told me that he has been there for a very long time, and is too weak to leave.",
                 "nextPhraseID":"flagstone_sentry_45"
             }
         ]
@@ -119,10 +119,10 @@
     },
     {
         "id":"flagstone_sentry_21",
-        "message":"You could look out for the former warden. Maybe he has something to do with all of this.",
+        "message":"You should look for the former warden. Maybe he has something to do with all of this. If you find him you should return here with any important news.",
         "replies":[
             {
-                "text":"Ok, I will go look out for the former warden.",
+                "text":"OK, I will go and look for the former warden.",
                 "nextPhraseID":"X"
             }
         ],
@@ -154,10 +154,10 @@
     },
     {
         "id":"flagstone_sentry_23",
-        "message":"Oh this looks most interesting. Let's take a look. Hmm. It has got some weird enxriptions on it which say 'Daylight Shadow'. Maybe you could try these words on the demon? So did the warden have something to do with the demon after all?",
+        "message":"Oh this looks most interesting. Let's take a look. Hmm. It has got some weird inscriptions on it that say 'Daylight Shadow'. Maybe you could try these words on the demon? So perhaps the warden did have something to do with the demon after all?",
         "replies":[
             {
-                "text":"This could work indeed. Thank you.",
+                "text":"That might work. Thank you.",
                 "nextPhraseID":"X"
             }
         ],
@@ -166,6 +166,43 @@
                 "rewardType":"questProgress",
                 "rewardID":"flagstone",
                 "value":40
+            }
+        ]
+    },
+    {
+        "id":"flagstone_sentry_10",
+        "message":"So, here we are. I have to guard the road from undead, so that they do not spread farther than Flagstone.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"flagstone_sentry_11"
+            }
+        ]
+    },
+    {
+        "id":"flagstone_sentry_12",
+        "message":"Are you really sure you want to head in there? Well, OK, fine by me.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"flagstone_sentry_13"
+            }
+        ]
+    },
+    {
+        "id":"flagstone_sentry_15",
+        "message":"Return here if you need my advice.",
+        "replies":[
+            {
+                "text":"OK. I will return to you if there is anything I need help with.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"flagstone",
+                "value":10
             }
         ]
     }

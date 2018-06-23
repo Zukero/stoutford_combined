@@ -3897,6 +3897,34 @@
         "message":"If you could help with Flagstone, it would take a big burden off us.",
         "replies":[
             {
+                "text":"I already took care of Flagstone. I cleared it of an evil demon.",
+                "nextPhraseID":"yolgen_flagstone_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"I have been inside Flagstone, but I will go back and find out more.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "text":"OK, I will take a look.",
                 "nextPhraseID":"X"
             },

@@ -1,0 +1,347 @@
+[
+    {
+        "id":"halvor_crossglen_6",
+        "message":"Well. Would you agree to bring me some rat tails now?",
+        "replies":[
+            {
+                "text":"I have other things to do right now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"OK...",
+                "nextPhraseID":"halvor_crossglen_5"
+            },
+            {
+                "text":"I'm happy to help!",
+                "nextPhraseID":"halvor_crossglen_5"
+            }
+        ]
+    },
+    {
+        "id":"halvor_crossglen_4",
+        "message":"Great! Here, take this gold as a reward. Now I need some rat tails. Will you find them for me?",
+        "replies":[
+            {
+                "text":"I have other things to do right now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"OK...",
+                "nextPhraseID":"halvor_crossglen_5"
+            },
+            {
+                "text":"I'm happy to help!",
+                "nextPhraseID":"halvor_crossglen_5"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"halvor_surprise",
+                "value":15
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"halvor_crossglen_7",
+        "message":"So. About those rat tails...",
+        "replies":[
+            {
+                "text":"I don't have them.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"halvor_crossglen_8",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"rat_tail",
+                        "value":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"halvor_crossglen_leaving",
+        "message":"OK. I'll go look somewhere else. Goodbye.",
+        "replies":[
+            {
+                "text":"So long.",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"halvor_surprise",
+                "value":40
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"halvor",
+                "mapName":"blackwater_mountain4"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"halvor",
+                "mapName":"crossglen"
+            }
+        ]
+    },
+    {
+        "id":"halvor_crossglen_12",
+        "message":"Please... I really need 5 rat tails.",
+        "replies":[
+            {
+                "text":"OK... but it's the last time!",
+                "nextPhraseID":"halvor_crossglen_10"
+            },
+            {
+                "text":"No. No no no.... Leave me alone.",
+                "nextPhraseID":"halvor_crossglen_leaving"
+            }
+        ]
+    },
+    {
+        "id":"halvor_bwmine_1",
+        "message":"Well, I'm still looking for 5 good rat tails. Would you help me now?",
+        "replies":[
+            {
+                "text":"Alright, I hope there are rats around here, and that they have tails good enough for you.",
+                "nextPhraseID":"halvor_bwmine_2"
+            },
+            {
+                "text":"OK, but you'd better like them this time.",
+                "nextPhraseID":"halvor_bwmine_2"
+            },
+            {
+                "text":"Here, take these.",
+                "nextPhraseID":"halvor_bwmine_4",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"rat_tail",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"I don't feel like doing this now. Sorry.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"halvor_bwmine_17",
+        "message":"Are you sure? Won't you help me find the softest animal hair?",
+        "replies":[
+            {
+                "text":"OK... If you insist...",
+                "nextPhraseID":"halvor_bwmine_13"
+            },
+            {
+                "text":"No. I'm done.",
+                "nextPhraseID":"halvor_bwmine_leaving"
+            }
+        ]
+    },
+    {
+        "id":"halvor_bwmine_leaving",
+        "message":"Too bad. Thanks for helping me this far anyway.",
+        "replies":[
+            {
+                "text":"Get lost.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"See you later.",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"halvor_surprise",
+                "value":90
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"halvor",
+                "mapName":"mountainlake10a"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"halvor",
+                "mapName":"blackwater_mountain4"
+            }
+        ]
+    },
+    {
+        "id":"halvor_mlake_9",
+        "message":"I'm getting closer to the end of my list. I now have to find some bones. They must be long ones though. Would you look for them as well? I need only two.",
+        "replies":[
+            {
+                "text":"Maybe later, OK?",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Sure! It's not like I have more important things to do.",
+                "nextPhraseID":"halvor_mlake_11"
+            },
+            {
+                "text":"I guess I can remember to look for bones if I have some spare time.",
+                "nextPhraseID":"halvor_mlake_11"
+            },
+            {
+                "text":"I do have these here. Take them.",
+                "nextPhraseID":"halvor_mlake_13",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bone",
+                        "value":2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"halvor_mlake_11",
+        "message":"Thanks. I will be here when you return.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"halvor_surprise",
+                "value":130
+            }
+        ]
+    },
+    {
+        "id":"halvor_mlake_10",
+        "message":"Did you change your mind? Care to help me find a pair of bones? Remember that they must be long ones though.",
+        "replies":[
+            {
+                "text":"Maybe later, OK?",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Sure! It's not like I have more important things to do.",
+                "nextPhraseID":"halvor_mlake_11"
+            },
+            {
+                "text":"I guess I can remember to look for bones if I have some spare time.",
+                "nextPhraseID":"halvor_mlake_11"
+            },
+            {
+                "text":"Let me check... I do have two bones here with me. Take them.",
+                "nextPhraseID":"halvor_mlake_13",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bone",
+                        "value":2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"halvor_mlake_leaving",
+        "message":"OK. Nevermind. I'll try to find long bones elsewhere.",
+        "replies":[
+            {
+                "text":"Yeah. Go far. Very far.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"I have a feeling that we'll meet there, wherever that is.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Good luck!",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"halvor_surprise",
+                "value":140
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"halvor",
+                "mapName":"waytolostmine1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"halvor",
+                "mapName":"mountainlake10a"
+            }
+        ]
+    },
+    {
+        "id":"halvor_chwood_4",
+        "message":"Have you found a long bone?",
+        "replies":[
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"How about this one?",
+                "nextPhraseID":"halvor_chwood_5",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bone",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"halvor_chwood_14",
+        "message":"You should definitely pay her a visit when you in Stoutford. I have to go now. Thank you for your help.",
+        "replies":[
+            {
+                "text":"Good riddance...",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Glad to help. See you later.",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"halvor",
+                "mapName":"waytolostmine1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"halvor_surprise",
+                "value":180
+            }
+        ]
+    },
+    {
+        "id":"halvor_chwood_11",
+        "message":"I have finally gathered all the items I need! Kayla will be so thrilled.",
+        "replies":[
+            {
+                "text":"Kayla?",
+                "nextPhraseID":"halvor_chwood_12"
+            }
+        ]
+    }
+]

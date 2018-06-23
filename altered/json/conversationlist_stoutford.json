@@ -354,5 +354,52 @@
                 "value":10
             }
         ]
+    },
+    {
+        "id":"glasforn_rumblings60_0",
+        "message":"Wait. OK. I stand no chance against you. I'll tell you all I know.",
+        "replies":[
+            {
+                "text":"It'd better be worth it.",
+                "nextPhraseID":"glasforn_rumblings60_1"
+            },
+            {
+                "text":"Go ahead.",
+                "nextPhraseID":"glasforn_rumblings60_1"
+            },
+            {
+                "text":"I'm all ears.",
+                "nextPhraseID":"glasforn_rumblings60_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"rumblings",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"glasforn_rumblings30_0",
+        "message":"So kid, have you tried that bed? Our beds are the best!",
+        "replies":[
+            {
+                "text":"About Andor...",
+                "nextPhraseID":"glasforn_rumblings30_1"
+            },
+            {
+                "text":"About those noises...",
+                "nextPhraseID":"glasforn_rumblings30_1"
+            },
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"glasforn_rumblings30_1"
+            }
+        ]
+    },
+    {
+        "id":"glasforn_rumblings30_1",
+        "message":"You really should try that bed. You'll thank me afterwards."
     }
 ]
