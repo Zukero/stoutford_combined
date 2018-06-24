@@ -687,7 +687,7 @@
     },
     {
         "id":"lakecave2_troll_10",
-        "message":"You! You have not lost anything here! Get out of my cave!",
+        "message":"You! You have no business here! Get out of my cave!",
         "replies":[
             {
                 "text":"Of course, sorry, please excuse the disturbance.",
@@ -718,7 +718,7 @@
                 "nextPhraseID":"lakecave2_troll_20"
             },
             {
-                "text":"I am looking for some flowers called Damerilia.",
+                "text":"I am looking for some flowers called Damerilias.",
                 "nextPhraseID":"lakecave2_troll_30",
                 "requires":[
                     {
@@ -729,7 +729,7 @@
                 ]
             },
             {
-                "text":"Someone had lost a key here. Once I have found the key, you can have your wet dark hole again for yourself.",
+                "text":"Someone lost a key here. Once I have found the key, you can have your wet, dark hole to yourself again.",
                 "nextPhraseID":"lakecave2_troll_40",
                 "requires":[
                     {
@@ -753,7 +753,7 @@
     },
     {
         "id":"lakecave2_troll_20",
-        "message":"No. If your brother looks like you then I never have seen him. And now go!",
+        "message":"No. If your brother looks like you then I have never seen him, and if I had then I would have eaten him! Now go!",
         "replies":[
             {
                 "text":"I have another question.",
@@ -763,17 +763,17 @@
     },
     {
         "id":"lakecave2_troll_30",
-        "message":"Everyone is going for my Damerilias! For what only? This ugly, stinking stuff!\nNo, I won't give you not a single one. And you really should leave now, before I get hungry.",
+        "message":"Everyone is after my Damerilias! For what? Such ugly, stinking things!\nNo, I won't give you a single one. And you really should leave now, before I get hungry!",
         "replies":[
             {
-                "text":"What do you need Damerilias for, if you do not like them?",
+                "text":"What do you need Damerilias for, if you don't like them?",
                 "nextPhraseID":"lakecave2_troll_32"
             }
         ]
     },
     {
         "id":"lakecave2_troll_32",
-        "message":"The Damerilias attract food for me, tasty delicate little people. The catch is a kind of sport for me. This makes eating more fun.",
+        "message":"The Damerilias attract food for me; tasty, delicate, little people. Catching them is kind of a sport for me. It makes eating more fun.",
         "replies":[
             {
                 "text":"N",
@@ -793,10 +793,10 @@
     },
     {
         "id":"lakecave2_troll_40",
-        "message":"What do you know about the key? I keep the key well. Do you belong to this thief who comes once a year and steals my Damerilias?",
+        "message":"What do you know about the key? I keep the key safe. Are you associated with that thief who comes once a year and steals my Damerilias?",
         "replies":[
             {
-                "text":"You talk of Noraed? He is dead.",
+                "text":"Do you mean Noraed? He is dead.",
                 "nextPhraseID":"lakecave2_troll_50"
             }
         ]
@@ -816,24 +816,24 @@
         "message":"I was so looking forward to eating him.",
         "replies":[
             {
-                "text":"I would like to have some Damerilias on his grave.",
+                "text":"I would like to take some Damerilias for his grave.",
                 "nextPhraseID":"lakecave2_troll_60"
             }
         ]
     },
     {
         "id":"lakecave2_troll_60",
-        "message":"Forget it. Especially because you belong to those people, who had built up this terrible statue near the entrance.",
+        "message":"Forget it. Especially because you know those people who built that terrible statue near the entrance.",
         "replies":[
             {
-                "text":"What about that statue?",
+                "text":"What is terrible about that statue?",
                 "nextPhraseID":"lakecave2_troll_62"
             }
         ]
     },
     {
         "id":"lakecave2_troll_62",
-        "message":"It is a scare for all trolls. We avoid going near or even past her.",
+        "message":"It is a bane for all trolls. We avoid going past, or even near, her.",
         "replies":[
             {
                 "text":"N",
@@ -843,14 +843,14 @@
     },
     {
         "id":"lakecave2_troll_64",
-        "message":"I might let you go if you eliminate this ghastly statue. Maybe I'll even give you two of these ugly plants for that. Agreed?",
+        "message":"I might let you go if you remove that ghastly statue. Maybe I'll even give you two of those ugly plants for that. Agreed?",
         "replies":[
             {
                 "text":"(lie) Agreed. Bring the Damerilias first.",
                 "nextPhraseID":"lakecave2_troll_70"
             },
             {
-                "text":"No. This statue is a blessing to the people here. Even if I could, I would not tear down the statue.",
+                "text":"No. That statue is a blessing for the people here. Even if I could, I would not tear it down.",
                 "nextPhraseID":"lakecave2_troll_90"
             }
         ]
@@ -931,7 +931,7 @@
     },
     {
         "id":"lakecave2_key_check2_10",
-        "message":"You may be a great warrior - but not a tall one. Maybe jump with a startup?",
+        "message":"You may be a great warrior, but you are not a tall one. Maybe a jump with a runup?",
         "switchToNPC":"none",
         "rewards":[
             {
@@ -943,7 +943,7 @@
     },
     {
         "id":"lakecave2_key_check2_20",
-        "message":"That was close - just half an inch missing. Try again!",
+        "message":"That was close - just half an inch short. Try again!",
         "switchToNPC":"none",
         "rewards":[
             {
@@ -1943,15 +1943,15 @@
         "message":"Welcome! I already created some good potions - better than Blornvale's stuff. Want to have a look?",
         "replies":[
             {
-                "text":"Of course! Show me, what you have, please.",
+                "text":"Of course! Please show me what you have.",
                 "nextPhraseID":"S"
             },
             {
-                "text":"Could you give me of your masterpiece, the potion of deftness?",
+                "text":"Can I get your masterpiece, the potion of deftness?",
                 "nextPhraseID":"stoutford_widow2_1"
             },
             {
-                "text":"Nice to see you happy again.",
+                "text":"It's good to see you happy again.",
                 "nextPhraseID":"X"
             }
         ]
@@ -1976,7 +1976,7 @@
     },
     {
         "id":"stoutford_widow2_2",
-        "message":"Well, no. Somehow I had the feeling that you not always tell the truth about the damerilias. I don't think that you are already old enough to get such a potent potion.",
+        "message":"Well, no. Somehow I have the feeling that you did not always tell the truth about the damerilias. I don't think that you are old enough to get such a potent potion.",
         "replies":[
             {
                 "text":"Then let me see your other potions, please.",
@@ -1990,10 +1990,10 @@
     },
     {
         "id":"stoutford_widow2_3",
-        "message":"This potion I won't give for money. You can pay me in flowers - damerilias of course. \nI would give you one potion of deftness for three damerilias.",
+        "message":"I won't sell this potion for money. You can pay me in flowers - damerilias of course. \nI will give you one potion of deftness for three damerilias.",
         "replies":[
             {
-                "text":"Ok, I have some damerilias with me.",
+                "text":"OK, I have some damerilias with me.",
                 "nextPhraseID":"stoutford_widow2_4",
                 "requires":[
                     {
@@ -2004,14 +2004,14 @@
                 ]
             },
             {
-                "text":"I will think over it.",
+                "text":"I will think about it.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"stoutford_widow2_4",
-        "message":"Here I have one potion for you.",
+        "message":"Here, I have one potion for you.",
         "replies":[
             {
                 "text":"And another one, please.",
@@ -2025,7 +2025,7 @@
                 ]
             },
             {
-                "text":"Thank you, it is enough for today.",
+                "text":"Thank you, that is enough for today.",
                 "nextPhraseID":"X"
             }
         ],
@@ -2731,14 +2731,14 @@
     },
     {
         "id":"odirath_1_2",
-        "message":"The path to Blackwater mountain was cut off by a rock fall. That stopped most of the traders from coming here. The attacks by the Sakul stopped the rest.",
+        "message":"The path to Blackwater mountain was cut off by a rock fall. That stopped most of the traders from coming here. The attacks by the monsters stopped the rest.",
         "replies":[
             {
                 "text":"How do I get to Blackwater mountain?",
                 "nextPhraseID":"odirath_1_3"
             },
             {
-                "text":"Who are the Sakul?",
+                "text":"Monsters?",
                 "nextPhraseID":"odirath_1_4"
             }
         ]
@@ -2752,7 +2752,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Thanks. Who are the Sakul?",
+                "text":"Thanks. What about the monsters?",
                 "nextPhraseID":"odirath_1_4"
             }
         ]
@@ -2797,7 +2797,7 @@
     },
     {
         "id":"odirath_2_2",
-        "message":"You can not go to the castle anymore, do not you know that? At least not if you want to continue living.",
+        "message":"You cannot go to the castle anymore, do not you know that? At least not if you want to continue living.",
         "replies":[
             {
                 "text":"I see. She will certainly reappear soon. In the meantime you could show me everything you have for sale.",
@@ -2822,11 +2822,11 @@
         "message":"You would do that for me? I can hardly accept your offer.",
         "replies":[
             {
-                "text":"No problem.",
+                "text":"I'm on my way.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"But first I have something else.",
+                "text":"No problem, but first I have something else I wish to discuss.",
                 "nextPhraseID":"odirath_0"
             }
         ],
@@ -2843,7 +2843,7 @@
         "message":"Gyra is back and has told me everything. Many thanks again for your help.",
         "replies":[
             {
-                "text":"It was a pleasure.",
+                "text":"I was happy to do it.",
                 "nextPhraseID":"odirath_3_1"
             }
         ],
@@ -2857,7 +2857,7 @@
     },
     {
         "id":"odirath_3_1",
-        "message":"Please give the helmet to his owner Lord Bourbon - eh, Lord Berbane I mean. He will be in the tavern.",
+        "message":"Please give the helmet to its owner Lord Bourbon - eh, Lord Berbane I mean. He will be in the tavern.",
         "replies":[
             {
                 "text":"OK.",
@@ -4072,7 +4072,7 @@
         "switchToNPC":"erwyn_knight",
         "replies":[
             {
-                "text":"No, thank you. Maybe another time.",
+                "text":"No thank you. Maybe another time.",
                 "nextPhraseID":"F"
             }
         ]
@@ -4082,7 +4082,7 @@
         "message":"What do I seee? A mortal? Your bonesss shall be clattering on the ground soon enoughhh!",
         "replies":[
             {
-                "text":"No. How would that look like?",
+                "text":"How about you show me what that would look like?",
                 "nextPhraseID":"F"
             }
         ]
@@ -4092,7 +4092,7 @@
         "message":"Ah, your ssskull will be my favorite cup!",
         "replies":[
             {
-                "text":"Yes, I also like it very much. So I'd rather keep it.",
+                "text":"Yes, but I also like it very much. So I'd rather keep it.",
                 "nextPhraseID":"F"
             }
         ]
@@ -4608,7 +4608,7 @@
     },
     {
         "id":"stoutford_guard4",
-        "message":"Hey, kid, get ouf of here immediatly!"
+        "message":"Hey, kid, get ouf of here immediately!"
     },
     {
         "id":"stoutford_commander",
@@ -5078,7 +5078,7 @@
     },
     {
         "id":"stoutford_guard2",
-        "message":"Oh, then does the shift end?? I want to have a some cold mead right now."
+        "message":"Oh, when does the shift end? I want to have a some cold mead right now."
     },
     {
         "id":"stoutford_guard3",
@@ -5086,20 +5086,20 @@
     },
     {
         "id":"stoutford_guard_camp1_10",
-        "message":"Hi kid. It is nice and warm here near to the fire. Come and make yourself comfortable.",
+        "message":"Hi kid. It is nice and warm here next to the fire. Come and make yourself comfortable.",
         "replies":[
             {
-                "text":"Ah no, thank you. I like to do more interesting things to do now.",
+                "text":"Ah, no thank you. I have more interesting things to do now.",
                 "nextPhraseID":"stoutford_guard_camp2_10"
             }
         ]
     },
     {
         "id":"stoutford_guard_camp2_10",
-        "message":"What do you do out here all alone?",
+        "message":"What are you doing out here all alone?",
         "replies":[
             {
-                "text":"I am looking for my brother Andor. You have not seen him by chance?",
+                "text":"I am looking for my brother Andor. Have you seen him by any chance?",
                 "nextPhraseID":"stoutford_guard_camp2_20"
             }
         ]
@@ -5116,28 +5116,28 @@
     },
     {
         "id":"stoutford_guard_camp2_30",
-        "message":"We just saw another horde of undead approach the castle when we left. We hurry here now, so that we are back in time to be able to help.",
+        "message":"We just saw another horde of undead approach the castle when we left. We hurried to this place, so that we can be back in time to be able to help.",
         "replies":[
             {
-                "text":"You mean, you ran away just in time before you got involved in the fight?",
+                "text":"You mean, you ran away just in time, before you got involved in the fight?",
                 "nextPhraseID":"stoutford_guard_camp2_40"
             }
         ]
     },
     {
         "id":"stoutford_guard_camp2_40",
-        "message":"Ouh, that does not sound nice, as you put it.",
+        "message":"Ow, that does not sound nice, the way you put it.",
         "replies":[
             {
                 "text":"Cowardice. I'll report that to your commander.",
                 "nextPhraseID":"stoutford_guard_camp2_42"
             },
             {
-                "text":"I better leave now.",
+                "text":"I had better leave now.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"I better leave now. And you need not hurry with your exercise. All your comrades have been killed already by the undead.",
+                "text":"I had better leave now. And you need not hurry with your exercise. All your comrades have already been killed by the undead.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -10412,7 +10412,7 @@
     },
     {
         "id":"key_wild21a",
-        "message":"You know the password?",
+        "message":"Do you know the password?",
         "switchToNPC":"stoutford_guard_wild21a",
         "replies":[
             {
@@ -10427,7 +10427,7 @@
     },
     {
         "id":"key_wild21a_10",
-        "message":"Ok, then you may pass.",
+        "message":"OK, then you may pass.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -10438,10 +10438,10 @@
     },
     {
         "id":"key_wild21a_20",
-        "message":"Not? Without password, I cannot let you pass.",
+        "message":"No? Without the password, I cannot let you pass.",
         "replies":[
             {
-                "text":"I will find out the password and come back.",
+                "text":"I will find the password and come back.",
                 "nextPhraseID":"X"
             },
             {
@@ -10459,7 +10459,7 @@
     },
     {
         "id":"key_wild21a_30",
-        "message":"Ah, I knew you would. You may pass.",
+        "message":"Ah, I knew you did. You may pass.",
         "rewards":[
             {
                 "rewardType":"questProgress",
