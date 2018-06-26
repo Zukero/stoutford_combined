@@ -1,0 +1,28 @@
+[
+    {
+        "id":"guynmart_reward2_20",
+        "message":"You feel an immediate benefit from the experience of others.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":32
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"guynmart",
+                "value":202
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"guynmart_scroll",
+                "value":1
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"guynmart_reward2",
+                "mapName":"guynmart_main_1"
+            }
+        ]
+    }
+]
