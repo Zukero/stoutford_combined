@@ -1271,6 +1271,17 @@
                 ]
             },
             {
+                "text":"That potion you made smells really interesting. Can I buy another?",
+                "nextPhraseID":"stoutford_widow_roots4045_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"potion_deftness",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "text":"See you later.",
                 "nextPhraseID":"X"
             }
