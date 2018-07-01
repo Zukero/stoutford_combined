@@ -897,7 +897,7 @@
     },
     {
         "id":"lakecave2_key_check1",
-        "message":"Away from there!",
+        "message":"Get away from there!",
         "switchToNPC":"cave_troll_5"
     },
     {
@@ -3033,7 +3033,7 @@
     },
     {
         "id":"script_lakecave1_damerilia1_1",
-        "message":"Fetch the flower?",
+        "message":"Pick the flower?",
         "replies":[
             {
                 "text":"Yes",
@@ -3047,7 +3047,7 @@
     },
     {
         "id":"script_lakecave1_damerilia1_2",
-        "message":"You fetched the flower.",
+        "message":"You picked the flower.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -3094,7 +3094,7 @@
     },
     {
         "id":"script_lakecave1_damerilia2_1",
-        "message":"Fetch the flower?",
+        "message":"Pick the flower?",
         "replies":[
             {
                 "text":"Yes",
@@ -3108,7 +3108,7 @@
     },
     {
         "id":"script_lakecave1_damerilia2_2",
-        "message":"You fetched the flower.",
+        "message":"You picked the flower.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -3155,7 +3155,7 @@
     },
     {
         "id":"script_lakecave1_damerilia3_1",
-        "message":"Fetch the flower?",
+        "message":"Pick the flower?",
         "replies":[
             {
                 "text":"Yes",
@@ -3169,7 +3169,7 @@
     },
     {
         "id":"script_lakecave1_damerilia3_2",
-        "message":"You fetched the flower.",
+        "message":"You picked the flower.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -3216,7 +3216,7 @@
     },
     {
         "id":"script_lakecave1_damerilia4_1",
-        "message":"Fetch the flower?",
+        "message":"Pick the flower?",
         "replies":[
             {
                 "text":"Yes",
@@ -3230,7 +3230,7 @@
     },
     {
         "id":"script_lakecave1_damerilia4_2",
-        "message":"You fetched the flower.",
+        "message":"You picked the flower.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -3277,7 +3277,7 @@
     },
     {
         "id":"script_lakecave1_damerilia5_1",
-        "message":"Fetch the flower?",
+        "message":"Pick the flower?",
         "replies":[
             {
                 "text":"Yes",
@@ -3291,7 +3291,7 @@
     },
     {
         "id":"script_lakecave1_damerilia5_2",
-        "message":"You fetched the flower.",
+        "message":"You picked the flower.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -4124,7 +4124,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"stoutford_castle_4"
+                "nextPhraseID":"stoutford_castle_3a"
             }
         ]
     },
@@ -4134,15 +4134,15 @@
         "switchToNPC":"erwyn",
         "replies":[
             {
-                "text":"What would I gain of it?",
+                "text":"What would I gain from that?",
                 "nextPhraseID":"stoutford_castle_3b"
             },
             {
-                "text":"You are very rude and poorly educated. May I introduce myself? $playername is my name.",
+                "text":"You are very rude and poorly educated. May I should introduce myself? $playername is my name.",
                 "nextPhraseID":"stoutford_castle_3c"
             },
             {
-                "text":"I serve you - my weapon. Attack!",
+                "text":"I will serve you - my weapon. Attack!",
                 "nextPhraseID":"F"
             }
         ]
@@ -4152,14 +4152,14 @@
         "message":"Gain? I am the the one who gains!",
         "replies":[
             {
-                "text":"No, that's not okay. Do not you have anything better to offer?",
+                "text":"No, that's not acceptable. Do you have anything better to offer?",
                 "nextPhraseID":"stoutford_castle_4"
             }
         ]
     },
     {
         "id":"stoutford_castle_3c",
-        "message":"Your name does not matter. Are you going to bend your knees now?",
+        "message":"Your name does not matter. Are you going to kneel now?",
         "replies":[
             {
                 "text":"No. The floor is not clean here.",
@@ -4626,7 +4626,7 @@
     },
     {
         "id":"stoutford_commander_10",
-        "message":"Get out! But immediately, naughty child!"
+        "message":"Get out! Immediately, naughty child!"
     },
     {
         "id":"stoutford_commander_20",
@@ -4661,7 +4661,7 @@
                 "nextPhraseID":"stoutford_old_woman_10"
             },
             {
-                "text":"At least I am not drinking whole bottles of my own, like that guy next table.",
+                "text":"At least I am not drinking whole bottles on my own, like that guy at the next table.",
                 "nextPhraseID":"stoutford_old_woman_20"
             }
         ]
@@ -4671,14 +4671,14 @@
         "message":"Yes, I have seen a boy that looks a bit like you. Not too long ago. But he is gone and I can not say where he was bound to.",
         "replies":[
             {
-                "text":"What a pity. Now, at least someone has seen him. Better than nothing.",
+                "text":"What a pity. At least someone has seen him. Better than nothing.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"stoutford_old_woman_20",
-        "message":"Well spoken. I hope for you that you will choose other amusements.",
+        "message":"Well said. I hope for your sake that you will choose other amusements.",
         "replies":[
             {
                 "text":"He looks rather well off. Who is he?",
@@ -4688,7 +4688,7 @@
     },
     {
         "id":"stoutford_old_woman_22",
-        "message":"This is Lord Bourbon ... - I mean Lord Berbane of Stoutford. His name invites for nasty pun, but honestly, he does not much to show a different character.",
+        "message":"That is Lord Bourbon ... - I mean Lord Berbane of Stoutford. His name invites a nasty pun, but honestly, he does not do much to show a different character.",
         "replies":[
             {
                 "text":"N",
@@ -4698,17 +4698,17 @@
     },
     {
         "id":"stoutford_old_woman_30",
-        "message":"Lord Bourbon sits there every evening, drinking or telling fairy tales. Or he plays lute and sing to it. I must admit he has a comfortable voice.",
+        "message":"Lord Bourbon sits there every evening, drinking or telling fairy tales. Or he plays his lute and sings to it. I must admit he has a reasonable voice.",
         "replies":[
             {
-                "text":"Is he the heir of Stoutford Castle?",
+                "text":"He is the heir to Stoutford Castle?",
                 "nextPhraseID":"stoutford_old_woman_40"
             }
         ]
     },
     {
         "id":"stoutford_old_woman_40",
-        "message":"Exactly, although there is not much heirloom left. And the castle is almost in ruins, now after the raid.",
+        "message":"Correct, although there is not much in the way of heirlooms left. And the castle is almost in ruins now, after the raid.",
         "replies":[
             {
                 "text":"N",
@@ -4774,7 +4774,7 @@
                 "nextPhraseID":"berbane_10"
             },
             {
-                "text":"Yolgen asked me to help clearing the castle of undeads. Shall we do it together?",
+                "text":"Yolgen asked me to help clear the castle of undead. Shall we do it together?",
                 "nextPhraseID":"berbane_10",
                 "requires":[
                     {
@@ -4791,7 +4791,7 @@
                 ]
             },
             {
-                "text":"Gyra had found your helmet and asked me to give it to you. So that you could start to clear the castle.",
+                "text":"Gyra found your helmet and asked me to give it to you, so that you could start to clear the castle.",
                 "nextPhraseID":"berbane_20",
                 "requires":[
                     {
@@ -4807,7 +4807,7 @@
                 ]
             },
             {
-                "text":"The castle is clean from undead now.",
+                "text":"The castle is clean of undead now.",
                 "nextPhraseID":"berbane_100",
                 "requires":[
                     {
@@ -4846,7 +4846,7 @@
                 ]
             },
             {
-                "text":"I cleared the castle from undead already.",
+                "text":"I cleared the castle of undead already.",
                 "nextPhraseID":"berbane_100",
                 "requires":[
                     {
@@ -4860,7 +4860,8 @@
     },
     {
         "id":"berbane_32",
-        "message":"He sighed and slowly took the helmet.",
+        "message":"He sighs and slowly takes the helmet.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"Let's go now.",
@@ -4881,7 +4882,7 @@
         "switchToNPC":"none",
         "replies":[
             {
-                "text":"The castle is clean from undead now.",
+                "text":"The castle is clean of undead now.",
                 "nextPhraseID":"berbane_100",
                 "requires":[
                     {
@@ -4899,7 +4900,7 @@
     },
     {
         "id":"berbane_100",
-        "message":"Lord Berbane jumps up and cried with a loud voice: SILENCE!",
+        "message":"Lord Berbane jumps up and cries with a loud voice: SILENCE!",
         "switchToNPC":"none",
         "replies":[
             {
@@ -4910,7 +4911,7 @@
     },
     {
         "id":"berbane_102",
-        "message":"(loud voice) Hear and listen everybody! The castle is free! The trembling is over!",
+        "message":"(loud voice) Pay attention and listen everybody! The castle is free! The trembling is over!",
         "switchToNPC":"berbane",
         "replies":[
             {
@@ -4928,7 +4929,7 @@
     },
     {
         "id":"berbane_110",
-        "message":"(loud voice) My trainee and me, we were in the castle. I demonstrated how to fight properly. Especially Lord Erwyn himself was a good demonstration object.",
+        "message":"(loud voice) My trainee and I, we were in the castle. I demonstrated how to fight properly. Lord Erwyn himself was an especially good demonstration object.",
         "replies":[
             {
                 "text":"But ...",
@@ -4938,7 +4939,7 @@
     },
     {
         "id":"berbane_120",
-        "message":"(loud voice) But we will come to the details later - after the local round",
+        "message":"(loud voice) But we will come to the details later - after the next round",
         "replies":[
             {
                 "text":"No, I have ...",
@@ -4966,7 +4967,7 @@
     },
     {
         "id":"berbane_132",
-        "message":"(loud voice) Yes, he has carried my magical helmet for me. I take it back now.",
+        "message":"(loud voice) Yes, he has carried my magical helmet for me. I will take it back now.",
         "replies":[
             {
                 "text":"I give up.",
@@ -5040,7 +5041,7 @@
         "switchToNPC":"berbane",
         "replies":[
             {
-                "text":"Gyra had found your helmet and asked me to give it to you.",
+                "text":"Gyra found your helmet and asked me to give it to you.",
                 "nextPhraseID":"berbane_200_2",
                 "requires":[
                     {
@@ -5071,14 +5072,14 @@
         "message":"Anything else?",
         "replies":[
             {
-                "text":"Here you go. You're welcome. No, I don't need a reward. I always like to help without appreciation. Everything is okay. Bye.",
+                "text":"Here you go. You're welcome. No, I don't need a reward. I always like to help without appreciation. Everything is OK. Bye.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"stoutford_guard2",
-        "message":"Oh, when does the shift end? I want to have a some cold mead right now."
+        "message":"Oh, when does the shift end? I want to have some cold mead right now."
     },
     {
         "id":"stoutford_guard3",
@@ -5182,10 +5183,10 @@
     },
     {
         "id":"stn_boralla_10",
-        "message":"Great! Count to ten, then I am hidden.",
+        "message":"Great! Count to ten, then I will hide.",
         "replies":[
             {
-                "text":"Ok, I'll close my eyes now.\n1, 2, 3 ...",
+                "text":"OK, I'll close my eyes now. 1, 2, 3 ...",
                 "nextPhraseID":"stn_boralla_12"
             }
         ]
@@ -5195,7 +5196,7 @@
         "message":"I am ready!",
         "replies":[
             {
-                "text":"... 10\nOk - coming!",
+                "text":"... 10\nOK - coming!",
                 "nextPhraseID":"R"
             }
         ],
@@ -5217,7 +5218,7 @@
         "message":"You found me too quickly! Once more, please. Count to ten again!",
         "replies":[
             {
-                "text":"Ok. 1, 2, 3 ...",
+                "text":"OK. 1, 2, 3 ...",
                 "nextPhraseID":"stn_boralla1_12"
             }
         ]
@@ -5277,7 +5278,7 @@
         "message":"You didn't count to 10! Don't cheat. Another time!",
         "replies":[
             {
-                "text":"Ok. 1, 2, 3, 4 ...",
+                "text":"OK. 1, 2, 3, 4 ...",
                 "nextPhraseID":"stn_boralla3_12"
             }
         ]
@@ -5307,7 +5308,7 @@
         "message":"Are you sure you didn't cheat this time?",
         "replies":[
             {
-                "text":"Of course not. Then hide yourself again, quick! 1, 2, 3 ...",
+                "text":"Of course not. So go and hide again, quick! 1, 2, 3 ...",
                 "nextPhraseID":"stn_boralla4_12"
             }
         ]
@@ -5334,7 +5335,7 @@
     },
     {
         "id":"stn_boralla5",
-        "message":"Found me again! Once ...",
+        "message":"You found me again! Once ...",
         "replies":[
             {
                 "text":"... more, I know.  1, 2, 3, 4 ...",
@@ -5367,7 +5368,7 @@
         "message":"How did you know I'm here?",
         "replies":[
             {
-                "text":"I won't reveal my secrets so easy. Now disappear, I'm counting already.  1, 2, 3 ...",
+                "text":"I won't reveal my secrets so easily. Now disappear, I'm already counting.  1, 2, 3 ...",
                 "nextPhraseID":"stn_boralla6_12"
             }
         ]
@@ -5396,7 +5397,7 @@
     },
     {
         "id":"stn_boralla7",
-        "message":"This took you a bit longer now to find me!",
+        "message":"That time it took you a bit longer to find me!",
         "replies":[
             {
                 "text":"Indeed.  Once more?",
@@ -5426,10 +5427,10 @@
     },
     {
         "id":"stn_boralla_end",
-        "message":"Haha - no! I have to go home to lunch now, what a pity. It was fun with you! See you.",
+        "message":"Ha ha - no! I have to go home for lunch now. What a pity. I had fun with you! See you!",
         "replies":[
             {
-                "text":"Yes, see you.",
+                "text":"Yes, bye.",
                 "nextPhraseID":"X"
             }
         ],
@@ -5519,7 +5520,7 @@
         "message":"So I hid here in the storeroom and didn't dare to leave the hiding place.",
         "replies":[
             {
-                "text":"Eh, I will be back soon. Maybe. But - probably not, no. I hate kids.",
+                "text":"Eh, I will be back soon. Maybe. But... probably not, no. I hate kids.",
                 "nextPhraseID":"X"
             },
             {
@@ -5583,7 +5584,7 @@
                 "nextPhraseID":"stn_gyra_20"
             },
             {
-                "text":"Ok, just stay close to me.",
+                "text":"OK, just stay close to me.",
                 "nextPhraseID":"X"
             },
             {
@@ -5614,7 +5615,7 @@
     },
     {
         "id":"stn_gyra_20",
-        "message":"I will follow you, wherever you go. Only if I'm too scared, then I stay where I am. For example I will never go to Flagstone.",
+        "message":"I will follow you wherever you go. Only if I'm too scared, then I will stay where I am. For example, I will never go to Flagstone.",
         "replies":[
             {
                 "text":"N",
@@ -5624,10 +5625,10 @@
     },
     {
         "id":"stn_gyra_22",
-        "message":"You may carry me from time to time. I'll jump off your arm again when I'm rested.",
+        "message":"You may have to carry me from time to time. I'll jump off your back again when I'm rested.",
         "replies":[
             {
-                "text":"Ok, let's go then.",
+                "text":"OK, let's go then.",
                 "nextPhraseID":"X"
             }
         ]
@@ -8202,7 +8203,7 @@
     },
     {
         "id":"stn_gyra_29_10",
-        "message":"You don't need to carry me anymore, I can walk myself again.",
+        "message":"You don't need to carry me anymore, I can walk by myself again.",
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
@@ -8280,7 +8281,7 @@
     },
     {
         "id":"stn_gyra_29_130",
-        "message":"To find the helmet, we should search really all the rooms of the castle.",
+        "message":"To find the helmet, we should really search all the rooms in the castle.",
         "rewards":[
             {
                 "rewardType":"createTimer",
@@ -8898,40 +8899,41 @@
     },
     {
         "id":"stn_colonel_36",
-        "message":"(chuckles) Very clever. You can not trust strangers nowadays.",
+        "message":"(chuckles) Very clever. You should not trust strangers nowadays.",
         "replies":[
             {
                 "text":"Who are you and how do you know my name?",
                 "nextPhraseID":"stn_colonel_40"
             },
             {
-                "text":"Right. That's why I'm going now.",
+                "text":"Right. That's why I'm leaving now.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"stn_colonel_38",
-        "message":"You have not done all fights. What are you doing here then?",
+        "message":"You have not finished all the fights. So what are you doing here?",
         "switchToNPC":"stn_colonel"
     },
     {
         "id":"stn_colonel_40",
-        "message":"Oh, I know many things. A good leader has to be attentively.",
+        "message":"Oh, I know many things. A good leader has to keep his eyes and ears open.",
+        "switchToNPC":"stn_colonel",
         "replies":[
             {
-                "text":"You are commanding the undead soldiers down there?",
+                "text":"You command the undead soldiers down there?",
                 "nextPhraseID":"stn_colonel_42"
             },
             {
-                "text":"You didn't answer my question who you are.",
+                "text":"You didn't answer my question. Who are you?",
                 "nextPhraseID":"stn_colonel_44"
             }
         ]
     },
     {
         "id":"stn_colonel_42",
-        "message":"No, do not be worried. I have nothing to do with the undead here in the castle. I just think them interesting.",
+        "message":"No, do not worry. I have nothing to do with the undead here in the castle. I just find them interesting.",
         "replies":[
             {
                 "text":"Interesting indeed.",
@@ -8955,7 +8957,7 @@
     },
     {
         "id":"stn_colonel_44",
-        "message":"I am Colonel Lutarc, maybe you have already heard of me? Not? However.",
+        "message":"I am Colonel Lutarc, maybe you have already heard of me? No? Whatever.",
         "replies":[
             {
                 "text":"May I ask what you are doing here?",
@@ -8965,11 +8967,11 @@
     },
     {
         "id":"stn_colonel_50",
-        "message":"Can't you see that? I enjoy my tea here. It is a splendid place, I really like it here.",
+        "message":"Isn't that obvious? I am enjoying my tea here. It is a splendid place. I really like it here.",
         "switchToNPC":"stn_colonel",
         "replies":[
             {
-                "text":"From here you have a nice view.",
+                "text":"You do have a nice view from here.",
                 "nextPhraseID":"stn_colonel_52"
             },
             {
@@ -9019,20 +9021,20 @@
     },
     {
         "id":"stn_colonel_62",
-        "message":"How easily you killed the undead knight was nice to look at.",
+        "message":"It was nice to see how easily you killed the undead knight.",
         "replies":[
             {
-                "text":"Oh that - small thing for me ...",
+                "text":"Oh that - a small thing for me ...",
                 "nextPhraseID":"stn_colonel_64"
             }
         ]
     },
     {
         "id":"stn_colonel_63",
-        "message":"How easily you killed the undead soldier was nice to look at.",
+        "message":"It was nice to see how easily you killed the undead soldier.",
         "replies":[
             {
-                "text":"Oh that - small thing for me ...",
+                "text":"Oh that - a small thing for me ...",
                 "nextPhraseID":"stn_colonel_64"
             }
         ]
@@ -9046,14 +9048,14 @@
                 "nextPhraseID":"stn_colonel_70"
             },
             {
-                "text":"Tell me at last. what you want from me.",
+                "text":"Just tell me what you want from me.",
                 "nextPhraseID":"stn_colonel_70"
             }
         ]
     },
     {
         "id":"stn_colonel_70",
-        "message":"Now I am curious how, you could handle a number of my better warriors. Would you like to try?",
+        "message":"Now I am curious about how well you could handle a number of my better warriors. Would you like to try?",
         "replies":[
             {
                 "text":"Sure. After I have finished my tea of course.",
@@ -9067,7 +9069,7 @@
                 ]
             },
             {
-                "text":"Why not? A little change is always good.",
+                "text":"Why not? A little challenge is always good.",
                 "nextPhraseID":"stn_colonel_80"
             },
             {
@@ -9193,7 +9195,7 @@
                 "nextPhraseID":"stn_colonel_84"
             },
             {
-                "text":"Well, I'm curious.",
+                "text":"Well, It will be interesting.",
                 "nextPhraseID":"stn_colonel_86"
             }
         ]
@@ -10141,11 +10143,11 @@
     },
     {
         "id":"stn_colonel_210",
-        "message":"Lost all fights. I really did not expect such a bad result from you.",
+        "message":"You lost every fight. I really did not expect such a poor performance from you.",
         "switchToNPC":"stn_colonel",
         "replies":[
             {
-                "text":"They were far too strong, and they all fighted in an unfair way.",
+                "text":"They were far too strong, and they all fought in an unfair way.",
                 "nextPhraseID":"stn_colonel_250"
             }
         ],
@@ -10159,7 +10161,7 @@
     },
     {
         "id":"stn_colonel_220",
-        "message":"You won every single fight! Very good! I had not enjoyed myself so much for a long time.",
+        "message":"You won every fight! Very good! I have not enjoyed myself so much for a long time.",
         "switchToNPC":"stn_colonel",
         "replies":[
             {
@@ -10177,7 +10179,7 @@
     },
     {
         "id":"stn_colonel_230",
-        "message":"I did not expect you to win against all of my fighters. But good to know for sure. Thank you for testing out.",
+        "message":"I did not expect you to win against all of my fighters, but it's good to know that for sure. Thanks for trying it out.",
         "switchToNPC":"stn_colonel",
         "replies":[
             {
@@ -10195,10 +10197,10 @@
     },
     {
         "id":"stn_colonel_250",
-        "message":"Take this medallion as a token of thanks.",
+        "message":"Take this medallion as a token of my thanks.",
         "replies":[
             {
-                "text":"Very kind of you. Oh, how lovely! There is a tiny little lizard on it. It looks completely real, just like the lizard I was fighting against.",
+                "text":"Very kind of you. Oh, how nice! There is a tiny little lizard on it. It looks completely real, just like the lizard I fought against.",
                 "nextPhraseID":"stn_colonel_260"
             }
         ],
@@ -10348,7 +10350,7 @@
         "message":"Neigh!!!",
         "replies":[
             {
-                "text":"One could think you want something from me.",
+                "text":"One might think that you want something from me.",
                 "nextPhraseID":"stn_horse_20"
             },
             {
@@ -10370,7 +10372,7 @@
                 "nextPhraseID":"stn_horse_30"
             },
             {
-                "text":"Slowly you become annoying. I'm leaving now.",
+                "text":"You are become gradually annoying. I'm leaving now.",
                 "nextPhraseID":"X"
             }
         ]
