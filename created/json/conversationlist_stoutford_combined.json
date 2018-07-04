@@ -4601,7 +4601,7 @@
     },
     {
         "id":"stn_sign_stoutford",
-        "message":" * Stoutford Castle * \n\n(scribbled below) Death awaits you"
+        "message":"Stoutford Castle\n\n(scribbled below) Death awaits you"
     },
     {
         "id":"stoutford_commoner4",
@@ -5118,7 +5118,7 @@
     },
     {
         "id":"stoutford_guard_camp2_20",
-        "message":"No. We're in a military exercise right now.",
+        "message":"No. We're on a military exercise right now.",
         "replies":[
             {
                 "text":"N",
@@ -5138,7 +5138,7 @@
     },
     {
         "id":"stoutford_guard_camp2_40",
-        "message":"Ow, that does not sound nice, the way you put it.",
+        "message":"Ow, the way you put it, that doesn't sound nice.",
         "replies":[
             {
                 "text":"Cowardice. I'll report that to your commander.",
