@@ -1,0 +1,24 @@
+[
+    {
+        "id":"bwm_agent_1_14",
+        "message":"Let's meet at the other side of this mine shaft.",
+        "replies":[
+            {
+                "text":"Ok. You crawl through the shaft, and I'll go below. See you on the other side!",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm_agent",
+                "value":10
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"bwm_agent_1",
+                "mapName":"blackwater_mountain5"
+            }
+        ]
+    }
+]

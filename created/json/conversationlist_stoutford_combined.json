@@ -5471,7 +5471,7 @@
                     },
                     {
                         "requireType":"wear",
-                        "requireID":"ring_mikhail",
+                        "requireID":"ring_mikhail_DISABLED",
                         "value":1
                     }
                 ]

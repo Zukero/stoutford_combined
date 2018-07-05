@@ -132,7 +132,7 @@
     {
         "id":"stn_nondisplay",
         "name":"stn_nondisplay",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
             {
                 "progress":4,
